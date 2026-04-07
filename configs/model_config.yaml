@@ -1,0 +1,13 @@
+# Model Configuration — Pinned LLM settings
+# IMPORTANT: Do not change model_id mid-project without creating a new run series.
+
+model:
+  model_id: "claude-haiku-4-5-20251001"  # pinned 2026-04-03
+  temperature: 0
+  max_tokens: 256
+  top_p: 1.0
+
+# Prompt versioning
+prompt:
+  registry_path: "prompts/registry/"
+  schema_path: "prompts/schemas/"

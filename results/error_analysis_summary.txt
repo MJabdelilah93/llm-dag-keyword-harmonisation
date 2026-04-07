@@ -1,0 +1,80 @@
+Error Analysis — Full LLM-DAG vs B6 Naive LLM
+======================================================================
+
+Full LLM-DAG Error Categories:
+  TP                       :    41
+  TN                       :    80
+  FP                       :     1
+  FN                       :     2
+  Correct_Abstention       :    11
+  Incorrect_Abstention     :     0
+  Missed_Abstention        :    14
+  Other                    :     0
+
+B6 Naive LLM Error Categories:
+  TP                       :    39
+  TN                       :    75
+  FP                       :     6
+  FN                       :     3
+  Correct_Abstention       :     0
+  Incorrect_Abstention     :     1
+  Missed_Abstention        :    25
+  Other                    :     0
+
+--- Breakdown by Stratum (Full LLM-DAG) ---
+  i: n=12 | FP=0 FN=0 IncorrAbst=0 MissedAbst=0
+  ii: n=13 | FP=0 FN=0 IncorrAbst=0 MissedAbst=0
+  iii: n=17 | FP=0 FN=1 IncorrAbst=0 MissedAbst=3
+  iv: n=12 | FP=0 FN=0 IncorrAbst=0 MissedAbst=0
+  ix: n=11 | FP=0 FN=0 IncorrAbst=0 MissedAbst=7
+  v: n=10 | FP=0 FN=0 IncorrAbst=0 MissedAbst=0
+  vi: n=22 | FP=1 FN=1 IncorrAbst=0 MissedAbst=0
+  vii: n=22 | FP=0 FN=0 IncorrAbst=0 MissedAbst=0
+  viii: n=18 | FP=0 FN=0 IncorrAbst=0 MissedAbst=4
+  x: n=12 | FP=0 FN=0 IncorrAbst=0 MissedAbst=0
+
+--- Example Pairs by Error Category (Full LLM-DAG) ---
+
+FP (1 total):
+  [BP0324] stratum=vi gold=non_match pred=match
+    A: 'timber'
+    B: 'Lumber'
+    Justification: Timber and lumber are same-concept near-synonyms referring to the same material (processed wood for 
+
+FN (2 total):
+  [BP0110] stratum=iii gold=match pred=non_match
+    A: 'ICT'
+    B: 'information communication technology (ICT) exploratory-exploitative innovation'
+    Justification: Keyword A is a simple acronym (ICT), while Keyword B is a complex multi-concept phrase combining ICT
+  [BP0298] stratum=vi gold=match pred=non_match
+    A: 'Social metabolism'
+    B: 'Socioeconomic metabolism'
+    Justification: While both terms address metabolic processes in social systems, 'social metabolism' is broader and m
+
+Missed_Abstention (14 total):
+  [BP0120] stratum=iii gold=uncertain pred=non_match
+    A: 'PCB'
+    B: 'Pro-Circular Behaviour'
+    Justification: PCB is a polysemous acronym with multiple established meanings in bibliometric literature (printed c
+  [BP0433] stratum=viii gold=uncertain pred=non_match
+    A: 'NOx'
+    B: 'NIAS'
+    Justification: NOx refers to nitrogen oxides (a chemical compound class), while NIAS refers to Non-Intentionally Ad
+  [BP0189] stratum=ix gold=uncertain pred=non_match
+    A: 'DP'
+    B: 'DPSIR'
+    Justification: DP is a broader-narrower relation to DPSIR. DPSIR is a specific framework (Drivers-Pressures-State-I
+
+Correct_Abstention (11 total):
+  [BP0209] stratum=ix gold=uncertain pred=uncertain
+    A: 'TN'
+    B: 'Transition'
+    Justification: TN is a polysemous acronym with multiple possible expansions (e.g., Tunisia, Tennessee, True Negativ
+  [BP0129] stratum=iii gold=uncertain pred=uncertain
+    A: 'SE'
+    B: 'Sanitation economy'
+    Justification: SE is a polysemous acronym with multiple possible expansions (Software Engineering, Structural Engin
+  [BP0133] stratum=iii gold=uncertain pred=uncertain
+    A: 'SM'
+    B: 'Sea mining'
+    Justification: SM is a polysemous acronym with multiple possible expansions (e.g., 'social media', 'supply manageme

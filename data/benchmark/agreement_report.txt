@@ -1,0 +1,56 @@
+========================================================================
+INTER-ANNOTATOR AGREEMENT REPORT
+========================================================================
+
+Annotation files:
+  Annotator 1: annotation_sheet_annotator1_COMPLETED.csv
+  Annotator 2: annotation_sheet_annotator2_COMPLETED.csv
+
+Total pairs in benchmark:          500
+Pairs with valid labels (both):    500
+Pairs with missing/invalid labels: 0
+
+── OVERALL AGREEMENT ──────────────────────────────────────────────
+  Percentage agreement:  88.6%
+  Cohen's kappa (κ):     0.8075
+  Agreed pairs:          443
+  Disagreement pairs:    57
+
+── LABEL DISTRIBUTION ─────────────────────────────────────────────
+  Label             Annotator 1   Annotator 2
+  --------------- ------------- -------------
+  match                     159           139
+  non-match                 280           264
+  uncertain                  61            97
+
+── CONFUSION MATRIX ───────────────────────────────────────────────
+  Rows = Annotator 1, Columns = Annotator 2
+                        match     non-match     uncertain
+  --------------   ------------  ------------  ------------
+  match                   130             2            27
+  non-match                 9           257            14
+  uncertain                 0             5            56
+
+── PER-STRATUM AGREEMENT ──────────────────────────────────────────
+  Str   Description                                N   Agree%    Kappa  Disagree
+  ----- -------------------------------------- ----- -------- -------- ---------
+  i     Capitalisation / whitespace variants      40   100.0%      N/A         0
+  ii    Spelling variants (JW)                    45    97.8%   0.0000         1
+  iii   Acronym expansion                         55    47.3%   0.1833        29
+  iv    Punctuation / hyphenation variants        40   100.0%      N/A         0
+  v     Singular / plural                         35    97.1%   0.0000         1
+  vi    Near-synonyms (embedding)                 75    92.0%  -0.0321         6
+  vii   Broader-narrower proxies (embedding)      75    94.7%   0.0000         4
+  viii  Ambiguous short forms                     60    83.3%   0.6241        10
+  ix    Malformed strings                         35    91.4%   0.0000         3
+  x     Weak semantic links (embedding)           40    92.5%   0.0000         3
+
+── KAPPA INTERPRETATION ───────────────────────────────────────────
+  κ < 0.40  : Poor
+  0.40–0.59 : Moderate
+  0.60–0.79 : Substantial
+  0.80–1.00 : Almost perfect  (Landis & Koch, 1977)
+
+── NEXT STEPS ─────────────────────────────────────────────────────
+  Adjudicate 57 disagreement pairs using disagreement_pairs.csv.
+  Run assemble_benchmark.py after adjudication is complete.

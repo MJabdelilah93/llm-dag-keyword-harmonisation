@@ -1,0 +1,1924 @@
+keyword_a	keyword_b	weight
+Circular economy	Sustainability	1147
+circular economy	sustainability	629
+Circular economy	Recycling	575
+Circular economy	Waste management	460
+Circular economy	Life cycle assessment	366
+circular economy	recycling	325
+Circular economy	Sustainable development	306
+circular economy	waste management	238
+circular economy	sustainable development	200
+Circular economy	Resource recovery	180
+Circular economy	Industry 4.0	173
+circular economy	industrial ecology	155
+Circular economy	Reuse	148
+Circular economy	Food waste	142
+Bioeconomy	Circular economy	136
+Circular economy	Industrial symbiosis	127
+Circular economy	Resource efficiency	127
+Anaerobic digestion	Circular economy	123
+Circular economy	Waste	121
+Biorefinery	Circular economy	113
+Recycling	Sustainability	112
+Circular economy	Remanufacturing	104
+circular economy	life cycle assessment	104
+Circular economy	Climate change	97
+Circular economy	LCA	97
+Circular economy	Renewable energy	95
+Circular economy	Plastic waste	94
+Barriers	Circular economy	93
+Circular economy	Wastewater treatment	92
+Circular economy	Material flow analysis	91
+Recycling	Waste management	89
+Biomass	Circular economy	88
+Biogas	Circular economy	88
+Circular economy	Pyrolysis	84
+Circular economy	Environmental sustainability	79
+circular economy	reuse	78
+circular economy	waste	77
+Circular economy	Industrial ecology	76
+Circular economy	Waste valorization	76
+Circular economy	Supply chain	76
+Circular economy	Sustainable development goals	75
+Sustainability	Waste management	75
+Biochar	Circular economy	75
+Circular economy	Wastewater	74
+Circular Economy	Sustainability	73
+Circular economy	Waste-to-energy	71
+Bioenergy	Circular economy	70
+recycling	sustainability	70
+Circular economy	Literature review	70
+Circular economy	Innovation	69
+Business model	Circular economy	67
+Circular business models	Circular economy	67
+circular economy	climate change	66
+Circular economy	Environmental impact	65
+Adsorption	Circular economy	63
+Circular economy	Circularity	62
+Circular economy	Systematic literature review	61
+Circular economy	Valorization	61
+Circular economy	Reverse logistics	61
+Circular economy	Municipal solid waste	59
+Carbon footprint	Circular economy	59
+Industry 4.0	circular economy	58
+bioeconomy	circular economy	58
+Circular economy	Environment	56
+Circular economy	Nutrient recovery	56
+COVID-19	Circular economy	56
+China	Circular economy	56
+Circular economy	Indicators	55
+Circular economy	Sustainable consumption	55
+recycling	waste management	54
+Recycling	Reuse	53
+Circular economy	sustainability	53
+circular economy	food waste	51
+Circular economy	Closed-loop supply chain	51
+Circular economy	Life cycle assessment (LCA)	51
+Life cycle assessment	Sustainability	51
+Circular economy	Supply chain management	50
+Circular economy	Sewage sludge	50
+Circular economy	Digitalization	50
+Circular economy	Microalgae	49
+Circular economy	Construction and demolition waste	49
+Bibliometric analysis	Circular economy	49
+circular economy	renewable energy	49
+Circular economy	E-waste	49
+Circular economy	Energy	48
+circular economy	waste valorization	47
+Industry 4.0	Sustainability	47
+sustainability	waste management	47
+Bioeconomy	Sustainability	46
+Agriculture	Circular economy	45
+Additive manufacturing	Circular economy	45
+biomass	circular economy	44
+Sustainability	Sustainable development	43
+Circular economy	Machine learning	42
+Anaerobic digestion	Biogas	42
+Circular economy	Recovery	42
+Circular Economy	Recycling	42
+Circular economy	Energy recovery	42
+Innovation	Sustainability	41
+Circular economy	WEEE	40
+Circular economy	Packaging	39
+biogas	circular economy	38
+Circular economy	SMEs	38
+Biodiesel	Circular economy	36
+Recycling	Waste	34
+Circular economy	European Union	34
+Circular economy	Optimization	33
+LCA	circular economy	33
+3D printing	Circular economy	32
+Life cycle assessment	Recycling	31
+Food waste	Sustainability	31
+Environment	Sustainability	30
+anaerobic digestion	circular economy	30
+Climate change	Sustainability	30
+Environmental impact	Life cycle assessment	30
+Anaerobic digestion	Food waste	29
+Biochar	Pyrolysis	29
+Circular economy	Mechanical properties	29
+Life cycle assessment	Waste management	29
+circular economy	wastewater	29
+E-waste	Recycling	29
+circular economy	circularity	28
+Municipal solid waste	Waste management	27
+Resource efficiency	Sustainability	27
+Plastic waste	Recycling	26
+Resource recovery	Wastewater treatment	26
+Circularity	Sustainability	26
+Literature review	Sustainability	26
+European Union	circular economy	25
+industrial ecology	recycling	25
+3D printing	circular economy	25
+Supply chain management	Sustainability	24
+adsorption	circular economy	24
+circularity	sustainability	24
+Sustainable development	Waste management	23
+sustainability	sustainable development	23
+Bibliometric analysis	Sustainability	23
+3D printing	Additive manufacturing	23
+recycling	reuse	23
+COVID-19	Sustainability	22
+LCA	Sustainability	22
+sustainable development	waste management	22
+Sustainability	Waste	21
+life cycle assessment	recycling	21
+Adsorption	Biochar	21
+Supply chain	Sustainability	21
+Reuse	Sustainability	21
+Industrial symbiosis	Sustainability	20
+Barriers	Sustainability	20
+Recovery	Recycling	20
+Microalgae	Wastewater	20
+recycling	waste	20
+Sustainability	Systematic literature review	19
+Microalgae	Wastewater treatment	19
+circular economy	mechanical properties	19
+Industry 4.0	sustainability	19
+Life cycle assessment	Material flow analysis	19
+Business model	Sustainability	19
+Additive manufacturing	Recycling	19
+Additive manufacturing	Sustainability	19
+Material flow analysis	Recycling	18
+Sustainability	Sustainable development goals	18
+Anaerobic digestion	Bioenergy	18
+Closed-loop supply chain	Sustainability	18
+Biorefinery	Sustainability	18
+Digitalization	Industry 4.0	18
+SMEs	circular economy	18
+Biomass	Biorefinery	18
+sustainability	waste	18
+Anaerobic digestion	Waste management	17
+Renewable energy	Sustainable development	17
+anaerobic digestion	biogas	17
+Circular Economy	Industry 4.0	17
+Reuse	Waste management	17
+Plastic waste	Waste management	16
+Bioeconomy	Biorefinery	16
+3D printing	Recycling	16
+Municipal solid waste	Recycling	16
+Bioenergy	Biomass	16
+Biogas	Renewable energy	16
+Resource recovery	Wastewater	16
+Plastic waste	Pyrolysis	16
+Circular economy	recycling	16
+life cycle assessment	sustainability	16
+China	circular economy	16
+Resource efficiency	Waste management	15
+Material flow analysis	Waste management	15
+Food waste	Waste management	15
+Anaerobic digestion	Resource recovery	15
+Resource recovery	Sustainability	15
+Recycling	Remanufacturing	15
+Circular economy	waste management	15
+Recycling	WEEE	15
+WEEE	circular economy	15
+Industrial ecology	Industrial symbiosis	15
+Reverse logistics	Sustainability	15
+Bioenergy	Biorefinery	15
+Bioeconomy	Biomass	15
+reuse	sustainability	15
+Circular economy	sustainable development	15
+food waste	sustainability	15
+industrial ecology	sustainability	14
+Anaerobic digestion	Biochar	14
+Remanufacturing	Reuse	14
+LCA	Recycling	14
+Industry 4.0	Sustainable development	14
+Packaging	Sustainability	14
+Indicators	Sustainability	14
+Remanufacturing	Sustainability	14
+Resource recovery	Waste management	13
+Climate change	Life cycle assessment	13
+Carbon footprint	Life cycle assessment	13
+Food waste	Life cycle assessment	13
+Life cycle assessment	Waste valorization	13
+Environmental sustainability	Life cycle assessment	13
+Environmental impact	Sustainability	13
+COVID-19	circular economy	13
+biomass	sustainability	13
+Sustainability	Waste-to-energy	13
+Biomass	Sustainability	13
+Anaerobic digestion	Biorefinery	12
+Circular economy (CE)	Sustainability	12
+Anaerobic digestion	Pyrolysis	12
+Anaerobic digestion	Energy recovery	12
+Energy	Sustainability	12
+Construction and demolition waste	Waste management	12
+Sustainability	circular economy	12
+Construction and demolition waste	Recycling	12
+Renewable energy	Sustainability	12
+Digitalization	Sustainability	12
+Anaerobic digestion	Life cycle assessment	12
+Waste management	Waste-to-energy	12
+Recycling	Resource recovery	12
+Life cycle assessment	Sustainable development	12
+Bioenergy	Sustainability	12
+bioeconomy	sustainability	12
+Recycling	Resource efficiency	12
+Climate change	Sustainable development	12
+climate change	sustainability	12
+3D printing	sustainability	12
+Industrial symbiosis	Waste management	11
+Resource efficiency	Sustainable development	11
+Barriers	Sustainable development	11
+Circular Economy	Reuse	11
+Mechanical properties	Recycling	11
+Adsorption	Wastewater treatment	11
+Life cycle assessment (LCA)	Sustainability	11
+Pyrolysis	Recycling	11
+Life cycle assessment	Resource efficiency	11
+LCA	Life cycle assessment	11
+Plastic waste	Sustainability	11
+Environmental impact	Recycling	11
+LCA	sustainability	11
+Circular Economy	European Union	11
+E-waste	Sustainability	11
+Closed-loop supply chain	Remanufacturing	10
+Biorefinery	Life cycle assessment	10
+Construction and demolition waste	Life cycle assessment	10
+Industrial ecology	Sustainability	10
+COVID-19	Waste management	10
+E-waste	WEEE	10
+Bioenergy	Biogas	10
+Pyrolysis	Waste management	10
+Circular Economy	Innovation	10
+Life cycle assessment	Reuse	10
+Sustainability	Valorization	10
+Circular business models	Sustainability	10
+Agriculture	Sustainability	10
+Life cycle assessment	Waste	10
+Biorefinery	Food waste	10
+Biodiesel	Biorefinery	10
+Bioeconomy	Bioenergy	10
+Circular Economy	Sustainable development	10
+Life cycle assessment	Municipal solid waste	10
+Life cycle assessment (LCA)	Recycling	10
+WEEE	recycling	10
+renewable energy	sustainability	10
+industrial ecology	life cycle assessment	10
+Bioenergy	Life cycle assessment	9
+Climate change	Renewable energy	9
+Bioeconomy	Life cycle assessment	9
+industrial ecology	waste management	9
+Sustainability	Wastewater treatment	9
+Anaerobic digestion	Renewable energy	9
+Bioeconomy	Waste management	9
+Energy recovery	Waste management	9
+Mechanical properties	Sustainability	9
+Sustainability	Wastewater	9
+Anaerobic digestion	Sewage sludge	9
+Biogas	Waste management	9
+Industry 4.0	Remanufacturing	9
+Barriers	Circular Economy	9
+Biorefinery	Microalgae	9
+Waste	Waste management	9
+SMEs	Sustainability	9
+Recycling	Sustainable development	9
+Bioeconomy	Food waste	9
+Carbon footprint	Sustainability	9
+3D printing	Industry 4.0	9
+recycling	sustainable development	9
+Recycling	Renewable energy	9
+Anaerobic digestion	Sustainability	9
+Sustainable development	Systematic literature review	9
+biomass	waste management	9
+Circular Economy	Waste	9
+Reuse	Waste	9
+3D printing	recycling	9
+Machine learning	Sustainability	8
+Energy	Wastewater	8
+Bibliometric analysis	Sustainable development	8
+Circular economy (CE)	Waste management	8
+Adsorption	Wastewater	8
+Biochar	Sustainability	8
+Agriculture	Bioeconomy	8
+Agriculture	Waste management	8
+Life cycle assessment	Pyrolysis	8
+Pyrolysis	Waste-to-energy	8
+Recycling	Waste-to-energy	8
+Biochar	Biomass	8
+Life cycle assessment	Optimization	8
+Environment	Recycling	8
+Anaerobic digestion	Nutrient recovery	8
+Biogas	Life cycle assessment	8
+Biomass	Pyrolysis	8
+sustainability	waste valorization	8
+Biogas	Biomass	8
+Adsorption	Resource recovery	8
+Pyrolysis	Waste valorization	8
+Industrial ecology	Life cycle assessment	8
+Sustainability	Waste valorization	8
+Bibliometric analysis	Systematic literature review	8
+Remanufacturing	Reverse logistics	8
+Bibliometric analysis	Literature review	8
+Life cycle assessment	Plastic waste	8
+Industrial ecology	Waste management	8
+Recovery	Reuse	8
+Resource efficiency	Reuse	8
+Circular Economy	sustainability	8
+Anaerobic digestion	Biomass	8
+Life cycle assessment	Resource recovery	8
+Renewable energy	Waste management	8
+Biodiesel	Microalgae	8
+mechanical properties	recycling	8
+Circular Economy	Environment	8
+Anaerobic digestion	Microalgae	7
+Industrial symbiosis	Sustainable development	7
+Sustainable development goals	Waste management	7
+China	Climate change	7
+biogas	food waste	7
+Environment	Sustainable development	7
+COVID-19	Supply chain	7
+Carbon footprint	Recycling	7
+Packaging	Recycling	7
+Energy	Waste	7
+Environmental sustainability	Sustainable development	7
+COVID-19	Plastic waste	7
+Industrial ecology	Recycling	7
+Valorization	Wastewater	7
+Agriculture	Wastewater	7
+Bibliometric analysis	Waste management	7
+Environmental sustainability	Waste management	7
+Environmental impact	Reuse	7
+Reuse	WEEE	7
+adsorption	biomass	7
+Circular economy	waste	7
+Anaerobic digestion	Bioeconomy	7
+Closed-loop supply chain	Reverse logistics	7
+Industry 4.0	Supply chain management	7
+Food waste	Supply chain	7
+Industry 4.0	Sustainable development goals	7
+Life cycle assessment	Literature review	7
+Bioenergy	Renewable energy	7
+Circular Economy	Circularity	7
+Supply chain	Waste management	7
+China	Sustainability	7
+China	Circular Economy	7
+Industry 4.0	Supply chain	7
+Biogas	Biorefinery	7
+industrial ecology	sustainable development	7
+Environment	Waste management	7
+LCA	Waste management	7
+European Union	Sustainability	7
+Industrial symbiosis	Recycling	7
+Nutrient recovery	Wastewater treatment	7
+Valorization	Waste management	7
+Barriers	Circular economy (CE)	7
+anaerobic digestion	food waste	7
+mechanical properties	sustainability	7
+renewable energy	waste management	7
+climate change	sustainable development	7
+renewable energy	sustainable development	7
+Resource recovery	Reuse	6
+Nutrient recovery	Resource recovery	6
+Packaging	Waste	6
+3D printing	Sustainability	6
+COVID-19	Industry 4.0	6
+Biomass	Microalgae	6
+Closed-loop supply chain	Supply chain management	6
+Bioeconomy	Circular Economy	6
+Biomass	Life cycle assessment	6
+Microalgae	Resource recovery	6
+Biorefinery	Waste valorization	6
+Life cycle assessment	Waste-to-energy	6
+Industry 4.0	sustainable development	6
+Bioeconomy	Circularity	6
+Agriculture	Sustainable development	6
+Barriers	Waste management	6
+Municipal solid waste	Waste-to-energy	6
+Energy	Environment	6
+Optimization	Sustainability	6
+Anaerobic digestion	Wastewater	6
+Biomass	Renewable energy	6
+Anaerobic digestion	Municipal solid waste	6
+Literature review	Recycling	6
+E-waste	circular economy	6
+Climate change	Environment	6
+industrial ecology	reuse	6
+Biogas	Food waste	6
+Supply chain management	Sustainable development	6
+Circularity	Recycling	6
+Resource recovery	Sewage sludge	6
+Biorefinery	Valorization	6
+Barriers	Systematic literature review	6
+Additive manufacturing	Remanufacturing	6
+Microalgae	Sustainability	6
+Environmental impact	Sustainable development	6
+Biochar	Sewage sludge	6
+Bioeconomy	Sustainable development goals	6
+Circular Economy	WEEE	6
+Waste management	Waste valorization	6
+European Union	sustainable development	6
+Recycling	Supply chain	6
+Industry 4.0	Innovation	6
+Energy recovery	Resource recovery	6
+Industry 4.0	SMEs	6
+Biorefinery	Waste	6
+Waste	circular economy	6
+China	Recycling	6
+Pyrolysis	Sustainability	6
+China	European Union	6
+E-waste	Waste management	6
+Waste valorization	Waste-to-energy	6
+Circular economy	reuse	6
+LCA	life cycle assessment	6
+Nutrient recovery	Wastewater	5
+Industrial symbiosis	Resource efficiency	5
+Circular economy (CE)	Wastewater	5
+Anaerobic digestion	Waste-to-energy	5
+Circularity	Innovation	5
+Circularity	Indicators	5
+Biorefinery	Wastewater	5
+Recycling	Reverse logistics	5
+Anaerobic digestion	Waste valorization	5
+Adsorption	Pyrolysis	5
+Industry 4.0	Literature review	5
+COVID-19	Sustainable development	5
+Food waste	LCA	5
+Life cycle assessment	Wastewater treatment	5
+Remanufacturing	Sustainable consumption	5
+Energy	Recycling	5
+Industrial symbiosis	Waste	5
+Biogas	Wastewater	5
+Pyrolysis	Wastewater treatment	5
+Food waste	Resource recovery	5
+Nutrient recovery	Sewage sludge	5
+Climate change	Sustainable development goals	5
+Life cycle assessment	Renewable energy	5
+Life cycle assessment	Remanufacturing	5
+Recycling	Wastewater	5
+Biomass	Waste management	5
+Energy recovery	Pyrolysis	5
+Bioenergy	Resource recovery	5
+Biogas	Sustainability	5
+Circular economy	life cycle assessment	5
+Food waste	Sustainable development	5
+Industrial ecology	Material flow analysis	5
+Circular economy (CE)	Life cycle assessment (LCA)	5
+Biorefinery	Waste management	5
+Sewage sludge	Wastewater	5
+E-waste	Environment	5
+Sewage sludge	Sustainability	5
+Barriers	Industry 4.0	5
+Climate change	Waste management	5
+Additive manufacturing	Industry 4.0	5
+Municipal solid waste	Pyrolysis	5
+Waste management	Wastewater treatment	5
+Machine learning	Municipal solid waste	5
+Machine learning	Recycling	5
+Bioenergy	Valorization	5
+Business model	Supply chain	5
+Pyrolysis	Sewage sludge	5
+Barriers	Industrial symbiosis	5
+Adsorption	Waste management	5
+Circular Economy	SMEs	5
+COVID-19	sustainability	5
+Bioeconomy	Innovation	5
+Circularity	Life cycle assessment	5
+Bioeconomy	circular economy	5
+Environment	Waste	5
+LCA	recycling	5
+Recovery	Sustainability	5
+Biomass	Wastewater	5
+Bioeconomy	Sustainable development	5
+Biorefinery	Pyrolysis	5
+Recycling	circular economy	5
+Climate change	Recycling	5
+Additive manufacturing	Life cycle assessment	5
+life cycle assessment	waste management	5
+Packaging	Reuse	5
+Packaging	Waste management	5
+Circular Economy	Waste management	5
+Energy	Waste management	5
+SMEs	sustainability	5
+Waste	recycling	5
+LCA	Sustainable development	5
+China	Resource efficiency	5
+Literature review	Sustainable development	5
+adsorption	wastewater	5
+anaerobic digestion	waste management	5
+Municipal solid waste	Sustainability	5
+Climate change	Resource recovery	5
+Bioenergy	Waste valorization	5
+Circular Economy	Pyrolysis	5
+biomass	waste	5
+biogas	waste management	5
+climate change	waste management	5
+reuse	waste management	5
+Digitalization	Resource recovery	5
+Carbon footprint	Environmental impact	4
+Energy	Recovery	4
+Adsorption	Recovery	4
+Indicators	Sustainable development	4
+Industry 4.0	Waste management	4
+Biochar	Waste	4
+Reuse	circular economy	4
+Supply chain management	Systematic literature review	4
+Sustainable development	circular economy	4
+Climate change	Environmental sustainability	4
+Environmental sustainability	Life cycle assessment (LCA)	4
+Biochar	Bioenergy	4
+Optimization	Supply chain	4
+Climate change	Waste	4
+LCA	Packaging	4
+Climate change	Microalgae	4
+Energy recovery	Municipal solid waste	4
+Valorization	Waste	4
+Innovation	Sustainable development	4
+Energy	Industrial symbiosis	4
+Carbon footprint	Waste management	4
+Recycling	Sewage sludge	4
+Circularity	Waste	4
+Biogas	LCA	4
+Recycling	Valorization	4
+Reuse	Wastewater	4
+Biorefinery	Circular Economy	4
+Industry 4.0	Systematic literature review	4
+Life cycle assessment	WEEE	4
+Circular business models	Sustainable development	4
+Energy recovery	Material flow analysis	4
+Material flow analysis	Sustainability	4
+Biogas	Energy recovery	4
+Bioenergy	Municipal solid waste	4
+Circularity	Waste management	4
+Sewage sludge	Waste management	4
+Environmental impact	Food waste	4
+Sustainable consumption	Waste management	4
+Circularity	Literature review	4
+Industrial ecology	Sustainable development	4
+Sewage sludge	Wastewater treatment	4
+Anaerobic digestion	Wastewater treatment	4
+Adsorption	Sustainability	4
+Carbon footprint	LCA	4
+Business model	Recycling	4
+Biochar	Wastewater	4
+Recovery	Waste management	4
+Bioenergy	Wastewater	4
+Biogas	Energy	4
+Reverse logistics	Waste management	4
+Barriers	Circular business models	4
+COVID-19	Circular Economy	4
+Optimization	Recycling	4
+Anaerobic digestion	Environmental sustainability	4
+Circularity	LCA	4
+Bioeconomy	Indicators	4
+Adsorption	Waste valorization	4
+Circular Economy	Packaging	4
+COVID-19	Climate change	4
+Sustainable development	Valorization	4
+Biomass	Climate change	4
+Adsorption	Biomass	4
+Remanufacturing	Supply chain management	4
+Material flow analysis	Reuse	4
+Biodiesel	Biogas	4
+Innovation	Recycling	4
+recycling	waste valorization	4
+Biomass	Waste	4
+Circular Economy	recycling	4
+Supply chain	Sustainable development	4
+Anaerobic digestion	LCA	4
+Closed-loop supply chain	Literature review	4
+Food waste	Waste valorization	4
+China	Waste management	4
+Bioeconomy	Biogas	4
+Remanufacturing	Resource efficiency	4
+Energy recovery	Recycling	4
+Circular Economy	E-waste	4
+Reverse logistics	Supply chain management	4
+Wastewater	circular economy	4
+Industrial symbiosis	Industry 4.0	4
+Adsorption	Reuse	4
+Biomass	Recycling	4
+Energy recovery	Nutrient recovery	4
+Environmental sustainability	Renewable energy	4
+Circular Economy	Optimization	4
+Life cycle assessment	Packaging	4
+Waste management	circular economy	4
+Resource efficiency	Sustainable consumption	4
+Biomass	Waste-to-energy	4
+Energy recovery	Life cycle assessment	4
+LCA	Resource recovery	4
+Machine learning	Waste management	4
+bioeconomy	waste management	4
+Climate change	Innovation	4
+reuse	wastewater	4
+Environmental sustainability	Resource efficiency	4
+Mechanical properties	Waste management	4
+Circularity	Reuse	4
+anaerobic digestion	life cycle assessment	4
+Closed-loop supply chain	Waste management	4
+LCA	Pyrolysis	4
+biomass	renewable energy	4
+Microalgae	Nutrient recovery	4
+Biomass	Wastewater treatment	4
+Barriers	SMEs	4
+Biorefinery	Wastewater treatment	4
+bioeconomy	climate change	4
+Biomass	Circular Economy	4
+Bibliometric analysis	Food waste	4
+Biodiesel	Sustainability	4
+circularity	waste management	4
+Energy	Valorization	4
+Circular Economy	Digitalization	4
+food waste	waste management	4
+Circular economy	food waste	4
+Biodiesel	Waste-to-energy	4
+climate change	life cycle assessment	4
+Food waste	Systematic literature review	3
+Life cycle assessment	Supply chain	3
+Recovery	Wastewater	3
+Biochar	Biodiesel	3
+Recycling	Supply chain management	3
+European Union	Recycling	3
+biogas	renewable energy	3
+Closed-loop supply chain	Systematic literature review	3
+Barriers	Recycling	3
+Circular business models	Industry 4.0	3
+Industrial symbiosis	Resource recovery	3
+Carbon footprint	Sustainable development	3
+Bioenergy	Microalgae	3
+Innovation	Resource efficiency	3
+Resource efficiency	WEEE	3
+Waste	Wastewater	3
+Industrial symbiosis	Life cycle assessment (LCA)	3
+Environmental impact	Pyrolysis	3
+Biogas	Municipal solid waste	3
+Bibliometric analysis	Sustainable development goals	3
+Food waste	Renewable energy	3
+Bioeconomy	Pyrolysis	3
+Bioenergy	Waste management	3
+Biomass	Energy recovery	3
+Optimization	Waste valorization	3
+Biomass	circular economy	3
+biogas	sustainability	3
+Recycling	Waste valorization	3
+biomass	wastewater	3
+Food waste	Waste-to-energy	3
+Food waste	Sustainable consumption	3
+Energy recovery	Waste-to-energy	3
+Material flow analysis	Municipal solid waste	3
+Environmental sustainability	Waste valorization	3
+Circular business models	Life cycle assessment	3
+Bibliometric analysis	Circular Economy	3
+Circular Economy	Sustainable development goals	3
+Biorefinery	Recycling	3
+Systematic literature review	Waste management	3
+Biorefinery	Resource recovery	3
+Waste management	Wastewater	3
+Business model	Systematic literature review	3
+Environmental impact	Packaging	3
+Bioeconomy	Life cycle assessment (LCA)	3
+Resource recovery	Waste	3
+Plastic waste	circular economy	3
+Bioeconomy	Recycling	3
+Industry 4.0	Reverse logistics	3
+Renewable energy	Waste-to-energy	3
+Environmental sustainability	Recycling	3
+Circular economy	circularity	3
+Biomass	Sustainable development goals	3
+Reverse logistics	Supply chain	3
+Bioeconomy	LCA	3
+Circular Economy	LCA	3
+Circular Economy	Life cycle assessment	3
+Anaerobic digestion	Energy	3
+Climate change	Material flow analysis	3
+Material flow analysis	WEEE	3
+Biogas	Optimization	3
+Industrial symbiosis	Optimization	3
+Industrial symbiosis	Life cycle assessment	3
+Bioeconomy	Renewable energy	3
+Anaerobic digestion	Recycling	3
+Biochar	Recycling	3
+European Union	Waste	3
+SMEs	sustainable development	3
+Industrial symbiosis	Waste valorization	3
+European Union	recycling	3
+E-waste	Material flow analysis	3
+Circular economy (CE)	sustainability	3
+life cycle assessment	reuse	3
+Industrial symbiosis	Literature review	3
+Anaerobic digestion	Climate change	3
+European Union	sustainability	3
+Energy recovery	Wastewater treatment	3
+Industrial symbiosis	SMEs	3
+Material flow analysis	Resource efficiency	3
+Life cycle assessment	Machine learning	3
+Machine learning	Optimization	3
+Literature review	Reverse logistics	3
+Environment	European Union	3
+Environment	Sustainable development goals	3
+Energy recovery	Food waste	3
+Innovation	SMEs	3
+Biodiesel	Recycling	3
+China	Construction and demolition waste	3
+Recycling	Systematic literature review	3
+Industry 4.0	Machine learning	3
+3D printing	Life cycle assessment	3
+Biomass	Energy	3
+Biorefinery	Energy	3
+Pyrolysis	Sustainable development	3
+Renewable energy	Sustainable development goals	3
+Bioeconomy	Climate change	3
+Biomass	Sustainable development	3
+Environment	Plastic waste	3
+Bioeconomy	Microalgae	3
+Sustainable development	Waste valorization	3
+European Union	Sustainable development	3
+Recovery	Valorization	3
+Circular Economy	Resource efficiency	3
+Biochar	Food waste	3
+Literature review	Supply chain management	3
+bioeconomy	recycling	3
+Business model	Sustainable development	3
+Industrial symbiosis	Innovation	3
+Bioeconomy	Waste	3
+Supply chain management	Waste management	3
+Material flow analysis	Sustainable development	3
+Climate change	LCA	3
+Adsorption	Nutrient recovery	3
+Nutrient recovery	Waste management	3
+Life cycle assessment	Nutrient recovery	3
+Supply chain	Waste	3
+Circular economy (CE)	Industry 4.0	3
+Environmental impact	Life cycle assessment (LCA)	3
+Waste	Waste-to-energy	3
+Indicators	Waste management	3
+Business model	Industry 4.0	3
+E-waste	Reverse logistics	3
+Reverse logistics	WEEE	3
+Business model	Reuse	3
+climate change	waste	3
+Business model	Digitalization	3
+Environmental sustainability	Food waste	3
+China	Material flow analysis	3
+Biogas	Waste-to-energy	3
+Municipal solid waste	circular economy	3
+Food waste	Recycling	3
+Municipal solid waste	Renewable energy	3
+WEEE	Waste management	3
+Construction and demolition waste	Literature review	3
+Construction and demolition waste	Sustainable development	3
+Literature review	Waste management	3
+Material flow analysis	Resource recovery	3
+Biodiesel	Pyrolysis	3
+Recycling	Sustainable consumption	3
+Food waste	Literature review	3
+industrial ecology	waste	3
+China	Sustainable development	3
+European Union	bioeconomy	3
+Sustainable development	Wastewater treatment	3
+Climate change	Digitalization	3
+Climate change	Nutrient recovery	3
+Circular economy (CE)	Sustainable development	3
+anaerobic digestion	renewable energy	3
+Agriculture	Waste	3
+China	Municipal solid waste	3
+Barriers	Environmental sustainability	3
+Life cycle assessment (LCA)	Reuse	3
+mechanical properties	waste	3
+Bibliometric analysis	circular economy	3
+Biochar	Valorization	3
+Biomass	Valorization	3
+Bioenergy	Nutrient recovery	3
+circularity	recycling	3
+waste management	waste valorization	3
+Plastic waste	Valorization	3
+Biochar	Circular Economy	3
+LCA	biogas	3
+Circular business models	Renewable energy	3
+Biorefinery	Renewable energy	3
+Resource recovery	Reverse logistics	3
+Biochar	Waste valorization	3
+anaerobic digestion	sustainability	3
+Indicators	Life cycle assessment	3
+Microalgae	Valorization	3
+Environmental sustainability	LCA	3
+Digitalization	Waste management	3
+Biochar	Nutrient recovery	3
+Biorefinery	Sustainable development	3
+bioeconomy	industrial ecology	3
+recycling	renewable energy	3
+Biodiesel	Renewable energy	3
+Microalgae	Renewable energy	3
+Carbon footprint	Climate change	3
+Adsorption	Plastic waste	3
+COVID-19	Digitalization	3
+waste management	wastewater	3
+Food waste	Industrial symbiosis	3
+Biochar	Wastewater treatment	3
+WEEE	sustainability	3
+Biogas	Circular Economy	3
+Literature review	Supply chain	3
+reuse	waste	3
+circularity	sustainable development	3
+Circular economy (CE)	Recycling	3
+Agriculture	Microalgae	3
+Bibliometric analysis	Supply chain	3
+Remanufacturing	Waste management	3
+Closed-loop supply chain	Industry 4.0	3
+Municipal solid waste	Sustainable development goals	3
+Biodiesel	Wastewater treatment	3
+Wastewater	Wastewater treatment	3
+food waste	life cycle assessment	3
+Circular Economy	Climate change	3
+COVID-19	Supply chain management	3
+COVID-19	Pyrolysis	3
+Energy	Pyrolysis	2
+Material flow analysis	Plastic waste	2
+Bibliometric analysis	Resource recovery	2
+Circular economy (CE)	Indicators	2
+China	Renewable energy	2
+Business model	Innovation	2
+Packaging	Reverse logistics	2
+COVID-19	Recycling	2
+Climate change	Life cycle assessment (LCA)	2
+Packaging	Plastic waste	2
+Bioenergy	Systematic literature review	2
+China	Industrial ecology	2
+Food waste	Packaging	2
+Climate change	Environmental impact	2
+Barriers	Circularity	2
+Bibliometric analysis	Municipal solid waste	2
+Bibliometric analysis	Waste-to-energy	2
+Environmental impact	Environmental sustainability	2
+China	Industrial symbiosis	2
+Construction and demolition waste	Environmental impact	2
+Climate change	Wastewater	2
+Energy recovery	Environmental sustainability	2
+Industrial symbiosis	Wastewater	2
+Bioeconomy	Sustainable consumption	2
+COVID-19	Food waste	2
+Food waste	Plastic waste	2
+Bioenergy	Waste	2
+Innovation	Reverse logistics	2
+Machine learning	Supply chain	2
+Life cycle assessment	Sustainable development goals	2
+anaerobic digestion	waste valorization	2
+Circularity	E-waste	2
+Energy recovery	Renewable energy	2
+Resource recovery	Valorization	2
+Digitalization	Life cycle assessment	2
+Plastic waste	Recovery	2
+Plastic waste	Waste valorization	2
+Recovery	Waste valorization	2
+Bibliometric analysis	Environmental sustainability	2
+Circular Economy	industrial ecology	2
+Renewable energy	Resource efficiency	2
+E-waste	waste management	2
+WEEE	waste management	2
+Agriculture	Barriers	2
+Circular Economy	Systematic literature review	2
+Environment	Valorization	2
+Carbon footprint	Reuse	2
+Circular economy	climate change	2
+Material flow analysis	Waste-to-energy	2
+Biogas	Sustainable development	2
+Circularity	Material flow analysis	2
+Biochar	Biogas	2
+Municipal solid waste	Resource recovery	2
+Biochar	Resource recovery	2
+Renewable energy	Waste	2
+Life cycle assessment	Microalgae	2
+Sustainable development	Wastewater	2
+bioeconomy	waste valorization	2
+Circular economy (CE)	Remanufacturing	2
+Barriers	Innovation	2
+Anaerobic digestion	Environmental impact	2
+Biomass	Municipal solid waste	2
+Bibliometric analysis	Circularity	2
+Biogas	Waste valorization	2
+Renewable energy	Sewage sludge	2
+Renewable energy	Waste valorization	2
+Sewage sludge	Waste valorization	2
+Bioeconomy	Energy	2
+Reuse	Reverse logistics	2
+Climate change	WEEE	2
+Biodiesel	Life cycle assessment	2
+Digitalization	Resource efficiency	2
+Resource efficiency	Supply chain	2
+Food waste	Innovation	2
+Environmental sustainability	Machine learning	2
+Environmental sustainability	Municipal solid waste	2
+Industrial symbiosis	Systematic literature review	2
+Optimization	Renewable energy	2
+Biodiesel	Bioenergy	2
+Biodiesel	Valorization	2
+European Union	SMEs	2
+Environmental impact	Renewable energy	2
+Anaerobic digestion	Sustainable development	2
+LCA	Reuse	2
+LCA	WEEE	2
+Anaerobic digestion	Waste	2
+Biogas	Industrial symbiosis	2
+Biogas	Waste	2
+Biogas	Resource recovery	2
+Bioeconomy	COVID-19	2
+Resource recovery	Waste valorization	2
+Industrial ecology	Literature review	2
+Business model	Renewable energy	2
+Anaerobic digestion	Reuse	2
+Environmental sustainability	Recovery	2
+Biochar	Biorefinery	2
+Pyrolysis	WEEE	2
+life cycle assessment	sustainable development	2
+climate change	renewable energy	2
+Industrial symbiosis	Recovery	2
+Biomass	Recovery	2
+Environmental impact	Waste management	2
+Sustainable development	Waste	2
+anaerobic digestion	sustainable development	2
+Energy recovery	Sustainability	2
+Industrial ecology	Renewable energy	2
+Bioenergy	Circularity	2
+Digitalization	Innovation	2
+3D printing	Waste	2
+Additive manufacturing	Industrial symbiosis	2
+Recycling	SMEs	2
+China	sustainability	2
+Recovery	Waste	2
+Agriculture	Biogas	2
+Reuse	Sustainable development	2
+Bioenergy	Sustainable development	2
+Construction and demolition waste	Material flow analysis	2
+Construction and demolition waste	circular economy	2
+Construction and demolition waste	Mechanical properties	2
+LCA	Material flow analysis	2
+European Union	Waste management	2
+Sustainability	Sustainable consumption	2
+Circular Economy	waste	2
+Biomass	European Union	2
+Climate change	European Union	2
+European Union	Sustainable development goals	2
+Circular Economy	Waste-to-energy	2
+Environmental impact	LCA	2
+LCA	Wastewater	2
+Bioenergy	LCA	2
+Remanufacturing	Systematic literature review	2
+Adsorption	Waste	2
+Agriculture	Energy	2
+Energy	Innovation	2
+Environment	Resource recovery	2
+life cycle assessment	waste	2
+Microalgae	circular economy	2
+Industrial ecology	LCA	2
+LCA	Nutrient recovery	2
+Energy	Sustainable development	2
+Food waste	Resource efficiency	2
+Biogas	Microalgae	2
+Carbon footprint	China	2
+Sustainable consumption	Sustainable development goals	2
+Circular Economy	Energy	2
+Agriculture	Sewage sludge	2
+Pyrolysis	Recovery	2
+Indicators	Sustainable development goals	2
+Biomass	Food waste	2
+Nutrient recovery	Waste valorization	2
+E-waste	Waste	2
+Industrial symbiosis	Reuse	2
+Sewage sludge	Waste-to-energy	2
+Biorefinery	Life cycle assessment (LCA)	2
+Digitalization	Machine learning	2
+Energy	Energy recovery	2
+Bioeconomy	Business model	2
+Anaerobic digestion	circular economy	2
+Circularity	Environmental sustainability	2
+Machine learning	Nutrient recovery	2
+LCA	sustainable development	2
+Sewage sludge	Valorization	2
+Business model	Supply chain management	2
+Circular business models	Literature review	2
+Biorefinery	Industry 4.0	2
+Material flow analysis	Supply chain	2
+Supply chain	Waste-to-energy	2
+3D printing	Business model	2
+Energy	Renewable energy	2
+Innovation	Packaging	2
+Climate change	Reuse	2
+Resource efficiency	Waste valorization	2
+Resource recovery	WEEE	2
+Sustainable development	Waste-to-energy	2
+Industrial ecology	Resource efficiency	2
+Environment	Reuse	2
+industrial ecology	wastewater	2
+recycling	wastewater	2
+China	industrial ecology	2
+Circular Economy	Municipal solid waste	2
+Adsorption	Biogas	2
+Climate change	Packaging	2
+Literature review	Remanufacturing	2
+Circular business models	Resource efficiency	2
+Bibliometric analysis	Environment	2
+Municipal solid waste	Recovery	2
+Bioenergy	Food waste	2
+Industrial ecology	Systematic literature review	2
+Bioenergy	Life cycle assessment (LCA)	2
+Bioeconomy	Machine learning	2
+Environmental sustainability	Literature review	2
+LCA	Sewage sludge	2
+Reverse logistics	Sustainable development	2
+Environment	Waste valorization	2
+LCA	Plastic waste	2
+Construction and demolition waste	Sustainability	2
+E-waste	Reuse	2
+Food waste	Sustainable development goals	2
+sustainable development	waste valorization	2
+Digitalization	Recycling	2
+Energy	Food waste	2
+Circular economy (CE)	Environmental sustainability	2
+Circular economy (CE)	Resource efficiency	2
+Environmental sustainability	Industry 4.0	2
+LCA	waste valorization	2
+Environmental impact	Resource efficiency	2
+Biodiesel	Circular Economy	2
+LCA	industrial ecology	2
+Life cycle assessment (LCA)	Sustainable development	2
+Nutrient recovery	Waste	2
+Agriculture	Bibliometric analysis	2
+Bibliometric analysis	Recycling	2
+Bibliometric analysis	Waste	2
+Food waste	Valorization	2
+Circularity	Digitalization	2
+Adsorption	Valorization	2
+Supply chain	Systematic literature review	2
+Closed-loop supply chain	Recycling	2
+Circularity	Supply chain	2
+E-waste	Sustainable development	2
+Remanufacturing	Sustainable development	2
+mechanical properties	waste management	2
+Closed-loop supply chain	Sustainable development	2
+Recycling	waste management	2
+Material flow analysis	Wastewater	2
+Circular Economy	Microalgae	2
+Industrial ecology	Machine learning	2
+Machine learning	Plastic waste	2
+Life cycle assessment	Wastewater	2
+3D printing	Circular Economy	2
+Circular Economy	Wastewater	2
+Barriers	Reverse logistics	2
+Barriers	Supply chain	2
+Machine learning	Microalgae	2
+life cycle assessment	renewable energy	2
+Circular economy (CE)	Renewable energy	2
+waste	waste management	2
+anaerobic digestion	bioeconomy	2
+Biodiesel	Resource recovery	2
+Literature review	Renewable energy	2
+COVID-19	sustainable development	2
+European Union	Innovation	2
+climate change	industrial ecology	2
+Optimization	Pyrolysis	2
+sustainable development	waste	2
+Municipal solid waste	Valorization	2
+Construction and demolition waste	Indicators	2
+Biorefinery	Municipal solid waste	2
+Bibliometric analysis	Supply chain management	2
+European Union	climate change	2
+Nutrient recovery	Sustainability	2
+Sustainable development	Sustainable development goals	2
+Bioenergy	Circular Economy	2
+Biorefinery	Optimization	2
+Circularity	Sustainable consumption	2
+Nutrient recovery	Pyrolysis	2
+Biorefinery	Sustainable development goals	2
+Bibliometric analysis	Digitalization	2
+Climate change	Supply chain management	2
+COVID-19	Resource recovery	2
+Environmental sustainability	Resource recovery	2
+Machine learning	Remanufacturing	2
+biomass	recycling	2
+Environment	Innovation	2
+3D printing	waste	2
+Agriculture	Packaging	2
+Food waste	Pyrolysis	2
+biogas	biomass	2
+Anaerobic digestion	Biodiesel	2
+Optimization	Waste management	2
+Pyrolysis	Resource recovery	2
+Adsorption	Machine learning	2
+COVID-19	waste management	2
+circularity	reuse	2
+3D printing	life cycle assessment	2
+Bibliometric analysis	Industry 4.0	2
+LCA	waste	2
+Biochar	Waste management	2
+Industry 4.0	Waste	2
+Life cycle assessment	circular economy	2
+Circular economy	renewable energy	2
+renewable energy	waste	2
+Innovation	Sustainable development goals	2
+Innovation	circular economy	2
+bioeconomy	sustainable development	2
+Energy	Resource recovery	2
+Supply chain management	circular economy	2
+life cycle assessment	wastewater	2
+Industrial ecology	Resource recovery	2
+Innovation	Waste management	2
+Carbon footprint	Resource recovery	2
+Circular Economy	Indicators	2
+Carbon footprint	Environmental sustainability	2
+Biomass	Carbon footprint	2
+Bioeconomy	Nutrient recovery	2
+Biochar	Sustainable development	2
+E-waste	Waste-to-energy	2
+Microalgae	Sustainable development goals	2
+LCA	circularity	2
+Sustainability	WEEE	2
+Biochar	Life cycle assessment	2
+Biorefinery	LCA	2
+E-waste	sustainability	2
+Circular Economy	Environmental impact	2
+Indicators	Innovation	2
+Agriculture	Circularity	2
+climate change	recycling	2
+Biomass	Waste valorization	2
+anaerobic digestion	waste	2
+Circular economy	biomass	2
+bioeconomy	biomass	2
+3D printing	waste valorization	2
+food waste	waste valorization	2
+European Union	waste management	2
+Biogas	Wastewater treatment	2
+Closed-loop supply chain	Environmental sustainability	2
+COVID-19	Municipal solid waste	2
+Plastic waste	Wastewater	2
+LCA	reuse	2
+Life cycle assessment (LCA)	Literature review	2
+Life cycle assessment (LCA)	Renewable energy	2
+biogas	sustainable development	2
+Municipal solid waste	Sustainable development	2
+Environment	Wastewater	2
+Renewable energy	Resource recovery	2
+Anaerobic digestion	Valorization	2
+Circular economy (CE)	Recovery	2
+Circular economy (CE)	Supply chain management	2
+Reuse	Wastewater treatment	2
+E-waste	Recovery	2
+Anaerobic digestion	biogas	2
+Indicators	Wastewater	1
+food waste	renewable energy	1
+Circularity	Supply chain management	1
+Innovation	Supply chain management	1
+LCA	Waste-to-energy	1
+Reverse logistics	Waste	1
+3D printing	COVID-19	1
+Adsorption	WEEE	1
+WEEE	Wastewater	1
+Reuse	sustainability	1
+Indicators	Material flow analysis	1
+Indicators	Municipal solid waste	1
+Closed-loop supply chain	WEEE	1
+Circular Economy	Remanufacturing	1
+Agriculture	Plastic waste	1
+Plastic waste	Sustainable development	1
+Barriers	Construction and demolition waste	1
+Life cycle assessment (LCA)	Mechanical properties	1
+Environmental impact	Microalgae	1
+Bioeconomy	Valorization	1
+Closed-loop supply chain	Sustainable consumption	1
+Agriculture	Sustainable development goals	1
+Bioeconomy	Sewage sludge	1
+Bibliometric analysis	LCA	1
+Renewable energy	Wastewater	1
+Carbon footprint	Industry 4.0	1
+Bibliometric analysis	Industrial ecology	1
+Circularity	WEEE	1
+Reuse	Valorization	1
+Digitalization	Remanufacturing	1
+Circular business models	Recycling	1
+COVID-19	Circularity	1
+Barriers	Wastewater	1
+Material flow analysis	Renewable energy	1
+Environment	Mechanical properties	1
+Mechanical properties	Valorization	1
+Environmental impact	WEEE	1
+Circular business models	Supply chain management	1
+Environmental sustainability	Pyrolysis	1
+Circular business models	Industrial ecology	1
+Circular business models	Material flow analysis	1
+Anaerobic digestion	Environment	1
+Biochar	Environment	1
+Biogas	Environment	1
+Optimization	Remanufacturing	1
+Indicators	Renewable energy	1
+Municipal solid waste	Reverse logistics	1
+Systematic literature review	Waste-to-energy	1
+Biorefinery	Sewage sludge	1
+Biogas	Environmental impact	1
+Biogas	Indicators	1
+Biodiesel	COVID-19	1
+E-waste	LCA	1
+Environment	LCA	1
+Food waste	Material flow analysis	1
+China	Plastic waste	1
+Biogas	Sewage sludge	1
+Digitalization	WEEE	1
+Industry 4.0	recycling	1
+Industry 4.0	reuse	1
+China	Life cycle assessment	1
+Plastic waste	recycling	1
+Business model	Life cycle assessment	1
+Food waste	Microalgae	1
+3D printing	Plastic waste	1
+Business model	Circular Economy	1
+Bioeconomy	Wastewater treatment	1
+Industry 4.0	Waste-to-energy	1
+Recovery	Sustainable development	1
+Life cycle assessment (LCA)	Packaging	1
+Biochar	Microalgae	1
+Microalgae	Sewage sludge	1
+Energy	Systematic literature review	1
+Business model	Resource efficiency	1
+Circular business models	European Union	1
+Business model	Food waste	1
+Food waste	sustainability	1
+Industrial ecology	Recovery	1
+Material flow analysis	Recovery	1
+Plastic waste	Reuse	1
+Plastic waste	Resource efficiency	1
+Anaerobic digestion	Industrial symbiosis	1
+Sustainability	recycling	1
+Biodiesel	LCA	1
+Optimization	Resource recovery	1
+Bioenergy	Industrial symbiosis	1
+Biogas	Business model	1
+Anaerobic digestion	Recovery	1
+Biochar	Environmental sustainability	1
+Biochar	Recovery	1
+Biochar	Reuse	1
+Environmental sustainability	Reuse	1
+European Union	Industrial symbiosis	1
+Industry 4.0	waste management	1
+Construction and demolition waste	Supply chain management	1
+Adsorption	circular economy	1
+Adsorption	reuse	1
+China	Innovation	1
+Environment	Wastewater treatment	1
+Barriers	Indicators	1
+Sustainability	bioeconomy	1
+Circular economy (CE)	sustainable development	1
+Circular business models	SMEs	1
+Closed-loop supply chain	Innovation	1
+Waste	Wastewater treatment	1
+Biogas	Recovery	1
+Carbon footprint	Sustainable development goals	1
+Waste-to-energy	anaerobic digestion	1
+Waste-to-energy	circular economy	1
+Waste-to-energy	sustainable development	1
+Environmental impact	Industrial symbiosis	1
+Energy recovery	Sewage sludge	1
+Life cycle assessment (LCA)	Sustainable consumption	1
+Industrial symbiosis	Renewable energy	1
+Barriers	COVID-19	1
+Sewage sludge	Waste	1
+Bioeconomy	Wastewater	1
+Biomass	Optimization	1
+3D printing	Industrial symbiosis	1
+3D printing	Literature review	1
+Additive manufacturing	Literature review	1
+Additive manufacturing	Waste	1
+Literature review	Waste	1
+Plastic waste	waste management	1
+Sustainability	waste management	1
+Agriculture	Renewable energy	1
+Digitalization	Environmental sustainability	1
+Environmental impact	Material flow analysis	1
+Environmental impact	Plastic waste	1
+Biomass	Environmental impact	1
+Bibliometric analysis	Life cycle assessment	1
+Closed-loop supply chain	Supply chain	1
+Barriers	Plastic waste	1
+Material flow analysis	circular economy	1
+Agriculture	Reuse	1
+Bioeconomy	Digitalization	1
+Food waste	recycling	1
+biomass	food waste	1
+Environment	Sustainable consumption	1
+Biomass	Environment	1
+Environment	Environmental sustainability	1
+biomass	waste valorization	1
+Environmental impact	Systematic literature review	1
+Agriculture	European Union	1
+Circular business models	Indicators	1
+Reuse	Systematic literature review	1
+Business model	China	1
+Energy	Optimization	1
+Biodiesel	Sustainable development	1
+Agriculture	Biomass	1
+Agriculture	Biorefinery	1
+Sustainable development	WEEE	1
+Material flow analysis	Sustainable development goals	1
+Business model	Circularity	1
+COVID-19	climate change	1
+Municipal solid waste	Systematic literature review	1
+Industrial ecology	Nutrient recovery	1
+Life cycle assessment	Mechanical properties	1
+Bioeconomy	Resource recovery	1
+Municipal solid waste	Reuse	1
+Industry 4.0	Optimization	1
+LCA	Renewable energy	1
+Energy recovery	Sustainable development	1
+Food waste	Nutrient recovery	1
+Food waste	Sewage sludge	1
+Barriers	E-waste	1
+Circular economy (CE)	Waste	1
+Circular business models	circular economy	1
+Circular business models	sustainability	1
+Circular Economy	circularity	1
+E-waste	Sustainable consumption	1
+Sustainable consumption	WEEE	1
+Biogas	Reuse	1
+Biomass	Environmental sustainability	1
+Pyrolysis	Waste	1
+Climate change	Energy recovery	1
+Agriculture	Innovation	1
+Agriculture	Wastewater treatment	1
+Innovation	Wastewater treatment	1
+Construction and demolition waste	Resource recovery	1
+Reuse	Sustainable development goals	1
+Biorefinery	Recovery	1
+Construction and demolition waste	Environment	1
+Industrial symbiosis	circular economy	1
+Circular Economy	Nutrient recovery	1
+Bioeconomy	Circular economy (CE)	1
+Bibliometric analysis	Microalgae	1
+Bioeconomy	SMEs	1
+SMEs	Waste management	1
+Biomass	Indicators	1
+Biomass	Plastic waste	1
+Packaging	Supply chain	1
+Circularity	Systematic literature review	1
+Industrial ecology	Industry 4.0	1
+Biomass	Reuse	1
+Biodiesel	Waste management	1
+Anaerobic digestion	Machine learning	1
+China	Waste	1
+Literature review	Packaging	1
+Packaging	Supply chain management	1
+Bioeconomy	Packaging	1
+Biogas	Carbon footprint	1
+Bioeconomy	Waste-to-energy	1
+Recycling	Wastewater treatment	1
+Industrial symbiosis	Pyrolysis	1
+Environment	WEEE	1
+Reuse	Sustainable consumption	1
+Circular economy (CE)	Industrial symbiosis	1
+Circular business models	Remanufacturing	1
+Barriers	China	1
+Energy	Indicators	1
+Indicators	Recycling	1
+Energy recovery	Supply chain	1
+Energy recovery	Waste	1
+Environment	Supply chain management	1
+Packaging	Waste-to-energy	1
+Resource efficiency	Waste	1
+Biomass	Resource recovery	1
+LCA	renewable energy	1
+Barriers	Resource efficiency	1
+Barriers	Reuse	1
+Business model	Material flow analysis	1
+Industrial ecology	Remanufacturing	1
+Energy recovery	Microalgae	1
+China	recycling	1
+Bibliometric analysis	Sustainable consumption	1
+Environmental impact	Wastewater treatment	1
+Business model	Sustainable consumption	1
+Biochar	Bioeconomy	1
+China	Remanufacturing	1
+Material flow analysis	Remanufacturing	1
+Industrial ecology	Packaging	1
+Energy	European Union	1
+Barriers	European Union	1
+Business model	E-waste	1
+Reuse	SMEs	1
+Bibliometric analysis	Bioeconomy	1
+Bioeconomy	Systematic literature review	1
+Plastic waste	Resource recovery	1
+Circular Economy	Renewable energy	1
+Optimization	Resource efficiency	1
+Literature review	Sustainable consumption	1
+European Union	Municipal solid waste	1
+Circular Economy	Circular business models	1
+Circular business models	Supply chain	1
+Bioenergy	China	1
+Biomass	China	1
+Business model	Climate change	1
+E-waste	Municipal solid waste	1
+Municipal solid waste	WEEE	1
+Biogas	China	1
+China	LCA	1
+Biogas	Supply chain	1
+Packaging	Recovery	1
+Biorefinery	Innovation	1
+Business model	Environmental impact	1
+bioeconomy	renewable energy	1
+Food waste	Municipal solid waste	1
+Recovery	Waste-to-energy	1
+Food waste	Optimization	1
+Carbon footprint	Nutrient recovery	1
+Biomass	Industrial symbiosis	1
+Agriculture	biogas	1
+Agriculture	circular economy	1
+Agriculture	waste	1
+biogas	waste	1
+Anaerobic digestion	Life cycle assessment (LCA)	1
+Bioeconomy	European Union	1
+Resource efficiency	Sustainable development goals	1
+Industrial symbiosis	Supply chain	1
+Anaerobic digestion	Literature review	1
+Energy recovery	Literature review	1
+Environment	Resource efficiency	1
+Barriers	Industrial ecology	1
+Life cycle assessment (LCA)	Waste management	1
+Carbon footprint	Optimization	1
+China	Environment	1
+Carbon footprint	Reverse logistics	1
+Environment	Pyrolysis	1
+European Union	industrial ecology	1
+Circular Economy	Literature review	1
+Indicators	LCA	1
+Indicators	Plastic waste	1
+Carbon footprint	Packaging	1
+sustainability	wastewater	1
+Machine learning	Reuse	1
+Additive manufacturing	Adsorption	1
+Bioenergy	Waste-to-energy	1
+Environmental sustainability	Reverse logistics	1
+Digitalization	Nutrient recovery	1
+Nutrient recovery	Recycling	1
+Industry 4.0	Life cycle assessment (LCA)	1
+Biorefinery	Carbon footprint	1
+Bibliometric analysis	Renewable energy	1
+Industry 4.0	Resource efficiency	1
+Agriculture	Literature review	1
+Literature review	Sewage sludge	1
+adsorption	sustainable development	1
+Optimization	Sustainable development	1
+Optimization	Valorization	1
+Biodiesel	Optimization	1
+E-waste	Resource recovery	1
+Business model	Literature review	1
+Innovation	Literature review	1
+Systematic literature review	circular economy	1
+E-waste	Supply chain management	1
+Agriculture	Recycling	1
+Environmental sustainability	Valorization	1
+Biomass	Circularity	1
+Energy	Municipal solid waste	1
+Mechanical properties	Plastic waste	1
+Business model	Resource recovery	1
+Anaerobic digestion	Sustainable development goals	1
+Biochar	Sustainable development goals	1
+Pyrolysis	Sustainable development goals	1
+Additive manufacturing	Waste valorization	1
+Biomass	Sewage sludge	1
+Machine learning	Resource recovery	1
+COVID-19	Machine learning	1
+COVID-19	Systematic literature review	1
+Machine learning	Systematic literature review	1
+Bibliometric analysis	sustainability	1
+Barriers	Sustainable consumption	1
+circularity	renewable energy	1
+biogas	life cycle assessment	1
+Bioenergy	Supply chain	1
+Adsorption	Bibliometric analysis	1
+Barriers	Supply chain management	1
+Adsorption	Sustainable development goals	1
+COVID-19	Innovation	1
+Innovation	Supply chain	1
+Circular business models	Industrial symbiosis	1
+Circularity	Pyrolysis	1
+SMEs	industrial ecology	1
+Biodiesel	Resource efficiency	1
+LCA	Literature review	1
+Life cycle assessment	Sustainable consumption	1
+Industrial ecology	Plastic waste	1
+Circular Economy	Valorization	1
+3D printing	Carbon footprint	1
+3D printing	Environmental impact	1
+Indicators	Resource efficiency	1
+Life cycle assessment (LCA)	Waste	1
+Agriculture	Environment	1
+Closed-loop supply chain	Reuse	1
+Machine learning	circular economy	1
+Biomass	food waste	1
+Environmental impact	Sustainable consumption	1
+Environment	Machine learning	1
+Biodiesel	Waste valorization	1
+Circularity	Microalgae	1
+Circularity	Resource recovery	1
+3D printing	Biomass	1
+Packaging	Valorization	1
+bioeconomy	biogas	1
+Machine learning	Sustainable development	1
+Circular Economy	Resource recovery	1
+Machine learning	Waste valorization	1
+Bioeconomy	China	1
+Municipal solid waste	Packaging	1
+Energy recovery	Optimization	1
+Circular business models	Sustainable consumption	1
+Agriculture	LCA	1
+Waste valorization	Wastewater	1
+anaerobic digestion	wastewater	1
+Machine learning	Pyrolysis	1
+Climate change	Systematic literature review	1
+3D printing	mechanical properties	1
+Material flow analysis	Packaging	1
+LCA	mechanical properties	1
+Energy	Sustainable development goals	1
+climate change	waste valorization	1
+3D printing	Mechanical properties	1
+Barriers	Sustainable development goals	1
+Circular business models	Resource recovery	1
+Reuse	waste management	1
+Innovation	Optimization	1
+Optimization	SMEs	1
+Anaerobic digestion	Circular Economy	1
+Energy	Life cycle assessment	1
+Bioeconomy	Carbon footprint	1
+Optimization	Plastic waste	1
+Circular Economy	Waste valorization	1
+circularity	waste	1
+Valorization	Wastewater treatment	1
+Biochar	LCA	1
+Environment	recycling	1
+COVID-19	circularity	1
+COVID-19	food waste	1
+circularity	food waste	1
+European Union	Resource efficiency	1
+China	Environmental sustainability	1
+Industry 4.0	Wastewater treatment	1
+Mechanical properties	Waste	1
+LCA	Supply chain	1
+Waste management	sustainability	1
+circularity	industrial ecology	1
+Environment	Systematic literature review	1
+Circular Economy	Food waste	1
+Energy recovery	Wastewater	1
+E-waste	Wastewater treatment	1
+Adsorption	Microalgae	1
+Biogas	Pyrolysis	1
+Circularity	Environment	1
+European Union	Waste valorization	1
+Climate change	Remanufacturing	1
+Bibliometric analysis	European Union	1
+European Union	Literature review	1
+COVID-19	Environmental sustainability	1
+biogas	industrial ecology	1
+Environment	Supply chain	1
+Circularity	Energy	1
+Circularity	Packaging	1
+Energy	Packaging	1
+Adsorption	Waste-to-energy	1
+Carbon footprint	Wastewater treatment	1
+Circularity	Construction and demolition waste	1
+Construction and demolition waste	Reuse	1
+Bibliometric analysis	Biogas	1
+Bibliometric analysis	Energy	1
+Bibliometric analysis	Wastewater	1
+Bibliometric analysis	Packaging	1
+Adsorption	Sewage sludge	1
+Bibliometric analysis	Business model	1
+Sustainable consumption	Systematic literature review	1
+Digitalization	Life cycle assessment (LCA)	1
+3D printing	Agriculture	1
+3D printing	Packaging	1
+Biochar	sustainability	1
+Additive manufacturing	Environmental impact	1
+Industrial ecology	Pyrolysis	1
+Environmental sustainability	Nutrient recovery	1
+Pyrolysis	Valorization	1
+3D printing	Waste valorization	1
+Environmental impact	Waste-to-energy	1
+E-waste	European Union	1
+Biomass	Packaging	1
+Biomass	Mechanical properties	1
+biogas	reuse	1
+Waste management	recycling	1
+Biochar	Energy recovery	1
+Machine learning	Recovery	1
+Agriculture	Optimization	1
+Optimization	Waste	1
+Bibliometric analysis	Circular business models	1
+SMEs	circularity	1
+Additive manufacturing	life cycle assessment	1
+Additive manufacturing	sustainability	1
+WEEE	waste	1
+Circular economy (CE)	circularity	1
+Carbon footprint	Microalgae	1
+E-waste	circularity	1
+Bioeconomy	biogas	1
+Bioeconomy	biomass	1
+Circular economy	circular economy	1
+renewable energy	reuse	1
+Biochar	Energy	1
+Circular economy (CE)	European Union	1
+Waste	biogas	1
+Remanufacturing	circular economy	1
+Carbon footprint	Waste valorization	1
+Circular economy	waste valorization	1
+Circularity	reuse	1
+Circularity	sustainability	1
+China	Circular economy (CE)	1
+Environmental sustainability	Sustainability	1
+Environmental sustainability	Sustainable development goals	1
+Additive manufacturing	circular economy	1
+Biomass	sustainability	1
+Biochar	waste management	1
+Bibliometric analysis	Biochar	1
+Material flow analysis	waste management	1
+Business model	Waste management	1
+Sustainability	reuse	1
+COVID-19	Literature review	1
+Bioenergy	Circular business models	1
+Bibliometric analysis	Life cycle assessment (LCA)	1
+Reverse logistics	circular economy	1
+Life cycle assessment	Recovery	1
+Carbon footprint	Mechanical properties	1
+Wastewater treatment	adsorption	1
+Biodiesel	Food waste	1
+Biorefinery	Environmental sustainability	1
+COVID-19	Waste	1
+Biogas	Recycling	1
+Carbon footprint	Food waste	1
+Biodiesel	Sewage sludge	1
+Biogas	Machine learning	1
+Circular business models	Environmental impact	1
+circularity	life cycle assessment	1
+Additive manufacturing	Biomass	1
+Digitalization	Supply chain	1
+Reverse logistics	Systematic literature review	1
+COVID-19	SMEs	1
+Climate change	Resource efficiency	1
+COVID-19	wastewater	1
+Renewable energy	Systematic literature review	1
+Energy	Sewage sludge	1
+3D printing	Sustainable development	1
+E-waste	Pyrolysis	1
+Adsorption	Recycling	1
+Bibliometric analysis	Construction and demolition waste	1
+COVID-19	Life cycle assessment	1
+Environment	Municipal solid waste	1
+Construction and demolition waste	Machine learning	1
+Construction and demolition waste	Sustainable development goals	1
+Machine learning	Sustainable development goals	1
+COVID-19	Environmental impact	1
+COVID-19	Reuse	1
+Climate change	Plastic waste	1
+Environmental impact	Waste	1
+Biochar	Closed-loop supply chain	1
+Closed-loop supply chain	Pyrolysis	1
+industrial ecology	renewable energy	1
+Microalgae	Waste management	1
+Environmental sustainability	Industrial symbiosis	1
+Waste	sustainability	1
+Circular economy (CE)	Wastewater treatment	1
+COVID-19	Sustainable development goals	1
+Life cycle assessment (LCA)	Pyrolysis	1
+Digitalization	Sustainable development	1
+Construction and demolition waste	European Union	1
+Environmental sustainability	Waste-to-energy	1
+Biodiesel	Circularity	1
+Energy recovery	Environmental impact	1
+Adsorption	Construction and demolition waste	1
+Construction and demolition waste	Wastewater treatment	1
+Carbon footprint	Supply chain management	1
+Additive manufacturing	Systematic literature review	1
+Agriculture	Anaerobic digestion	1
+Barriers	Digitalization	1
+food waste	mechanical properties	1
+adsorption	waste	1
+waste	wastewater	1
+3D printing	Construction and demolition waste	1
+3D printing	Environmental sustainability	1
+Construction and demolition waste	Environmental sustainability	1
+Energy	Industry 4.0	1
+Life cycle assessment (LCA)	Resource recovery	1
+Climate change	Machine learning	1
+Agriculture	Food waste	1
+Life cycle assessment (LCA)	Resource efficiency	1
+Biorefinery	Machine learning	1
+Machine learning	Wastewater treatment	1
+Municipal solid waste	Optimization	1
+Life cycle assessment	Systematic literature review	1
+Material flow analysis	Systematic literature review	1
+European Union	Indicators	1
+Recovery	Reverse logistics	1
+Plastic waste	Reverse logistics	1
+Agriculture	Supply chain	1
+Environmental impact	Supply chain	1
+China	Digitalization	1
+Bibliometric analysis	Industrial symbiosis	1
+Pyrolysis	Renewable energy	1
+Industry 4.0	Renewable energy	1
+Biomass	E-waste	1
+adsorption	waste management	1
+Optimization	Waste-to-energy	1
+Environmental sustainability	Supply chain	1
+Environmental sustainability	Systematic literature review	1
+Environment	Life cycle assessment	1
+Carbon footprint	Supply chain	1
+E-waste	Remanufacturing	1
+Biochar	Climate change	1
+E-waste	Optimization	1
+LCA	waste management	1
+Optimization	Recovery	1
+Optimization	Reuse	1
+Microalgae	Pyrolysis	1
+WEEE	reuse	1
+Environment	Remanufacturing	1
+Circular economy	bioeconomy	1
+food waste	industrial ecology	1
+Remanufacturing	Supply chain	1
+Reuse	Supply chain	1
+COVID-19	Waste valorization	1
+LCA	climate change	1
+Carbon footprint	Resource efficiency	1
+Sustainable development goals	WEEE	1
+COVID-19	LCA	1
+Climate change	Municipal solid waste	1
+LCA	Municipal solid waste	1
+biogas	waste valorization	1
+Energy	Environmental sustainability	1
+reuse	sustainable development	1
+sustainable development	wastewater	1
+Biomass	Material flow analysis	1
+Biorefinery	Plastic waste	1
+Life cycle assessment	Supply chain management	1
+Environment	Indicators	1
+COVID-19	Wastewater	1
+Municipal solid waste	Plastic waste	1
+Municipal solid waste	Wastewater	1
+Circular economy (CE)	Optimization	1
+Circularity	Resource efficiency	1
+Plastic waste	adsorption	1
+anaerobic digestion	biomass	1
+Pyrolysis	biomass	1
+Additive manufacturing	Circular Economy	1
+Additive manufacturing	Environment	1
+Agriculture	Digitalization	1
+Agriculture	Industry 4.0	1
+Recycling	reuse	1
+food waste	waste	1
+European Union	life cycle assessment	1
+Nutrient recovery	Waste-to-energy	1
+Industry 4.0	Resource recovery	1
+Bioenergy	Climate change	1
+Industry 4.0	food waste	1
+Renewable energy	Wastewater treatment	1
+Remanufacturing	sustainability	1
+Climate change	Reverse logistics	1
+Circular Economy	Supply chain management	1
+Food waste	circular economy	1
+Supply chain	Valorization	1
+Barriers	circular economy	1
+biogas	wastewater	1
+Food waste	Reuse	1
+Digitalization	Environmental impact	1
+Digitalization	Sustainable development goals	1
+Environmental impact	Sustainable development goals	1
+Waste-to-energy	Wastewater treatment	1
+Life cycle assessment (LCA)	Plastic waste	1
+Bioeconomy	Mechanical properties	1
+Construction and demolition waste	Supply chain	1
+Indicators	Waste	1
+China	renewable energy	1
+3D printing	industrial ecology	1
+Energy recovery	Reuse	1
+Circular Economy	Machine learning	1
+Life cycle assessment	Sewage sludge	1
+Material flow analysis	Sewage sludge	1
+Adsorption	Environment	1
+Sustainable development goals	Valorization	1
+Sustainable development goals	Wastewater	1
+Anaerobic digestion	Resource efficiency	1
+Energy recovery	Resource efficiency	1
+Circular business models	Waste management	1
+Environment	Microalgae	1
+Environment	circular economy	1
+LCA	anaerobic digestion	1
+Circularity	Industrial symbiosis	1
+Circularity	Industry 4.0	1
+Circularity	Remanufacturing	1
+Industrial symbiosis	Remanufacturing	1
+Biodiesel	Wastewater	1
+Energy	LCA	1
+Industrial symbiosis	LCA	1
+Renewable energy	Reuse	1
+Closed-loop supply chain	SMEs	1
+Environment	Recovery	1
+biomass	sustainable development	1
+Waste valorization	Wastewater treatment	1
+Microalgae	Recovery	1
+food waste	sustainable development	1
+adsorption	anaerobic digestion	1
+Bibliometric analysis	recycling	1
+Bioenergy	Sustainable development goals	1
+Sustainable development goals	Waste valorization	1
+adsorption	waste valorization	1
+Industrial ecology	Optimization	1
+LCA	Waste valorization	1
+food waste	recycling	1
+Sustainable consumption	Sustainable development	1
+Climate change	Wastewater treatment	1
+E-waste	Life cycle assessment	1
+Bibliometric analysis	China	1
+Adsorption	Biorefinery	1
+3D printing	Climate change	1
+Climate change	Industry 4.0	1
+Microalgae	Sustainable development	1
+Circular economy (CE)	Innovation	1
+Innovation	Recovery	1
+Circular Economy	sustainable development	1
+Biorefinery	Waste-to-energy	1
+Adsorption	Life cycle assessment	1
+COVID-19	Circular economy (CE)	1
+Additive manufacturing	Resource efficiency	1
+circularity	wastewater	1
+Barriers	Closed-loop supply chain	1
+Sustainable consumption	Waste valorization	1
+E-waste	Waste valorization	1
+Anaerobic digestion	Supply chain management	1
+Biogas	Supply chain management	1
+Biomass	Supply chain management	1
+Energy recovery	Waste valorization	1
+Literature review	Resource recovery	1
+Adsorption	E-waste	1
+Environmental sustainability	circular economy	1
+Resource recovery	circular economy	1
+bioeconomy	food waste	1
+E-waste	recycling	1
+reuse	waste valorization	1
+Circular Economy	food waste	1
+COVID-19	waste	1
+Climate change	circular economy	1
+E-waste	Resource efficiency	1
+Bibliometric analysis	Environmental impact	1
+Food waste	SMEs	1
+Agriculture	Bioenergy	1
+Agriculture	Biochar	1
+Agriculture	Pyrolysis	1
+3D printing	SMEs	1
+Business model	SMEs	1
+Circular economy (CE)	Sewage sludge	1
+Life cycle assessment (LCA)	Sewage sludge	1
+Life cycle assessment (LCA)	Wastewater	1
+3D printing	Supply chain management	1
+Additive manufacturing	Supply chain management	1
+Indicators	Systematic literature review	1
+Barriers	Business model	1
+Resource recovery	Sustainable development	1
+Energy	Plastic waste	1
+Bibliometric analysis	Energy recovery	1
+Circular economy (CE)	Circularity	1
+Circular economy (CE)	E-waste	1
+Indicators	Resource recovery	1
+Indicators	Sewage sludge	1
+Indicators	Wastewater treatment	1
+COVID-19	Industrial symbiosis	1
+Sustainability	food waste	1
+COVID-19	Waste-to-energy	1
+LCA	Resource efficiency	1
+Barriers	Biogas	1
+E-waste	Food waste	1
+Plastic waste	Supply chain	1
+Reuse	Waste valorization	1
+Reverse logistics	Sustainable consumption	1
+COVID-19	renewable energy	1
+Anaerobic digestion	Industrial ecology	1
+Bioeconomy	Industrial ecology	1
+Food waste	Industrial ecology	1
+COVID-19	Carbon footprint	1
+Biomass	Innovation	1
+Innovation	Microalgae	1
+China	E-waste	1
+Biogas	circular economy	1
+Biogas	sustainable development	1
+Biogas	waste management	1
+Sewage sludge	circular economy	1
+Recovery	Sewage sludge	1
+Food waste	Supply chain management	1
+Industrial symbiosis	Supply chain management	1
+Barriers	Climate change	1
+Microalgae	Packaging	1
+Biogas	Climate change	1

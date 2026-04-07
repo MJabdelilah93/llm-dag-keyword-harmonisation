@@ -1,0 +1,312 @@
+DOWNSTREAM QUALITATIVE ANALYSIS  (rebuilt 2026-04-04)
+==============================================================================
+
+## 1. TOP 5 LARGEST B3 MERGED CLUSTERS
+
+  [374 members]  canonical: 'Sustainability'
+    f=1783  Sustainability
+    f= 996  sustainability
+    f= 459  Sustainable development
+    f= 319  sustainable development
+    f= 117  Sustainable development goals
+    f=  72  Sustainable consumption
+    f=  65  sustainable development goals
+    f=  55  Sustainable
+    ... +366 more
+
+  [214 members]  canonical: 'Circular economy'
+    f=9052  Circular economy
+    f=4432  circular economy
+    f= 530  Circular Economy
+    f= 133  Circularity
+    f= 117  Circular economy (CE)
+    f=  78  circularity
+    f=  69  Circular bioeconomy
+    f=  60  circular economy (CE)
+    ... +206 more
+
+  [193 members]  canonical: 'Environmental sustainability'
+    f= 134  Environmental sustainability
+    f= 121  Environmental impact
+    f= 116  Environment
+    f=  70  environment
+    f=  66  Environmental impacts
+    f=  63  environmental impact
+    f=  56  environmental sustainability
+    f=  35  environmental policy
+    ... +185 more
+
+  [86 members]  canonical: 'Recycling'
+    f=1005  Recycling
+    f= 548  recycling
+    f=  57  Recycle
+    f=  32  recycle
+    f=  22  Recycled aggregates
+    f=  19  Recycled aggregate
+    f=  15  Recycling rate
+    f=  14  Recycled concrete
+    ... +78 more
+
+  [70 members]  canonical: 'Material flow analysis'
+    f= 128  Material flow analysis
+    f=  49  material flow analysis
+    f=  31  Material efficiency
+    f=  23  Material flow analysis (MFA)
+    f=  18  Materials
+    f=  15  Material reuse
+    f=  13  material efficiency
+    f=  12  material flow analysis (MFA)
+    ... +62 more
+
+## 2. TOP 5 LARGEST FULL LLM-DAG MERGED CLUSTERS
+
+  [57 members]  canonical: 'Circular economy'
+    f=9052  Circular economy
+    f=4432  circular economy
+    f= 530  Circular Economy
+    f= 117  Circular economy (CE)
+    f=  60  circular economy (CE)
+    f=  24  circular economy practices
+    f=  23  Circular Economy (CE)
+    f=  23  CE
+    ... +49 more
+
+  [48 members]  canonical: 'Life cycle assessment'
+    f= 562  Life cycle assessment
+    f= 223  LCA
+    f= 163  life cycle assessment
+    f=  82  Life cycle assessment (LCA)
+    f=  66  Life Cycle Assessment
+    f=  33  Life Cycle Assessment (LCA)
+    f=  31  Life cycle analysis
+    f=  30  Life-cycle assessment
+    ... +40 more
+
+  [30 members]  canonical: 'Material flow analysis'
+    f= 128  Material flow analysis
+    f=  49  material flow analysis
+    f=  23  Material flow analysis (MFA)
+    f=  16  MFA
+    f=  13  Substance flow analysis
+    f=  12  material flow analysis (MFA)
+    f=  11  Material Flow Analysis
+    f=   5  Material Flow Analysis (MFA)
+    ... +22 more
+
+  [29 members]  canonical: 'Product-service system'
+    f=  28  Product-service system
+    f=  21  Product-service systems
+    f=  14  Product service systems
+    f=  10  PSS
+    f=  10  product-service systems
+    f=   8  Product-service system (PSS)
+    f=   7  product-service system
+    f=   6  product-service system (PSS)
+    ... +21 more
+
+  [24 members]  canonical: 'Wastewater treatment plant'
+    f=  13  Wastewater treatment plant
+    f=  12  Willingness to pay
+    f=  10  WWTP
+    f=   7  Wastewater treatment plants
+    f=   7  wastewater treatment plants
+    f=   6  willingness to pay
+    f=   6  wastewater treatment plant
+    f=   3  WWTPs
+    ... +16 more
+
+## 3. SUSTAINABILITY FAMILY — B3 vs LLM-DAG
+
+  [B3] 56 distinct clusters for 'sustain*' keywords (f>=2)
+    Cluster 'Sustainability' (277 members):
+      f=1783  Sustainability
+      f= 996  sustainability
+      f= 459  Sustainable development
+      f= 319  sustainable development
+      f= 117  Sustainable development goals
+      f=  72  Sustainable consumption
+      ... +271 more
+    Cluster 'Life cycle sustainability assessment' (5 members):
+      f=  13  Life cycle sustainability assessment
+      f=   2  Life Cycle Sustainability Assessment (LCSA)
+      f=   2  Life cycle sustainability assessment (LCSA)
+      f=   2  life cycle sustainability assessment
+      f=   2  Life Cycle Sustainability Assessment
+    Cluster 'Social sustainability' (3 members):
+      f=  22  Social sustainability
+      f=  15  social sustainability
+      f=   2  Social Sustainability
+    Cluster 'Environmental sustainability' (3 members):
+      f= 134  Environmental sustainability
+      f=  56  environmental sustainability
+      f=  10  Environmental Sustainability
+    Cluster 'Sustainable entrepreneurship' (2 members):
+      f=  11  Sustainable entrepreneurship
+      f=   4  sustainable entrepreneurship
+    Cluster 'Urban sustainability' (2 members):
+      f=  20  Urban sustainability
+      f=  12  urban sustainability
+
+  [LLM-DAG] 216 distinct clusters for 'sustain*' keywords (f>=2)
+    Cluster 'Sustainable development goals' (9 members):
+      f= 117  Sustainable development goals
+      f=  65  sustainable development goals
+      f=  49  Sustainable Development Goals
+      f=  10  Sustainable development goal
+      f=   4  Sustainability development goals
+      f=   4  sustainable development goal
+      ... +3 more
+    Cluster 'Life cycle sustainability assessment' (5 members):
+      f=  13  Life cycle sustainability assessment
+      f=   2  Life Cycle Sustainability Assessment (LCSA)
+      f=   2  Life cycle sustainability assessment (LCSA)
+      f=   2  life cycle sustainability assessment
+      f=   2  Life Cycle Sustainability Assessment
+    Cluster 'Sustainability transitions' (5 members):
+      f=  33  Sustainability transitions
+      f=  20  Sustainability transition
+      f=  11  sustainability transitions
+      f=  11  sustainability transition
+      f=   2  Sustainability Transition
+    Cluster 'Sustainable business model' (5 members):
+      f=  26  Sustainable business model
+      f=  24  Sustainable business models
+      f=   7  sustainable business models
+      f=   4  sustainable business model
+      f=   2  Sustainable Business Model
+    Cluster 'Sustainable building' (5 members):
+      f=   7  Sustainable building
+      f=   7  sustainable buildings
+      f=   5  Sustainable buildings
+      f=   4  sustainable building
+      f=   2  Sustainable Buildings
+    Cluster 'Sustainable supply chain' (5 members):
+      f=  22  Sustainable supply chain
+      f=  14  sustainable supply chain
+      f=   9  Sustainable supply chains
+      f=   5  Sustainable Supply Chain
+      f=   3  sustainable supply chains
+
+## 4. WHERE B3 OVER-MERGES AND LLM-DAG PRESERVES DISTINCTIONS
+
+  Total B3 clusters that LLM-DAG splits: 194
+
+  B3 cluster (canonical='post-consumer waste', 9 members):
+    f=   5  'post-consumer waste'                                 (kept together)
+    f=   4  'Post-consumer'                                       -> LLM canon: 'Post-consumer'
+    f=   4  'Post-consumer waste'                                 (kept together)
+    f=   3  'Post-consumer plastic waste'                         -> LLM canon: 'Post-consumer plastic waste'
+    f=   2  'Post-consumer plastic films'                         -> LLM canon: 'Post-consumer plastic films'
+    f=   2  'Post-consumer plastic packaging'                     -> LLM canon: 'Post-consumer plastic packaging'
+    f=   2  'Post-consumer plastic'                               -> LLM canon: 'Post-consumer plastic'
+    f=   2  'postconsumer waste'                                  (kept together)
+
+  B3 cluster (canonical='Fibers', 9 members):
+    f=  11  'Fibers'                                              (kept together)
+    f=   4  'fiber'                                               (kept together)
+    f=   4  'fibres'                                              -> LLM canon: 'fibres'
+    f=   4  'fibers'                                              (kept together)
+    f=   3  'Fiber'                                               (kept together)
+    f=   2  'fibre'                                               -> LLM canon: 'fibres'
+    f=   2  'Fibres'                                              -> LLM canon: 'fibres'
+    f=   2  'Fibre'                                               -> LLM canon: 'fibres'
+
+  B3 cluster (canonical='Disassembly', 9 members):
+    f=  29  'Disassembly'                                         (kept together)
+    f=   8  'disassembly'                                         (kept together)
+    f=   4  'Disassembly planning'                                -> LLM canon: 'Disassembly planning'
+    f=   2  'Disassembly model'                                   -> LLM canon: 'Disassembly model'
+    f=   2  'Disassembly plan'                                    -> LLM canon: 'Disassembly plan'
+    f=   2  'Disassembly time'                                    -> LLM canon: 'Disassembly time'
+    f=   2  'disassembly planning'                                -> LLM canon: 'Disassembly planning'
+    f=   2  'Disassembly line balancing'                          -> LLM canon: 'Disassembly line balancing'
+
+  B3 cluster (canonical='Theory of planned behavior', 8 members):
+    f=  11  'Theory of planned behavior'                          (kept together)
+    f=   7  'Theory of Planned Behaviour'                         -> LLM canon: 'Theory of Planned Behaviour'
+    f=   6  'theory of planned behavior'                          (kept together)
+    f=   5  'Theory of Planned Behavior'                          (kept together)
+    f=   4  'Theory of planned behaviour'                         -> LLM canon: 'Theory of Planned Behaviour'
+    f=   4  'theory of planned behaviour'                         -> LLM canon: 'Theory of Planned Behaviour'
+    f=   3  'Theory of planned behavior (TPB)'                    -> LLM canon: 'TPB'
+    f=   2  'theory of planned behaviour (TPB)'                   -> LLM canon: 'TPB'
+
+  B3 cluster (canonical='Sewage sludge', 7 members):
+    f= 106  'Sewage sludge'                                       (kept together)
+    f=  41  'sewage sludge'                                       (kept together)
+    f=   6  'Sewage sludge ash'                                   -> LLM canon: 'Sewage sludge ash'
+    f=   4  'Sewage sludge ash (SSA)'                             -> LLM canon: 'Sub-Saharan Africa'
+    f=   3  'sewage sludge ash'                                   -> LLM canon: 'Sewage sludge ash'
+    f=   2  'Sewage Sludge'                                       (kept together)
+    f=   2  'Sewage sludge (SS)'                                  -> LLM canon: 'Sewage sludge (SS)'
+
+  B3 cluster (canonical='Network design', 7 members):
+    f=  11  'Network design'                                      (kept together)
+    f=  10  'Networks'                                            -> LLM canon: 'Networks'
+    f=   5  'Network'                                             -> LLM canon: 'Networks'
+    f=   5  'networks'                                            -> LLM canon: 'Networks'
+    f=   2  'Network DEA'                                         -> LLM canon: 'Network DEA'
+    f=   2  'network design'                                      (kept together)
+    f=   2  'network'                                             -> LLM canon: 'Networks'
+
+  B3 cluster (canonical='Collaboration', 7 members):
+    f=  34  'Collaboration'                                       (kept together)
+    f=  14  'collaboration'                                       (kept together)
+    f=  12  'Collaborative consumption'                           -> LLM canon: 'Collaborative consumption'
+    f=   6  'Collaborative economy'                               -> LLM canon: 'Collaborative economy'
+    f=   4  'collaborative consumption'                           -> LLM canon: 'Collaborative consumption'
+    f=   2  'Collaborations'                                      (kept together)
+    f=   2  'collaborative economy'                               -> LLM canon: 'Collaborative economy'
+
+  B3 cluster (canonical='Chemical recycling', 7 members):
+    f=  71  'Chemical recycling'                                  (kept together)
+    f=  54  'chemical recycling'                                  (kept together)
+    f=   5  'Chemical Recycling'                                  (kept together)
+    f=   4  'Chemical upcycling'                                  -> LLM canon: 'Chemical upcycling'
+    f=   3  'chemical upcycling'                                  -> LLM canon: 'Chemical upcycling'
+    f=   3  'Chemical leaching'                                   -> LLM canon: 'Chemical leaching'
+    f=   2  'Chemical leasing'                                    -> LLM canon: 'Chemical leasing'
+
+## 5. CIRCULAR ECONOMY FAMILY — B3 vs LLM-DAG
+
+  [B3] 34 clusters for 'circular economy*' keywords (f>=2)
+    Cluster 'Circular economy' (65 members):
+      f=9052  Circular economy
+      f=4432  circular economy
+      f= 530  Circular Economy
+      f= 117  Circular economy (CE)
+      f=  60  circular economy (CE)
+      f=  24  circular economy practices
+    Cluster 'Bio-circular economy' (3 members):
+      f=  10  Bio-circular economy
+      f=   2  Bio circular economy
+      f=   2  Biocircular economy
+    Cluster 'Water circular economy' (2 members):
+      f=   5  Water circular economy
+      f=   3  water circular economy
+    Cluster 'Sustainability' (2 members):
+      f=  16  Sustainable circular economy
+      f=   8  sustainable circular economy
+
+  [LLM-DAG] 62 clusters for 'circular economy*' keywords (f>=2)
+    Cluster 'Circular economy' (21 members):
+      f=9052  Circular economy
+      f=4432  circular economy
+      f= 530  Circular Economy
+      f= 117  Circular economy (CE)
+      f=  60  circular economy (CE)
+      f=  24  circular economy practices
+    Cluster 'Circular economy indicators' (5 members):
+      f=   8  Circular economy indicators
+      f=   4  circular economy indicators
+      f=   2  Circular economy metrics
+      f=   2  Circular economy indicator
+      f=   2  Circular economy metric
+    Cluster 'The circular economy' (3 members):
+      f=   4  The circular economy
+      f=   3  the circular economy
+      f=   2  And circular economy
+    Cluster 'Circular economy business models' (3 members):
+      f=   9  Circular economy business models
+      f=   3  circular economy business model
+      f=   2  Circular economy business model

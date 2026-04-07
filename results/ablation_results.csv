@@ -1,0 +1,5 @@
+﻿precision,recall,f1,coverage,uncertain_rate,three_way_acc,method,note
+0.9762,0.9535,0.9647,0.9262,0.0738,0.8859,A1_NoGuard,
+0.9535,0.9535,0.9535,1.0,0.0,0.8054,A2_NoBinaryForced,
+0.9762,0.9535,0.9647,0.9262,0.0738,0.8859,A3_NoAuxContext_sameAsFullDAG,Identical to Full_LLM_DAG (no context was ever added)
+0.913,0.9767,0.9438,0.9664,0.0336,0.8322,A4_SimplifiedPrompt,

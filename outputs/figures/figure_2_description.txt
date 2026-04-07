@@ -1,0 +1,92 @@
+FIGURE 2 — DESCRIPTION
+============================================================
+
+Panel: Raw (unharmonised)
+Vocab: 3,646  |  Q = 0.413
+  Nodes shown:    60
+  Edges shown:    939
+  Communities:    4
+  Labelled nodes (18):
+    f= 9052  comm=2  Circular economy
+    f= 4432  comm=3  circular economy
+    f= 1783  comm=2  Sustainability [SUST]
+    f= 1005  comm=2  Recycling
+    f=  996  comm=3  sustainability [SUST]
+    f=  696  comm=2  Waste management
+    f=  562  comm=2  Life cycle assessment
+    f=  548  comm=3  recycling
+    f=  530  comm=2  Circular Economy
+    f=  459  comm=2  Sustainable development [SUST]
+    f=  341  comm=3  waste management
+    f=  330  comm=2  Industry 4.0
+    f=  319  comm=3  sustainable development [SUST]
+    f=  279  comm=0  Resource recovery
+    f=  270  comm=0  Anaerobic digestion
+    f=  233  comm=0  Food waste
+    f=  226  comm=0  Biorefinery
+    f=  224  comm=0  Bioeconomy
+  Sustainability nodes in panel: 6
+    f= 1783  comm=2  Sustainability
+    f=  996  comm=3  sustainability
+    f=  459  comm=2  Sustainable development
+    f=  319  comm=3  sustainable development
+    f=  134  comm=2  Environmental sustainability
+    f=  117  comm=2  Sustainable development goals
+
+Panel: B3 Jaro-Winkler
+Vocab: 2,880  |  Q = 0.220
+  Nodes shown:    60
+  Edges shown:    1327
+  Communities:    4
+  Labelled nodes (18):
+    f=14811  comm=0  Circular economy
+    f= 5297  comm=0  Sustainability [SUST]
+    f= 1899  comm=1  Recycling
+    f= 1324  comm=0  Environmental sustainability [SUST]
+    f= 1103  comm=0  Waste management
+    f= 1021  comm=0  Life cycle assessment
+    f=  614  comm=1  Plastic waste
+    f=  497  comm=2  Wastewater
+    f=  491  comm=2  Resource recovery
+    f=  489  comm=0  industrial ecology
+    f=  424  comm=0  Industry 4.0
+    f=  423  comm=2  Anaerobic digestion
+    f=  421  comm=0  Material flow analysis
+    f=  389  comm=1  Waste
+    f=  372  comm=2  Biomass
+    f=  364  comm=1  Reuse
+    f=  357  comm=2  Bioeconomy
+    f=  357  comm=2  Municipal solid waste
+  Sustainability nodes in panel: 3
+    f= 5297  comm=0  Sustainability
+    f= 1324  comm=0  Environmental sustainability
+    f=  247  comm=0  Sustainable development goals
+
+Panel: Full LLM-DAG
+Vocab: 3,464  |  Q = 0.237
+  Nodes shown:    60
+  Edges shown:    1326
+  Communities:    4
+  Labelled nodes (18):
+    f=14811  comm=0  Circular economy
+    f= 5300  comm=0  Sustainability [SUST]
+    f= 1899  comm=4  Recycling
+    f= 1324  comm=0  Environmental sustainability [SUST]
+    f= 1312  comm=0  Life cycle assessment
+    f= 1103  comm=0  Waste management
+    f=  614  comm=4  Plastic waste
+    f=  497  comm=3  Wastewater
+    f=  491  comm=3  Resource recovery
+    f=  489  comm=0  industrial ecology
+    f=  424  comm=0  Industry 4.0
+    f=  423  comm=3  Anaerobic digestion
+    f=  421  comm=0  Material flow analysis
+    f=  389  comm=4  Waste
+    f=  372  comm=3  Biomass
+    f=  364  comm=0  Reuse
+    f=  357  comm=3  Bioeconomy
+    f=  357  comm=4  Municipal solid waste
+  Sustainability nodes in panel: 3
+    f= 5300  comm=0  Sustainability
+    f= 1324  comm=0  Environmental sustainability
+    f=  247  comm=0  Sustainable development goals

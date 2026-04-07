@@ -1,0 +1,4 @@
+condition,vocab_size,n_edges,density,modularity_q,n_communities,ari,ami
+raw,3646,60216,0.00906208,0.412992,5,reference,reference
+b3_jaro_winkler,2880,67451,0.01626988,0.219826,7,0.200677,0.195787
+full_llm_dag,3464,76571,0.01276627,0.236669,5,0.213577,0.21594

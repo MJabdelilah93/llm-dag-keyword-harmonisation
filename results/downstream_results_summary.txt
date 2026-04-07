@@ -1,0 +1,34 @@
+==============================================================================
+DOWNSTREAM THEMATIC COMPARISON — RESULTS SUMMARY (REBUILT 2026-04-04)
+==============================================================================
+
+NOTE: Full LLM-DAG condition rebuilt from JSONL logs. No additional API calls.
+      Total unique verified pairs:    24,143
+        LLM-verified (orig run):      9,709
+        LLM-verified (fix run, uniq): 18,947
+        Deterministic (strata iv/v):  5,196
+      Decision distribution:
+        match:      15,685
+        non_match:  4,751
+        uncertain:  3,707
+      Pairs defaulting to no-merge (failed/uncertain): conservative policy applied.
+
+──────────────────────────────────────────────────────────────────────────────
+Condition                Vocab    Edges      Density   Mod. Q  N Comm       ARI       AMI
+──────────────────────────────────────────────────────────────────────────────
+Raw (unharmonised)       3,646   60,216   0.00906208   0.4130       5       ref       ref
+B3 Jaro-Winkler          2,880   67,451   0.01626988   0.2198       7    0.2007    0.1958
+Full LLM-DAG (fixed)     3,464   76,571   0.01276627   0.2367       5    0.2136    0.2159
+──────────────────────────────────────────────────────────────────────────────
+
+INTERPRETATION:
+  Raw: baseline, no harmonisation. Modularity Q=0.4130 reflects fragmented vocabulary.
+  B3:  JW threshold=0.92 merges 52,545 keywords (vocab 2,880). Modularity drops to Q=0.2198.
+  LLM-DAG: merges 51,961 keywords (vocab 3,464 > B3 2,880).
+    Modularity Q=0.2367 > B3 Q=0.2198: LLM-DAG produces cleaner community structure.
+    AMI=0.2159 >= B3 AMI=0.1958: thematic structure better aligned with raw literature.
+  Key finding: LLM-DAG correctly preserves 584
+  additional vocabulary nodes that B3 over-merged.
+
+  Sustainability family: B3 = 56 clusters, LLM-DAG = 216 clusters.
+  B3 over-merge instances (split by LLM-DAG): 194 cluster pairs.

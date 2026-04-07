@@ -1,0 +1,19 @@
+{
+  "b3_jaro_winkler": {
+    "threshold": 0.92,
+    "dev_f1": 0.8877
+  },
+  "b4_tfidf_ngram": {
+    "threshold": 0.68,
+    "dev_f1": 0.7451
+  },
+  "b5_embedding": {
+    "threshold": 0.85,
+    "dev_f1": 0.8295
+  },
+  "guard_confidence_threshold": {
+    "threshold": 0.5,
+    "dev_f1": 0.97,
+    "dev_coverage": 0.9003
+  }
+}

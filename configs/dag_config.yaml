@@ -1,0 +1,31 @@
+# DAG Configuration — Concept Harmonisation Pipeline
+# All parameters are logged per run in runs/<timestamp>/manifest.yaml
+
+pipeline:
+  name: concept_harmonisation
+  version: "0.1.0"
+
+nodes:
+  - node_01_ingest
+  - node_02_normalise
+  - node_03_candidate_gen
+  - node_04_llm_verify
+  - node_05_guard
+  - node_06_cluster
+  - node_07_canonicalise
+  - node_08_downstream
+  - node_09_logging
+
+# Placeholder values — update before first run
+candidate_generation:
+  top_k: 50
+  fuzzy_threshold: 0.85
+  embedding_threshold: 0.75
+
+guard_layer:
+  confidence_threshold: 0.80
+  enable_contradiction_check: true
+  enable_malformed_check: true
+
+clustering:
+  method: connected_components  # union-find implementation; no community detection

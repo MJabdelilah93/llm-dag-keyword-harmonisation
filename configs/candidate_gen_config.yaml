@@ -1,0 +1,20 @@
+# Candidate Generation Configuration
+
+lexical_blocking:
+  min_shared_tokens: 1
+  stopwords: ["and", "of", "the", "in", "for", "a", "an"]
+
+fuzzy_retrieval:
+  method: "jaro_winkler"        # Options: jaro_winkler | levenshtein | token_sort_ratio
+  threshold: 0.85
+  top_k: 20
+
+embedding_retrieval:
+  model_id: "PLACEHOLDER"       # e.g. all-MiniLM-L6-v2
+  threshold: 0.75
+  top_k: 20
+  batch_size: 512
+
+deduplication:
+  remove_self_pairs: true
+  remove_duplicate_pairs: true  # (A,B) and (B,A) treated as identical

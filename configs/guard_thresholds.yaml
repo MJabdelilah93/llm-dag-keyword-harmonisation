@@ -1,0 +1,16 @@
+# Guard Layer Thresholds and Rules
+
+confidence:
+  match_threshold: 0.80         # Minimum confidence to accept a match verdict
+  nonmatch_threshold: 0.70      # Minimum confidence to accept a non-match verdict
+  uncertain_passthrough: true   # Always pass through 'uncertain' labels regardless of confidence
+
+contradiction:
+  enable: true
+  # A contradiction occurs when A~B and B~C but A!~C (intransitive)
+  action: "flag"                # Options: flag | reject | escalate
+
+malformed:
+  enable: true
+  action: "quarantine"          # Options: quarantine | reject | retry_once
+  max_retries: 1
