@@ -1,0 +1,53 @@
+pair_id,keyword_a,keyword_b,annotator1_label,annotator1_notes
+BP0020,Porosity,porosity,match,Stratum i: Case variation only; orthographic difference does not change the concept.
+BP0017,Mineralization,mineralization,match,Stratum i: Case variation only; orthographic difference does not change the concept.
+BP0016,Materials passports,Materials Passports,match,Stratum i: Capitalization variant; represents the same concept.
+BP0027,RuBisCO,Rubisco,match,Stratum i: Capitalization variant for the same enzyme/concept.
+BP0080,sustainable materials,Sustainable end-of-life management,non-match,"Stratum ii: Refers to different stages/aspects; one is material-focused, the other process-focused."
+BP0066,System design,systemic design,non-match,"Stratum ii: ""System design"" is architectural/engineering; ""systemic design"" is a specific methodology integrating systems thinking."
+BP0067,Thermal analysis,thematic analysis,non-match,"Stratum ii: ""Thermal analysis"" is a physical test; ""thematic analysis"" is a qualitative research method."
+BP0084,waste strategies,waste generation rate,non-match,Stratum ii: Strategic planning vs. a quantitative physical metric.
+BP0117,MS,member submissions,uncertain,"Stratum iii: ""MS"" is highly polysemous (Mass Spectrometry, Member State); partner string does not disambiguate via parentheses."
+BP0091,CE,critical elements,uncertain,"Stratum iii: ""CE"" usually denotes Circular Economy; merging with ""critical elements"" without parenthetical proof is unsafe."
+BP0118,MSW,municipal solid waste (MSW),match,Stratum iii: Unambiguous evidence; partner string contains parenthetical self-labeling.
+BP0099,ED,Electrode design,uncertain,"Stratum iii: ""ED"" is polysemous (Electrodialysis, etc.); evidence is insufficient for safe adjudication."
+BP0105,ETS,Emission trading scheme,match,Stratum iii: Domain-stable acronym for the provided expansion.
+BP0135,SM,Sustainable materials,uncertain,"Stratum iii: ""SM"" is polysemous (Smart Materials, Social Media); no parenthetical disambiguation."
+BP0160,Waste re-use,Waste-reuse,match,Stratum iv: Punctuation/hyphenation variant only.
+BP0157,Socio-economic impact,Socio Economic Impact,match,Stratum iv: Punctuation/spacing variant; concept remains identical.
+BP0156,Right to Repair,right-to-repair,match,Stratum iv: Hyphenation variant only.
+BP0167,e-waste recycling,Ewaste recycling,match,Stratum iv: Hyphenation variant only.
+BP0207,SD,SDG,uncertain,"Stratum ix: ""SD"" is highly polysemous (Standard Deviation, Sustainable Development); ""SDG"" is specific to ""Goals""."
+BP0194,Fe<sup>3+</sup> cation,Fe-TiO<sub>2</sub> composite,uncertain,Stratum ix: Strings contain malformed unresolved HTML tags; safe adjudication is not possible.
+BP0205,Pulrea<sup>®</sup>,pulp,uncertain,Stratum ix: String contains malformed encoding artefacts.
+BP0202,PP,PPP,non-match,Stratum ix: Refers to different concepts (Polypropylene vs. Public-Private Partnership).
+BP0242,Platform chemical,Platform chemicals,match,Stratum v: Singular/plural variant; preserves concept identity.
+BP0229,Green policies,Green policy,match,Stratum v: Singular/plural variant; preserves concept identity.
+BP0240,Nurseries,Nursery,match,Stratum v: Singular/plural variant; preserves concept identity.
+BP0237,Migration,Migrations,match,Stratum v: Singular/plural variant; preserves concept identity.
+BP0255,Biotechnology,Microbial biotechnology,non-match,Stratum vi: Broader-narrower relation; microbial biotechnology is a specific subset.
+BP0314,fecal sludge,sewage sludge,non-match,Stratum vi: Distinct waste streams with different origins and treatment requirements.
+BP0261,Circular development,circular construction,non-match,"Stratum vi: ""Development"" is a broader conceptual framework than ""construction""."
+BP0251,Adaptive reuse,Reusability,non-match,"Stratum vi: One is a specific strategy (adaptive reuse), the other is a property (reusability)."
+BP0286,Microalgal biomass,Microalgal technology,non-match,Stratum vi: Refers to the material substance vs. the technological process.
+BP0312,drying,drying shrinkage,non-match,Stratum vi: Broader-narrower relation; drying shrinkage is a specific effect of the drying process.
+BP0279,Heavy metals removal,metal extraction,non-match,Stratum vi: Remediation (removal) vs. resource recovery (extraction) are distinct research streams.
+BP0263,Cluster analysis,Cluster,non-match,Stratum vi: Refers to the method vs. the resulting grouping; different granularity.
+BP0330,Bitumen,asphalt,non-match,Stratum vii: Bitumen is the raw binder; asphalt is the composite mixture.
+BP0389,computational design,Design optimisation,non-match,Stratum vii: Broader-narrower relation; optimization is a specific task within design.
+BP0336,Contaminated sediments,soil contamination,non-match,Stratum vii: Refers to different environmental media (sediments vs. soil).
+BP0326,Additive Manufacturing,digital fabrication,non-match,Stratum vii: Additive manufacturing is a specific subset of digital fabrication.
+BP0361,Labor,Labour market,non-match,Stratum vii: Refers to human resource vs. the economic system.
+BP0387,bakery products,agricultural products,non-match,"Stratum vii: All bakery products are agricultural, but not all agricultural products are bakery; Rule 3 applies."
+BP0354,Hydrophilization,Lyophilization,non-match,Stratum vii: Distinct chemical/physical processes (wetting vs. freeze-drying).
+BP0338,DEMATEL-ISM,fuzzy DEMATEL,non-match,Stratum vii: Different methodological variants of multi-criteria decision modeling.
+BP0401,3DP,PPP,non-match,Stratum viii: 3D Printing vs. Public-Private Partnership; entirely different concepts.
+BP0406,C&DW,DfMA,non-match,Stratum viii: Construction waste vs. Design for Manufacture; semantic proximity does not equal identity.
+BP0437,Tar,Peat,non-match,Stratum viii: Distinct substances with different origins.
+BP0446,food,Food and feed,non-match,"Stratum viii: Rule 3; ""Food and feed"" is a broader classification than ""food"" alone."
+BP0414,Clay,Clay brick,non-match,Stratum viii: Raw material vs. manufactured product.
+BP0455,sand,sand substitution,non-match,Stratum viii: Material vs. the technical practice/process of replacement.
+BP0480,Nisin,nitrates,non-match,Stratum x: Distinct chemical/biological preservatives.
+BP0477,Lean Six Sigma,lean management,non-match,Stratum x: Specific methodology vs. broader management philosophy.
+BP0476,Intrinsic value,Value,non-match,"Stratum x: Rule 3; intrinsic value is a specific philosophical subset of the broad concept ""value""."
+BP0487,Situated learning,organisational learning,non-match,Stratum x: Different learning theories and scales of analysis.

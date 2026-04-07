@@ -1,0 +1,33 @@
+
+=== CORPUS SUMMARY FOR TABLE 2 ===
+Source database:                Scopus
+Search query:                   TITLE-ABS-KEY("circular economy" OR "circular economies")
+Date filters:                   PUBYEAR > 2016 AND PUBYEAR < 2025
+Document types:                 Articles and reviews
+Language:                       English
+Retrieval date:                 3 April 2026
+Batch 1 records:                8862
+Batch 2 records:                17673
+Merged records (pre-dedup):     26535
+Final records (post-dedup):     26535
+Duplicates removed:             0
+
+--- AUTHOR KEYWORDS ---
+Records with author keywords:   25048 (94.4% of total)
+Records missing author keywords:1487
+Total AK occurrences:           141284
+Unique AK strings:              55425
+Singletons (f=1):               42913 (77.4% of unique)
+AK with f >= 5:                 3648 (6.6% of unique)
+AK with f >= 10:                1548 (2.8% of unique)
+
+--- INDEX KEYWORDS ---
+Records with index keywords:    18648 (70.3% of total)
+Records missing index keywords: 7887
+Total IK occurrences:           431916
+Unique IK strings:              62988
+Singletons (f=1):               37844 (60.1% of unique)
+
+--- AUXILIARY FIELDS ---
+Records with abstracts:         26535 (100.0% of total)
+Records with titles:            26535 (100.0% of total)

@@ -1,0 +1,21 @@
+# Canonical Label Assignment Rules
+# Rules are applied in priority order (lower number = higher priority).
+
+rules:
+  - priority: 1
+    criterion: "controlled_vocabulary"
+    description: "Prefer MeSH, ACM CCS, or JEL terms if present in cluster"
+
+  - priority: 2
+    criterion: "highest_frequency"
+    description: "Prefer the variant with the highest corpus frequency"
+
+  - priority: 3
+    criterion: "shortest_label"
+    description: "Prefer the shorter string among tied variants"
+
+  - priority: 4
+    criterion: "alphabetical"
+    description: "Tiebreak alphabetically for full determinism"
+
+overrides_file: "outputs/artefacts/canonical_overrides.csv"

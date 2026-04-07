@@ -1,0 +1,2996 @@
+keyword_a	keyword_b	weight
+Circular economy	Sustainability	3755
+Circular economy	Recycling	1184
+Circular economy	Waste management	800
+Circular economy	Environmental sustainability	798
+Circular economy	Life cycle assessment	701
+Circular economy	Plastic waste	383
+Environmental sustainability	Sustainability	362
+Circular economy	industrial ecology	352
+Circular economy	Resource recovery	339
+Circular economy	Industry 4.0	332
+Recycling	Sustainability	326
+Circular economy	Material flow analysis	304
+Business model	Circular economy	295
+Circular economy	Reuse	285
+Circular economy	Remanufacturing	271
+Circular economy	Construction	263
+Circular economy	Wastewater	260
+Sustainability	Waste management	260
+Bioeconomy	Circular economy	252
+Circular economy	Waste	243
+Circular business models	Circular economy	237
+Circular economy	Food waste	217
+Circular economy	Renewable energy	208
+Circular economy	Resource efficiency	205
+Circular economy	Municipal solid waste	202
+Anaerobic digestion	Circular economy	194
+Circular economy	Industrial symbiosis	193
+Agriculture	Circular economy	187
+Life cycle assessment	Sustainability	187
+Barriers	Circular economy	182
+Circular economy	Climate change	181
+Biorefinery	Circular economy	178
+Recycling	Waste management	174
+Circular economy	Nutrient recovery	172
+Biomass	Circular economy	169
+Circular economy	Sustainable development goals	162
+Circular economy	Wastewater treatment	160
+Industry 4.0	Sustainability	159
+Circular economy	Innovation	158
+Circular economy	Supply chain	154
+Environmental sustainability	Life cycle assessment	149
+Circular economy	Waste-to-energy	147
+Circular economy	LCA	147
+Circular economy	End-of-life	143
+Circular economy	Food supply chain	141
+Circular economy	Construction and demolition waste	138
+Bibliometric analysis	Circular economy	137
+Biogas	Circular economy	133
+Business model	Sustainability	132
+Circular economy	Waste valorization	130
+Circular economy	Composting	129
+Recycling	Reuse	124
+Circular economy	Reverse logistics	124
+Circular economy	Critical raw materials	120
+Circular economy	Product-service system	120
+Plastic waste	Recycling	119
+Circular economy	Pyrolysis	118
+Circular economy	Closed-loop supply chain	118
+Circular economy	Circular supply chain	117
+Circular economy	Indicators	113
+Bioeconomy	Sustainability	113
+Circular economy	E-waste	111
+Circular economy	Digitalization	111
+Circular economy	Systematic literature review	110
+CO<sub>2</sub> emissions	Circular economy	110
+Circular economy	Decision-making	108
+Circular economy	by-products	107
+Circular economy	Lithium-ion batteries	107
+Case study	Circular economy	106
+Biochar	Circular economy	105
+Life cycle assessment	Recycling	105
+Circular economy	Eco-design	103
+Circular economy	Literature review	102
+Innovation	Sustainability	101
+Circular economy	Textile waste	98
+Bioenergy	Circular economy	98
+Sustainability	industrial ecology	98
+Circular business models	Sustainability	98
+Circular economy	Greenhouse gas emissions	95
+Circular economy	Consumer behavior	94
+Remanufacturing	Sustainability	94
+COVID-19	Circular economy	93
+Environmental sustainability	Recycling	92
+Circular economy	Packaging	92
+Adsorption	Circular economy	91
+Circular economy	Policy	91
+Biofuels	Circular economy	90
+Bibliometric analysis	Sustainability	90
+Circular economy	Supply chain management	89
+Circular economy	Valorization	89
+Resource efficiency	Sustainability	87
+Circular economy	Energy	86
+Renewable energy	Sustainability	85
+Bioplastics	Circular economy	84
+Chemical recycling	Circular economy	84
+China	Circular economy	84
+Carbon footprint	Circular economy	83
+Construction	Sustainability	82
+Resource recovery	Sustainability	82
+Circular economy	Sewage sludge	80
+Additive manufacturing	Circular economy	79
+Circular economy	Electric vehicles	78
+Circular economy	polyphenols	78
+Climate change	Sustainability	78
+Plastic waste	Sustainability	78
+Environmental sustainability	Waste management	78
+3D printing	Circular economy	77
+Circular economy	Upcycling	76
+Agriculture	Sustainability	76
+Circular economy	Microalgae	75
+Food waste	Sustainability	74
+Circular economy	Techno-economic analysis	72
+Circular economy	Machine learning	71
+Anaerobic digestion	Biogas	71
+Circular economy	Recovery	71
+Circular economy	Green chemistry	71
+Material flow analysis	Recycling	70
+Circular economy	Waste recycling	69
+Recycling	Waste	69
+Biodegradable	Circular economy	67
+Food supply chain	Sustainability	65
+Barriers	Sustainability	65
+Literature review	Sustainability	64
+Circular economy	bioactive compounds	64
+Circular economy	Optimization	63
+Reuse	Sustainability	62
+Sustainability	Waste	62
+Supply chain	Sustainability	62
+Municipal solid waste	Waste management	61
+Material flow analysis	Sustainability	60
+Industrial symbiosis	Sustainability	60
+Sustainability	Wastewater	60
+Biopolymers	Circular economy	60
+Biowaste	Circular economy	60
+LCA	Sustainability	58
+Sustainability	Sustainable development goals	57
+Circular supply chain	Sustainability	57
+Municipal solid waste	Recycling	54
+Sustainability	Systematic literature review	53
+Circular economy	Mechanical properties	53
+Closed-loop supply chain	Sustainability	52
+Circular economy	antioxidants	50
+Construction and demolition waste	Recycling	50
+Sustainability	Waste-to-energy	50
+End-of-life	Recycling	49
+Indicators	Sustainability	49
+Municipal solid waste	Sustainability	48
+Plastic waste	Waste management	48
+Circular economy	Hydrogen	48
+Supply chain management	Sustainability	48
+Life cycle assessment	Waste management	48
+Digitalization	Sustainability	48
+Biorefinery	Sustainability	48
+Lithium-ion batteries	Recycling	47
+COVID-19	Sustainability	47
+E-waste	Recycling	47
+Biomass	Sustainability	47
+Recycling	industrial ecology	45
+Life cycle assessment	Material flow analysis	44
+Decision-making	Sustainability	44
+Material flow analysis	industrial ecology	43
+Biochar	Pyrolysis	43
+Anaerobic digestion	Food waste	42
+Life cycle assessment	Plastic waste	42
+Sustainability	Waste valorization	42
+Circular economy	Lignocellulosic biomass	42
+Plastic waste	Pyrolysis	41
+Business model	Circular business models	41
+Reverse logistics	Sustainability	41
+Critical raw materials	Recycling	40
+Sustainability	Textile waste	39
+Energy	Sustainability	39
+3D printing	Recycling	39
+Circular economy	Heavy metals	38
+Life cycle assessment	industrial ecology	38
+Product-service system	Sustainability	38
+Composting	Recycling	38
+E-waste	Sustainability	38
+Chemical recycling	Plastic waste	38
+3D printing	Additive manufacturing	38
+Municipal solid waste	Waste-to-energy	37
+Industrial symbiosis	industrial ecology	36
+Recycling	Wastewater	36
+Environmental sustainability	Plastic waste	36
+Construction	Recycling	36
+Environmental sustainability	industrial ecology	36
+Additive manufacturing	Sustainability	36
+Consumer behavior	Sustainability	35
+Resource recovery	Wastewater	34
+Resource recovery	Wastewater treatment	34
+Sustainability	Valorization	34
+3D printing	Sustainability	34
+Sustainability	Upcycling	34
+Policy	Sustainability	34
+Biodegradable	Sustainability	34
+Additive manufacturing	Recycling	34
+Climate change	Environmental sustainability	33
+Case study	Sustainability	33
+Biofuels	Sustainability	33
+Recovery	Recycling	33
+Recycling	Textile waste	32
+Digitalization	Industry 4.0	32
+Greenhouse gas emissions	Life cycle assessment	32
+Composting	Sustainability	32
+Anaerobic digestion	Sustainability	32
+Material flow analysis	Waste management	31
+Life cycle assessment	Techno-economic analysis	31
+Electric vehicles	Lithium-ion batteries	31
+Recycling	Remanufacturing	31
+Green chemistry	Sustainability	31
+Closed-loop supply chain	Remanufacturing	31
+Sustainability	Wastewater treatment	30
+Sustainability	by-products	30
+Construction and demolition waste	Sustainability	30
+Adsorption	Biochar	30
+Microalgae	Wastewater	30
+Environmental sustainability	LCA	30
+Eco-design	Sustainability	29
+Anaerobic digestion	Waste management	29
+Mechanical properties	Recycling	29
+Greenhouse gas emissions	Sustainability	29
+Life cycle assessment	Reuse	29
+Biomass	Biorefinery	28
+Environmental sustainability	Resource recovery	28
+Biofuels	Biorefinery	28
+Anaerobic digestion	Nutrient recovery	28
+Waste management	Waste-to-energy	28
+Bioenergy	Sustainability	28
+Industry 4.0	Remanufacturing	27
+Machine learning	Sustainability	27
+Remanufacturing	Reuse	27
+Waste management	Wastewater	27
+Electric vehicles	Sustainability	27
+Mechanical properties	Sustainability	27
+LCA	Recycling	27
+Biopolymers	Sustainability	27
+Environmental sustainability	Renewable energy	27
+Nutrient recovery	Wastewater	26
+Adsorption	Heavy metals	26
+Biochar	Sustainability	26
+Construction and demolition waste	Waste management	26
+Climate change	Life cycle assessment	26
+Packaging	Sustainability	26
+Environmental sustainability	Wastewater	26
+Construction	Life cycle assessment	26
+Environmental sustainability	Waste	26
+Resource recovery	Waste management	25
+Anaerobic digestion	Bioenergy	25
+Electric vehicles	Recycling	25
+Construction	Waste management	25
+Biogas	Sustainability	25
+Lithium-ion batteries	Sustainability	25
+Reuse	Waste management	25
+Environmental sustainability	Resource efficiency	25
+Bioenergy	Biomass	24
+Carbon footprint	Sustainability	24
+Environmental sustainability	Reuse	24
+Recycling	Resource efficiency	24
+Resource efficiency	Waste management	23
+Nutrient recovery	Sustainability	23
+Biofuels	Biomass	23
+Chemical recycling	Pyrolysis	23
+Recycling	Resource recovery	23
+Packaging	Recycling	23
+End-of-life	Sustainability	23
+Sustainability	bioactive compounds	23
+CO<sub>2</sub> emissions	Sustainability	23
+LCA	Life cycle assessment	23
+Anaerobic digestion	Composting	22
+Bioplastics	Sustainability	22
+Microalgae	Wastewater treatment	22
+Eco-design	Life cycle assessment	22
+Critical raw materials	Sustainability	22
+Sustainability	Waste recycling	22
+Construction and demolition waste	Life cycle assessment	22
+Bioeconomy	Biomass	22
+Life cycle assessment	Resource efficiency	21
+Anaerobic digestion	Waste-to-energy	21
+Biogas	Renewable energy	21
+Bioeconomy	Biorefinery	21
+Plastic waste	Waste	21
+Agriculture	Environmental sustainability	21
+Waste management	industrial ecology	21
+Biorefinery	Life cycle assessment	21
+Composting	Waste management	21
+Environmental sustainability	Sustainable development goals	21
+Food waste	Waste management	20
+Carbon footprint	Life cycle assessment	20
+Adsorption	Wastewater treatment	20
+Pyrolysis	Sustainability	20
+Biorefinery	Lignocellulosic biomass	20
+Renewable energy	Waste management	20
+Nutrient recovery	Wastewater treatment	19
+Bioeconomy	Life cycle assessment	19
+Lignocellulosic biomass	Sustainability	19
+Anaerobic digestion	Biochar	19
+Business model	Innovation	19
+Optimization	Sustainability	19
+Environmental sustainability	Material flow analysis	19
+Agriculture	Waste management	19
+Life cycle assessment	Waste-to-energy	19
+Environmental sustainability	Food waste	19
+Environmental sustainability	Municipal solid waste	19
+Sustainability	Techno-economic analysis	19
+China	Sustainability	19
+Industry 4.0	Supply chain	19
+Environmental sustainability	Remanufacturing	19
+Life cycle assessment	Resource recovery	19
+End-of-life	Waste management	18
+Nutrient recovery	Resource recovery	18
+Construction	Construction and demolition waste	18
+Anaerobic digestion	Resource recovery	18
+Construction	Reuse	18
+Recycling	Renewable energy	18
+Hydrogen	Sustainability	18
+Sustainability	antioxidants	18
+Anaerobic digestion	Life cycle assessment	18
+Food waste	Life cycle assessment	18
+Pyrolysis	Waste management	18
+Business model	Environmental sustainability	18
+Pyrolysis	Recycling	18
+Microalgae	Sustainability	18
+End-of-life	Life cycle assessment	18
+Environmental sustainability	Innovation	18
+Life cycle assessment	Municipal solid waste	18
+Bioeconomy	Bioplastics	17
+Material flow analysis	Plastic waste	17
+Adsorption	Wastewater	17
+Anaerobic digestion	Sewage sludge	17
+Anaerobic digestion	Renewable energy	17
+Agriculture	Bioeconomy	17
+Recycling	Upcycling	17
+Closed-loop supply chain	Reverse logistics	17
+Bioenergy	Biorefinery	17
+Circular business models	Product-service system	17
+Biogas	Biorefinery	17
+Reuse	Waste	17
+Anaerobic digestion	Biorefinery	16
+Sustainable development goals	Waste management	16
+Carbon footprint	Environmental sustainability	16
+Construction	Material flow analysis	16
+Bioeconomy	Waste management	16
+Biowaste	Sustainability	16
+Construction	Environmental sustainability	16
+Business model	Recycling	16
+Biochar	Biomass	16
+Bioplastics	Life cycle assessment	16
+Biomass	Renewable energy	16
+Food supply chain	Food waste	16
+Biogas	Waste management	16
+Bibliometric analysis	Environmental sustainability	16
+Biodegradable	Recycling	16
+Chemical recycling	Life cycle assessment	16
+Business model	Product-service system	16
+Climate change	Greenhouse gas emissions	16
+Material flow analysis	Reuse	15
+Barriers	Circular supply chain	15
+Biorefinery	Techno-economic analysis	15
+Biofuels	Renewable energy	15
+Packaging	Plastic waste	15
+Bioeconomy	Bioenergy	15
+Anaerobic digestion	Municipal solid waste	15
+Renewable energy	Waste-to-energy	15
+Agriculture	Wastewater	15
+Life cycle assessment	Waste valorization	15
+Anaerobic digestion	Environmental sustainability	15
+Life cycle assessment	Waste	15
+Bibliometric analysis	Systematic literature review	15
+Composting	Mechanical properties	15
+Bibliometric analysis	Literature review	15
+Bioeconomy	Business model	15
+Sewage sludge	Wastewater treatment	15
+antioxidants	polyphenols	15
+Anaerobic digestion	Biofuels	14
+Bioenergy	Life cycle assessment	14
+Biomass	CO<sub>2</sub> emissions	14
+Material flow analysis	Resource recovery	14
+Industrial symbiosis	Waste management	14
+Nutrient recovery	Sewage sludge	14
+Biogas	Food waste	14
+Environmental sustainability	Industry 4.0	14
+Eco-design	Recycling	14
+Life cycle assessment	Pyrolysis	14
+Bioenergy	Biogas	14
+Biomass	Waste management	14
+Bioeconomy	Food waste	14
+Resource recovery	Waste	14
+Biorefinery	Food waste	14
+Industry 4.0	Sustainable development goals	14
+Material flow analysis	Resource efficiency	14
+Bioplastics	Plastic waste	14
+Bioplastics	Waste management	13
+Climate change	Renewable energy	13
+Composting	Food waste	13
+Composting	Municipal solid waste	13
+Bioenergy	Biofuels	13
+Anaerobic digestion	Pyrolysis	13
+Eco-design	Environmental sustainability	13
+Biomass	Waste	13
+Pyrolysis	Waste-to-energy	13
+Business model	Supply chain	13
+Recycling	Waste-to-energy	13
+Carbon footprint	Recycling	13
+Industrial symbiosis	Recycling	13
+Biomass	Waste-to-energy	13
+Agriculture	Nutrient recovery	13
+COVID-19	Waste management	13
+Life cycle assessment	Renewable energy	13
+Biomass	Pyrolysis	13
+Biomass	Wastewater	13
+Biodegradable	Bioplastics	13
+Machine learning	Recycling	13
+Bioenergy	Renewable energy	13
+Decision-making	Waste management	13
+Resource efficiency	Reuse	13
+LCA	Plastic waste	13
+Agriculture	Anaerobic digestion	13
+Textile waste	Waste management	13
+Biomass	Recycling	13
+Energy	Wastewater	12
+Anaerobic digestion	Microalgae	12
+Resource efficiency	industrial ecology	12
+Anaerobic digestion	Biomass	12
+Recycling	by-products	12
+Biomass	Life cycle assessment	12
+Recycling	Reverse logistics	12
+E-waste	Waste management	12
+Circular supply chain	Closed-loop supply chain	12
+Energy	Environmental sustainability	12
+Climate change	Sustainable development goals	12
+Policy	Recycling	12
+Life cycle assessment	Remanufacturing	12
+Bibliometric analysis	Waste management	12
+Circular supply chain	Industry 4.0	12
+Biorefinery	Microalgae	12
+Environmental sustainability	Waste valorization	12
+Waste	Waste management	12
+Biofuels	Microalgae	12
+Sewage sludge	Wastewater	12
+Bioeconomy	Innovation	12
+Biodegradable	Plastic waste	12
+Environmental sustainability	Wastewater treatment	12
+Reverse logistics	Waste management	12
+Life cycle assessment	Literature review	12
+Recovery	Reuse	12
+Life cycle assessment	Wastewater	12
+Greenhouse gas emissions	Recycling	12
+Biorefinery	Waste	12
+Plastic waste	industrial ecology	12
+Environmental sustainability	Systematic literature review	12
+Climate change	Recycling	12
+Agriculture	Biomass	12
+Packaging	Reuse	12
+Environmental sustainability	Waste-to-energy	12
+Wastewater	Wastewater treatment	11
+Plastic waste	Upcycling	11
+Valorization	by-products	11
+by-products	polyphenols	11
+COVID-19	Environmental sustainability	11
+Closed-loop supply chain	Supply chain management	11
+Biofuels	Lignocellulosic biomass	11
+Recycling	Supply chain	11
+Anaerobic digestion	Biowaste	11
+Life cycle assessment	Optimization	11
+Energy	Waste	11
+Heavy metals	Wastewater treatment	11
+COVID-19	Plastic waste	11
+Biofuels	Waste-to-energy	11
+Decision-making	Remanufacturing	11
+Business model	Case study	11
+Biomass	Environmental sustainability	11
+Plastic waste	polyphenols	11
+Adsorption	Biomass	11
+E-waste	Environmental sustainability	11
+Construction	Waste	11
+Anaerobic digestion	Bioeconomy	11
+Remanufacturing	Reverse logistics	11
+Sewage sludge	Sustainability	11
+Climate change	Resource recovery	11
+Circular supply chain	Systematic literature review	11
+Biodegradable	Composting	11
+Circular business models	Remanufacturing	11
+Microalgae	Nutrient recovery	11
+Recovery	Sustainability	11
+Business model	Remanufacturing	11
+Industry 4.0	Supply chain management	11
+Biogas	Waste-to-energy	11
+CO<sub>2</sub> emissions	Life cycle assessment	11
+Business model	Digitalization	11
+Machine learning	Waste management	11
+Biomass	Plastic waste	11
+Recycling	polyphenols	11
+antioxidants	by-products	11
+Heavy metals	Wastewater	10
+Business model	Industry 4.0	10
+COVID-19	Supply chain	10
+Biodegradable	Biopolymers	10
+Agriculture	Composting	10
+Composting	Environmental sustainability	10
+Biomass	Microalgae	10
+Bibliometric analysis	Industry 4.0	10
+Biowaste	Life cycle assessment	10
+CO<sub>2</sub> emissions	Waste-to-energy	10
+Bioeconomy	Environmental sustainability	10
+Biowaste	Food waste	10
+Environmental sustainability	Greenhouse gas emissions	10
+CO<sub>2</sub> emissions	Climate change	10
+Environmental sustainability	Pyrolysis	10
+Consumer behavior	Recycling	10
+Bioplastics	Recycling	10
+Greenhouse gas emissions	Waste management	10
+Biogas	Life cycle assessment	10
+Consumer behavior	Environmental sustainability	10
+Biogas	Biomass	10
+Recycling	Waste valorization	10
+Reuse	industrial ecology	10
+Biochar	Environmental sustainability	10
+Plastic waste	Techno-economic analysis	10
+Energy	Material flow analysis	10
+Industry 4.0	Reverse logistics	10
+Life cycle assessment	Product-service system	10
+Climate change	Waste management	10
+Valorization	bioactive compounds	10
+Anaerobic digestion	Wastewater treatment	10
+Critical raw materials	Material flow analysis	10
+Biowaste	Waste management	10
+CO<sub>2</sub> emissions	Renewable energy	10
+Biogas	Biowaste	10
+antioxidants	bioactive compounds	10
+LCA	Material flow analysis	10
+CO<sub>2</sub> emissions	Recycling	10
+Agriculture	Waste	10
+Sustainability	polyphenols	10
+Environmental sustainability	Food supply chain	10
+Composting	Life cycle assessment	10
+Product-service system	Resource efficiency	10
+Resource recovery	industrial ecology	10
+Agriculture	Biochar	10
+Barriers	Construction	10
+Barriers	Business model	9
+Plastic waste	Wastewater	9
+Pyrolysis	Wastewater	9
+Biochar	Waste	9
+End-of-life	Reuse	9
+Biorefinery	Waste valorization	9
+Circular business models	Industry 4.0	9
+Bioeconomy	Biofuels	9
+China	industrial ecology	9
+CO<sub>2</sub> emissions	Environmental sustainability	9
+Construction and demolition waste	Environmental sustainability	9
+Carbon footprint	Plastic waste	9
+Municipal solid waste	Sustainable development goals	9
+Anaerobic digestion	Wastewater	9
+Industrial symbiosis	Life cycle assessment	9
+Bibliometric analysis	Sustainable development goals	9
+Environmental sustainability	Policy	9
+Policy	Waste management	9
+Bibliometric analysis	Food waste	9
+Biopolymers	Biorefinery	9
+Circular business models	Circular supply chain	9
+Barriers	Circular business models	9
+Bioeconomy	Sustainable development goals	9
+Industry 4.0	Systematic literature review	9
+Adsorption	Resource recovery	9
+Agriculture	Biogas	9
+Pyrolysis	Waste valorization	9
+Composting	Sewage sludge	9
+Plastic waste	Reuse	9
+Municipal solid waste	Pyrolysis	9
+Resource recovery	Sewage sludge	9
+Greenhouse gas emissions	Plastic waste	9
+Environmental sustainability	Packaging	9
+Biorefinery	Valorization	9
+Barriers	Systematic literature review	9
+3D printing	Industry 4.0	9
+Additive manufacturing	Remanufacturing	9
+Municipal solid waste	Wastewater	9
+3D printing	Plastic waste	9
+Municipal solid waste	Renewable energy	9
+Biochar	Sewage sludge	9
+Business model	Resource efficiency	9
+Waste management	Waste valorization	9
+Optimization	Recycling	9
+Supply chain	Waste management	9
+Business model	Sustainable development goals	9
+Food waste	Valorization	9
+Agriculture	Food supply chain	9
+Industry 4.0	Innovation	9
+Innovation	Recycling	9
+LCA	Waste management	9
+Product-service system	Remanufacturing	9
+Additive manufacturing	Life cycle assessment	9
+Green chemistry	Waste management	9
+Construction and demolition waste	Reuse	9
+Reverse logistics	Supply chain management	9
+Greenhouse gas emissions	Renewable energy	9
+Waste valorization	Waste-to-energy	9
+Valorization	Waste management	9
+Energy	Waste management	9
+Circular supply chain	Supply chain management	9
+Recycling	Sustainable development goals	9
+Composting	Waste	9
+Bibliometric analysis	Supply chain management	9
+Biofuels	Biogas	9
+Food supply chain	Life cycle assessment	8
+Critical raw materials	E-waste	8
+Bibliometric analysis	Construction	8
+Environmental sustainability	Indicators	8
+Supply chain management	Systematic literature review	8
+Biomass	Hydrogen	8
+Environmental sustainability	Lithium-ion batteries	8
+Biochar	Life cycle assessment	8
+Green chemistry	Recycling	8
+Adsorption	Pyrolysis	8
+Barriers	Waste management	8
+Food supply chain	Valorization	8
+Biogas	Wastewater	8
+Adsorption	Sustainability	8
+Heavy metals	Sustainability	8
+Food waste	Resource recovery	8
+Literature review	Recycling	8
+Reuse	Wastewater	8
+Biochar	Wastewater	8
+Case study	Remanufacturing	8
+Business model	Circular supply chain	8
+Critical raw materials	Lithium-ion batteries	8
+Chemical recycling	polyphenols	8
+Biochar	Heavy metals	8
+Business model	Waste management	8
+Biomass	Lignocellulosic biomass	8
+Construction	Wastewater	8
+End-of-life	Remanufacturing	8
+Barriers	Industry 4.0	8
+End-of-life	Material flow analysis	8
+Biochar	Nutrient recovery	8
+Bioeconomy	Recycling	8
+Biofuels	Wastewater	8
+Life cycle assessment	Packaging	8
+Municipal solid waste	industrial ecology	8
+Pyrolysis	Sewage sludge	8
+Decision-making	Industry 4.0	8
+Bibliometric analysis	Business model	8
+Biogas	Energy	8
+Bioplastics	Composting	8
+Environmental sustainability	Product-service system	8
+Business model	Literature review	8
+Case study	Recycling	8
+Environmental sustainability	Recovery	8
+Packaging	Waste management	8
+Circular business models	Environmental sustainability	8
+Hydrogen	Plastic waste	8
+Critical raw materials	Recovery	8
+Agriculture	Renewable energy	8
+Nutrient recovery	Waste management	8
+Environmental sustainability	Literature review	8
+Environmental sustainability	Supply chain	8
+Closed-loop supply chain	Literature review	8
+End-of-life	Environmental sustainability	8
+Construction	industrial ecology	8
+Biomass	Energy	8
+bioactive compounds	by-products	8
+Bioeconomy	Biowaste	8
+Biowaste	Composting	8
+Environmental sustainability	Nutrient recovery	8
+Bioplastics	Packaging	8
+Environmental sustainability	Supply chain management	8
+Digitalization	Waste management	8
+Chemical recycling	Sustainability	8
+Anaerobic digestion	Techno-economic analysis	8
+Biofuels	Pyrolysis	8
+Reuse	Textile waste	7
+Agriculture	Life cycle assessment	7
+Resource recovery	Reuse	7
+Composting	Waste valorization	7
+Industrial symbiosis	Resource efficiency	7
+China	Climate change	7
+Business model	Construction	7
+Packaging	Waste	7
+Biorefinery	Wastewater	7
+Recycling	Techno-economic analysis	7
+Anaerobic digestion	Waste valorization	7
+Material flow analysis	Packaging	7
+Climate change	Waste	7
+Industry 4.0	Literature review	7
+Circular supply chain	Supply chain	7
+Industrial symbiosis	Resource recovery	7
+Biowaste	Municipal solid waste	7
+CO<sub>2</sub> emissions	Wastewater	7
+Composting	Nutrient recovery	7
+Valorization	Waste	7
+Machine learning	Plastic waste	7
+Bioplastics	Environmental sustainability	7
+Biogas	LCA	7
+Valorization	Wastewater	7
+Construction	Resource recovery	7
+End-of-life	Lithium-ion batteries	7
+Machine learning	Municipal solid waste	7
+End-of-life	Pyrolysis	7
+Material flow analysis	Municipal solid waste	7
+Food supply chain	Industry 4.0	7
+Circular business models	industrial ecology	7
+Bioenergy	Municipal solid waste	7
+Sewage sludge	Waste management	7
+Business model	Systematic literature review	7
+Decision-making	Recycling	7
+Environmental sustainability	Techno-economic analysis	7
+Product-service system	industrial ecology	7
+Circular business models	Literature review	7
+Additive manufacturing	Industry 4.0	7
+Composting	Pyrolysis	7
+Life cycle assessment	Textile waste	7
+Circular business models	Supply chain	7
+Reuse	by-products	7
+China	Environmental sustainability	7
+Construction	Resource efficiency	7
+Recovery	Waste	7
+Construction	Literature review	7
+Reverse logistics	Supply chain	7
+Food waste	Supply chain	7
+Bioplastics	Biopolymers	7
+Recovery	Waste management	7
+Barriers	Industrial symbiosis	7
+Waste	Waste-to-energy	7
+Remanufacturing	Resource efficiency	7
+Lithium-ion batteries	Waste management	7
+Anaerobic digestion	Greenhouse gas emissions	7
+Eco-design	Resource efficiency	7
+Sewage sludge	Waste-to-energy	7
+Critical raw materials	Resource recovery	7
+Bioeconomy	Indicators	7
+Bioenergy	Nutrient recovery	7
+Agriculture	Bioenergy	7
+Digitalization	Innovation	7
+Digitalization	Product-service system	7
+COVID-19	Climate change	7
+Digitalization	Environmental sustainability	7
+Wastewater	industrial ecology	7
+Food waste	Recycling	7
+Biowaste	Environmental sustainability	7
+Bioeconomy	Greenhouse gas emissions	7
+China	Recycling	7
+Biogas	Wastewater treatment	7
+Bioeconomy	Climate change	7
+Case study	Industrial symbiosis	7
+Life cycle assessment	Nutrient recovery	7
+Biorefinery	Renewable energy	7
+Bioeconomy	industrial ecology	7
+Biorefinery	Biowaste	7
+Lithium-ion batteries	Material flow analysis	7
+Electric vehicles	Life cycle assessment	7
+CO<sub>2</sub> emissions	Pyrolysis	7
+Environmental sustainability	Textile waste	7
+Additive manufacturing	Environmental sustainability	7
+Closed-loop supply chain	Waste management	7
+Waste-to-energy	Wastewater treatment	7
+Biofuels	Valorization	7
+Biomass	Wastewater treatment	7
+Critical raw materials	Electric vehicles	7
+Biochar	Composting	7
+Construction	Industry 4.0	6
+Material flow analysis	Remanufacturing	6
+Indicators	Life cycle assessment	6
+Bibliometric analysis	Resource recovery	6
+Recovery	Wastewater	6
+Industry 4.0	Waste management	6
+COVID-19	Industry 4.0	6
+Biofuels	Life cycle assessment	6
+Microalgae	Resource recovery	6
+Biofuels	Environmental sustainability	6
+Case study	Circular business models	6
+Recycling	Valorization	6
+Energy	Resource recovery	6
+Industrial symbiosis	by-products	6
+Mechanical properties	Plastic waste	6
+CO<sub>2</sub> emissions	Microalgae	6
+Life cycle assessment	Wastewater treatment	6
+Energy	Recycling	6
+Industrial symbiosis	Waste	6
+Biodegradable	Mechanical properties	6
+Pyrolysis	Wastewater treatment	6
+Life cycle assessment	Upcycling	6
+Biogas	Hydrogen	6
+Bibliometric analysis	Food supply chain	6
+Climate change	Plastic waste	6
+CO<sub>2</sub> emissions	Wastewater treatment	6
+Environmental sustainability	Heavy metals	6
+Remanufacturing	industrial ecology	6
+Plastic waste	Valorization	6
+Policy	Resource efficiency	6
+Case study	Environmental sustainability	6
+Biofuels	Waste management	6
+Material flow analysis	Wastewater	6
+Renewable energy	industrial ecology	6
+Biorefinery	Waste management	6
+Construction	Systematic literature review	6
+Biomass	Municipal solid waste	6
+Lithium-ion batteries	Remanufacturing	6
+Anaerobic digestion	Bioplastics	6
+Biorefinery	Environmental sustainability	6
+E-waste	Material flow analysis	6
+Biodegradable	Bioeconomy	6
+Biorefinery	Green chemistry	6
+Waste	industrial ecology	6
+Food waste	Nutrient recovery	6
+Municipal solid waste	Plastic waste	6
+LCA	Wastewater	6
+Electric vehicles	Material flow analysis	6
+Biodegradable	Waste management	6
+Composting	Plastic waste	6
+Nutrient recovery	Waste valorization	6
+Waste management	Wastewater treatment	6
+Carbon footprint	LCA	6
+Bioenergy	Wastewater	6
+Anaerobic digestion	Energy	6
+Waste-to-energy	Wastewater	6
+Biomass	by-products	6
+Bioeconomy	Renewable energy	6
+Adsorption	Waste management	6
+Business model	Renewable energy	6
+Remanufacturing	Waste management	6
+Reuse	Wastewater treatment	6
+Nutrient recovery	Recycling	6
+Electric vehicles	Reuse	6
+Industrial symbiosis	Industry 4.0	6
+Environmental sustainability	Industrial symbiosis	6
+Biowaste	Valorization	6
+Agriculture	Recycling	6
+Industry 4.0	Product-service system	6
+Remanufacturing	Supply chain management	6
+Construction and demolition waste	Material flow analysis	6
+Decision-making	Wastewater	6
+Biorefinery	Hydrogen	6
+Remanufacturing	Supply chain	6
+Life cycle assessment	Machine learning	6
+Machine learning	Optimization	6
+China	Material flow analysis	6
+Consumer behavior	Product-service system	6
+Additive manufacturing	Composting	6
+Agriculture	Greenhouse gas emissions	6
+Waste valorization	Wastewater	6
+Food waste	Waste valorization	6
+E-waste	Reverse logistics	6
+Bioeconomy	Biogas	6
+Bioeconomy	Waste	6
+Biorefinery	Energy	6
+Green chemistry	Life cycle assessment	6
+Sustainable development goals	Wastewater	6
+Biorefinery	antioxidants	6
+CO<sub>2</sub> emissions	Waste valorization	6
+Chemical recycling	Recycling	6
+Critical raw materials	industrial ecology	6
+Greenhouse gas emissions	Municipal solid waste	6
+E-waste	Remanufacturing	6
+Barriers	Remanufacturing	6
+Hydrogen	Pyrolysis	6
+China	Resource efficiency	6
+Plastic waste	Resource recovery	6
+Circular business models	Resource efficiency	6
+Food waste	bioactive compounds	6
+Adsorption	Environmental sustainability	6
+Innovation	Policy	6
+Hydrogen	Life cycle assessment	6
+Municipal solid waste	Policy	6
+CO<sub>2</sub> emissions	Construction	6
+Bibliometric analysis	Recycling	6
+Mechanical properties	Waste management	6
+Bibliometric analysis	Supply chain	6
+Bioenergy	Waste valorization	6
+Biorefinery	Wastewater treatment	6
+Biomass	Biopolymers	6
+Heavy metals	Nutrient recovery	5
+Food waste	Systematic literature review	5
+Hydrogen	Upcycling	5
+Life cycle assessment	Supply chain	5
+Biorefinery	by-products	5
+Energy	Recovery	5
+Barriers	Closed-loop supply chain	5
+Barriers	Food supply chain	5
+Closed-loop supply chain	Food supply chain	5
+Bioenergy	Food supply chain	5
+COVID-19	Supply chain management	5
+Biomass	Waste valorization	5
+Closed-loop supply chain	Systematic literature review	5
+Greenhouse gas emissions	industrial ecology	5
+Biochar	Bioenergy	5
+Biofuels	Waste valorization	5
+Life cycle assessment	by-products	5
+Eco-design	LCA	5
+Optimization	Supply chain	5
+Industry 4.0	Municipal solid waste	5
+Life cycle assessment	Waste recycling	5
+Food waste	LCA	5
+LCA	Packaging	5
+Industrial symbiosis	Wastewater	5
+Waste	Wastewater	5
+Carbon footprint	Waste management	5
+Bioplastics	Microalgae	5
+Plastic waste	Supply chain	5
+Textile waste	Waste	5
+Life cycle assessment	Policy	5
+Life cycle assessment	Sustainable development goals	5
+Biopolymers	Environmental sustainability	5
+Plastic waste	Waste valorization	5
+Bioplastics	Food waste	5
+Bioeconomy	Lignocellulosic biomass	5
+Bioenergy	Waste management	5
+Municipal solid waste	Resource recovery	5
+Bioplastics	Waste valorization	5
+Bioenergy	Resource recovery	5
+Plastic waste	Recovery	5
+Food waste	Waste-to-energy	5
+Critical raw materials	End-of-life	5
+Biopolymers	Lignocellulosic biomass	5
+Waste	bioactive compounds	5
+Pyrolysis	polyphenols	5
+Bibliometric analysis	Bioeconomy	5
+Environmental sustainability	Valorization	5
+Biomass	Heavy metals	5
+Material flow analysis	Waste-to-energy	5
+Circular business models	Life cycle assessment	5
+Circular supply chain	Literature review	5
+Biochar	Biogas	5
+Renewable energy	Sustainable development goals	5
+Renewable energy	Waste	5
+Biorefinery	Recycling	5
+Biorefinery	Sewage sludge	5
+Circular business models	Digitalization	5
+Sustainable development goals	industrial ecology	5
+LCA	Resource recovery	5
+Biochar	Hydrogen	5
+Food waste	Microalgae	5
+Digitalization	Recycling	5
+Food waste	Techno-economic analysis	5
+Business model	industrial ecology	5
+Literature review	Remanufacturing	5
+Biofuels	Climate change	5
+Climate change	Nutrient recovery	5
+Adsorption	Nutrient recovery	5
+Environmental sustainability	Machine learning	5
+CO<sub>2</sub> emissions	industrial ecology	5
+Bioenergy	Valorization	5
+Bioplastics	Biorefinery	5
+Food supply chain	Supply chain	5
+Consumer behavior	Plastic waste	5
+Plastic waste	Remanufacturing	5
+LCA	Techno-economic analysis	5
+LCA	Reuse	5
+Anaerobic digestion	Waste	5
+Biogas	Waste	5
+Climate change	Material flow analysis	5
+Biopolymers	Composting	5
+COVID-19	Resource recovery	5
+Resource recovery	Waste valorization	5
+Biochar	Biofuels	5
+Closed-loop supply chain	by-products	5
+Adsorption	Reuse	5
+3D printing	Environmental sustainability	5
+Bioeconomy	Resource efficiency	5
+Lithium-ion batteries	Reuse	5
+Decision-making	Reverse logistics	5
+Bioeconomy	Plastic waste	5
+E-waste	End-of-life	5
+Adsorption	Waste valorization	5
+Hydrogen	Waste	5
+Critical raw materials	Supply chain	5
+Product-service system	Systematic literature review	5
+Lithium-ion batteries	Recovery	5
+Biopolymers	Waste	5
+Environmental sustainability	by-products	5
+Industry 4.0	Resource recovery	5
+Circular business models	Closed-loop supply chain	5
+Biorefinery	Pyrolysis	5
+Biopolymers	Recycling	5
+CO<sub>2</sub> emissions	Construction and demolition waste	5
+Construction and demolition waste	Mechanical properties	5
+Food waste	Upcycling	5
+Chemical recycling	Techno-economic analysis	5
+Literature review	Supply chain	5
+Food supply chain	by-products	5
+Biofuels	CO<sub>2</sub> emissions	5
+Anaerobic digestion	LCA	5
+China	Construction and demolition waste	5
+China	Waste management	5
+3D printing	Life cycle assessment	5
+Bioeconomy	Microalgae	5
+Closed-loop supply chain	Environmental sustainability	5
+Literature review	Supply chain management	5
+Optimization	Waste management	5
+Supply chain management	Waste management	5
+Agriculture	Wastewater treatment	5
+Supply chain	Waste	5
+Biomass	bioactive compounds	5
+Composting	Wastewater	5
+Life cycle assessment	Sewage sludge	5
+Bioeconomy	Circular business models	5
+Indicators	Waste management	5
+Electric vehicles	Remanufacturing	5
+End-of-life	Reverse logistics	5
+Renewable energy	Resource recovery	5
+Construction	End-of-life	5
+Decision-making	Environmental sustainability	5
+CO<sub>2</sub> emissions	Waste management	5
+End-of-life	Municipal solid waste	5
+CO<sub>2</sub> emissions	Plastic waste	5
+Climate change	Innovation	5
+Additive manufacturing	Biodegradable	5
+Hydrogen	Recycling	5
+Environmental sustainability	Hydrogen	5
+Construction and demolition waste	Waste recycling	5
+Supply chain	Systematic literature review	5
+Environmental sustainability	Waste recycling	5
+LCA	Pyrolysis	5
+Machine learning	industrial ecology	5
+Environmental sustainability	Upcycling	5
+Barriers	Supply chain	5
+Agriculture	Lignocellulosic biomass	5
+Green chemistry	polyphenols	5
+Food waste	Wastewater	5
+Anaerobic digestion	Lignocellulosic biomass	5
+Carbon footprint	Greenhouse gas emissions	5
+Biodegradable	Biomass	5
+Biopolymers	Plastic waste	5
+Bibliometric analysis	Digitalization	5
+Case study	Food supply chain	5
+End-of-life	Plastic waste	5
+Energy	Valorization	5
+Climate change	Construction	5
+Agriculture	Microalgae	5
+Closed-loop supply chain	Industry 4.0	5
+Critical raw materials	Waste management	5
+Digitalization	Resource recovery	5
+Anaerobic digestion	Hydrogen	4
+Biofuels	Hydrogen	4
+Energy	Plastic waste	4
+Material flow analysis	Textile waste	4
+Indicators	Wastewater	4
+Food waste	Municipal solid waste	4
+Adsorption	Recovery	4
+Food waste	Renewable energy	4
+Valorization	polyphenols	4
+Business model	Supply chain management	4
+Reuse	Upcycling	4
+Indicators	Resource recovery	4
+Adsorption	Composting	4
+Greenhouse gas emissions	Resource efficiency	4
+Adsorption	Biowaste	4
+Circular business models	Electric vehicles	4
+Life cycle assessment	Lithium-ion batteries	4
+Environmental sustainability	Lignocellulosic biomass	4
+Barriers	Recycling	4
+Chemical recycling	Upcycling	4
+Policy	Resource recovery	4
+Biofuels	bioactive compounds	4
+End-of-life	Resource recovery	4
+Climate change	Microalgae	4
+Environmental sustainability	Microalgae	4
+Barriers	Case study	4
+Carbon footprint	Resource recovery	4
+Construction	Machine learning	4
+Bioeconomy	Food supply chain	4
+Climate change	Wastewater	4
+Agriculture	COVID-19	4
+Waste	by-products	4
+Waste	polyphenols	4
+Construction	LCA	4
+Energy	Industrial symbiosis	4
+COVID-19	Food waste	4
+Bioenergy	Waste	4
+Recycling	Sewage sludge	4
+Biogas	Municipal solid waste	4
+Consumer behavior	Literature review	4
+Biodegradable	Environmental sustainability	4
+Plastic waste	Policy	4
+COVID-19	Municipal solid waste	4
+Bibliometric analysis	industrial ecology	4
+Hydrogen	Lignocellulosic biomass	4
+Case study	Circular supply chain	4
+Lignocellulosic biomass	Pyrolysis	4
+bioactive compounds	polyphenols	4
+Digitalization	Remanufacturing	4
+Plastic waste	Waste recycling	4
+Policy	Wastewater	4
+Circular business models	Recycling	4
+Biofuels	Food waste	4
+Construction	Innovation	4
+Innovation	Resource recovery	4
+Agriculture	Barriers	4
+Agriculture	Food waste	4
+Agriculture	Municipal solid waste	4
+Bioeconomy	Wastewater	4
+Plastic waste	Resource efficiency	4
+Biogas	Environmental sustainability	4
+Biofuels	Sustainable development goals	4
+Bioeconomy	Techno-economic analysis	4
+Bioeconomy	Waste valorization	4
+Biorefinery	Resource recovery	4
+3D printing	Biopolymers	4
+Decision-making	Machine learning	4
+Decision-making	LCA	4
+China	Plastic waste	4
+Case study	Digitalization	4
+Biogas	Sewage sludge	4
+Agriculture	Sewage sludge	4
+Construction	Digitalization	4
+E-waste	industrial ecology	4
+End-of-life	Waste	4
+Closed-loop supply chain	Recycling	4
+Business model	Life cycle assessment	4
+Municipal solid waste	Recovery	4
+Business model	Food supply chain	4
+Construction	Reverse logistics	4
+Digitalization	Resource efficiency	4
+Resource efficiency	Supply chain	4
+Construction	Supply chain	4
+Food waste	Green chemistry	4
+Biomass	Sustainable development goals	4
+Industry 4.0	Machine learning	4
+Material flow analysis	Recovery	4
+Industrial symbiosis	Optimization	4
+Literature review	industrial ecology	4
+Bibliometric analysis	Remanufacturing	4
+Biochar	Recycling	4
+Industrial symbiosis	LCA	4
+Biochar	Biorefinery	4
+Remanufacturing	by-products	4
+Industry 4.0	Resource efficiency	4
+Consumer behavior	Waste management	4
+COVID-19	Food supply chain	4
+Biofuels	Techno-economic analysis	4
+Bioenergy	Lignocellulosic biomass	4
+Wastewater	by-products	4
+Case study	Waste management	4
+Biogas	Greenhouse gas emissions	4
+Biowaste	Greenhouse gas emissions	4
+Innovation	Waste management	4
+Optimization	Wastewater	4
+Reuse	Supply chain	4
+Closed-loop supply chain	Supply chain	4
+3D printing	Waste	4
+Biorefinery	polyphenols	4
+Wastewater treatment	industrial ecology	4
+Upcycling	by-products	4
+Anaerobic digestion	Climate change	4
+Biomass	Climate change	4
+Biowaste	Sewage sludge	4
+Policy	Remanufacturing	4
+Literature review	Reverse logistics	4
+Consumer behavior	Remanufacturing	4
+Biomass	Food waste	4
+Composting	Waste-to-energy	4
+Biomass	industrial ecology	4
+Biomass	Nutrient recovery	4
+Barriers	Environmental sustainability	4
+Additive manufacturing	Plastic waste	4
+Recycling	Systematic literature review	4
+Material flow analysis	Waste	4
+Resource recovery	Techno-economic analysis	4
+Systematic literature review	industrial ecology	4
+LCA	industrial ecology	4
+Biorefinery	LCA	4
+Municipal solid waste	Textile waste	4
+Biowaste	Resource recovery	4
+Biowaste	Nutrient recovery	4
+Biochar	Food waste	4
+Biochar	Techno-economic analysis	4
+Environmental sustainability	Reverse logistics	4
+Energy	Hydrogen	4
+Innovation	industrial ecology	4
+Pyrolysis	Waste	4
+Waste valorization	polyphenols	4
+Food waste	Policy	4
+Climate change	LCA	4
+Heavy metals	Sewage sludge	4
+Biomass	Greenhouse gas emissions	4
+Machine learning	Nutrient recovery	4
+Critical raw materials	Renewable energy	4
+Business model	Policy	4
+Biodegradable	Packaging	4
+Industry 4.0	Life cycle assessment	4
+Business model	Reuse	4
+Closed-loop supply chain	industrial ecology	4
+Green chemistry	Waste valorization	4
+Biomass	Green chemistry	4
+Biowaste	Decision-making	4
+Industrial symbiosis	Supply chain	4
+Literature review	Waste management	4
+Reverse logistics	Systematic literature review	4
+Energy	Nutrient recovery	4
+Composting	LCA	4
+Circular business models	Systematic literature review	4
+Resource efficiency	Sustainable development goals	4
+Remanufacturing	Waste	4
+End-of-life	LCA	4
+Electric vehicles	End-of-life	4
+Indicators	LCA	4
+Critical raw materials	Environmental sustainability	4
+Chemical recycling	Hydrogen	4
+Hydrogen	Techno-economic analysis	4
+Electric vehicles	Environmental sustainability	4
+3D printing	Mechanical properties	4
+Food supply chain	Systematic literature review	4
+Biorefinery	bioactive compounds	4
+China	Municipal solid waste	4
+Food supply chain	polyphenols	4
+Circular business models	Resource recovery	4
+Biofuels	Bioplastics	4
+Construction	Product-service system	4
+Adsorption	Valorization	4
+Mechanical properties	Waste	4
+Biogas	Lignocellulosic biomass	4
+Biowaste	by-products	4
+Environmental sustainability	Sewage sludge	4
+Biochar	Valorization	4
+Biopolymers	Food supply chain	4
+Life cycle assessment	polyphenols	4
+Bioeconomy	Nutrient recovery	4
+Plastic waste	Renewable energy	4
+Biopolymers	Waste valorization	4
+Biochar	Waste management	4
+Food supply chain	Waste management	4
+Resource recovery	Reverse logistics	4
+Lignocellulosic biomass	Valorization	4
+Biofuels	Food supply chain	4
+Agriculture	Waste recycling	4
+Bioplastics	Mechanical properties	4
+Additive manufacturing	Mechanical properties	4
+Carbon footprint	Climate change	4
+Consumer behavior	industrial ecology	4
+Adsorption	Plastic waste	4
+COVID-19	Digitalization	4
+Decision-making	Resource recovery	4
+Food supply chain	bioactive compounds	4
+Resource recovery	Sustainable development goals	4
+Agriculture	Bioplastics	4
+Biochar	Wastewater treatment	4
+Digitalization	Food supply chain	4
+COVID-19	Waste	4
+Biowaste	Recycling	4
+Case study	Construction	3
+China	Renewable energy	3
+Waste management	by-products	3
+CO<sub>2</sub> emissions	Hydrogen	3
+Case study	Municipal solid waste	3
+Recycling	Supply chain management	3
+Circular business models	Reuse	3
+Bioenergy	Waste-to-energy	3
+Bioenergy	Environmental sustainability	3
+Packaging	Reverse logistics	3
+Nutrient recovery	Recovery	3
+Circular business models	Lithium-ion batteries	3
+Green chemistry	Valorization	3
+Eco-design	Industry 4.0	3
+Case study	Industry 4.0	3
+Agriculture	Plastic waste	3
+Barriers	Construction and demolition waste	3
+Barriers	Wastewater	3
+Construction	Policy	3
+Bioeconomy	bioactive compounds	3
+Product-service system	Resource recovery	3
+Green chemistry	industrial ecology	3
+End-of-life	Renewable energy	3
+E-waste	Resource recovery	3
+Bibliometric analysis	Municipal solid waste	3
+Bioenergy	Microalgae	3
+Agriculture	Sustainable development goals	3
+COVID-19	Sustainable development goals	3
+Innovation	Resource efficiency	3
+Electric vehicles	Optimization	3
+Chemical recycling	End-of-life	3
+Heavy metals	Pyrolysis	3
+Industry 4.0	Material flow analysis	3
+CO<sub>2</sub> emissions	Optimization	3
+Innovation	Reverse logistics	3
+Waste recycling	Wastewater	3
+Composting	Textile waste	3
+Mechanical properties	Wastewater	3
+Remanufacturing	Systematic literature review	3
+Policy	Sustainable development goals	3
+Food supply chain	Waste	3
+Greenhouse gas emissions	Waste-to-energy	3
+Policy	Reuse	3
+Circular supply chain	E-waste	3
+Bioeconomy	Pyrolysis	3
+Resource recovery	Valorization	3
+Wastewater	bioactive compounds	3
+Digitalization	Life cycle assessment	3
+Optimization	Waste valorization	3
+Biofuels	Waste recycling	3
+Recovery	Waste valorization	3
+Renewable energy	Resource efficiency	3
+Construction and demolition waste	Decision-making	3
+Eco-design	Packaging	3
+Indicators	industrial ecology	3
+Environmental sustainability	Mechanical properties	3
+Decision-making	industrial ecology	3
+Case study	Life cycle assessment	3
+Biodegradable	antioxidants	3
+Industry 4.0	Recycling	3
+Municipal solid waste	Waste recycling	3
+Bioeconomy	Resource recovery	3
+Agriculture	industrial ecology	3
+Life cycle assessment	Microalgae	3
+Systematic literature review	Waste management	3
+Closed-loop supply chain	End-of-life	3
+Renewable energy	Reuse	3
+Innovation	Textile waste	3
+Construction and demolition waste	Resource efficiency	3
+Bibliometric analysis	Recovery	3
+Biogas	Waste valorization	3
+Bibliometric analysis	Plastic waste	3
+Circular business models	Construction	3
+Industry 4.0	Reuse	3
+Bioeconomy	Energy	3
+Reuse	Reverse logistics	3
+Hydrogen	Waste valorization	3
+Industrial symbiosis	Waste-to-energy	3
+Biorefinery	Sustainable development goals	3
+Decision-making	Life cycle assessment	3
+LCA	Textile waste	3
+Plastic waste	Sewage sludge	3
+Critical raw materials	Reuse	3
+Business model	Food waste	3
+Remanufacturing	Upcycling	3
+Bioeconomy	LCA	3
+Bioeconomy	CO<sub>2</sub> emissions	3
+Food supply chain	Literature review	3
+Biogas	Optimization	3
+Anaerobic digestion	Recycling	3
+Case study	Reuse	3
+Biochar	Food supply chain	3
+Bioenergy	Climate change	3
+Industrial symbiosis	Recovery	3
+Barriers	Indicators	3
+Biogas	Microalgae	3
+Composting	Material flow analysis	3
+Eco-design	Industrial symbiosis	3
+Biomass	Techno-economic analysis	3
+Consumer behavior	Textile waste	3
+Industrial symbiosis	Waste valorization	3
+Business model	Resource recovery	3
+Greenhouse gas emissions	Reuse	3
+Bioplastics	Biowaste	3
+Bioplastics	Valorization	3
+Circular supply chain	Environmental sustainability	3
+Consumer behavior	E-waste	3
+Consumer behavior	End-of-life	3
+Decision-making	Optimization	3
+Heavy metals	Waste management	3
+Food supply chain	industrial ecology	3
+Food waste	industrial ecology	3
+Industrial symbiosis	Literature review	3
+Business model	Decision-making	3
+Material flow analysis	Policy	3
+Chemical recycling	Environmental sustainability	3
+COVID-19	Waste recycling	3
+Bibliometric analysis	Life cycle assessment	3
+Life cycle assessment	Systematic literature review	3
+Anaerobic digestion	Valorization	3
+Barriers	Plastic waste	3
+Case study	Product-service system	3
+Agriculture	Reuse	3
+Bioplastics	industrial ecology	3
+Municipal solid waste	Waste	3
+Biodegradable	Biogas	3
+Biodegradable	Hydrogen	3
+Circular business models	Consumer behavior	3
+3D printing	Composting	3
+Construction	Greenhouse gas emissions	3
+Techno-economic analysis	industrial ecology	3
+Biofuels	Industrial symbiosis	3
+LCA	by-products	3
+Construction	Industrial symbiosis	3
+Food waste	antioxidants	3
+Product-service system	Recycling	3
+Product-service system	Reuse	3
+Reuse	Systematic literature review	3
+Adsorption	Waste	3
+Lignocellulosic biomass	Plastic waste	3
+Energy	Innovation	3
+Agriculture	Biorefinery	3
+Agriculture	Energy	3
+Construction	Energy	3
+Material flow analysis	Sustainable development goals	3
+Agriculture	Hydrogen	3
+Lithium-ion batteries	Wastewater	3
+Lithium-ion batteries	industrial ecology	3
+Energy	Industry 4.0	3
+Municipal solid waste	Waste valorization	3
+Food waste	Resource efficiency	3
+Construction and demolition waste	Waste	3
+Material flow analysis	Supply chain	3
+Industry 4.0	Optimization	3
+Business model	Electric vehicles	3
+Business model	Lithium-ion batteries	3
+Recovery	Valorization	3
+Waste	antioxidants	3
+Bioeconomy	Material flow analysis	3
+Circular business models	Upcycling	3
+Industrial symbiosis	Innovation	3
+CO<sub>2</sub> emissions	Techno-economic analysis	3
+Circular business models	Innovation	3
+Indicators	Sustainable development goals	3
+Industrial symbiosis	Reuse	3
+Digitalization	Machine learning	3
+Bibliometric analysis	Microalgae	3
+Food supply chain	Resource recovery	3
+Bioenergy	Hydrogen	3
+Chemical recycling	Green chemistry	3
+Biogas	Carbon footprint	3
+Bioeconomy	Waste-to-energy	3
+Pyrolysis	Renewable energy	3
+Innovation	Remanufacturing	3
+CO<sub>2</sub> emissions	Resource recovery	3
+Pyrolysis	Techno-economic analysis	3
+Valorization	Waste-to-energy	3
+Circular business models	Industrial symbiosis	3
+Barriers	China	3
+Policy	Waste	3
+Supply chain	Waste-to-energy	3
+Bioenergy	Biowaste	3
+Carbon footprint	industrial ecology	3
+China	Wastewater	3
+Literature review	Product-service system	3
+Heavy metals	Resource recovery	3
+Biomass	Material flow analysis	3
+Biomass	Construction	3
+Business model	Material flow analysis	3
+Case study	Packaging	3
+Decision-making	Material flow analysis	3
+CO<sub>2</sub> emissions	Energy	3
+Food supply chain	Renewable energy	3
+Biogas	CO<sub>2</sub> emissions	3
+Consumer behavior	Food waste	3
+Climate change	Municipal solid waste	3
+Climate change	Energy	3
+Biogas	industrial ecology	3
+Greenhouse gas emissions	Sustainable development goals	3
+Life cycle assessment	Lignocellulosic biomass	3
+Bioenergy	by-products	3
+Nutrient recovery	Pyrolysis	3
+Construction and demolition waste	Literature review	3
+Hydrogen	Microalgae	3
+Product-service system	Waste management	3
+Bioenergy	Food waste	3
+End-of-life	Recovery	3
+Circular supply chain	Product-service system	3
+Reverse logistics	by-products	3
+Systematic literature review	by-products	3
+Food waste	Literature review	3
+Indicators	Industry 4.0	3
+Barriers	industrial ecology	3
+Business model	Closed-loop supply chain	3
+Waste valorization	by-products	3
+Energy	Greenhouse gas emissions	3
+Greenhouse gas emissions	Material flow analysis	3
+Indicators	Resource efficiency	3
+Lithium-ion batteries	Resource recovery	3
+Textile waste	Upcycling	3
+E-waste	Reuse	3
+Food waste	Sustainable development goals	3
+Machine learning	Remanufacturing	3
+Bioplastics	Chemical recycling	3
+3D printing	Waste recycling	3
+Eco-design	Waste management	3
+Biowaste	Heavy metals	3
+Machine learning	Systematic literature review	3
+Climate change	Digitalization	3
+Biorefinery	Carbon footprint	3
+Bibliometric analysis	Renewable energy	3
+LCA	Waste valorization	3
+Literature review	Resource efficiency	3
+Digitalization	Material flow analysis	3
+Decision-making	Sustainable development goals	3
+Barriers	Municipal solid waste	3
+Composting	Heavy metals	3
+Techno-economic analysis	Waste-to-energy	3
+Nutrient recovery	Waste	3
+E-waste	Plastic waste	3
+Agriculture	Bibliometric analysis	3
+Bibliometric analysis	Waste	3
+Remanufacturing	Sustainable development goals	3
+CO<sub>2</sub> emissions	Greenhouse gas emissions	3
+Digitalization	industrial ecology	3
+Bioplastics	Lignocellulosic biomass	3
+Biomass	Sewage sludge	3
+Mechanical properties	Waste recycling	3
+Agriculture	Supply chain	3
+Plastic waste	Textile waste	3
+Decision-making	by-products	3
+Upcycling	industrial ecology	3
+Biomass	Valorization	3
+Waste-to-energy	industrial ecology	3
+Digitalization	Sustainable development goals	3
+Barriers	Upcycling	3
+Agriculture	Industry 4.0	3
+Waste valorization	bioactive compounds	3
+Greenhouse gas emissions	Microalgae	3
+Food supply chain	antioxidants	3
+Biogas	Pyrolysis	3
+Food waste	Pyrolysis	3
+Valorization	industrial ecology	3
+Upcycling	Waste management	3
+Barriers	Reverse logistics	3
+Composting	Greenhouse gas emissions	3
+Reverse logistics	Sustainable development goals	3
+Machine learning	Microalgae	3
+Circular business models	Renewable energy	3
+Biochar	Waste valorization	3
+Electric vehicles	LCA	3
+Microalgae	Valorization	3
+E-waste	Recovery	3
+Bioplastics	End-of-life	3
+Chemical recycling	Waste management	3
+Food supply chain	Pyrolysis	3
+Bibliometric analysis	Wastewater	3
+Additive manufacturing	Upcycling	3
+Innovation	Sustainable development goals	3
+Decision-making	Renewable energy	3
+Optimization	Pyrolysis	3
+Industry 4.0	Waste	3
+Heavy metals	Waste valorization	3
+Machine learning	Sustainable development goals	3
+Agriculture	Mechanical properties	3
+Barriers	Electric vehicles	3
+Microalgae	Renewable energy	3
+Optimization	industrial ecology	3
+Sustainable development goals	Waste valorization	3
+Biorefinery	Optimization	3
+Biochar	Greenhouse gas emissions	3
+Bioeconomy	Carbon footprint	3
+Biomass	Food supply chain	3
+COVID-19	Wastewater	3
+Biomass	Biowaste	3
+Biofuels	Waste	3
+Waste valorization	industrial ecology	3
+Food waste	Industrial symbiosis	3
+Greenhouse gas emissions	Supply chain	3
+Recycling	antioxidants	3
+Innovation	Plastic waste	3
+Bioeconomy	Green chemistry	3
+3D printing	Bioplastics	3
+3D printing	Waste valorization	3
+Biofuels	Biowaste	3
+Biomass	Composting	3
+Greenhouse gas emissions	Resource recovery	3
+Agriculture	Climate change	3
+Climate change	Wastewater treatment	3
+Agriculture	Pyrolysis	3
+Biopolymers	Microalgae	3
+CO<sub>2</sub> emissions	COVID-19	3
+Waste management	polyphenols	3
+Biowaste	Waste recycling	3
+Biorefinery	Nutrient recovery	3
+Digitalization	Supply chain	3
+Energy	Sewage sludge	3
+Circular business models	Plastic waste	3
+Adsorption	Agriculture	3
+Decision-making	Systematic literature review	3
+Decision-making	Waste	3
+Plastic waste	Reverse logistics	3
+Bioeconomy	Supply chain	3
+Decision-making	Resource efficiency	3
+Food supply chain	Industrial symbiosis	3
+Biochar	Climate change	3
+COVID-19	Carbon footprint	3
+Environmental sustainability	Green chemistry	3
+Closed-loop supply chain	Lithium-ion batteries	3
+COVID-19	Pyrolysis	3
+Greenhouse gas emissions	Waste	3
+Energy	Pyrolysis	2
+Environmental sustainability	Optimization	2
+Case study	Food waste	2
+Lignocellulosic biomass	Waste management	2
+Composting	Valorization	2
+Electric vehicles	Supply chain management	2
+Anaerobic digestion	Food supply chain	2
+Innovation	Supply chain management	2
+LCA	Waste-to-energy	2
+Reverse logistics	Waste	2
+COVID-19	Recycling	2
+Nutrient recovery	Techno-economic analysis	2
+Techno-economic analysis	Wastewater	2
+Construction	Optimization	2
+Optimization	Reuse	2
+Electric vehicles	Reverse logistics	2
+Eco-design	Lithium-ion batteries	2
+Biochar	Biowaste	2
+Biowaste	Waste-to-energy	2
+Circular business models	Eco-design	2
+Bioenergy	Systematic literature review	2
+Case study	Literature review	2
+CO<sub>2</sub> emissions	Heavy metals	2
+Energy	Policy	2
+Construction and demolition waste	Wastewater	2
+Bioenergy	bioactive compounds	2
+Bioeconomy	by-products	2
+End-of-life	Product-service system	2
+Life cycle assessment	Mechanical properties	2
+Food waste	Packaging	2
+Bibliometric analysis	Waste-to-energy	2
+Biofuels	Supply chain	2
+China	Industrial symbiosis	2
+Circular supply chain	Plastic waste	2
+Biopolymers	Hydrogen	2
+Renewable energy	Wastewater	2
+Industrial symbiosis	Upcycling	2
+Food waste	Plastic waste	2
+Resource recovery	Waste recycling	2
+Machine learning	Supply chain	2
+Climate change	Policy	2
+COVID-19	Waste-to-energy	2
+Policy	industrial ecology	2
+Food supply chain	Packaging	2
+Barriers	End-of-life	2
+Case study	E-waste	2
+Bibliometric analysis	Closed-loop supply chain	2
+Biofuels	Plastic waste	2
+Greenhouse gas emissions	Lignocellulosic biomass	2
+Biogas	Business model	2
+Biogas	Circular business models	2
+E-waste	Wastewater	2
+Chemical recycling	Waste-to-energy	2
+Biogas	Techno-economic analysis	2
+Bioeconomy	Upcycling	2
+End-of-life	Wastewater	2
+Indicators	Recycling	2
+Indicators	Remanufacturing	2
+Anaerobic digestion	Mechanical properties	2
+Carbon footprint	Reuse	2
+Additive manufacturing	Material flow analysis	2
+Circular business models	Supply chain management	2
+Business model	E-waste	2
+Circular business models	Material flow analysis	2
+Mechanical properties	industrial ecology	2
+Resource efficiency	Waste recycling	2
+Food supply chain	Waste valorization	2
+Optimization	Remanufacturing	2
+Policy	Sewage sludge	2
+Biopolymers	Resource recovery	2
+Biochar	Resource recovery	2
+Barriers	Innovation	2
+Barriers	Textile waste	2
+3D printing	Material flow analysis	2
+Circular supply chain	Digitalization	2
+Food waste	Material flow analysis	2
+Consumer behavior	Packaging	2
+Critical raw materials	Wastewater	2
+Material flow analysis	Wastewater treatment	2
+Adsorption	CO<sub>2</sub> emissions	2
+Renewable energy	Sewage sludge	2
+Renewable energy	Waste valorization	2
+Sewage sludge	Waste valorization	2
+Biofuels	Green chemistry	2
+Business model	Textile waste	2
+Digitalization	Plastic waste	2
+Digitalization	Wastewater	2
+Composting	polyphenols	2
+Bioeconomy	Wastewater treatment	2
+LCA	Policy	2
+Lignocellulosic biomass	Waste valorization	2
+Biofuels	Nutrient recovery	2
+Bioeconomy	End-of-life	2
+Industry 4.0	Waste-to-energy	2
+Food waste	Innovation	2
+Biofuels	Biopolymers	2
+Biopolymers	Sustainable development goals	2
+Biochar	Microalgae	2
+Green chemistry	Hydrogen	2
+Industrial symbiosis	Systematic literature review	2
+Biofuels	Optimization	2
+Optimization	Renewable energy	2
+Optimization	Waste recycling	2
+Biopolymers	CO<sub>2</sub> emissions	2
+Construction	Eco-design	2
+Waste recycling	Waste-to-energy	2
+Carbon footprint	Textile waste	2
+Case study	Material flow analysis	2
+Resource recovery	Waste-to-energy	2
+Food waste	Heavy metals	2
+Consumer behavior	Reuse	2
+Bioplastics	Renewable energy	2
+Biopolymers	Renewable energy	2
+Biodegradable	Consumer behavior	2
+Biochar	Biodegradable	2
+Climate change	Textile waste	2
+Anaerobic digestion	Industrial symbiosis	2
+Biogas	Industrial symbiosis	2
+Energy	Waste-to-energy	2
+Biofuels	Decision-making	2
+Biochar	Construction	2
+Biorefinery	Decision-making	2
+Biogas	Resource recovery	2
+Optimization	Resource recovery	2
+Nutrient recovery	Resource efficiency	2
+Agriculture	Biopolymers	2
+Bioeconomy	COVID-19	2
+End-of-life	Optimization	2
+Biofuels	Sewage sludge	2
+Anaerobic digestion	Reuse	2
+Biofuels	Recovery	2
+Biorefinery	Food supply chain	2
+Sewage sludge	Waste recycling	2
+Green chemistry	Material flow analysis	2
+Construction and demolition waste	Supply chain management	2
+Mechanical properties	polyphenols	2
+Consumer behavior	Supply chain	2
+Consumer behavior	Waste	2
+Case study	Policy	2
+Case study	Sustainable development goals	2
+Biomass	Recovery	2
+Closed-loop supply chain	Innovation	2
+Waste	Wastewater treatment	2
+Waste recycling	industrial ecology	2
+Wastewater	polyphenols	2
+Composting	Remanufacturing	2
+Barriers	Supply chain management	2
+COVID-19	Heavy metals	2
+Critical raw materials	Life cycle assessment	2
+Life cycle assessment	Recovery	2
+Eco-design	Waste	2
+E-waste	Supply chain	2
+Sewage sludge	Waste	2
+Decision-making	Lithium-ion batteries	2
+Food supply chain	Wastewater	2
+Biomass	Optimization	2
+Decision-making	Indicators	2
+Innovation	Product-service system	2
+Additive manufacturing	Industrial symbiosis	2
+Food supply chain	Reverse logistics	2
+Circular supply chain	Industrial symbiosis	2
+COVID-19	Systematic literature review	2
+Packaging	Resource efficiency	2
+Anaerobic digestion	by-products	2
+Plastic waste	Waste-to-energy	2
+Bioeconomy	Composting	2
+Barriers	E-waste	2
+CO<sub>2</sub> emissions	Mechanical properties	2
+Decision-making	Sewage sludge	2
+Anaerobic digestion	Biodegradable	2
+Consumer behavior	Reverse logistics	2
+China	Electric vehicles	2
+Food waste	Hydrogen	2
+Bibliometric analysis	Circular business models	2
+Material flow analysis	Nutrient recovery	2
+Green chemistry	Waste	2
+Hydrogen	Waste management	2
+Decision-making	Plastic waste	2
+Techno-economic analysis	Waste management	2
+Product-service system	Supply chain management	2
+Biofuels	LCA	2
+Bioenergy	LCA	2
+Upcycling	Waste	2
+Waste valorization	antioxidants	2
+Circular business models	Indicators	2
+Food waste	by-products	2
+Eco-design	Remanufacturing	2
+Barriers	Eco-design	2
+Life cycle assessment	Valorization	2
+Bioenergy	Decision-making	2
+Climate change	Resource efficiency	2
+Biodegradable	Microalgae	2
+LCA	Nutrient recovery	2
+Biofuels	Wastewater treatment	2
+End-of-life	Resource efficiency	2
+Pyrolysis	antioxidants	2
+Carbon footprint	China	2
+Closed-loop supply chain	Reuse	2
+LCA	Renewable energy	2
+Biogas	Material flow analysis	2
+Construction and demolition waste	Systematic literature review	2
+Food waste	Sewage sludge	2
+Upcycling	Wastewater treatment	2
+Case study	Reverse logistics	2
+Biochar	antioxidants	2
+Agriculture	Biowaste	2
+Biogas	Reuse	2
+Construction and demolition waste	Policy	2
+Pyrolysis	Recovery	2
+Case study	Resource efficiency	2
+Greenhouse gas emissions	Nutrient recovery	2
+Biopolymers	Wastewater treatment	2
+Biorefinery	Policy	2
+Agriculture	Innovation	2
+Innovation	Nutrient recovery	2
+E-waste	Waste	2
+Construction and demolition waste	Resource recovery	2
+Reuse	Sustainable development goals	2
+Anaerobic digestion	Sustainable development goals	2
+Biogas	Sustainable development goals	2
+Closed-loop supply chain	Plastic waste	2
+Barriers	Product-service system	2
+Critical raw materials	Eco-design	2
+Techno-economic analysis	Waste	2
+Eco-design	Plastic waste	2
+Biodegradable	Municipal solid waste	2
+Case study	industrial ecology	2
+Closed-loop supply chain	E-waste	2
+Carbon footprint	Chemical recycling	2
+Supply chain	Textile waste	2
+Agriculture	Policy	2
+Techno-economic analysis	Wastewater treatment	2
+Packaging	Textile waste	2
+Anaerobic digestion	Machine learning	2
+Literature review	Packaging	2
+Biopolymers	Textile waste	2
+Case study	Construction and demolition waste	2
+Decision-making	Supply chain management	2
+CO<sub>2</sub> emissions	Valorization	2
+End-of-life	Waste-to-energy	2
+Industrial symbiosis	Pyrolysis	2
+Bioeconomy	Industrial symbiosis	2
+Lithium-ion batteries	Reverse logistics	2
+Sewage sludge	Valorization	2
+Energy	Indicators	2
+Biorefinery	Industry 4.0	2
+3D printing	Business model	2
+Climate change	Electric vehicles	2
+Biodegradable	Biowaste	2
+Decision-making	Industrial symbiosis	2
+Energy	Renewable energy	2
+Industry 4.0	Wastewater	2
+Biomass	Resource recovery	2
+Barriers	Resource efficiency	2
+Innovation	Packaging	2
+Climate change	Reuse	2
+China	E-waste	2
+Anaerobic digestion	CO<sub>2</sub> emissions	2
+Resource efficiency	Waste valorization	2
+Machine learning	Waste recycling	2
+Lignocellulosic biomass	Mechanical properties	2
+Carbon footprint	Green chemistry	2
+Adsorption	Biogas	2
+Agriculture	Decision-making	2
+Climate change	Packaging	2
+China	Remanufacturing	2
+Anaerobic digestion	industrial ecology	2
+Biowaste	Packaging	2
+Heavy metals	Waste	2
+Heavy metals	Recycling	2
+Bibliometric analysis	China	2
+Bioplastics	Wastewater	2
+Bioenergy	Recycling	2
+Renewable energy	by-products	2
+Circular business models	Reverse logistics	2
+Agriculture	China	2
+Bioeconomy	China	2
+Business model	Climate change	2
+Agriculture	LCA	2
+Electric vehicles	Renewable energy	2
+Bioplastics	Supply chain	2
+Packaging	Recovery	2
+Case study	Closed-loop supply chain	2
+Case study	Supply chain management	2
+Bibliometric analysis	Industrial symbiosis	2
+Bioplastics	Resource recovery	2
+Biodegradable	Food waste	2
+Critical raw materials	Decision-making	2
+Business model	Upcycling	2
+Bioeconomy	Machine learning	2
+CO<sub>2</sub> emissions	End-of-life	2
+Closed-loop supply chain	Product-service system	2
+LCA	Sewage sludge	2
+Industrial symbiosis	Material flow analysis	2
+Greenhouse gas emissions	Indicators	2
+China	Indicators	2
+Bibliometric analysis	Consumer behavior	2
+Bioplastics	Hydrogen	2
+Policy	Waste-to-energy	2
+Additive manufacturing	Waste recycling	2
+Agriculture	Textile waste	2
+Construction	by-products	2
+Lignocellulosic biomass	bioactive compounds	2
+Additive manufacturing	industrial ecology	2
+Pyrolysis	Textile waste	2
+Bibliometric analysis	Innovation	2
+Waste recycling	Waste valorization	2
+Bibliometric analysis	Biofuels	2
+3D printing	Machine learning	2
+Energy	Food waste	2
+Critical raw materials	Sustainable development goals	2
+Chemical recycling	Packaging	2
+Packaging	Upcycling	2
+3D printing	Biodegradable	2
+Composting	Optimization	2
+Heavy metals	Optimization	2
+Chemical recycling	Material flow analysis	2
+Hydrogen	bioactive compounds	2
+Innovation	Renewable energy	2
+Energy	Municipal solid waste	2
+Green chemistry	by-products	2
+Anaerobic digestion	bioactive compounds	2
+Biochar	CO<sub>2</sub> emissions	2
+Lithium-ion batteries	Supply chain	2
+Biochar	Sustainable development goals	2
+Pyrolysis	Sustainable development goals	2
+Bioenergy	Techno-economic analysis	2
+Construction and demolition waste	Sustainable development goals	2
+Composting	Food supply chain	2
+Consumer behavior	Resource efficiency	2
+Municipal solid waste	Techno-economic analysis	2
+Bioenergy	Supply chain	2
+Eco-design	Material flow analysis	2
+Bibliometric analysis	Biochar	2
+Bibliometric analysis	Heavy metals	2
+Literature review	Sustainable development goals	2
+Hydrogen	polyphenols	2
+LCA	Literature review	2
+Pyrolysis	Valorization	2
+CO<sub>2</sub> emissions	Machine learning	2
+Biogas	Composting	2
+Biogas	Nutrient recovery	2
+Construction	Waste valorization	2
+Composting	Microalgae	2
+Composting	Reuse	2
+Eco-design	Electric vehicles	2
+Optimization	Techno-economic analysis	2
+Electric vehicles	Waste management	2
+Food waste	Greenhouse gas emissions	2
+Construction and demolition waste	Machine learning	2
+Food supply chain	Supply chain management	2
+Business model	Plastic waste	2
+Business model	Waste	2
+Bibliometric analysis	Energy	2
+Agriculture	Waste valorization	2
+Agriculture	Waste-to-energy	2
+3D printing	Biomass	2
+Food supply chain	Indicators	2
+Mechanical properties	Upcycling	2
+Literature review	Renewable energy	2
+Circular business models	Construction and demolition waste	2
+Biowaste	Machine learning	2
+Biowaste	Waste valorization	2
+Bioplastics	Pyrolysis	2
+Biochar	Energy	2
+Biochar	LCA	2
+Biodegradable	Green chemistry	2
+Energy	LCA	2
+Construction	Supply chain management	2
+Agriculture	Digitalization	2
+Climate change	industrial ecology	2
+Waste management	Waste recycling	2
+Municipal solid waste	Packaging	2
+Packaging	Wastewater	2
+Circular business models	LCA	2
+Municipal solid waste	Valorization	2
+Construction	Indicators	2
+Decision-making	Product-service system	2
+Construction and demolition waste	Indicators	2
+CO<sub>2</sub> emissions	China	2
+Optimization	Plastic waste	2
+Bioeconomy	Policy	2
+Biorefinery	Municipal solid waste	2
+Bibliometric analysis	Climate change	2
+Climate change	Systematic literature review	2
+Biopolymers	Waste management	2
+3D printing	Agriculture	2
+Textile waste	industrial ecology	2
+Climate change	Reverse logistics	2
+Biochar	Biopolymers	2
+Circular supply chain	Recycling	2
+by-products	industrial ecology	2
+Anaerobic digestion	Heavy metals	2
+Indicators	Systematic literature review	2
+Energy	Life cycle assessment	2
+Optimization	antioxidants	2
+Electric vehicles	Wastewater	2
+Heavy metals	Plastic waste	2
+Food waste	Waste recycling	2
+Renewable energy	Systematic literature review	2
+Composting	Upcycling	2
+Pyrolysis	Upcycling	2
+Recovery	Resource recovery	2
+Waste valorization	Wastewater treatment	2
+Carbon footprint	Food waste	2
+Industrial symbiosis	Plastic waste	2
+Bioplastics	Food supply chain	2
+Adsorption	Anaerobic digestion	2
+Food supply chain	Recycling	2
+Carbon footprint	Eco-design	2
+Machine learning	Renewable energy	2
+Climate change	Supply chain management	2
+Biodegradable	Waste valorization	2
+Biogas	Recycling	2
+Hydrogen	Resource recovery	2
+Industrial symbiosis	Remanufacturing	2
+Remanufacturing	Wastewater	2
+Eco-design	Literature review	2
+Carbon footprint	Wastewater treatment	2
+Bibliometric analysis	Biogas	2
+Hydrogen	Wastewater	2
+Adsorption	Sewage sludge	2
+Case study	Wastewater	2
+Agriculture	Packaging	2
+Chemical recycling	industrial ecology	2
+Bibliometric analysis	Construction and demolition waste	2
+Greenhouse gas emissions	Techno-economic analysis	2
+Biochar	Lignocellulosic biomass	2
+Pyrolysis	Resource recovery	2
+Adsorption	Machine learning	2
+Digitalization	Renewable energy	2
+Bibliometric analysis	COVID-19	2
+Decision-making	Digitalization	2
+Bioenergy	Sustainable development goals	2
+Indicators	Waste	2
+LCA	Waste	2
+Carbon footprint	Material flow analysis	2
+Construction	Plastic waste	2
+Business model	Machine learning	2
+Bibliometric analysis	Machine learning	2
+3D printing	Upcycling	2
+CO<sub>2</sub> emissions	Municipal solid waste	2
+Biodegradable	End-of-life	2
+Lithium-ion batteries	Policy	2
+Eco-design	End-of-life	2
+3D printing	Remanufacturing	2
+Circular supply chain	Resource recovery	2
+Policy	Textile waste	2
+Biopolymers	Wastewater	2
+Sustainable development goals	Systematic literature review	2
+Biofuels	Carbon footprint	2
+Biomass	Carbon footprint	2
+Circular supply chain	Remanufacturing	2
+Case study	Innovation	2
+Bioplastics	Carbon footprint	2
+Renewable energy	Wastewater treatment	2
+Biodegradable	Lignocellulosic biomass	2
+Additive manufacturing	Renewable energy	2
+E-waste	Waste-to-energy	2
+Biopolymers	Mechanical properties	2
+Policy	Techno-economic analysis	2
+Microalgae	Sustainable development goals	2
+Construction and demolition waste	Wastewater treatment	2
+Circular business models	Techno-economic analysis	2
+3D printing	Supply chain	2
+Bioplastics	COVID-19	2
+Food supply chain	Material flow analysis	2
+Microalgae	Waste management	2
+Bibliometric analysis	Circular supply chain	2
+Heavy metals	Life cycle assessment	2
+Consumer behavior	Decision-making	2
+Adsorption	Waste recycling	2
+Case study	Supply chain	2
+Anaerobic digestion	Biopolymers	2
+Anaerobic digestion	Business model	2
+Digitalization	E-waste	2
+Construction and demolition waste	Upcycling	2
+Material flow analysis	Upcycling	2
+Innovation	Microalgae	2
+Biorefinery	Machine learning	2
+Indicators	Innovation	2
+Recovery	Reverse logistics	2
+Industry 4.0	Renewable energy	2
+Digitalization	Waste	2
+Biowaste	Energy	2
+Biorefinery	Greenhouse gas emissions	2
+Bibliometric analysis	bioactive compounds	2
+Closed-loop supply chain	Digitalization	2
+Nutrient recovery	Optimization	2
+LCA	Municipal solid waste	2
+Biopolymers	Sewage sludge	2
+Heavy metals	Valorization	2
+Electric vehicles	Techno-economic analysis	2
+Bioeconomy	Hydrogen	2
+E-waste	Renewable energy	2
+Construction	Decision-making	2
+Biofuels	Energy	2
+Chemical recycling	Composting	2
+Decision-making	Nutrient recovery	2
+Food waste	Supply chain management	2
+Adsorption	by-products	2
+End-of-life	Literature review	2
+Critical raw materials	Green chemistry	2
+Waste recycling	Wastewater treatment	2
+Agriculture	Biofuels	2
+Biowaste	Wastewater	2
+Biofuels	Municipal solid waste	2
+Electric vehicles	Greenhouse gas emissions	2
+Circular business models	Policy	2
+Product-service system	Supply chain	2
+Literature review	Resource recovery	2
+CO<sub>2</sub> emissions	Waste	2
+Reuse	Waste valorization	2
+3D printing	Supply chain management	2
+Biofuels	Composting	1
+Composting	Hydrogen	1
+Remanufacturing	Resource recovery	1
+Innovation	Systematic literature review	1
+Case study	Composting	1
+Green chemistry	Textile waste	1
+Food supply chain	Waste-to-energy	1
+Supply chain	Supply chain management	1
+Biodegradable	Innovation	1
+3D printing	COVID-19	1
+Recovery	Techno-economic analysis	1
+Construction	Upcycling	1
+Optimization	Upcycling	1
+Indicators	Material flow analysis	1
+Construction	Valorization	1
+Lithium-ion batteries	Techno-economic analysis	1
+Chemical recycling	Wastewater	1
+Indicators	Municipal solid waste	1
+Biochar	Waste-to-energy	1
+Biowaste	Pyrolysis	1
+Composting	Eco-design	1
+Hydrogen	Wastewater treatment	1
+COVID-19	Critical raw materials	1
+E-waste	Industrial symbiosis	1
+Greenhouse gas emissions	Wastewater	1
+Bioeconomy	Valorization	1
+Bioeconomy	Sewage sludge	1
+Bibliometric analysis	LCA	1
+Hydrogen	Valorization	1
+Bioplastics	Industrial symbiosis	1
+Bioplastics	Upcycling	1
+Food supply chain	Sustainable development goals	1
+Plastic waste	Sustainable development goals	1
+Carbon footprint	Industry 4.0	1
+Reuse	Valorization	1
+Agriculture	bioactive compounds	1
+Municipal solid waste	Wastewater treatment	1
+China	Textile waste	1
+Resource efficiency	Wastewater	1
+Biodegradable	Sewage sludge	1
+Hydrogen	Optimization	1
+Hydrogen	Supply chain	1
+Material flow analysis	Renewable energy	1
+Bioeconomy	Consumer behavior	1
+Consumer behavior	Upcycling	1
+Mechanical properties	Valorization	1
+Composting	Packaging	1
+Food waste	Textile waste	1
+Mechanical properties	antioxidants	1
+Energy	industrial ecology	1
+Circular business models	Waste recycling	1
+Indicators	Renewable energy	1
+bioactive compounds	industrial ecology	1
+Bioeconomy	polyphenols	1
+Municipal solid waste	Reverse logistics	1
+Machine learning	Wastewater	1
+Valorization	antioxidants	1
+Lignocellulosic biomass	Renewable energy	1
+Lignocellulosic biomass	Sustainable development goals	1
+Heavy metals	Reuse	1
+Systematic literature review	Waste-to-energy	1
+Lignocellulosic biomass	Recovery	1
+Barriers	Waste	1
+Biogas	Indicators	1
+E-waste	LCA	1
+China	Greenhouse gas emissions	1
+Agriculture	Resource recovery	1
+Industrial symbiosis	Sustainable development goals	1
+Biodegradable	Life cycle assessment	1
+China	Life cycle assessment	1
+Lithium-ion batteries	Waste valorization	1
+Digitalization	Municipal solid waste	1
+Digitalization	Recovery	1
+Decision-making	Policy	1
+Circular supply chain	Waste-to-energy	1
+End-of-life	Hydrogen	1
+Microalgae	Sewage sludge	1
+Energy	Systematic literature review	1
+Renewable energy	Waste recycling	1
+Circular business models	Nutrient recovery	1
+Microalgae	industrial ecology	1
+COVID-19	Sewage sludge	1
+Adsorption	Green chemistry	1
+Recovery	industrial ecology	1
+Lithium-ion batteries	Renewable energy	1
+Anaerobic digestion	Construction	1
+Green chemistry	bioactive compounds	1
+Bioenergy	Industrial symbiosis	1
+Resource recovery	Supply chain	1
+Circular supply chain	industrial ecology	1
+Anaerobic digestion	Case study	1
+Anaerobic digestion	Recovery	1
+Biochar	Case study	1
+Biochar	Recovery	1
+Biochar	Reuse	1
+Biofuels	Case study	1
+Biofuels	Recycling	1
+Biofuels	Reuse	1
+Case study	Recovery	1
+Composting	Recovery	1
+Case study	Systematic literature review	1
+Business model	COVID-19	1
+Business model	Consumer behavior	1
+China	Innovation	1
+Additive manufacturing	Business model	1
+COVID-19	Circular business models	1
+Circular business models	Food supply chain	1
+Case study	LCA	1
+Agriculture	Indicators	1
+Biochar	Waste recycling	1
+Digitalization	Packaging	1
+Additive manufacturing	Product-service system	1
+Industrial symbiosis	Waste recycling	1
+Biogas	Recovery	1
+Carbon footprint	Sustainable development goals	1
+Adsorption	polyphenols	1
+Barriers	Policy	1
+Policy	Supply chain management	1
+Composting	End-of-life	1
+CO<sub>2</sub> emissions	Industrial symbiosis	1
+Industrial symbiosis	Renewable energy	1
+Biowaste	Hydrogen	1
+Recovery	Supply chain	1
+Energy	Upcycling	1
+Barriers	COVID-19	1
+Decision-making	Electric vehicles	1
+3D printing	Industrial symbiosis	1
+3D printing	Literature review	1
+Additive manufacturing	Literature review	1
+Additive manufacturing	Waste	1
+Literature review	Waste	1
+Composting	industrial ecology	1
+Recycling	Waste recycling	1
+Bioeconomy	Critical raw materials	1
+COVID-19	Product-service system	1
+Industry 4.0	antioxidants	1
+Industrial symbiosis	Wastewater treatment	1
+Climate change	by-products	1
+Heavy metals	Lignocellulosic biomass	1
+Biofuels	Electric vehicles	1
+Biofuels	Innovation	1
+Electric vehicles	Innovation	1
+Bioplastics	Systematic literature review	1
+3D printing	Innovation	1
+Bioeconomy	Digitalization	1
+Construction and demolition waste	industrial ecology	1
+Biodegradable	Biorefinery	1
+Eco-design	Product-service system	1
+Eco-design	Upcycling	1
+Biochar	Bioplastics	1
+Biogas	polyphenols	1
+Consumer behavior	Digitalization	1
+Biodegradable	Nutrient recovery	1
+Biofuels	by-products	1
+Closed-loop supply chain	Industrial symbiosis	1
+End-of-life	Systematic literature review	1
+Decision-making	Municipal solid waste	1
+Business model	China	1
+Biowaste	polyphenols	1
+Energy	Optimization	1
+Decision-making	Eco-design	1
+China	Sustainable development goals	1
+LCA	Upcycling	1
+Upcycling	Wastewater	1
+Circular supply chain	Consumer behavior	1
+Barriers	Material flow analysis	1
+Municipal solid waste	Systematic literature review	1
+Biomass	Resource efficiency	1
+Industry 4.0	Policy	1
+Food supply chain	Sewage sludge	1
+Nutrient recovery	industrial ecology	1
+Carbon footprint	Construction	1
+Composting	Resource recovery	1
+Consumer behavior	Municipal solid waste	1
+Municipal solid waste	Reuse	1
+Circular supply chain	Wastewater treatment	1
+Anaerobic digestion	Upcycling	1
+Biowaste	Upcycling	1
+Biowaste	Wastewater treatment	1
+Food waste	Wastewater treatment	1
+Nutrient recovery	Upcycling	1
+Resource recovery	Upcycling	1
+Sewage sludge	Upcycling	1
+Techno-economic analysis	antioxidants	1
+Energy	Lignocellulosic biomass	1
+Biorefinery	Circular business models	1
+Biorefinery	Upcycling	1
+Decision-making	Supply chain	1
+Indicators	Literature review	1
+Industry 4.0	LCA	1
+Agriculture	Industrial symbiosis	1
+Optimization	Reverse logistics	1
+Optimization	Supply chain management	1
+Innovation	Wastewater treatment	1
+Agriculture	antioxidants	1
+Biorefinery	Recovery	1
+3D printing	Closed-loop supply chain	1
+Carbon footprint	End-of-life	1
+Biomass	Indicators	1
+Nutrient recovery	Renewable energy	1
+Carbon footprint	Pyrolysis	1
+Packaging	Supply chain	1
+Biodegradable	Chemical recycling	1
+Construction	Sewage sludge	1
+Industry 4.0	industrial ecology	1
+Biomass	Reuse	1
+China	Waste	1
+Waste management	bioactive compounds	1
+LCA	Product-service system	1
+Packaging	Product-service system	1
+Construction and demolition waste	Plastic waste	1
+Municipal solid waste	polyphenols	1
+Bioeconomy	Recovery	1
+Packaging	Supply chain management	1
+Eco-design	Techno-economic analysis	1
+Industry 4.0	Plastic waste	1
+Business model	Optimization	1
+Bioeconomy	Packaging	1
+Bioeconomy	Municipal solid waste	1
+Recycling	Wastewater treatment	1
+End-of-life	Industrial symbiosis	1
+Pyrolysis	by-products	1
+Case study	China	1
+Bioeconomy	Literature review	1
+Energy	Lithium-ion batteries	1
+Material flow analysis	Mechanical properties	1
+Packaging	Waste-to-energy	1
+China	Circular supply chain	1
+Resource efficiency	Waste	1
+Barriers	Reuse	1
+Case study	Wastewater treatment	1
+Biopolymers	Packaging	1
+Biopolymers	Green chemistry	1
+China	Policy	1
+Microalgae	bioactive compounds	1
+Material flow analysis	by-products	1
+Eco-design	Renewable energy	1
+Eco-design	Resource recovery	1
+Waste	Waste recycling	1
+Bioeconomy	antioxidants	1
+Biochar	Bioeconomy	1
+Biowaste	industrial ecology	1
+Packaging	industrial ecology	1
+Supply chain	by-products	1
+Resource efficiency	Resource recovery	1
+Bioeconomy	Systematic literature review	1
+Optimization	Resource efficiency	1
+Recycling	bioactive compounds	1
+Critical raw materials	Industrial symbiosis	1
+E-waste	Nutrient recovery	1
+Bioenergy	China	1
+Biomass	China	1
+E-waste	Municipal solid waste	1
+3D printing	CO<sub>2</sub> emissions	1
+Biogas	China	1
+China	LCA	1
+Lignocellulosic biomass	Waste	1
+Biogas	Supply chain	1
+Biorefinery	Innovation	1
+Product-service system	Waste	1
+Recovery	Waste-to-energy	1
+Green chemistry	Industrial symbiosis	1
+Agriculture	Case study	1
+Business model	CO<sub>2</sub> emissions	1
+Food waste	Optimization	1
+Carbon footprint	Nutrient recovery	1
+Bioplastics	Wastewater treatment	1
+Biochar	Material flow analysis	1
+Material flow analysis	Pyrolysis	1
+Decision-making	Innovation	1
+Biodegradable	LCA	1
+Industrial symbiosis	Product-service system	1
+Biomass	Industrial symbiosis	1
+Agriculture	Eco-design	1
+Biogas	Eco-design	1
+Biowaste	LCA	1
+Construction and demolition waste	Remanufacturing	1
+E-waste	Heavy metals	1
+Anaerobic digestion	Literature review	1
+China	Lithium-ion batteries	1
+Closed-loop supply chain	Resource efficiency	1
+Case study	Indicators	1
+LCA	Wastewater treatment	1
+Carbon footprint	Optimization	1
+Carbon footprint	Reverse logistics	1
+Climate change	Waste-to-energy	1
+Heavy metals	Material flow analysis	1
+Indicators	Plastic waste	1
+Carbon footprint	Packaging	1
+Eco-design	Reuse	1
+Agriculture	Remanufacturing	1
+Energy	Remanufacturing	1
+Bioplastics	Techno-economic analysis	1
+Bioplastics	Material flow analysis	1
+Lignocellulosic biomass	Wastewater	1
+Machine learning	Reuse	1
+Agriculture	Upcycling	1
+Bioeconomy	Eco-design	1
+Circular supply chain	Machine learning	1
+Mechanical properties	bioactive compounds	1
+Additive manufacturing	Adsorption	1
+Adsorption	industrial ecology	1
+Biogas	Heavy metals	1
+Climate change	Consumer behavior	1
+Adsorption	Construction	1
+Construction	Heavy metals	1
+Digitalization	Nutrient recovery	1
+Sustainable development goals	antioxidants	1
+Electric vehicles	Literature review	1
+Agriculture	Literature review	1
+Literature review	Sewage sludge	1
+Optimization	Valorization	1
+Bioplastics	Municipal solid waste	1
+Innovation	Literature review	1
+Biodegradable	Textile waste	1
+E-waste	Supply chain management	1
+Biodegradable	Machine learning	1
+Bioplastics	Eco-design	1
+China	Supply chain management	1
+Energy	Food supply chain	1
+Agriculture	Green chemistry	1
+Agriculture	by-products	1
+Anaerobic digestion	antioxidants	1
+Literature review	Waste recycling	1
+Additive manufacturing	Waste valorization	1
+Hydrogen	Sewage sludge	1
+Construction and demolition waste	Industrial symbiosis	1
+Machine learning	Resource recovery	1
+Adsorption	Food supply chain	1
+COVID-19	Machine learning	1
+Food waste	Lithium-ion batteries	1
+Bibliometric analysis	by-products	1
+Techno-economic analysis	Textile waste	1
+Lithium-ion batteries	Machine learning	1
+Anaerobic digestion	Textile waste	1
+Biogas	Textile waste	1
+Textile waste	Waste valorization	1
+Circular business models	Climate change	1
+Adsorption	Bibliometric analysis	1
+Adsorption	Sustainable development goals	1
+Heavy metals	Sustainable development goals	1
+Agriculture	Machine learning	1
+COVID-19	Innovation	1
+COVID-19	Textile waste	1
+Innovation	Supply chain	1
+Chemical recycling	LCA	1
+Hydrogen	LCA	1
+LCA	polyphenols	1
+Construction	Consumer behavior	1
+Construction and demolition waste	Consumer behavior	1
+Pyrolysis	Waste recycling	1
+Circular supply chain	Textile waste	1
+Circular business models	Sustainable development goals	1
+3D printing	Carbon footprint	1
+Biowaste	Microalgae	1
+Heavy metals	Lithium-ion batteries	1
+Bioeconomy	Biopolymers	1
+Biopolymers	Food waste	1
+Critical raw materials	Techno-economic analysis	1
+Biodegradable	polyphenols	1
+Food supply chain	Microalgae	1
+Closed-loop supply chain	Greenhouse gas emissions	1
+Eco-design	Pyrolysis	1
+Electric vehicles	Pyrolysis	1
+Remanufacturing	Textile waste	1
+Critical raw materials	Energy	1
+Energy	Supply chain	1
+Supply chain	Techno-economic analysis	1
+Construction	Pyrolysis	1
+CO<sub>2</sub> emissions	Composting	1
+Biomass	Bioplastics	1
+Carbon footprint	Waste recycling	1
+Bioplastics	Policy	1
+Packaging	Policy	1
+Sustainable development goals	Waste recycling	1
+Mechanical properties	Resource efficiency	1
+Green chemistry	antioxidants	1
+Product-service system	Renewable energy	1
+3D printing	Waste management	1
+Green chemistry	Pyrolysis	1
+Lignocellulosic biomass	Waste-to-energy	1
+Agriculture	CO<sub>2</sub> emissions	1
+Business model	Waste-to-energy	1
+Sustainable development goals	Waste-to-energy	1
+Critical raw materials	LCA	1
+Packaging	Valorization	1
+Consumer behavior	Valorization	1
+Techno-economic analysis	polyphenols	1
+Machine learning	Waste valorization	1
+Reverse logistics	Wastewater	1
+Business model	Reverse logistics	1
+Food supply chain	Hydrogen	1
+Chemical recycling	Reuse	1
+Chemical recycling	Textile waste	1
+Innovation	Upcycling	1
+Sustainable development goals	Upcycling	1
+Packaging	Waste valorization	1
+Decision-making	E-waste	1
+Circular business models	Textile waste	1
+Chemical recycling	Mechanical properties	1
+Green chemistry	Mechanical properties	1
+Carbon footprint	Composting	1
+Chemical recycling	Optimization	1
+Machine learning	Pyrolysis	1
+Bioplastics	Innovation	1
+Agriculture	Critical raw materials	1
+Critical raw materials	Waste recycling	1
+Eco-design	Indicators	1
+Biochar	polyphenols	1
+Resource efficiency	Textile waste	1
+Climate change	Techno-economic analysis	1
+Biopolymers	Pyrolysis	1
+Additive manufacturing	LCA	1
+LCA	Mechanical properties	1
+Energy	Sustainable development goals	1
+Climate change	Waste valorization	1
+3D printing	Food supply chain	1
+Barriers	Sustainable development goals	1
+Electric vehicles	Sustainable development goals	1
+Indicators	Machine learning	1
+Innovation	Optimization	1
+Bioenergy	Machine learning	1
+Valorization	Wastewater treatment	1
+Climate change	Waste recycling	1
+Digitalization	Waste recycling	1
+Agriculture	Valorization	1
+Greenhouse gas emissions	Valorization	1
+Industry 4.0	Wastewater treatment	1
+Food supply chain	Wastewater treatment	1
+Biodegradable	Waste	1
+Hydrogen	Material flow analysis	1
+Biofuels	industrial ecology	1
+Decision-making	Energy	1
+Decision-making	Recovery	1
+Textile waste	Wastewater	1
+LCA	Supply chain	1
+Sustainable development goals	bioactive compounds	1
+Policy	Valorization	1
+China	Circular business models	1
+Bioplastics	Waste	1
+Green chemistry	LCA	1
+E-waste	Wastewater treatment	1
+Adsorption	Microalgae	1
+Biogas	Plastic waste	1
+Mechanical properties	Sewage sludge	1
+Climate change	Remanufacturing	1
+End-of-life	Heavy metals	1
+Material flow analysis	Waste recycling	1
+Literature review	Optimization	1
+Hydrogen	Nutrient recovery	1
+Chemical recycling	Remanufacturing	1
+Additive manufacturing	Bioeconomy	1
+Additive manufacturing	Wastewater	1
+Green chemistry	Plastic waste	1
+Biochar	Resource efficiency	1
+E-waste	Sustainable development goals	1
+Construction	Wastewater treatment	1
+Bibliometric analysis	Textile waste	1
+Literature review	Textile waste	1
+Energy	Packaging	1
+Closed-loop supply chain	Waste	1
+Energy	bioactive compounds	1
+Adsorption	Waste-to-energy	1
+E-waste	Electric vehicles	1
+Systematic literature review	Waste	1
+Bibliometric analysis	Hydrogen	1
+Bibliometric analysis	Packaging	1
+End-of-life	Waste valorization	1
+Agriculture	Biodegradable	1
+Biodegradable	Food supply chain	1
+Barriers	Lithium-ion batteries	1
+3D printing	Packaging	1
+Chemical recycling	Critical raw materials	1
+Pyrolysis	industrial ecology	1
+Climate change	Literature review	1
+Biowaste	Sustainable development goals	1
+Closed-loop supply chain	Eco-design	1
+Additive manufacturing	Critical raw materials	1
+3D printing	Valorization	1
+Biomass	Lithium-ion batteries	1
+Biomass	Packaging	1
+Biomass	polyphenols	1
+Packaging	polyphenols	1
+Biomass	Mechanical properties	1
+Additive manufacturing	Sustainable development goals	1
+COVID-19	Lithium-ion batteries	1
+Biopolymers	Valorization	1
+Biowaste	Techno-economic analysis	1
+Construction and demolition waste	Greenhouse gas emissions	1
+Lignocellulosic biomass	Techno-economic analysis	1
+Bibliometric analysis	Critical raw materials	1
+Machine learning	Recovery	1
+Bioplastics	Machine learning	1
+Agriculture	Optimization	1
+Optimization	Waste	1
+Hydrogen	Renewable energy	1
+Indicators	Packaging	1
+Indicators	Reuse	1
+Digitalization	Policy	1
+Green chemistry	Sustainable development goals	1
+COVID-19	Construction	1
+Upcycling	bioactive compounds	1
+Carbon footprint	Microalgae	1
+Adsorption	Optimization	1
+Additive manufacturing	Optimization	1
+Mechanical properties	Optimization	1
+Lithium-ion batteries	Optimization	1
+Biochar	Plastic waste	1
+Climate change	polyphenols	1
+Recovery	Upcycling	1
+Additive manufacturing	Bioenergy	1
+Biodegradable	Bioenergy	1
+Chemical recycling	Reverse logistics	1
+Microalgae	Recycling	1
+Carbon footprint	Waste valorization	1
+End-of-life	Policy	1
+Supply chain management	Textile waste	1
+Lithium-ion batteries	Resource efficiency	1
+Lithium-ion batteries	Sustainable development goals	1
+Carbon footprint	Food supply chain	1
+Construction and demolition waste	Energy	1
+Energy	Heavy metals	1
+Biomass	Waste recycling	1
+Innovation	Municipal solid waste	1
+Upcycling	Valorization	1
+Bibliometric analysis	Reverse logistics	1
+Innovation	Machine learning	1
+Machine learning	Policy	1
+Nutrient recovery	Valorization	1
+Optimization	polyphenols	1
+3D printing	Circular business models	1
+Additive manufacturing	Circular business models	1
+COVID-19	Literature review	1
+Anaerobic digestion	Decision-making	1
+Composting	Techno-economic analysis	1
+Bioenergy	Circular business models	1
+Biofuels	Circular business models	1
+Supply chain	Sustainable development goals	1
+Carbon footprint	Mechanical properties	1
+Biomass	Chemical recycling	1
+Chemical recycling	Municipal solid waste	1
+End-of-life	by-products	1
+Biogas	Machine learning	1
+Sustainable development goals	Techno-economic analysis	1
+Anaerobic digestion	Carbon footprint	1
+Carbon footprint	Renewable energy	1
+Circular supply chain	Food supply chain	1
+Additive manufacturing	Biomass	1
+Recovery	Textile waste	1
+Consumer behavior	Systematic literature review	1
+Literature review	Systematic literature review	1
+Textile waste	by-products	1
+Biorefinery	Eco-design	1
+Energy	Machine learning	1
+End-of-life	Greenhouse gas emissions	1
+Industrial symbiosis	Mechanical properties	1
+E-waste	Pyrolysis	1
+Adsorption	Lithium-ion batteries	1
+Adsorption	Recycling	1
+COVID-19	Life cycle assessment	1
+China	Critical raw materials	1
+End-of-life	Lignocellulosic biomass	1
+Bioenergy	Bioplastics	1
+Bioplastics	bioactive compounds	1
+Eco-design	Policy	1
+Resource recovery	Systematic literature review	1
+COVID-19	Reuse	1
+Business model	End-of-life	1
+Recovery	Remanufacturing	1
+Biochar	Closed-loop supply chain	1
+Closed-loop supply chain	Pyrolysis	1
+Green chemistry	Resource recovery	1
+Bioplastics	LCA	1
+Renewable energy	Textile waste	1
+Lignocellulosic biomass	Supply chain	1
+Construction	Food waste	1
+Policy	Supply chain	1
+Decision-making	Literature review	1
+CO<sub>2</sub> emissions	Carbon footprint	1
+Bibliometric analysis	Wastewater treatment	1
+Biowaste	Construction and demolition waste	1
+Construction and demolition waste	Municipal solid waste	1
+Critical raw materials	Remanufacturing	1
+Agriculture	Techno-economic analysis	1
+Anaerobic digestion	Plastic waste	1
+Green chemistry	Waste-to-energy	1
+Plastic waste	Wastewater treatment	1
+Consumer behavior	Life cycle assessment	1
+Resource recovery	polyphenols	1
+Adsorption	Construction and demolition waste	1
+Construction and demolition waste	Heavy metals	1
+Carbon footprint	Supply chain management	1
+3D printing	Systematic literature review	1
+Additive manufacturing	Systematic literature review	1
+Agriculture	Business model	1
+Machine learning	Material flow analysis	1
+Reuse	polyphenols	1
+Renewable energy	Upcycling	1
+Barriers	Digitalization	1
+Critical raw materials	Digitalization	1
+Food supply chain	Lignocellulosic biomass	1
+Food waste	Mechanical properties	1
+Electric vehicles	Green chemistry	1
+Electric vehicles	Recovery	1
+Green chemistry	Lithium-ion batteries	1
+Green chemistry	Recovery	1
+Hydrogen	by-products	1
+3D printing	Construction and demolition waste	1
+Hydrogen	Recovery	1
+Mechanical properties	Packaging	1
+Climate change	Machine learning	1
+Recovery	Renewable energy	1
+Indicators	Recovery	1
+Biowaste	Renewable energy	1
+Machine learning	Wastewater treatment	1
+Biochar	Machine learning	1
+Municipal solid waste	Optimization	1
+Construction and demolition waste	Digitalization	1
+Adsorption	Industry 4.0	1
+Agriculture	E-waste	1
+3D printing	Construction	1
+Additive manufacturing	Construction	1
+Additive manufacturing	Lignocellulosic biomass	1
+Material flow analysis	Systematic literature review	1
+Barriers	LCA	1
+3D printing	Wastewater	1
+Construction	Nutrient recovery	1
+Decision-making	Waste-to-energy	1
+Resource efficiency	Waste-to-energy	1
+CO<sub>2</sub> emissions	Sewage sludge	1
+Biopolymers	Industrial symbiosis	1
+Industry 4.0	Lithium-ion batteries	1
+Literature review	Reuse	1
+Sustainable development goals	Wastewater treatment	1
+China	Digitalization	1
+Microalgae	Waste recycling	1
+COVID-19	Chemical recycling	1
+Energy	Wastewater treatment	1
+Biomass	E-waste	1
+E-waste	Techno-economic analysis	1
+Food supply chain	Textile waste	1
+Circular business models	Critical raw materials	1
+Bibliometric analysis	Product-service system	1
+Waste management	antioxidants	1
+Barriers	Decision-making	1
+Decision-making	Food supply chain	1
+Optimization	Waste-to-energy	1
+Adsorption	Chemical recycling	1
+Adsorption	Biopolymers	1
+Digitalization	Reverse logistics	1
+Sewage sludge	Techno-economic analysis	1
+Digitalization	Waste valorization	1
+Food waste	Recovery	1
+Recovery	Systematic literature review	1
+Agriculture	Closed-loop supply chain	1
+Anaerobic digestion	Closed-loop supply chain	1
+Carbon footprint	Supply chain	1
+E-waste	Lithium-ion batteries	1
+Consumer behavior	Industrial symbiosis	1
+E-waste	Optimization	1
+Construction	Recovery	1
+Material flow analysis	Optimization	1
+Optimization	Recovery	1
+Microalgae	Pyrolysis	1
+Eco-design	industrial ecology	1
+Bibliometric analysis	Reuse	1
+Green chemistry	Lignocellulosic biomass	1
+COVID-19	Consumer behavior	1
+Consumer behavior	Food supply chain	1
+Innovation	Waste valorization	1
+COVID-19	Waste valorization	1
+Resource efficiency	Techno-economic analysis	1
+Packaging	antioxidants	1
+Closed-loop supply chain	Decision-making	1
+Case study	Waste valorization	1
+Carbon footprint	Resource efficiency	1
+Biodegradable	Sustainable development goals	1
+COVID-19	LCA	1
+Composting	Construction	1
+Construction	Remanufacturing	1
+LCA	Sustainable development goals	1
+Chemical recycling	Innovation	1
+Food supply chain	Optimization	1
+Biorefinery	Indicators	1
+Biopolymers	Energy	1
+Anaerobic digestion	Optimization	1
+Food supply chain	Policy	1
+Policy	bioactive compounds	1
+Digitalization	Eco-design	1
+Digitalization	LCA	1
+Construction	Waste recycling	1
+CO<sub>2</sub> emissions	Digitalization	1
+Resource recovery	antioxidants	1
+Biorefinery	Plastic waste	1
+Life cycle assessment	Supply chain management	1
+Critical raw materials	Policy	1
+Biofuels	Machine learning	1
+Biomass	Machine learning	1
+Agriculture	polyphenols	1
+Barriers	Resource recovery	1
+Sewage sludge	by-products	1
+Microalgae	Techno-economic analysis	1
+Food supply chain	Resource efficiency	1
+Biowaste	E-waste	1
+Packaging	Waste recycling	1
+Barriers	by-products	1
+Case study	by-products	1
+LCA	Lignocellulosic biomass	1
+Critical raw materials	Municipal solid waste	1
+Biowaste	Waste	1
+Decision-making	Reuse	1
+Food supply chain	Machine learning	1
+Biochar	Optimization	1
+3D printing	Hydrogen	1
+Energy	Reuse	1
+LCA	Recovery	1
+Barriers	Literature review	1
+COVID-19	Remanufacturing	1
+Closed-loop supply chain	Electric vehicles	1
+Construction	Municipal solid waste	1
+CO<sub>2</sub> emissions	Policy	1
+Composting	Literature review	1
+Heavy metals	Microalgae	1
+Food waste	Waste	1
+Nutrient recovery	Waste-to-energy	1
+Case study	Textile waste	1
+Food waste	Industry 4.0	1
+Closed-loop supply chain	Consumer behavior	1
+Additive manufacturing	Case study	1
+Anaerobic digestion	Chemical recycling	1
+Biopolymers	Chemical recycling	1
+Adsorption	Textile waste	1
+Plastic waste	antioxidants	1
+Indicators	Industrial symbiosis	1
+Biomass	antioxidants	1
+Nutrient recovery	Sustainable development goals	1
+Innovation	Waste	1
+Supply chain	Valorization	1
+Municipal solid waste	Resource efficiency	1
+Circular business models	Waste	1
+Food waste	Reuse	1
+Biopolymers	antioxidants	1
+Adsorption	Critical raw materials	1
+End-of-life	Machine learning	1
+LCA	antioxidants	1
+Green chemistry	Resource efficiency	1
+Bioeconomy	Mechanical properties	1
+Construction and demolition waste	Supply chain	1
+Bioenergy	CO<sub>2</sub> emissions	1
+Biorefinery	Heavy metals	1
+Biodegradable	Pyrolysis	1
+Upcycling	polyphenols	1
+3D printing	industrial ecology	1
+Bioplastics	E-waste	1
+Chemical recycling	E-waste	1
+Material flow analysis	Sewage sludge	1
+Hydrogen	Waste-to-energy	1
+Sustainable development goals	Valorization	1
+Bibliometric analysis	Eco-design	1
+Electric vehicles	Energy	1
+Biofuels	Resource recovery	1
+Anaerobic digestion	Resource efficiency	1
+Circular business models	Waste management	1
+Additive manufacturing	Waste management	1
+Decision-making	End-of-life	1
+Biowaste	Business model	1
+Techno-economic analysis	by-products	1
+Energy	Waste recycling	1
+Recovery	polyphenols	1
+Biorefinery	COVID-19	1
+Biopolymers	Upcycling	1
+Biochar	Green chemistry	1
+Bioenergy	Energy	1
+Adsorption	Greenhouse gas emissions	1
+Bioeconomy	Electric vehicles	1
+Bibliometric analysis	Biomass	1
+Agriculture	Recovery	1
+Microalgae	Recovery	1
+Electric vehicles	industrial ecology	1
+Construction and demolition waste	Reverse logistics	1
+Textile waste	Valorization	1
+Biodegradable	Resource recovery	1
+Composting	antioxidants	1
+Environmental sustainability	antioxidants	1
+Climate change	Composting	1
+Electric vehicles	Supply chain	1
+Industrial symbiosis	Valorization	1
+Adsorption	Hydrogen	1
+Business model	Greenhouse gas emissions	1
+Food supply chain	Mechanical properties	1
+Decision-making	Wastewater treatment	1
+Industry 4.0	Waste recycling	1
+Literature review	Municipal solid waste	1
+Climate change	Hydrogen	1
+Barriers	Critical raw materials	1
+Additive manufacturing	Greenhouse gas emissions	1
+Chemical recycling	Waste valorization	1
+Techno-economic analysis	Waste valorization	1
+Case study	Greenhouse gas emissions	1
+E-waste	Life cycle assessment	1
+Industrial symbiosis	Policy	1
+Closed-loop supply chain	Resource recovery	1
+Life cycle assessment	Reverse logistics	1
+Policy	Reverse logistics	1
+Adsorption	Biorefinery	1
+3D printing	Climate change	1
+Climate change	Industry 4.0	1
+Innovation	Recovery	1
+Wastewater treatment	polyphenols	1
+Chemical recycling	Waste	1
+E-waste	Green chemistry	1
+Electric vehicles	Machine learning	1
+Biochar	Mechanical properties	1
+Packaging	Systematic literature review	1
+Biopolymers	Biowaste	1
+Biorefinery	Waste-to-energy	1
+End-of-life	Industry 4.0	1
+Barriers	Bibliometric analysis	1
+Adsorption	Life cycle assessment	1
+End-of-life	Sustainable development goals	1
+Biomass	Supply chain	1
+Electric vehicles	Systematic literature review	1
+Carbon footprint	Digitalization	1
+Carbon footprint	E-waste	1
+3D printing	Resource efficiency	1
+Additive manufacturing	Resource efficiency	1
+Biopolymers	industrial ecology	1
+E-waste	Waste valorization	1
+Bioenergy	Wastewater treatment	1
+Anaerobic digestion	Supply chain management	1
+Biofuels	Supply chain management	1
+Biogas	Supply chain management	1
+Biomass	Supply chain management	1
+Digitalization	Literature review	1
+Adsorption	E-waste	1
+Circular supply chain	Sustainable development goals	1
+Digitalization	Reuse	1
+Additive manufacturing	Recovery	1
+E-waste	Upcycling	1
+Bibliometric analysis	Decision-making	1
+Agriculture	End-of-life	1
+Biochar	Critical raw materials	1
+Biochar	Renewable energy	1
+Climate change	Critical raw materials	1
+Supply chain management	by-products	1
+Barriers	Packaging	1
+Chemical recycling	Greenhouse gas emissions	1
+Greenhouse gas emissions	Pyrolysis	1
+Greenhouse gas emissions	polyphenols	1
+Carbon footprint	Techno-economic analysis	1
+E-waste	Resource efficiency	1
+End-of-life	Supply chain management	1
+Business model	Waste valorization	1
+Nutrient recovery	Policy	1
+Carbon footprint	Lithium-ion batteries	1
+LCA	Lithium-ion batteries	1
+Biopolymers	by-products	1
+Heavy metals	Municipal solid waste	1
+Composting	Machine learning	1
+Construction and demolition waste	End-of-life	1
+CO<sub>2</sub> emissions	E-waste	1
+Food waste	Lignocellulosic biomass	1
+Wastewater treatment	by-products	1
+Additive manufacturing	Supply chain management	1
+Indicators	Supply chain	1
+Construction	Packaging	1
+Biopolymers	Greenhouse gas emissions	1
+Composting	Renewable energy	1
+Food supply chain	Innovation	1
+Indicators	Nutrient recovery	1
+Indicators	Sewage sludge	1
+Indicators	Wastewater treatment	1
+COVID-19	Industrial symbiosis	1
+Bibliometric analysis	Biorefinery	1
+CO<sub>2</sub> emissions	LCA	1
+Circular supply chain	Decision-making	1
+Greenhouse gas emissions	Product-service system	1
+Business model	Industrial symbiosis	1
+Digitalization	Greenhouse gas emissions	1
+Greenhouse gas emissions	Industry 4.0	1
+CO<sub>2</sub> emissions	Nutrient recovery	1
+LCA	Resource efficiency	1
+Biogas	Food supply chain	1
+Barriers	Biogas	1
+Municipal solid waste	Nutrient recovery	1
+E-waste	Food waste	1
+Composting	Sustainable development goals	1
+Greenhouse gas emissions	Upcycling	1
+Techno-economic analysis	Upcycling	1
+Bibliometric analysis	Bioplastics	1
+COVID-19	Renewable energy	1
+Climate change	Food supply chain	1
+Composting	Waste recycling	1
+CO<sub>2</sub> emissions	Material flow analysis	1
+CO<sub>2</sub> emissions	Resource efficiency	1
+Biomass	Innovation	1
+Construction and demolition waste	Industry 4.0	1
+Food supply chain	Upcycling	1
+Circular supply chain	Reverse logistics	1
+Electric vehicles	Plastic waste	1
+Food supply chain	Reuse	1
+Recovery	Sewage sludge	1
+Biowaste	Lignocellulosic biomass	1
+Nutrient recovery	by-products	1
+Industrial symbiosis	Supply chain management	1
+3D printing	Microalgae	1
+Lignocellulosic biomass	Optimization	1
+Barriers	Climate change	1
+Microalgae	Packaging	1
+Anaerobic digestion	Innovation	1
+Biogas	Innovation	1
+Biogas	Climate change	1

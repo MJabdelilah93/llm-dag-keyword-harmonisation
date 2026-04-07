@@ -1,0 +1,150 @@
+﻿pair_id,keyword_a,keyword_b,gold_label,B1_Exact,B2_Normalised,B3_JaroWinkler,B4_TFIDF,B5_Embedding,B6_NaiveLLM
+BP0331,Brazil,England,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0346,Evidence-based policymaking,policymaking,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0249,global scale,Global scales,match,non_match,non_match,match,match,match,match
+BP0110,ICT,information communication technology (ICT) exploratory-exploitative innovation,match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0372,Resource-based cities,Sustainable cities,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0120,PCB,Pro-Circular Behaviour,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0139,VOC,volatile organic compounds,match,non_match,non_match,non_match,non_match,non_match,match
+BP0061,Sustainable development,Sustainable sourcing,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0144,Cost efficiency,Cost-efficiency,match,non_match,non_match,match,match,match,match
+BP0486,Second-Year Undergraduate,Higher education,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0232,Industrial cluster,Industrial clusters,match,non_match,non_match,match,match,match,match
+BP0103,EOL,End-of-life (EoL),match,non_match,non_match,non_match,non_match,non_match,match
+BP0433,NOx,NIAS,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0396,selective laser sintering,Cold sintering,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0414,Clay,Clay brick,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0440,Togo,France,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0361,Labor,Labour market,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0301,Stainless steel slag,steel slag aggregate,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0261,Circular development,circular construction,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0299,Spent lithium-ion batteries,lithium-ion batteries,non_match,non_match,non_match,non_match,match,non_match,non_match
+BP0420,EU28,EU-27,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0241,PETase,PETases,match,non_match,non_match,match,match,match,match
+BP0356,Hydrothermal liquefaction,hydrothermal,non_match,non_match,non_match,non_match,match,non_match,non_match
+BP0490,Transesterification,gasification,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0487,Situated learning,organisational learning,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0252,Bacteria,Microbes,non_match,non_match,non_match,non_match,non_match,non_match,match
+BP0483,Reforming,Reprocessing,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0500,transitional probabilities,Transition,non_match,non_match,non_match,non_match,non_match,non_match,match
+BP0266,Creative reuse,reuse,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0085,waste valorization,Waste diversion rate,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0238,Nano-composite,nano-composites,match,non_match,non_match,match,match,match,match
+BP0262,Circularity challenges,Building circularity,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0163,bioelectrochemistry,bio-electrochemistry,match,non_match,non_match,match,match,non_match,match
+BP0367,Nylon,Cotton fabric,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0167,e-waste recycling,Ewaste recycling,match,non_match,non_match,match,non_match,non_match,non_match
+BP0189,DP,DPSIR,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0375,Romania,Czech Republic,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0289,Multidimensional indicators,indicators,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0197,LM,LMDI,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0303,Surface morphology,Surface characterization,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0438,Tar,Wool,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0055,Nitrogen removal,nitrogen mineralization,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0437,Tar,Peat,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0454,rice,Rice production,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0170,multi-criteria decision-making (MCDM),Multi-criteria decision making (MCDM),match,non_match,non_match,match,match,match,match
+BP0204,Pb,PBL,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0449,iron,iron and steel,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0088,CAD,Construction and demolitionwaste,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0298,Social metabolism,Socioeconomic metabolism,match,non_match,non_match,non_match,match,non_match,match
+BP0153,Product service system (PSS),Product/service system (PSS),match,non_match,non_match,match,match,match,match
+BP0379,Symbiosis,industrial symbiosis,non_match,non_match,non_match,non_match,match,non_match,non_match
+BP0019,Olive mill waste,olive mill waste,match,match,match,match,match,match,match
+BP0080,sustainable materials,Sustainable end-of-life management,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0106,FCM,Fuzzy cognitive mapping,match,non_match,non_match,non_match,non_match,non_match,match
+BP0281,Inorganic waste,biological waste,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0008,Enzyme,enzyme,match,match,match,match,match,match,match
+BP0113,MADM,multi-attribute decision-making,match,non_match,non_match,non_match,non_match,non_match,match
+BP0038,environmental behavior,Environmental behavior,match,match,match,match,match,match,match
+BP0456,skin,cosmetics,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0209,TN,Transition,uncertain,non_match,non_match,non_match,non_match,non_match,match
+BP0213,UV,UV-Vis,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0401,3DP,PPP,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0465,Biosphere,Amazon biome,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0473,Detoxification,waste treatment,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0172,omega-3 fatty acids,omega3 fatty acids,match,non_match,non_match,match,match,match,match
+BP0129,SE,Sanitation economy,uncertain,non_match,non_match,non_match,non_match,non_match,match
+BP0246,bio-composite material,Bio-composite materials,match,non_match,non_match,match,match,match,match
+BP0355,Hydrothermal gasification,biomass gasification,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0397,thermal conductivity,Thermal properties,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0251,Adaptive reuse,Reusability,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0370,Pharmaceutical,Medicine,non_match,non_match,non_match,non_match,non_match,non_match,match
+BP0400,water-holding capacity,water demand,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0035,chicken litter,Chicken litter,match,match,match,match,match,match,match
+BP0095,CT,crop trials,uncertain,non_match,non_match,non_match,non_match,non_match,match
+BP0133,SM,Sea mining,uncertain,non_match,non_match,non_match,non_match,non_match,match
+BP0099,ED,Electrode design,uncertain,non_match,non_match,non_match,non_match,non_match,match
+BP0404,Bali,Malaysia,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0475,Fouling,turnover,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0353,Hydrogel,aerogel,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0239,Nudge,Nudges,match,non_match,non_match,match,match,match,match
+BP0021,Poultry manure,poultry manure,match,match,match,match,match,match,match
+BP0226,Feather,Feathers,match,non_match,non_match,match,match,match,match
+BP0329,Bio-lubricant,Waste lubricating oil,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0276,Glass,Foam glass,non_match,non_match,non_match,non_match,match,non_match,non_match
+BP0053,Metals,Metabolism,non_match,non_match,non_match,match,non_match,non_match,non_match
+BP0374,Returnable transport items,Returnable packaging,non_match,non_match,non_match,non_match,non_match,non_match,match
+BP0050,Environmental risk,Environment Protection,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0147,Life cycle,Lifecycle,match,non_match,non_match,match,match,non_match,match
+BP0390,flow chemistry,material flow,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0042,Circular design,Circular innovation,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0208,SE,SEM,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0098,ED,emerging destination,uncertain,non_match,non_match,non_match,non_match,non_match,match
+BP0247,blended cement,Blended cements,match,non_match,non_match,match,match,match,match
+BP0344,Ethylene,ethylene glycol,non_match,non_match,non_match,non_match,match,non_match,non_match
+BP0292,Plastic degradation,Biodegradable plastic,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0195,GABEK<sup>®</sup>,Gas,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0069,Water use efficiency,water security,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0104,EPR,Enhanced phosphorus removal,uncertain,non_match,non_match,non_match,non_match,non_match,match
+BP0067,Thermal analysis,thematic analysis,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0059,Sustainability impact,sustainable mining,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0004,Developing countries,developing countries,match,match,match,match,match,match,match
+BP0011,Green building,green building,match,match,match,match,match,match,match
+BP0354,Hydrophilization,Lyophilization,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0200,PG,PGMs,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0442,ZnO,Zinc oxide,match,non_match,non_match,non_match,non_match,non_match,match
+BP0429,KIC4,PCSK9,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0039,metallurgy,Metallurgy,match,match,match,match,match,match,match
+BP0285,Material flow cost accounting,Economy-wide material flow accounting,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0417,DfR,DfA,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0257,CS-ARDL,ARDL,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0087,AMD,Acid and metalliferous drainage (AMD) and acid rock drainage (ARD),match,non_match,non_match,non_match,non_match,non_match,match
+BP0499,shipping,packaging,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0048,Environmental awareness,environmental management accounting,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0311,bio-composites,Bio-materials,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0448,hemp,hemp hurd,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0480,Nisin,nitrates,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0324,timber,Lumber,non_match,non_match,non_match,non_match,non_match,non_match,match
+BP0179,wastewater,waste water,match,non_match,non_match,match,match,non_match,non_match
+BP0389,computational design,Design optimisation,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0387,bakery products,agricultural products,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0023,Pretreatment,pretreatment,match,match,match,match,match,match,match
+BP0477,Lean Six Sigma,lean management,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0086,AC,activated coke,uncertain,non_match,non_match,non_match,non_match,non_match,match
+BP0402,3Rs,4R,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0300,Spent lithium-ion battery,Lithium-ion battery,non_match,non_match,non_match,non_match,match,non_match,non_match
+BP0463,Antimony,Arsenic,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0155,R.E.S,RES,match,non_match,non_match,non_match,non_match,non_match,uncertain
+BP0212,US,USA,uncertain,non_match,non_match,non_match,non_match,match,match
+BP0342,End-of-life tire,waste tire,non_match,non_match,non_match,non_match,non_match,non_match,match
+BP0308,Wool waste,Fabric waste,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0206,RL,Resilience,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0436,Pulp,coffee pulp,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0169,internet of things (IoT),Internet-of-things (IoT),match,non_match,non_match,match,match,match,match
+BP0137,SSA,Steel slag aggregates (SSA),match,non_match,non_match,non_match,non_match,non_match,match
+BP0221,Clean coal technologies,Clean coal technology,match,non_match,non_match,match,match,match,match
+BP0180,water-holding capacity,Water holding capacity,match,non_match,non_match,match,match,match,match
+BP0321,photochemistry,photocatalysis,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0127,SD,Service Design,uncertain,non_match,non_match,non_match,non_match,non_match,match
+BP0177,small- and medium-sized enterprises (SMEs),Small and Medium Sized Enterprises (SMEs),match,non_match,non_match,match,match,match,match
+BP0280,High value-added products,Value-added products,non_match,non_match,non_match,non_match,match,non_match,non_match
+BP0015,Material and energy flow analysis,Material and Energy Flow Analysis,match,match,match,match,match,match,match
+BP0450,iron,Iron and steel,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0033,briquettes,Briquettes,match,match,match,match,match,match,match
+BP0219,Biogas plant,biogas plants,match,non_match,non_match,match,match,match,match
+BP0044,Circular procurement,circular consumption,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0215,pH,PHA,uncertain,non_match,non_match,non_match,non_match,non_match,non_match
+BP0273,Environmental management accounting,Sustainability accounting,non_match,non_match,non_match,non_match,non_match,non_match,non_match
+BP0024,Process synthesis,process synthesis,match,match,match,match,match,match,match
+BP0066,System design,systemic design,non_match,non_match,non_match,match,match,non_match,non_match

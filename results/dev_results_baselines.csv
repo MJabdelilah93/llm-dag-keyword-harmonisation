@@ -1,0 +1,7 @@
+﻿precision,recall,f1,coverage,uncertain_rate,three_way_acc,method,split
+1.0,0.2673,0.4219,1.0,0.0,0.6182,B1_Exact,dev
+1.0,0.2772,0.4341,1.0,0.0,0.6211,B2_Normalised,dev
+0.9651,0.8218,0.8877,1.0,0.0,0.7692,B3_JaroWinkler,dev
+0.7379,0.7525,0.7451,1.0,0.0,0.6809,B4_TFIDF,dev
+0.9733,0.7228,0.8295,1.0,0.0,0.7436,B5_Embedding,dev
+0.8661,0.9604,0.9108,1.0,0.0,0.7749,B6_NaiveLLM,dev

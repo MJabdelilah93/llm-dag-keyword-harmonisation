@@ -1,0 +1,21 @@
+DOWNSTREAM COST ESTIMATE
+============================================================
+Generated: 2026-04-03T22:25:41.924821+00:00
+Model: claude-haiku-4-5-20251001
+
+Keyword inventory size:          55,425 unique author keywords
+Estimated candidate pair pool:   50,000 pairs
+Per-pair cost (from test run):   $0.000221
+
+ESTIMATED TOTAL COST:            $11.03
+
+WARNING: Estimated 50,000 pairs exceeds 20,000 pair limit.
+STOPPING: Report cost estimate and await approval.
+
+To proceed with a subset, limit to 20,000 highest-priority pairs.
+
+EFFICIENCY CONTEXT (from benchmark evaluation):
+  Mean input tokens per call:  413
+  Mean output tokens per call: 94
+  Test set pairs evaluated:    149
+  Test set total cost:         $0.0000

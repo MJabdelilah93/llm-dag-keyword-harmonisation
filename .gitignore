@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (cannot redistribute raw Scopus data — Elsevier licensing)
+data/raw/
+data/interim/
+!data/README.md
+!data/.gitkeep
+
+# Large downstream LLM logs (archived on Zenodo)
+results/llm_logs/downstream_raw_outputs.jsonl
+results/llm_logs/downstream_fix_raw_outputs.jsonl
+
+# Internal development logs
+results/llm_logs/*.log
+
+# Backup files
+results/*.backup_*
+results/downstream_results_v1_with_autoaccept.csv
+
+# Internal project documents (not for public)
+INTERNAL_PROJECT_STATE.md
+
+# Sensitive
+.env
+*.api_key
+*.key
+*secret*
+*credentials*
+
+# Large binary/model files
+*.pkl
+*.pickle
+*.h5
+*.model
+
+# Claude Code internal settings
+.claude/

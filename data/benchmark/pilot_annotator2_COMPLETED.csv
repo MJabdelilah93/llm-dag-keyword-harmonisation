@@ -1,0 +1,53 @@
+pair_id,keyword_a,keyword_b,freq_a,freq_b,stratum,annotator2_label,annotator2_notes
+BP0020,Porosity,porosity,10,8,i,match,This pair differs only in capitalisation. Orthographic case variation does not change the underlying bibliometric concept.
+BP0017,Mineralization,mineralization,5,2,i,match,This pair differs only in capitalisation of the initial letter. It represents the same concept and should not be split.
+BP0016,Materials passports,Materials Passports,2,1,i,match,This is a capitalisation-only variant of the same noun phrase. The concept identity is unchanged.
+BP0027,RuBisCO,Rubisco,1,1,i,match,This appears to be the same biochemical term written with different capitalisation. The variation is orthographic rather than conceptual.
+BP0080,sustainable materials,Sustainable end-of-life management,22,2,ii,non-match,"These strings are semantically related through sustainability language but denote different concepts. One concerns materials, whereas the other concerns end-of-life management."
+BP0066,System design,systemic design,4,2,ii,non-match,These are close lexical neighbours but not the same concept. 'System design' and 'systemic design' refer to different design notions and should not be merged safely.
+BP0067,Thermal analysis,thematic analysis,6,3,ii,non-match,This is a spelling-neighbour false positive. 'Thermal analysis' and 'thematic analysis' are entirely different concepts.
+BP0084,waste strategies,waste generation rate,2,2,ii,non-match,These strings share the word 'waste' but denote different concepts. Strategies for waste management are not equivalent to waste generation rate as a measurement concept.
+BP0117,MS,member submissions,1,1,iii,uncertain,"The acronym 'MS' is highly polysemous, and the pair does not provide enough safe evidence that it should be expanded as 'member submissions'. Under the conservative rule, this should be left for adjudication."
+BP0091,CE,critical elements,23,3,iii,uncertain,"The acronym 'CE' is strongly polysemous in this literature and beyond. Even with 'critical elements' as the partner string, the evidence is insufficient for a safe merge decision."
+BP0118,MSW,municipal solid waste (MSW),13,9,iii,match,"The expanded form explicitly contains the acronym in parentheses, which disambiguates the pair. This is a clear acronym–expansion match."
+BP0099,ED,Electrode design,1,1,iii,uncertain,"The acronym 'ED' is polysemous, and the pair does not establish a safe one-to-one equivalence. I would not merge this without stronger disambiguating evidence."
+BP0105,ETS,Emission trading scheme,1,2,iii,uncertain,"The acronym 'ETS' has multiple plausible expansions and usages. Because the evidence is not fully secure, the conservative label is uncertain."
+BP0135,SM,Sustainable materials,1,30,iii,uncertain,The acronym 'SM' is too ambiguous to merge safely with 'Sustainable materials' on string evidence alone. This should be deferred to adjudication.
+BP0160,Waste re-use,Waste-reuse,3,1,iv,match,This pair differs only by hyphenation. The underlying concept is the same.
+BP0157,Socio-economic impact,Socio Economic Impact,2,1,iv,match,This is a punctuation and spacing variant of the same phrase. The concept identity is unchanged.
+BP0156,Right to Repair,right-to-repair,2,1,iv,match,This is a case and hyphenation variant of the same expression. It should be merged as a single concept.
+BP0167,e-waste recycling,Ewaste recycling,4,1,iv,match,This is an orthographic variant involving hyphenation and spacing. Both strings denote the same recycling concept.
+BP0207,SD,SDG,1,27,ix,uncertain,"This pair contains short forms with insufficiently secure meaning. 'SD' is ambiguous, and it is not safe to infer equivalence or non-equivalence from the strings alone."
+BP0194,Fe<sup>3+</sup> cation,Fe-TiO<sub>2</sub> composite,1,2,ix,uncertain,"One or both strings contain unresolved HTML-style encoding artefacts. Under the guide, malformed strings should be labelled uncertain rather than forcing a binary decision."
+BP0205,Pulrea<sup>®</sup>,pulp,1,4,ix,uncertain,The string contains a rendering artefact and appears underspecified as a trademarked term. Safe adjudication is not possible from this pair alone.
+BP0202,PP,PPP,5,2,ix,uncertain,These are short acronyms with no reliable disambiguation in the pair itself. A safe merge or rejection decision cannot be made from the strings alone.
+BP0242,Platform chemical,Platform chemicals,2,11,v,match,This pair differs only in singular versus plural form. Grammatical number does not change the concept here.
+BP0229,Green policies,Green policy,1,4,v,match,This is a singular/plural variant of the same phrase. The concept should be treated as identical.
+BP0240,Nurseries,Nursery,1,1,v,match,This is a singular/plural form of the same noun. There is no meaningful conceptual distinction here.
+BP0237,Migration,Migrations,10,1,v,match,This appears to be a simple singular/plural variant. The concept identity is preserved.
+BP0255,Biotechnology,Microbial biotechnology,30,3,vi,non-match,"One term is broader than the other. 'Microbial biotechnology' is a specific subarea within biotechnology, so they should not be collapsed."
+BP0314,fecal sludge,sewage sludge,2,41,vi,non-match,These terms are related in sanitation research but they are not conceptually identical. Fecal sludge and sewage sludge refer to different material streams.
+BP0261,Circular development,circular construction,2,7,vi,non-match,These strings share the circular-economy frame but denote different concepts. Development and construction should remain analytically distinct.
+BP0251,Adaptive reuse,Reusability,37,9,vi,non-match,These are conceptually related through reuse language but they are not the same. 'Adaptive reuse' is not equivalent to the general property or capacity of 'reusability'.
+BP0286,Microalgal biomass,Microalgal technology,5,2,vi,non-match,"These terms are related but distinct. One refers to biomass as a material/output, while the other refers to technology."
+BP0312,drying,drying shrinkage,5,2,vi,non-match,"This is a broader–narrower relation. 'Drying shrinkage' is a specific phenomenon, not the same concept as drying in general."
+BP0279,Heavy metals removal,metal extraction,2,2,vi,non-match,These phrases overlap around metals but denote different processes and scope. Heavy metals removal is not equivalent to metal extraction.
+BP0263,Cluster analysis,Cluster,14,6,vi,non-match,"These are not the same concept. 'Cluster analysis' is a method, whereas 'cluster' is a more general object or grouping concept."
+BP0330,Bitumen,asphalt,6,6,vii,non-match,These terms are closely related in materials contexts but not safely identical. 'Bitumen' and 'asphalt' often denote different material referents or levels of composition.
+BP0389,computational design,Design optimisation,3,2,vii,non-match,These are adjacent design concepts rather than equivalents. Computational design is not the same as design optimisation.
+BP0336,Contaminated sediments,soil contamination,2,2,vii,non-match,These terms concern contamination but refer to different environmental media and constructions. Contaminated sediments are not equivalent to soil contamination.
+BP0326,Additive Manufacturing,digital fabrication,3,3,vii,non-match,This is a broader–narrower relation rather than equivalence. Additive manufacturing is one subset of digital fabrication.
+BP0361,Labor,Labour market,3,2,vii,non-match,These are related labour concepts but not the same. 'Labour market' is a more specific socio-economic construct than 'labor' in general.
+BP0387,bakery products,agricultural products,3,2,vii,non-match,"This is a clear broader–narrower relation. Bakery products are one subset of agricultural or food-related product categories, not the same concept."
+BP0354,Hydrophilization,Lyophilization,2,2,vii,non-match,"Despite surface similarity, these are different processes. Hydrophilization and lyophilization should not be merged."
+BP0338,DEMATEL-ISM,fuzzy DEMATEL,2,4,vii,non-match,These are methodologically related but distinct terms. A DEMATEL-ISM hybrid is not equivalent to fuzzy DEMATEL.
+BP0401,3DP,PPP,2,2,viii,uncertain,"Both strings are short acronyms and the pair provides no safe semantic disambiguation. Under the conservative rule, this should be labelled uncertain."
+BP0406,C&DW,DfMA,4,2,viii,uncertain,These are opaque acronyms without enough information to establish either equivalence or confident non-equivalence from the strings alone. The safe label is uncertain.
+BP0437,Tar,Peat,2,4,viii,non-match,These are distinct material or fuel concepts rather than lexical variants. There is no basis to merge tar and peat as one concept.
+BP0446,food,Food and feed,11,3,viii,non-match,This is not an equivalence relation. 'Food and feed' is broader than 'food' alone and should remain separate.
+BP0414,Clay,Clay brick,5,2,viii,non-match,"This is a broader–narrower relation. Clay brick is a specific material/product form, not equivalent to clay in general."
+BP0455,sand,sand substitution,2,2,viii,non-match,This is a base term versus a more specific applied concept. 'Sand substitution' should not be collapsed into 'sand'.
+BP0480,Nisin,nitrates,3,3,x,non-match,These are distinct substances and not conceptual variants of one another. They should remain separate.
+BP0477,Lean Six Sigma,lean management,4,2,x,non-match,"These management concepts overlap but are not identical. Lean Six Sigma is a composite methodology, whereas lean management is a different and broader/adjacent approach."
+BP0476,Intrinsic value,Value,2,4,x,non-match,"This is a broader–narrower relation. Intrinsic value is one specific type or interpretation of value, not equivalent to value in general."
+BP0487,Situated learning,organisational learning,2,2,x,non-match,These are different learning concepts. Situated learning is not equivalent to organisational learning.
