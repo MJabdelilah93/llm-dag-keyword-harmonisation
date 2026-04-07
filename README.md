@@ -226,7 +226,7 @@ All LLM calls are logged in `results/llm_logs/`. Each JSONL entry records: pair 
 
 The benchmark logs (dev, test, baselines, ablations) are included in the repository. The two large downstream logs are archived separately:
 
-> **Downstream logs** (`downstream_raw_outputs.jsonl`, 51 MB; `downstream_fix_raw_outputs.jsonl`, 27 MB) are archived on Zenodo. DOI will be added upon acceptance.
+> **Downstream logs** (`downstream_raw_outputs.jsonl`, 51 MB; `downstream_fix_raw_outputs.jsonl`, 27 MB) are archived on Zenodo: [https://doi.org/10.5281/zenodo.19451886](https://doi.org/10.5281/zenodo.19451886)
 
 ---
 
