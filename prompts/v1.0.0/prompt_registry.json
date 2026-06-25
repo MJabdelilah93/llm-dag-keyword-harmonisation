@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "date_locked": "2026-04-03",
+  "model_id": "claude-haiku-4-5-20251001",
+  "prompts": [
+    {
+      "name": "system_prompt",
+      "file": "prompts/v1.0.0/system_prompt.txt",
+      "sha256": "see run manifest for hash computed at run time"
+    },
+    {
+      "name": "user_prompt_standard",
+      "file": "prompts/v1.0.0/user_prompt_standard.txt",
+      "sha256": "see run manifest for hash computed at run time"
+    },
+    {
+      "name": "user_prompt_context",
+      "file": "prompts/v1.0.0/user_prompt_context.txt",
+      "sha256": "see run manifest for hash computed at run time"
+    }
+  ],
+  "note": "Prompt content must not be modified without creating a new versioned directory and updating model_config.yaml."
+}
