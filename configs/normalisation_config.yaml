@@ -1,0 +1,43 @@
+# Deterministic Normalisation Configuration — Node 2
+# This node is fully deterministic: same input always produces same output.
+# No LLM or probabilistic operations are used.
+# Implementation: src/normalise.py
+# Paper reference: El Majjaoui et al. (2026), Section 2.4
+
+chain:
+  # Applied in this exact order:
+  - step: unicode_nfkc
+    description: >
+      Unicode Normalisation Form KC (Compatibility Decomposition + Canonical Composition).
+      Resolves ligatures (ﬁ -> fi), superscripts (² -> 2), full-width Latin to ASCII.
+      Required because bibliometric keywords frequently contain PDF/CMS-introduced variants.
+    python: "unicodedata.normalize('NFKC', s)"
+
+  - step: lowercase
+    description: "Unicode-aware lowercasing via Python str.lower()."
+    python: "s.lower()"
+
+  - step: strip_whitespace
+    description: "Remove leading and trailing whitespace."
+    python: "s.strip()"
+
+  - step: collapse_internal_whitespace
+    description: "Collapse multiple consecutive whitespace chars to single ASCII space."
+    python: "re.sub(r'\s+', ' ', s)"
+
+  - step: no_punctuation_modification
+    description: >
+      Punctuation (hyphens, slashes, parentheses, periods) is NOT modified at this node.
+      Punctuation-level matching is handled in Node 3 (candidate generation, stratum iv).
+      Removing punctuation at Node 2 would conflate strings that must remain distinguishable.
+
+  - step: no_acronym_expansion
+    description: >
+      No semantic acronym expansion at this node.
+      Only formatting-level cleanup: whitespace within acronyms (e.g. 'L C A' -> 'lca')
+      is resolved by the lowercase + collapse steps above.
+
+output:
+  normalised_column: "norm"      # Auxiliary column in interim files
+  preserve_raw: true             # Original raw string always preserved
+  downstream_comparison: "norm"  # All string comparisons use normalised form
