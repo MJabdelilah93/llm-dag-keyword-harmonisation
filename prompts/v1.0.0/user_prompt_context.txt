@@ -1,0 +1,18 @@
+Keyword A: {keyword_a}
+Keyword B: {keyword_b}
+
+Auxiliary context (for disambiguation only):
+Titles of papers indexed under Keyword A:
+  1. {title_a1}
+  2. {title_a2}
+  3. {title_a3}
+Titles of papers indexed under Keyword B:
+  1. {title_b1}
+  2. {title_b2}
+  3. {title_b3}
+
+Use these titles only to clarify what concept each keyword denotes. Do not base your
+decision on whether the papers are topically similar. Decide whether the keywords denote
+the same concept.
+
+Decide: match, non_match, or uncertain. Return JSON only.
