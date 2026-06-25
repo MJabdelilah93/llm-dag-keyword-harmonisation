@@ -1,0 +1,43 @@
+# Baseline Method Configurations — Paper v1
+# Thresholds tuned on development set (351 pairs, seed=42).
+# Paper reference: El Majjaoui et al. (2026), Table 4.
+
+B1_Exact:
+  description: "Exact string match after lowercasing"
+  tuned: false
+  threshold: null
+
+B2_Normalised:
+  description: "Normalised exact match after Node 2 deterministic preprocessing"
+  tuned: false
+  threshold: null
+
+B3_JaroWinkler:
+  description: "Jaro-Winkler string similarity"
+  library: "jellyfish"
+  threshold: 0.92          # Dev-set tuned
+  dev_f1: 0.8877
+
+B4_TFIDF:
+  description: "TF-IDF cosine similarity on character n-grams"
+  ngram_range: [2, 3]
+  threshold: 0.68          # Dev-set tuned
+  dev_f1: 0.7451
+
+B5_Embedding:
+  description: "Sentence-transformer cosine similarity"
+  model_id: "sentence-transformers/all-MiniLM-L6-v2"
+  threshold: 0.85          # Dev-set tuned
+  dev_f1: 0.8295
+
+B6_NaiveLLM:
+  description: "Same pinned model, single unconstrained prompt, no guard layer"
+  model_id: "claude-haiku-4-5-20251001"
+  tuned: false
+  output_parsing: "keyword_to_label_mapping_rule"
+  note: "Free-text output parsed to label via pre-specified keyword mapping"
+
+Full_LLM_DAG:
+  guard_confidence_threshold: 0.50    # Dev-set tuned
+  dev_f1: 0.97
+  dev_coverage: 0.9003
