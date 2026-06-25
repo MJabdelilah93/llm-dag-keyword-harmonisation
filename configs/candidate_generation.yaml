@@ -1,0 +1,65 @@
+# Candidate Generation Configuration — Node 3
+# Parameters documented in: docs/retrieval_manifest.md
+# Paper reference: El Majjaoui et al. (2026), Section 2.4
+
+lexical_blocking:
+  # Stratum i: capitalisation/whitespace variants
+  # Groups keywords by normalised form (after Node 2). All within-group pairs are candidates.
+  enabled: true
+
+  # Stratum ii: Jaro-Winkler fuzzy blocking
+  fuzzy:
+    method: "jaro_winkler"
+    min_frequency: 2          # Both keywords must have corpus freq >= 2
+    similarity_window: [0.85, 0.95)
+    min_length: 3             # Strings < 3 chars excluded (unreliable JW scores)
+    blocking_key: "first_3_chars"  # Prefix blocking to limit comparison space
+
+  # Stratum iv: punctuation/hyphenation variants
+  punctuation:
+    strip_chars: "[-/(). ]"
+    enabled: true
+
+  # Stratum v: singular/plural variants
+  singular_plural:
+    rules: ["append_s", "append_es", "ies_to_y"]
+    enabled: true
+
+acronym_detection:
+  # Stratum iii: acronym and expanded form
+  enabled: true
+  acronym_pattern: "^[A-Z]{2,6}$"    # Raw (pre-normalisation) form
+  methods:
+    - parenthetical_expansion         # e.g. "life cycle assessment (LCA)"
+    - initial_letter_matching         # e.g. "Life Cycle Assessment" -> LCA
+
+embedding_retrieval:
+  # Strata vi, vii, viii, x
+  model_id: "sentence-transformers/all-MiniLM-L6-v2"
+  min_frequency: 2                    # Only keywords with freq >= 2 encoded
+  n_neighbors: 8                      # NearestNeighbors k (7 neighbours + self)
+  metric: "cosine"
+  random_seed: 42
+
+  strata:
+    vi:
+      description: "Near-synonyms"
+      similarity_range: [0.75, 0.85)
+      top_k: 5
+    vii:
+      description: "Broader-narrower proxies"
+      similarity_range: [0.60, 0.75)
+      top_k: 5
+    viii:
+      description: "Ambiguous short forms"
+      similarity_range: [0.50, 0.85)
+      top_k: 3
+      short_form_filter: true         # Normalised length 2-4 chars, all lowercase
+    x:
+      description: "Weak semantic links"
+      similarity_range: [0.50, 0.60)
+      top_k: 5
+
+deduplication:
+  remove_self_pairs: true
+  canonical_ordering: true            # (A,B) and (B,A) treated as identical; alphabetical order
