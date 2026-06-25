@@ -1,0 +1,4 @@
+Keyword A: {keyword_a}
+Keyword B: {keyword_b}
+
+Decide: match, non_match, or uncertain. Return JSON only.
