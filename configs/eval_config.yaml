@@ -1,22 +1,31 @@
 # Evaluation and Ablation Configuration
+# Paper reference: El Majjaoui et al. (2026), Section 2.5, Tables 4-5
 
 benchmark:
-  dev_path: "benchmark/gold_standard/dev/"
-  test_path: "benchmark/gold_standard/test/"
-  label_column: "label"         # Values: match | non-match | uncertain
+  dev_path: "data/benchmark/dev_set.csv"
+  test_path: "data/benchmark/test_set.csv"
+  label_column: "gold_label"    # Values: match | non-match | uncertain
+  gold_uncertain_exclusion: true  # Primary binary metrics exclude gold-uncertain from denominator
 
 metrics:
-  pairwise: ["precision", "recall", "f1", "coverage", "uncertain_rate"]
-  downstream: ["vocabulary_reduction", "modularity", "nmi", "ari"]
-  average: "macro"              # Options: macro | micro
+  primary:
+    - precision    # TP / (TP + FP), gold-uncertain excluded
+    - recall       # TP / (TP + FN), gold-uncertain excluded
+    - f1           # Harmonic mean of precision and recall
+    - coverage     # Proportion of pairs receiving a binary decision
+    - uncertain_rate  # 1 - coverage
+  secondary:
+    - three_way_accuracy  # Correct / total (all three labels included)
+  downstream:
+    - vocabulary_reduction
+    - modularity_q
+    - ari          # Adjusted Rand Index
+    - ami          # Adjusted Mutual Information
 
-ablation:
-  enabled: true
-  grid:
-    guard_confidence_threshold: [0.70, 0.75, 0.80, 0.85, 0.90]
-    candidate_gen_top_k: [20, 50, 100]
-    embedding_threshold: [0.65, 0.75, 0.85]
+thresholds_tuned:
+  source: "results/tuned_thresholds.json"
+  note: "All thresholds tuned on dev set only; test set accessed once for final reporting."
 
 output:
-  tables_dir: "outputs/tables/"
+  results_dir: "results/paper_v1/"
   figures_dir: "outputs/figures/"
