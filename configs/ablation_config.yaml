@@ -1,0 +1,43 @@
+# Ablation Study Configuration
+# Four pre-specified ablations defined in Section 2.5 of the manuscript.
+# Paper reference: El Majjaoui et al. (2026), Table 8 and Section 3.2
+
+ablations:
+  A1_NoGuard:
+    description: "Guard layer (Node 5) disabled. All LLM decisions pass directly to clustering."
+    modification: "disable guard layer"
+    components_disabled: [guard_layer]
+    note: >
+      Produced no measurable F1 change on held-out test set. Guard layer was not triggered
+      under controlled test conditions. Operational value is as precision-protection under
+      distribution shift or degraded inputs.
+
+  A2_NoBinaryForced:
+    description: >
+      Uncertain abstentions suppressed. All uncertain predictions overridden to non_match,
+      forcing full coverage. Guard layer remains active.
+    modification: "suppress uncertain output; force binary decisions"
+    components_disabled: []
+    override_uncertain_to: "non_match"
+
+  A3_NoAuxContext:
+    description: >
+      Auxiliary title context removed from prompts. Pairs that would normally receive
+      context-enriched prompts submitted with standard (no-context) prompt.
+    modification: "disable auxiliary context injection"
+    components_disabled: [auxiliary_context]
+    note: >
+      Numerically identical to Full LLM-DAG in reported run because no auxiliary context
+      was injected in the baseline run. Not estimable from reported results.
+
+  A4_SimplifiedPrompt:
+    description: >
+      System prompt replaced with simplified single-paragraph instruction omitting
+      the scope-rule taxonomy and conservative policy directive.
+    modification: "replace system prompt with simplified variant"
+    simplified_prompt_file: "prompts/v1.0.0/system_prompt_simplified.txt"
+
+model:
+  model_id: "claude-haiku-4-5-20251001"
+  temperature: 0
+  confidence_threshold: 0.50    # Same as full LLM-DAG (tuned on dev set)
