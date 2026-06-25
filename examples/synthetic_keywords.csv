@@ -1,0 +1,7 @@
+keyword_a,keyword_b,gold_label,stratum,annotation_notes
+machine learning,ML,match,iii,Unambiguous acronym-expansion pair; ML is the standard abbreviation
+renewable energy,solar energy,non-match,vii,Broader-narrower: solar energy is a specific type of renewable energy
+CE,circular economy,uncertain,viii,CE is polysemous in this domain (Circular Economy / Carbon Emissions / Consumer Electronics)
+natural language processing,NLP,match,iii,Unambiguous acronym-expansion pair
+supply chain management,supply chain,non-match,vii,supply chain management is the fuller concept; supply chain alone is a component
+e-waste,electronic waste,match,iv,Punctuation/hyphenation variant of the same concept
