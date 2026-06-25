@@ -1,0 +1,39 @@
+# Scopus Batch Query Configuration
+# Retrieval date: 3 April 2026
+# Final corpus: 26,535 records (0 duplicates after EID deduplication)
+# Paper reference: El Majjaoui et al. (2026), Section 2.2, Table 2
+
+batch_1:
+  label: "2017-2021"
+  query: |
+    TITLE-ABS-KEY("circular economy" OR "circular economies")
+    AND PUBYEAR > 2016
+    AND PUBYEAR < 2022
+    AND (LIMIT-TO(DOCTYPE, "ar") OR LIMIT-TO(DOCTYPE, "re"))
+    AND (LIMIT-TO(LANGUAGE, "English"))
+  records_retrieved: 8862
+  export_filename: "scopus_ce_batch1_2017_2021.csv"
+  export_format: "CSV (all available Scopus fields)"
+
+batch_2:
+  label: "2022-2024"
+  query: |
+    TITLE-ABS-KEY("circular economy" OR "circular economies")
+    AND PUBYEAR > 2021
+    AND PUBYEAR < 2025
+    AND (LIMIT-TO(DOCTYPE, "ar") OR LIMIT-TO(DOCTYPE, "re"))
+    AND (LIMIT-TO(LANGUAGE, "English"))
+  records_retrieved: 17673
+  export_filename: "scopus_ce_batch2_2022_2024.csv"
+  export_format: "CSV (all available Scopus fields)"
+
+merge:
+  deduplication_key: "EID"
+  duplicates_found: 0
+  final_record_count: 26535
+  merged_filename: "scopus_ce_merged_deduped.csv"
+
+note: >
+  Raw Scopus CSV exports are not redistributable under Elsevier Terms of Use.
+  Use these queries with institutional Scopus access to reconstruct the corpus.
+  See docs/reproducibility.md for the full reconstruction procedure.
