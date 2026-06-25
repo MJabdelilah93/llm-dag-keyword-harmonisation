@@ -1,0 +1,8 @@
+method,precision,recall,f1,coverage,uncertain_rate,three_way_accuracy,split
+B1_Exact,1.0,0.2791,0.4364,1.0,0.0,0.6242,test
+B2_Normalised,1.0,0.2791,0.4364,1.0,0.0,0.6242,test
+B3_JaroWinkler,0.9429,0.7674,0.8462,1.0,0.0,0.7517,test
+B4_TFIDF,0.8049,0.7674,0.7857,1.0,0.0,0.7114,test
+B5_Embedding,1.0,0.6744,0.8056,1.0,0.0,0.7383,test
+B6_NaiveLLM,0.8667,0.907,0.8864,0.9933,0.0067,0.7651,test
+Full_LLM_DAG,0.9762,0.9535,0.9647,0.9262,0.0738,0.8859,test
