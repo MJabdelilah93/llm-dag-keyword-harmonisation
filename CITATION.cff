@@ -2,15 +2,12 @@ cff-version: 1.2.0
 title: "LLM-DAG Keyword Harmonisation Workflow"
 message: "If you use this software or benchmark, please cite it using the metadata below."
 type: software
-version: 1.0.0
-date-released: 2026-06-25
 repository-code: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
 doi: 10.5281/zenodo.19451886
 url: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
 authors:
   - family-names: El Majjaoui
     given-names: Abdelilah
-    orcid: https://orcid.org/0000-0000-0000-0000
   - family-names: El Haddadi
     given-names: Oumaima
   - family-names: El Haddadi
@@ -28,7 +25,7 @@ abstract: >
   harmonisation as a pairwise concept-equivalence task with three constrained
   outputs (match / non-match / uncertain), a guard layer permitting principled
   abstention, and full provenance logging. Benchmarked against six baselines
-  on a 500-pair gold-standard benchmark (κ = 0.81, F1 = 0.965).
+  on a 500-pair gold-standard benchmark (kappa = 0.81, F1 = 0.965).
 license: MIT
 keywords:
   - bibliometrics
@@ -57,4 +54,4 @@ preferred-citation:
   title: "Auditable Concept Harmonisation in Bibliometric Analysis: Benchmarking an LLM-DAG Workflow"
   journal: "Scientometrics"
   year: 2026
-  status: under-review
+  notes: "Manuscript in preparation for submission"
