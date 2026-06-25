@@ -1,0 +1,4 @@
+condition,vocabulary_f5,density,modularity_q,ami_vs_raw,n_clusters_sustainability_family
+Raw_unharmonised,3646,0.009,0.413,reference,56
+B3_JaroWinkler,2880,0.016,0.220,0.196,56
+Full_LLM_DAG,3464,0.013,0.237,0.216,216
