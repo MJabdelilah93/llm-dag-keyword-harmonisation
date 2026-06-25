@@ -1,0 +1,8 @@
+raw_keyword,normalised_keyword,cluster_id,canonical_label,raw_frequency,decision_source
+Machine Learning,machine learning,C001,machine learning,45,deterministic_normalisation
+ML,ml,C001,machine learning,12,llm_match
+machine-learning,machine learning,C001,machine learning,8,deterministic_normalisation
+Natural Language Processing,natural language processing,C002,natural language processing,23,deterministic_normalisation
+NLP,nlp,C002,natural language processing,18,llm_match
+Solar Energy,solar energy,C003,solar energy,31,deterministic_normalisation
+solar energy,solar energy,C003,solar energy,14,deterministic_normalisation
