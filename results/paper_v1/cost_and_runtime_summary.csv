@@ -1,0 +1,5 @@
+component,pairs_or_calls,cost_usd,notes
+Benchmark evaluation (dev + test + ablations),1298 API calls,0.23,Mean 413 input / 94 output tokens per call
+Full corpus LLM verification,18947 pairs,13.55,0.72 per 1000 LLM-evaluated pairs
+Deterministic scope-policy resolution,5196 pairs,0.00,No model calls required
+Benchmark annotation (human),39 annotator-hours,—,Two annotators + adjudicator
