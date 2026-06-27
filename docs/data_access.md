@@ -2,13 +2,6 @@
 
 Explains what is available where and how to access it.
 
-> **Two separate Zenodo records will exist after tagging v1.0.0:**
-> - **Zenodo-SW** (public software record): DOI minted automatically when
->   GitHub release tag `v1.0.0` is archived via the Zenodo GitHub integration.
->   This DOI is different from the one below and will be confirmed after tagging.
-> - **Zenodo-DATA** (restricted dataset record, existing deposit):
->   https://doi.org/10.5281/zenodo.19451886
-
 ---
 
 ## Openly available — this GitHub repository
@@ -23,21 +16,25 @@ Explains what is available where and how to access it.
 | Documentation | `docs/` |
 | Aggregate paper results (Tables 7–10) | `results/paper_v1/` |
 | Synthetic examples (no corpus data) | `examples/` |
-| Corpus summary statistics (no keyword strings) | `data/derived/README.md` |
 
 ---
 
 ## Public — Zenodo software record (Zenodo-SW)
 
-Frozen GitHub release tag `v1.0.0`. Includes all openly available content
-listed above. DOI will be confirmed after the release tag is created.
+**DOI:** https://doi.org/10.5281/zenodo.20931435
+
+Frozen GitHub release tag v1.0.0. Includes all openly available content
+listed above. Cite this DOI when referencing the pipeline code or workflow
+implementation.
 
 ---
 
 ## Restricted — Zenodo dataset record (Zenodo-DATA)
 
-**DOI:** https://doi.org/10.5281/zenodo.19451886  
-Access via Zenodo access request (reason: Scopus-derived content).
+**DOI:** https://doi.org/10.5281/zenodo.20923992
+
+Access via Zenodo access request (reason: Scopus-derived content). Cite this
+DOI when referencing the benchmark, annotation artefacts, or audit logs.
 
 | Content | Files |
 |---------|-------|
