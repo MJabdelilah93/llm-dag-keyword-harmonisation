@@ -2,30 +2,33 @@ cff-version: 1.2.0
 title: "LLM-DAG Keyword Harmonisation Workflow"
 message: "If you use this software or benchmark, please cite it using the metadata below."
 type: software
+version: 1.0.0
+date-released: "2026-06-26"
+doi: 10.5281/zenodo.20931435
 repository-code: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
-doi: 10.5281/zenodo.19451886
 url: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
 authors:
   - family-names: El Majjaoui
     given-names: Abdelilah
   - family-names: El Haddadi
     given-names: Oumaima
-  - family-names: El Haddadi
-    given-names: Anass
-  - family-names: Bahri
-    given-names: Abdelkhalek
   - family-names: Bouhafer
     given-names: Fadwa
   - family-names: Ouald Chaib
     given-names: Sara
+  - family-names: Bahri
+    given-names: Abdelkhalek
+  - family-names: El Haddadi
+    given-names: Anass
 abstract: >
-  Pipeline code, prompt templates, configuration files, and documentation
-  for the auditable LLM-DAG keyword harmonisation workflow described in
-  El Majjaoui et al. (2026). The workflow formalises bibliometric keyword
-  harmonisation as a pairwise concept-equivalence task with three constrained
-  outputs (match / non-match / uncertain), a guard layer permitting principled
-  abstention, and full provenance logging. Benchmarked against six baselines
-  on a 500-pair gold-standard benchmark (kappa = 0.81, F1 = 0.965).
+  Pipeline code, prompt templates, configuration files, schemas, and
+  documentation for the auditable LLM-DAG keyword harmonisation workflow
+  described in El Majjaoui et al. (2026), Scientometrics (under review).
+  The workflow formalises bibliometric keyword harmonisation as a pairwise
+  concept-equivalence task with three constrained outputs (match / non-match /
+  uncertain), a guard layer permitting principled abstention, and full
+  provenance logging. Benchmarked against six baselines on a 500-pair
+  gold-standard benchmark (kappa = 0.81, F1 = 0.965, abstention rate 7.4%).
 license: MIT
 keywords:
   - bibliometrics
@@ -43,14 +46,14 @@ preferred-citation:
       given-names: Abdelilah
     - family-names: El Haddadi
       given-names: Oumaima
-    - family-names: El Haddadi
-      given-names: Anass
-    - family-names: Bahri
-      given-names: Abdelkhalek
     - family-names: Bouhafer
       given-names: Fadwa
     - family-names: Ouald Chaib
       given-names: Sara
+    - family-names: Bahri
+      given-names: Abdelkhalek
+    - family-names: El Haddadi
+      given-names: Anass
   title: "Auditable Concept Harmonisation in Bibliometric Analysis: Benchmarking an LLM-DAG Workflow"
   journal: "Scientometrics"
   year: 2026
