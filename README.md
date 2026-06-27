@@ -2,7 +2,7 @@
 
 ## Benchmarking an LLM-DAG Workflow
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19451886.svg)](https://doi.org/10.5281/zenodo.19451886)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20931435.svg)](https://doi.org/10.5281/zenodo.20931435)
 
 ---
 
@@ -29,8 +29,8 @@ derived from a corpus of 26,535 circular economy publications.
 **Title:** Auditable Concept Harmonisation in Bibliometric Analysis:
 Benchmarking an LLM-DAG Workflow
 
-**Authors:** El Majjaoui, A., El Haddadi, O., El Haddadi, A., Bahri, A.,
-Bouhafer, F., & Ouald Chaib, S.
+**Authors:** El Majjaoui, A., El Haddadi, O., Bouhafer, F., Ouald Chaib, S.,
+Bahri, A., & El Haddadi, A.
 
 **Status:** Manuscript in preparation for submission.
 
@@ -128,23 +128,16 @@ pip install -r requirements.txt
 export ANTHROPIC_API_KEY="your-key-here"
 ```
 
-The pinned model and all thresholds are in `configs/`. Do not change `model_config.yaml`
-mid-project — any model change requires a new run series.
-
 ---
 
 ## Reproducing Results
 
 **Aggregate results** (no restricted data needed):
 
-```bash
-# All paper tables (7–10) are in results/paper_v1/ as CSV files.
-# Baselines B1–B2 are fully deterministic and can be re-run without data:
-python scripts/run_baselines.py
-```
+All paper tables (7–10) are in `results/paper_v1/` as CSV files.
 
 **Full decision-level reconstruction** requires approved access to the restricted
-Zenodo dataset record (https://doi.org/10.5281/zenodo.19451886) to obtain the
+Zenodo dataset record (https://doi.org/10.5281/zenodo.20923992) to obtain the
 benchmark files and LLM logs. See `docs/reproducibility.md` for the complete
 step-by-step guide.
 
@@ -152,29 +145,47 @@ step-by-step guide.
 
 ## Data Availability
 
-Benchmark files, LLM logs, keyword frequency tables, and harmonisation maps
-contain Scopus-derived keyword strings and are archived under restricted access
-on Zenodo: **https://doi.org/10.5281/zenodo.19451886**
+| Resource | Location | Access |
+|----------|----------|--------|
+| Pipeline code and documentation | This repository | Open |
+| Frozen code archive (v1.0.0) | https://doi.org/10.5281/zenodo.20931435 | Open |
+| Benchmark, annotation, and audit files | https://doi.org/10.5281/zenodo.20923992 | Restricted |
 
-Raw Scopus exports are not included (Elsevier Terms of Use). To reconstruct
-the corpus, see `docs/reproducibility.md`.
-
-See `docs/data_access.md` for the complete access guide.
+Benchmark files and audit logs contain Scopus-derived keyword strings and are
+subject to restricted access under Elsevier Terms of Use. Raw Scopus exports
+are not included. To reconstruct the corpus, see `docs/reproducibility.md`.
 
 ---
 
 ## Citation
+
+If you use this pipeline or benchmark, please cite:
 
 ```bibtex
 @article{ElMajjaoui2026harmonisation,
   title   = {Auditable Concept Harmonisation in Bibliometric Analysis:
              Benchmarking an {LLM-DAG} Workflow},
   author  = {El Majjaoui, Abdelilah and El Haddadi, Oumaima and
-             El Haddadi, Anass and Bahri, Abdelkhalek and
-             Bouhafer, Fadwa and Ouald Chaib, Sara},
+             Bouhafer, Fadwa and Ouald Chaib, Sara and
+             Bahri, Abdelkhalek and El Haddadi, Anass},
   journal = {Scientometrics},
   year    = {2026},
   note    = {Manuscript in preparation for submission}
+}
+```
+
+For the software specifically:
+
+```bibtex
+@software{ElMajjaoui2026software,
+  author  = {El Majjaoui, Abdelilah and El Haddadi, Oumaima and
+             Bouhafer, Fadwa and Ouald Chaib, Sara and
+             Bahri, Abdelkhalek and El Haddadi, Anass},
+  title   = {LLM-DAG Keyword Harmonisation Workflow},
+  version = {1.0.0},
+  year    = {2026},
+  doi     = {10.5281/zenodo.20931435},
+  url     = {https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation}
 }
 ```
 
