@@ -124,10 +124,20 @@ for the underlying CE corpus itself.
 ## 11. Tests
 
 ```bash
-python -m pytest strengthening/tests/ -q   # 464 tests
-python -m pytest tests/ -q                 # 48 tests, original pipeline
+python -m pytest strengthening/tests/ -q   # strengthened evidence base
+python -m pytest tests/ -q                 # original pipeline
 ```
-**(a) Public, no network/API calls in any test.**
+**(a) Public, no network/API calls in any test.** From a plain public checkout or archive (no
+restricted local research data present), a small number of tests are expected to report
+**skipped**, not failed: a handful require a restricted local research fixture (the frozen gold
+CSV, CE candidate strings, or the deployed annotator-launcher package — none of which are
+distributed publicly, per `DATA_AVAILABILITY.md`), and a few more verify that certain directories
+are correctly `git`-ignored, which requires an actual `.git` directory and is therefore
+inapplicable to a plain source archive/tarball extraction (as opposed to a real `git clone`). Each
+such test reports an explicit, specific skip reason and runs its full original assertion normally
+whenever the relevant fixture or `.git` directory is actually present — a skip in this category is
+expected release behaviour, not a scientific or correctness failure. Every test that *can* run
+publicly is required to pass; zero failures is the release acceptance criterion.
 
 ## Summary table
 

@@ -25,6 +25,18 @@ from strengthening.experiments.paid_gate import PaidExecutionNotAuthorisedError,
 
 STRENGTHENING_ROOT = Path(__file__).resolve().parents[1]
 
+# Five tests below exercise real public production code (frozen_inputs,
+# primary_m7_runner, b6_runner, openai_second_provider_runner) but require the
+# frozen gold CSV, which is restricted research material never distributed in
+# the public release (see strengthening/restricted_local/, gitignored). They
+# run normally whenever that fixture is actually present (e.g. the authors'
+# own working copy); they are explicitly skipped, not silently deleted or
+# weakened, when it is not.
+requires_restricted_gold_csv = pytest.mark.skipif(
+    not frozen_inputs.GOLD_CSV.exists(),
+    reason="requires restricted local research fixture (frozen gold CSV); not distributed in public release",
+)
+
 
 def _sha256(path: Path) -> str:
     h = hashlib.sha256()
@@ -36,6 +48,7 @@ def _sha256(path: Path) -> str:
 
 # -- frozen_inputs ------------------------------------------------------------
 
+@requires_restricted_gold_csv
 def test_frozen_gold_hash_matches_expected():
     assert frozen_inputs.verify_gold_hash() == frozen_inputs.EXPECTED_GOLD_CSV_SHA256
 
@@ -48,6 +61,7 @@ def test_verify_gold_hash_aborts_on_mismatch(monkeypatch, tmp_path):
         frozen_inputs.verify_gold_hash()
 
 
+@requires_restricted_gold_csv
 def test_build_partitions_real_counts_and_disjointness():
     partitions = frozen_inputs.build_partitions()
     result = frozen_inputs.validate_partitions(partitions)
@@ -146,6 +160,7 @@ def test_paid_gate_passes_with_both(monkeypatch):
 
 # -- LLM runner dry-run builders (no network, request count = n_pairs) --------
 
+@requires_restricted_gold_csv
 def test_primary_m7_dry_run_exactly_one_request_per_pair():
     result = primary_m7_runner.dry_run_all_partitions()
     assert result["counts"]["ce400"]["n_requests"] == 400
@@ -165,6 +180,7 @@ def test_primary_m7_build_request_substitutes_keywords_and_uses_frozen_prompt():
     assert req["system"] == config.system_prompt
 
 
+@requires_restricted_gold_csv
 def test_b6_dry_run_exactly_one_request_per_pair():
     result = b6_runner.dry_run_all_partitions()
     assert result["counts"]["ce400"]["n_requests"] == 400
@@ -177,6 +193,7 @@ def test_b6_parse_response_matches_legacy_heuristic():
     assert b6_runner.parse_b6_response("I am not sure.") == "uncertain"
 
 
+@requires_restricted_gold_csv
 def test_openai_dry_run_exactly_one_request_per_pair_and_frozen_threshold():
     result = openai_second_provider_runner.dry_run_all_partitions()
     assert result["counts"]["ce400"]["n_requests"] == 400
@@ -344,6 +361,8 @@ def test_restricted_experiments_directory_is_gitignored():
     import subprocess
 
     worktree = Path(__file__).resolve().parents[2]
+    if not (worktree / ".git").exists():
+        pytest.skip("requires a git checkout to verify gitignore coverage via `git check-ignore`; not applicable to a plain source archive/tarball extraction")
     proc = subprocess.run(
         ["git", "check-ignore", "-v", "strengthening/restricted_local/experiments/probe.csv"],
         cwd=worktree, capture_output=True, text=True,

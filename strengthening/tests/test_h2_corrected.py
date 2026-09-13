@@ -405,6 +405,8 @@ def test_corrected_launcher_bat_uses_the_fixed_pattern_and_filename_prefix():
 
 def test_corrected_restricted_directory_is_gitignored():
     worktree = Path(__file__).resolve().parents[2]
+    if not (worktree / ".git").exists():
+        pytest.skip("requires a git checkout to verify gitignore coverage via `git check-ignore`; not applicable to a plain source archive/tarball extraction")
     proc = subprocess.run(
         ["git", "check-ignore", "-v", "strengthening/restricted_local/human_annotation/v1/h2/corrected/probe.xlsx"],
         cwd=worktree, capture_output=True, text=True,

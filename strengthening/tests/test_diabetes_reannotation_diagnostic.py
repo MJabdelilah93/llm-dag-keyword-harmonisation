@@ -19,6 +19,17 @@ from strengthening.human_annotation.gui.comprehension_gate import (
 from strengthening.human_annotation.h2_recompute_with_diabetes_reannotation import build_effective_annotator_2
 
 PKG_DIR = Path(__file__).resolve().parents[1] / "restricted_local" / "human_annotation" / "v1"
+CE_CANDIDATES_CSV = Path(__file__).resolve().parents[1] / "restricted_local" / "ce" / "ce_400_annotation_candidates_unlabelled.csv"
+
+# Cross-checks the hand-authored comprehension-gate examples against the real
+# circular-economy candidate strings (Scopus-derived, restricted research
+# material, gitignored -- see strengthening/restricted_local/). Runs normally
+# whenever that fixture is present; explicitly skipped, not weakened, when
+# it is not.
+requires_restricted_ce_candidates = pytest.mark.skipif(
+    not CE_CANDIDATES_CSV.exists(),
+    reason="requires restricted local research fixture (CE candidate strings); not distributed in public release",
+)
 
 
 def _sha256(path: Path) -> str:
@@ -128,6 +139,7 @@ def test_reannotation_completed_filename_correct():
 
 # -- comprehension gate -----------------------------------------------------
 
+@requires_restricted_ce_candidates
 def test_comprehension_examples_are_synthetic_and_not_in_either_benchmark():
     ce = pd.read_csv(
         Path(__file__).resolve().parents[1] / "restricted_local" / "ce" / "ce_400_annotation_candidates_unlabelled.csv"
@@ -262,6 +274,8 @@ def test_ce_only_adjudication_package_row_count_if_present():
 
 def test_diabetes_reannotation_directory_is_gitignored():
     worktree = Path(__file__).resolve().parents[2]
+    if not (worktree / ".git").exists():
+        pytest.skip("requires a git checkout to verify gitignore coverage via `git check-ignore`; not applicable to a plain source archive/tarball extraction")
     proc = subprocess.run(
         ["git", "check-ignore", "-v", "strengthening/restricted_local/human_annotation/v1/h2/diabetes_reannotation/probe.xlsx"],
         cwd=worktree, capture_output=True, text=True,

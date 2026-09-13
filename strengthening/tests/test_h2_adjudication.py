@@ -403,6 +403,8 @@ def test_h2_restricted_directory_is_gitignored():
     from pathlib import Path
 
     worktree = Path(__file__).resolve().parents[2]
+    if not (worktree / ".git").exists():
+        pytest.skip("requires a git checkout to verify gitignore coverage via `git check-ignore`; not applicable to a plain source archive/tarball extraction")
     proc = subprocess.run(
         ["git", "check-ignore", "-v", "strengthening/restricted_local/human_annotation/v1/h2/PRIMARY_ADJUDICATION.xlsx"],
         cwd=worktree, capture_output=True, text=True,

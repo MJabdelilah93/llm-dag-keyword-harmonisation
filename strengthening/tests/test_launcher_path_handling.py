@@ -16,6 +16,20 @@ from strengthening.human_annotation.gui.main import clean_path_arg
 
 PACKAGE_DIR = Path(__file__).resolve().parents[1] / "restricted_local" / "human_annotation" / "v1"
 
+# The tests below (5-9) read the real, deployed START_ANNOTATOR_<N>.bat launcher
+# files, which ship only inside the private annotator-deployment package
+# (bundled there for one-click distribution alongside the real annotation
+# workbooks; gitignored, not distributed in the public release -- see
+# strengthening/restricted_local/). They provide genuine public methodological
+# value (they regression-test a real Windows launcher bug fix, and one of them
+# is itself a privacy check that the launcher never leaks scientific terms),
+# so they are retained and run normally whenever the package is actually
+# present; they are explicitly skipped, not weakened, when it is not.
+requires_restricted_launcher_package = pytest.mark.skipif(
+    not (PACKAGE_DIR / "START_ANNOTATOR_1.bat").exists(),
+    reason="requires restricted local research fixture (deployed annotator launcher package); not distributed in public release",
+)
+
 
 # -- 1. Windows path with spaces -----------------------------------------
 
@@ -111,6 +125,7 @@ def test_no_embedded_quote_survives_into_path_object():
 
 # -- 5/6. Annotator 1/2 launcher target ----------------------------------
 
+@requires_restricted_launcher_package
 def test_annotator_1_launcher_binds_to_annotator_1_source_only():
     text = (PACKAGE_DIR / "START_ANNOTATOR_1.bat").read_text(encoding="utf-8")
     assert "--annotator-id 1" in text
@@ -118,6 +133,7 @@ def test_annotator_1_launcher_binds_to_annotator_1_source_only():
     assert "02_ANNOTATOR_2_PRIMARY.xlsx" not in text
 
 
+@requires_restricted_launcher_package
 def test_annotator_2_launcher_binds_to_annotator_2_source_only():
     text = (PACKAGE_DIR / "START_ANNOTATOR_2.bat").read_text(encoding="utf-8")
     assert "--annotator-id 2" in text
@@ -127,6 +143,7 @@ def test_annotator_2_launcher_binds_to_annotator_2_source_only():
 
 # -- 7/8. BAT command construction with pythonw.exe / python.exe fallback --
 
+@requires_restricted_launcher_package
 @pytest.mark.parametrize("bat_name", ["START_ANNOTATOR_1.bat", "START_ANNOTATOR_2.bat"])
 def test_bat_uses_pythonw_directly_without_start(bat_name):
     text = (PACKAGE_DIR / bat_name).read_text(encoding="utf-8")
@@ -141,6 +158,7 @@ def test_bat_uses_pythonw_directly_without_start(bat_name):
     assert "start " not in launch_block
 
 
+@requires_restricted_launcher_package
 @pytest.mark.parametrize("bat_name", ["START_ANNOTATOR_1.bat", "START_ANNOTATOR_2.bat"])
 def test_bat_python_fallback_uses_correct_start_syntax(bat_name):
     text = (PACKAGE_DIR / bat_name).read_text(encoding="utf-8")
@@ -149,6 +167,7 @@ def test_bat_python_fallback_uses_correct_start_syntax(bat_name):
     assert 'start "" /min python.exe -m strengthening' in text
 
 
+@requires_restricted_launcher_package
 @pytest.mark.parametrize("bat_name", ["START_ANNOTATOR_1.bat", "START_ANNOTATOR_2.bat"])
 def test_bat_never_quotes_script_dir_alone_with_trailing_backslash(bat_name):
     """The actual regression check for the reported bug: SCRIPT_DIR must
@@ -165,6 +184,7 @@ def test_bat_never_quotes_script_dir_alone_with_trailing_backslash(bat_name):
 
 # -- 9. no scientific/system metadata exposure introduced ------------------
 
+@requires_restricted_launcher_package
 @pytest.mark.parametrize("bat_name", ["START_ANNOTATOR_1.bat", "START_ANNOTATOR_2.bat"])
 def test_bat_still_exposes_no_forbidden_terms(bat_name):
     text = (PACKAGE_DIR / bat_name).read_text(encoding="utf-8").lower()
