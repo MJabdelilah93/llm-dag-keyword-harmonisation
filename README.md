@@ -2,8 +2,8 @@
 
 ## Benchmarking Pairwise Equivalence and Downstream Effects
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20931435.svg)](https://doi.org/10.5281/zenodo.20931435)
-*(badge currently points to the prior, pre-strengthening software release — see [Citation](#citation))*
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22736473.svg)](https://doi.org/10.5281/zenodo.22736473)
+*(software archive DOI for this v2.0.0 release — see [Citation](#citation) for the earlier v1.0.0 software DOI)*
 
 ---
 
@@ -143,17 +143,17 @@ distribute the raw export; only the query definition and downstream code are pro
 ## 11. Biomedical (diabetes) benchmark availability
 
 The 500-pair diabetes-mellitus prospective benchmark is fully redistributable and is prepared as a
-standalone package at `release/zenodo_diabetes_benchmark/`. The compiled benchmark is licensed
-CC BY 4.0; the underlying PMC source articles retain their original CC BY or CC0 licences,
-recorded through the package provenance. The benchmark has not yet been published to Zenodo.
+standalone package at `release/zenodo_diabetes_benchmark/`. Dataset DOI: `10.5281/zenodo.22736625`.
+The compiled benchmark is licensed CC BY 4.0; the underlying PMC source articles retain their
+original CC BY or CC0 licences, recorded through the package provenance.
 
 ## 12. Citation
 
-See `CITATION.cff`. Archival DOIs (software and, separately, the diabetes benchmark dataset) will
-be added after publication of the v2.0.0 release; do not cite a DOI for this version until one is
-assigned. A DOI already exists for the **earlier, pre-strengthening** submission's software
-archive (10.5281/zenodo.20931435) — that DOI describes different code and results and should not
-be used for this version.
+See `CITATION.cff`. Software archive DOI (this v2.0.0 release): `10.5281/zenodo.22736473`.
+Diabetes benchmark dataset DOI: `10.5281/zenodo.22736625` (see §11). No DOI is yet assigned for
+the manuscript/article itself; do not cite one for it until it is. A **different, earlier** DOI
+exists for the **pre-strengthening** submission's software archive (10.5281/zenodo.20931435) —
+that DOI describes different code and results and should not be used for this version.
 
 ## 13. Licence
 

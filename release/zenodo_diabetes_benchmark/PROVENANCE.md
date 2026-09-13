@@ -1,5 +1,7 @@
 # Provenance — M7 diabetes-mellitus prospective benchmark (v1)
 
+**Dataset DOI: `10.5281/zenodo.22736625`**
+
 ## Source corpus
 
 - **Source**: PubMed Central Open Access subset, via NCBI E-utilities (`esearch`/`efetch`) and PMC

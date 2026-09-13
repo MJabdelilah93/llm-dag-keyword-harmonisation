@@ -3,14 +3,16 @@ title: "Auditable Concept Harmonisation for Bibliometric Thematic Analysis: Benc
 message: "If you use this software or benchmark, please cite it using the metadata below."
 type: software
 version: 2.0.0
-# date-released and doi intentionally left unset: this is the strengthened M7 release, not yet
-# tagged or archived on Zenodo. Do not fill these in with placeholder/fake values -- set them at
-# the moment of actual release. NOTE: a DIFFERENT, EARLIER software DOI already exists for the
-# original (pre-strengthening, rejected) submission's v1.0.0: 10.5281/zenodo.20931435 (released
-# 2026-06-26). That DOI describes different code/results and must not be reused for this release.
-# Also note: git tags `v1.0.0` and `v_1.0.0` already exist on this repository (pointing at the
-# OLD submission's commit); this release uses `version: 2.0.0` below specifically so its eventual
-# git tag does not collide with those existing tags.
+doi: 10.5281/zenodo.22736473
+# date-released intentionally left unset: this DOI has been reserved on Zenodo but the record has
+# not yet been published, and this release has not yet been tagged. Do not fill date-released in
+# with a placeholder/fake value -- set it at the moment of actual publication. NOTE: a DIFFERENT,
+# EARLIER software DOI already exists for the original (pre-strengthening, rejected) submission's
+# v1.0.0: 10.5281/zenodo.20931435 (released 2026-06-26). That DOI describes different code/results
+# and must not be reused for this release -- it is historical only. Also note: git tags `v1.0.0`
+# and `v_1.0.0` already exist on this repository (pointing at the OLD submission's commit); this
+# release uses `version: 2.0.0` below specifically so its eventual git tag does not collide with
+# those existing tags.
 repository-code: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
 url: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
 authors:

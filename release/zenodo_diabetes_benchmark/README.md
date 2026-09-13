@@ -1,5 +1,7 @@
 # M7 diabetes-mellitus prospective benchmark (v1)
 
+**Dataset DOI: `10.5281/zenodo.22736625`**
+
 500 human-annotated keyword pairs from the diabetes-mellitus domain of PubMed Central Open
 Access articles, used as one of two prospective held-out domains (the other, circular economy,
 is Scopus-derived and not redistributable — see below) in:
@@ -44,6 +46,6 @@ CC0) is recorded per row in the `source_licence` column and is unaffected by thi
 
 ## Citation
 
-See the parent repository's `CITATION.cff` for the manuscript and software citation. A
-dataset-specific citation entry (with its own Zenodo DOI) will be added once this record is
-published.
+Dataset DOI: `10.5281/zenodo.22736625`. See the parent repository's `CITATION.cff` for the
+manuscript and software citation (software archive DOI: `10.5281/zenodo.22736473`); no
+manuscript/article DOI is yet assigned.

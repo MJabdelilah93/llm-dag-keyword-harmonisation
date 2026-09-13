@@ -48,8 +48,9 @@ development + 149 held-out) legacy benchmark, which is preserved as a developmen
   the private v2.0.0 release-safety audit).
 
 ### Notes
-- This release's own DOIs (software and, separately, the diabetes benchmark dataset) are not yet
-  assigned; an archival DOI will be added after publication of the v2.0.0 release. See
+- Software archive DOI for this release: `10.5281/zenodo.22736473`. Diabetes benchmark dataset
+  DOI: `10.5281/zenodo.22736625`. Both records are reserved on Zenodo; publication of the records
+  themselves and of this release's own git tag/GitHub Release are separate, subsequent steps. See
   `release/zenodo_diabetes_benchmark/PROVENANCE.md` and `DATA_AVAILABILITY.md`.
 - The circular-economy domain (both the legacy 500-pair benchmark and the 400-pair half of the
   prospective benchmark) remains Scopus-derived and is not redistributed, per Elsevier's Terms of
