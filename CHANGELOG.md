@@ -23,21 +23,34 @@ development + 149 held-out) legacy benchmark, which is preserved as a developmen
 - Paired bootstrap (N=10,000, seed 42), selective-prediction/AURC analysis, a corrected B8
   retrieval-eligibility diagnostic, and an observed-transitive-contradiction safety check.
 - Root-level `REPRODUCIBILITY.md` and `DATA_AVAILABILITY.md` for the strengthened evidence base.
-- 464 additional tests (`strengthening/tests/`), all offline, no network/API calls.
+- Several hundred additional tests (`strengthening/tests/`), all offline, no network/API calls; a
+  small number are explicitly skipped (not failed) on a plain public checkout that lacks a
+  restricted local research fixture or a `.git` directory — see `REPRODUCIBILITY.md` §11.
 
 ### Changed
-- `README.md`, `CITATION.cff` — updated to the current manuscript title, author list, and the
-  strengthened primary result (prospective-benchmark pooled precision/recall/F1/coverage:
-  0.9766 / 0.9579 / 0.9671 / 0.9720); no longer present the 149-pair held-out result as primary.
+- `README.md`, `CITATION.cff` — updated to the current manuscript title, author list (including
+  the confirmed spelling "Abdelkhalak Bahri"), and the strengthened primary result
+  (prospective-benchmark pooled precision/recall/F1/coverage: 0.9766 / 0.9579 / 0.9671 / 0.9720);
+  no longer present the 149-pair held-out result as primary.
+- `LICENSE` — copyright line completed: "Copyright (c) 2026 Abdelilah El Majjaoui and
+  contributors".
+- `release/zenodo_diabetes_benchmark/` — the compiled benchmark package is now explicitly licensed
+  CC BY 4.0 (a new `LICENSE` file in that directory); this covers the compilation only and does
+  not relicense the underlying PMC source articles, whose own per-row licence (`source_licence`:
+  497 CC BY / 3 CC0) is unchanged.
+- `strengthening/scripts_pmc/pmc_common.py` — `NCBIClient` no longer hard-codes a personal
+  contact email; it now reads `NCBI_EMAIL` (or `ENTREZ_EMAIL`) from the environment and raises a
+  clear error if neither is set. No scientific/retrieval behaviour changed.
+- Corresponding-author contact added to `README.md`/`DATA_AVAILABILITY.md`/`CITATION.cff`.
 - Release-safety cleanup: removed a small number of personal absolute filesystem paths from
   publication-facing documentation/scripts and excluded one file
   (`results/downstream_qualitative_examples.txt`) from public release pending further review (see
   the private v2.0.0 release-safety audit).
 
 ### Notes
-- The diabetes-mellitus benchmark's compiled-dataset licence and this release's own DOIs
-  (software and dataset) are not yet assigned; see `release/zenodo_diabetes_benchmark/PROVENANCE.md`
-  and `DATA_AVAILABILITY.md`.
+- This release's own DOIs (software and, separately, the diabetes benchmark dataset) are not yet
+  assigned; an archival DOI will be added after publication of the v2.0.0 release. See
+  `release/zenodo_diabetes_benchmark/PROVENANCE.md` and `DATA_AVAILABILITY.md`.
 - The circular-economy domain (both the legacy 500-pair benchmark and the 400-pair half of the
   prospective benchmark) remains Scopus-derived and is not redistributed, per Elsevier's Terms of
   Use, unchanged from the v1.0.0 policy below.

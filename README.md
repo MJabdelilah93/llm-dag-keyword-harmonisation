@@ -149,20 +149,22 @@ CC BY/CC0, licence-verified per pair) and is prepared as a standalone package at
 
 ## 12. Citation
 
-See `CITATION.cff`. Software and manuscript DOIs for this strengthened release have not yet been
-issued; do not cite a DOI for this version until one is assigned. A DOI already exists for the
-**earlier, pre-strengthening** submission's software archive (10.5281/zenodo.20931435) — that DOI
-describes different code and results and should not be used for this version.
+See `CITATION.cff`. Archival DOIs (software and, separately, the diabetes benchmark dataset) will
+be added after publication of the v2.0.0 release; do not cite a DOI for this version until one is
+assigned. A DOI already exists for the **earlier, pre-strengthening** submission's software
+archive (10.5281/zenodo.20931435) — that DOI describes different code and results and should not
+be used for this version.
 
 ## 13. Licence
 
-MIT — see `LICENSE`. *(The copyright holder name in `LICENSE` is a placeholder pending author
-confirmation — see `M7_PUBLIC_RELEASE_AUDIT.md`.)*
+MIT — see `LICENSE`. The diabetes-mellitus benchmark package
+(`release/zenodo_diabetes_benchmark/`) is separately licensed CC BY 4.0 for the compilation itself
+— see that directory's own `LICENSE`/`PROVENANCE.md` for the scope of that licence relative to the
+underlying PMC source articles' own licences.
 
 ## 14. Contact
 
-Corresponding author: to be confirmed by the author team before release (not specified in any
-authoritative repository file available to this preparation task).
+Corresponding author: Abdelilah El Majjaoui (abdelilah.elmajjaoui@etu.uae.ac.ma).
 
 ## 15. Data availability statement (short form)
 

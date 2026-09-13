@@ -1,0 +1,26 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This licence applies to the COMPILATION in this package -- the pairing of keyword strings,
+corpus-frequency fields, stratum assignment, and human-generated gold labels
+(`m7_diabetes_benchmark_v1.csv` and its accompanying `DATA_DICTIONARY.md`/`PROVENANCE.md`/
+`README.md`) -- as prepared by the authors of:
+
+  Auditable Concept Harmonisation for Bibliometric Thematic Analysis: Benchmarking Pairwise
+  Equivalence and Downstream Effects
+
+You are free to share and adapt this compilation for any purpose, even commercially, under the
+following terms: you must give appropriate credit to the authors, provide a link to the licence,
+and indicate if changes were made.
+
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+IMPORTANT -- SCOPE OF THIS LICENCE:
+
+This CC BY 4.0 licence covers the COMPILATION ONLY. It does NOT relicense, and does not affect the
+licence of, the underlying PMC Open Access source articles that the keyword strings in this
+compilation were drawn from. Every row records its own source-article licence in the
+`source_licence` column (`CC BY` or `CC0`) and the contributing PMC identifier(s) in
+`source_pmcids_a`/`source_pmcids_b`; those source articles remain under their own original
+licence terms regardless of this notice. See `PROVENANCE.md` for the full accounting (497 CC BY
+source-pair provenance entries, 3 CC0).

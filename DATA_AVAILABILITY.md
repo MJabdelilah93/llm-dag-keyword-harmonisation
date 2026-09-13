@@ -18,8 +18,9 @@
 
 Researchers with a legitimate research need for the restricted circular-economy benchmark
 material (gold labels, annotation justifications, or frozen predictions) should contact the
-corresponding author (see `README.md` §14 — to be confirmed before release) to discuss what can
-be shared under what terms; this repository does not itself grant or manage such access.
+corresponding author, Abdelilah El Majjaoui (abdelilah.elmajjaoui@etu.uae.ac.ma; see also
+`README.md` §14), to discuss what can be shared under what terms; this repository does not itself
+grant or manage such access.
 
 ## Summary statement (short form, for manuscript use)
 

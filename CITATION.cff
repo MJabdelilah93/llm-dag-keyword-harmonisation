@@ -9,13 +9,14 @@ version: 2.0.0
 # original (pre-strengthening, rejected) submission's v1.0.0: 10.5281/zenodo.20931435 (released
 # 2026-06-26). That DOI describes different code/results and must not be reused for this release.
 # Also note: git tags `v1.0.0` and `v_1.0.0` already exist on this repository (pointing at the
-# OLD submission's commit) -- the `version: 1.0.0` value below will collide with them if this
-# release is tagged `v1.0.0` as-is. See M7_PUBLIC_RELEASE_AUDIT.md for the recommended resolution.
+# OLD submission's commit); this release uses `version: 2.0.0` below specifically so its eventual
+# git tag does not collide with those existing tags.
 repository-code: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
 url: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
 authors:
   - family-names: El Majjaoui
     given-names: Abdelilah
+    email: abdelilah.elmajjaoui@etu.uae.ac.ma
   - family-names: El Haddadi
     given-names: Oumaima
   - family-names: El Haddadi
@@ -26,12 +27,11 @@ authors:
     given-names: Fadwa
   - family-names: Ouald Chaib
     given-names: Sara
-# NOTE: the previous version of this file spelled the fourth author "Abdelkhalek" Bahri; this
-# revision uses "Abdelkhalak" per the exact spelling supplied for this release. This is a genuine
-# discrepancy between two authoritative-looking sources, not a typo this task can silently
-# resolve -- the correct spelling must be confirmed with the author before publication. No
-# ORCID or affiliation is set for any author: none was supplied to this preparation task and none
-# is invented here.
+# NOTE: an earlier draft of this file spelled the fourth author "Abdelkhalek" Bahri; this was a
+# genuine discrepancy against another authoritative-looking source and was flagged rather than
+# silently resolved. The spelling "Abdelkhalak Bahri" used below has since been explicitly
+# confirmed/approved and is authoritative for this release. No ORCID or affiliation is set for
+# any author: none was supplied to this preparation task and none is invented here.
 abstract: >
   Pipeline code, prompt templates, configuration files, schemas, evaluation/audit scripts, and
   documentation for the auditable concept-harmonisation workflow described in the manuscript

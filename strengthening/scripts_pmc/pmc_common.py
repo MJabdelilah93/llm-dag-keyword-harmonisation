@@ -67,7 +67,13 @@ EFETCH_URL = f"{EUTILS}/efetch.fcgi"
 OAI_URL = "https://www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi"
 
 TOOL_NAME = "m7-concept-harmonisation-strengthening"
-TOOL_EMAIL = "abdel.elmajjaoui@assistdigital.nl"
+
+# NCBI E-utilities usage policy asks every caller to supply a contact email.
+# No default is hard-coded here: a public codebase must not embed any
+# individual's personal contact address. Callers must set NCBI_EMAIL (or the
+# legacy alias ENTREZ_EMAIL, following the same env-var precedent already
+# used below for NCBI_API_KEY/ENTREZ_API_KEY) before making real requests.
+_NCBI_EMAIL_ENV_VARS = ("NCBI_EMAIL", "ENTREZ_EMAIL")
 
 # Anonymous NCBI rate limit is ~3 requests/second.  No API key is configured
 # for this run; we simply run at the anonymous rate.
@@ -78,13 +84,27 @@ _KEYED_MIN_INTERVAL = 0.11
 class NCBIClient:
     """Minimal rate-limited client for official NCBI/PMC endpoints."""
 
-    def __init__(self, api_key: str | None = None) -> None:
+    def __init__(self, api_key: str | None = None, tool_email: str | None = None) -> None:
         # An API key is used only if one is already present in the
         # environment.  Its value is never logged or written anywhere.
         self.api_key = api_key or os.environ.get("NCBI_API_KEY") or os.environ.get("ENTREZ_API_KEY")
         self.min_interval = _KEYED_MIN_INTERVAL if self.api_key else _ANON_MIN_INTERVAL
+
+        self.tool_email = tool_email
+        for _env_var in _NCBI_EMAIL_ENV_VARS:
+            if self.tool_email:
+                break
+            self.tool_email = os.environ.get(_env_var)
+        if not self.tool_email:
+            raise RuntimeError(
+                "NCBIClient requires a tool-contact email, per NCBI E-utilities usage policy. "
+                "Set the NCBI_EMAIL environment variable (or pass tool_email=... explicitly) "
+                "before creating an NCBIClient -- this public codebase does not embed a default "
+                "contact address for any individual."
+            )
+
         self.session = requests.Session()
-        self.session.headers.update({"User-Agent": f"{TOOL_NAME} (mailto:{TOOL_EMAIL})"})
+        self.session.headers.update({"User-Agent": f"{TOOL_NAME} (mailto:{self.tool_email})"})
         self._last = 0.0
         self.request_count = 0
         self.retry_events: list[str] = []
@@ -102,7 +122,7 @@ class NCBIClient:
     def _common_params(self, params: dict) -> dict:
         out = dict(params)
         out.setdefault("tool", TOOL_NAME)
-        out.setdefault("email", TOOL_EMAIL)
+        out.setdefault("email", self.tool_email)
         if self.api_key:
             out["api_key"] = self.api_key
         return out

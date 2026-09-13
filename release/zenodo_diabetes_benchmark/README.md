@@ -14,7 +14,8 @@ is Scopus-derived and not redistributable — see below) in:
 | `m7_diabetes_benchmark_v1.csv` | The benchmark itself: 500 rows, 11 columns. See `DATA_DICTIONARY.md`. |
 | `DATA_DICTIONARY.md` | Column-by-column description, label distribution, licence-source distribution. |
 | `PROVENANCE.md` | Source corpus, retrieval date, sample-construction method, licence verification, and frozen-evidence cross-checks. |
-| `CHECKSUMS.sha256` | SHA-256 of `m7_diabetes_benchmark_v1.csv`. |
+| `LICENSE` | CC BY 4.0 notice for this compiled dataset (see "Licence" below for scope). |
+| `CHECKSUMS.sha256` | SHA-256 of every file in this package. |
 
 ## Why this file exists and what it is not
 
@@ -35,9 +36,11 @@ the parent GitHub repository.
 
 ## Licence
 
-See `PROVENANCE.md`, final section — the licence for this COMPILED dataset (as opposed to the
-CC BY/CC0 status of its underlying source keywords, which is independently verified per row) has
-not yet been decided by the authors and is not assigned in this directory.
+This compiled dataset (the pairing, frequencies, stratum design, and gold labels) is released
+under **CC BY 4.0** — see `LICENSE` in this directory. This licence covers the compilation only:
+it does not relicense the underlying PMC Open Access source articles, whose own licence (CC BY or
+CC0) is recorded per row in the `source_licence` column and is unaffected by this notice. See
+`PROVENANCE.md` for the full accounting (497 CC BY / 3 CC0 source-pair provenance entries).
 
 ## Citation
 

@@ -70,19 +70,24 @@ this release; this file only reads their existing content.
   content was altered; this release file is a column-restricted, row-filtered projection of the
   two, not a re-derivation.
 
-## Licence status of the COMPILED release file (open item — not yet decided)
+## Licence of the COMPILED release file (decided: CC BY 4.0)
 
-The keyword strings and PMC provenance in this file derive from CC BY / CC0 sources, which permit
-redistribution. **The compiled dataset as a whole (pairing + human-generated gold labels +
-stratum design) has not yet had an explicit licence assigned**, and this document does not assign
-one. Before Zenodo publication, the authors should decide and record:
+**The compiled dataset in this package — the pairing, corpus-frequency fields, stratum design, and
+human-generated gold labels (`m7_diabetes_benchmark_v1.csv` and its accompanying documentation) —
+is released under Creative Commons Attribution 4.0 International (CC BY 4.0).** See `LICENSE` in
+this directory for the full notice.
 
-1. Whether the gold labels and pairing (the authors' own annotation work) are released under the
-   same CC BY terms as the source keywords, a different open licence (e.g. CC BY 4.0 uniformly,
-   or CC0 for the labels specifically), or some other explicit choice.
-2. Whether attribution requirements from the CC BY-licensed source articles need to be
-   discharged in the dataset's own README/citation (a bibliography of contributing PMCIDs, or a
-   pointer to PMC's own record pages, is the usual mechanism) rather than by naming every
-   individual source article in this file.
+This is a licence for the COMPILATION only. It does **not** relicense, and has no effect on, the
+licence of the underlying PMC Open Access source articles:
 
-No licence file is included in this release directory pending that decision.
+- **Compilation licence (this package)**: CC BY 4.0.
+- **Source article licences (unchanged, per row)**: recorded individually in the `source_licence`
+  column of `m7_diabetes_benchmark_v1.csv` — `CC BY` or `CC0`, exactly as published by PMC.
+  Source-level provenance is retained per pair via `source_licence`, `source_pmcids_a`, and
+  `source_pmcids_b`. **Frozen accounting: 497 of the 500 benchmark pairs carry CC BY source-pair
+  provenance, 3 carry CC0** (see §"Pair-level licence split" above; unchanged by this licence
+  decision).
+- Attribution to the original CC BY source articles is discharged by their PMCIDs already being
+  recorded per row in this dataset (`source_pmcids_a`/`source_pmcids_b`); reusers should retain
+  those columns rather than stripping them, and should additionally cite the manuscript above per
+  `CITATION.cff` in the parent repository.
