@@ -142,10 +142,10 @@ distribute the raw export; only the query definition and downstream code are pro
 
 ## 11. Biomedical (diabetes) benchmark availability
 
-The 500-pair diabetes-mellitus prospective benchmark is fully redistributable (PMC Open Access,
-CC BY/CC0, licence-verified per pair) and is prepared as a standalone package at
-`release/zenodo_diabetes_benchmark/` (not yet published to Zenodo — see that directory's
-`PROVENANCE.md` for the open licensing decision still pending before publication).
+The 500-pair diabetes-mellitus prospective benchmark is fully redistributable and is prepared as a
+standalone package at `release/zenodo_diabetes_benchmark/`. The compiled benchmark is licensed
+CC BY 4.0; the underlying PMC source articles retain their original CC BY or CC0 licences,
+recorded through the package provenance. The benchmark has not yet been published to Zenodo.
 
 ## 12. Citation
 
