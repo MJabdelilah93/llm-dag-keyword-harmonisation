@@ -29,8 +29,9 @@ grant or manage such access.
 
 Pipeline code, prompts, configuration, and all aggregate/statistical evaluation outputs reported
 in the manuscript are openly available in this GitHub repository. The 500-pair diabetes-mellitus
-benchmark (keyword pairs, gold labels, and PMC provenance) is separately released on Zenodo. The
-circular-economy benchmark's underlying keyword corpus is derived from Scopus and cannot be
+benchmark (keyword pairs, gold labels, and PMC provenance) is prepared as a separate,
+redistribution-cleared Zenodo dataset (DOI: `10.5281/zenodo.22736625`). The circular-economy
+benchmark's underlying keyword corpus is derived from Scopus and cannot be
 redistributed under Elsevier's Terms of Use; researchers with their own Scopus access can
 reconstruct it using the documented query and code. Individual annotator justifications and
 adjudication notes are withheld for both domains as restricted working material.
