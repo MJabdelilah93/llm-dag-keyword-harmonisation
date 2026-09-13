@@ -89,7 +89,8 @@ licence of the underlying PMC Open Access source articles:
   `source_pmcids_b`. **Frozen accounting: 497 of the 500 benchmark pairs carry CC BY source-pair
   provenance, 3 carry CC0** (see §"Pair-level licence split" above; unchanged by this licence
   decision).
-- Attribution to the original CC BY source articles is discharged by their PMCIDs already being
-  recorded per row in this dataset (`source_pmcids_a`/`source_pmcids_b`); reusers should retain
-  those columns rather than stripping them, and should additionally cite the manuscript above per
-  `CITATION.cff` in the parent repository.
+- The PMCIDs recorded in `source_pmcids_a` and `source_pmcids_b` provide source-level provenance
+  and enable reusers to identify the contributing articles. Reusers remain responsible for
+  complying with the attribution requirements of each underlying source article's licence.
+  Reusers should retain these columns rather than stripping them, and should additionally cite
+  the manuscript above per `CITATION.cff` in the parent repository.

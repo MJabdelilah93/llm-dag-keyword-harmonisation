@@ -19,21 +19,31 @@ authors:
   - family-names: El Majjaoui
     given-names: Abdelilah
     email: abdelilah.elmajjaoui@etu.uae.ac.ma
+    orcid: https://orcid.org/0009-0008-1414-5602
   - family-names: El Haddadi
     given-names: Oumaima
-  - family-names: El Haddadi
-    given-names: Anass
-  - family-names: Bahri
-    given-names: Abdelkhalak
+    orcid: https://orcid.org/0009-0008-7951-2231
   - family-names: Bouhafer
     given-names: Fadwa
+    orcid: https://orcid.org/0000-0001-6156-7711
   - family-names: Ouald Chaib
     given-names: Sara
-# NOTE: an earlier draft of this file spelled the fourth author "Abdelkhalek" Bahri; this was a
+    orcid: https://orcid.org/0009-0002-0528-5036
+  - family-names: Bahri
+    given-names: Abdelkhalak
+    orcid: https://orcid.org/0000-0002-8527-7281
+  - family-names: El Haddadi
+    given-names: Anass
+    orcid: https://orcid.org/0000-0002-3338-2477
+# NOTE: an earlier draft of this file spelled the fifth author "Abdelkhalek" Bahri; this was a
 # genuine discrepancy against another authoritative-looking source and was flagged rather than
 # silently resolved. The spelling "Abdelkhalak Bahri" used below has since been explicitly
-# confirmed/approved and is authoritative for this release. No ORCID or affiliation is set for
-# any author: none was supplied to this preparation task and none is invented here.
+# confirmed/approved and is authoritative for this release. Author order and all six ORCIDs above
+# are the authoritative final values supplied for this release. Abdelilah El Majjaoui is the
+# corresponding author (see email above). No `affiliation:` field is set for any author: the
+# manuscript uses a shared numeric affiliation marker (1) for every author, but no actual
+# affiliation name/institution string was supplied to this preparation task, and none is invented
+# here -- CITATION.cff's `affiliation:` field takes a real institution name, not a marker number.
 abstract: >
   Pipeline code, prompt templates, configuration files, schemas, evaluation/audit scripts, and
   documentation for the auditable concept-harmonisation workflow described in the manuscript
@@ -63,16 +73,23 @@ preferred-citation:
   authors:
     - family-names: El Majjaoui
       given-names: Abdelilah
+      email: abdelilah.elmajjaoui@etu.uae.ac.ma
+      orcid: https://orcid.org/0009-0008-1414-5602
     - family-names: El Haddadi
       given-names: Oumaima
-    - family-names: El Haddadi
-      given-names: Anass
-    - family-names: Bahri
-      given-names: Abdelkhalak
+      orcid: https://orcid.org/0009-0008-7951-2231
     - family-names: Bouhafer
       given-names: Fadwa
+      orcid: https://orcid.org/0000-0001-6156-7711
     - family-names: Ouald Chaib
       given-names: Sara
+      orcid: https://orcid.org/0009-0002-0528-5036
+    - family-names: Bahri
+      given-names: Abdelkhalak
+      orcid: https://orcid.org/0000-0002-8527-7281
+    - family-names: El Haddadi
+      given-names: Anass
+      orcid: https://orcid.org/0000-0002-3338-2477
   title: "Auditable Concept Harmonisation for Bibliometric Thematic Analysis: Benchmarking Pairwise Equivalence and Downstream Effects"
   journal: "Scientometrics"
   # year and DOI intentionally omitted: not yet assigned. Do not invent.
