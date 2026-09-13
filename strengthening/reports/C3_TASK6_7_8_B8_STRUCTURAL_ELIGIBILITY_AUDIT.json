@@ -1,0 +1,97 @@
+{
+  "seed_universe_membership_check": {
+    "biomedical_diabetes_mellitus": {
+      "n_seeds": 769,
+      "n_universe": 4092,
+      "n_seeds_outside_universe": 0,
+      "seeds_can_be_outside_universe_confirmed_on_real_data": false
+    },
+    "circular_economy": {
+      "n_seeds": 687,
+      "n_universe": 4000,
+      "n_seeds_outside_universe": 249,
+      "seeds_can_be_outside_universe_confirmed_on_real_data": true
+    }
+  },
+  "structural_rules_confirmed": {
+    "seed_source": "gold benchmark strings (both string_a and string_b of every pair), NOT filtered by universe membership",
+    "seed_must_be_in_universe": false,
+    "out_of_universe_string_can_serve_as_seed": true,
+    "candidate_side_restricted_to_universe": true,
+    "structural_eligibility_condition": "at least one of {string_a, string_b} is a member of the domain universe",
+    "orientation": "unordered (frozenset) throughout -- no directionality, no double counting",
+    "lexical_route_rank_cutoff": "none (exact normalised-string match, all matches returned)",
+    "dense_route_rank_cutoff": "top_k=5 nearest neighbours by cosine similarity (applied AFTER structural eligibility)"
+  },
+  "candidate_set_hashes_verified": {
+    "circular_economy": "aa494e5b11543fe37996d842f8a3f9ed40622ee5c951b889b03e1f9ba58eea79",
+    "biomedical_diabetes_mellitus": "4c0875bb7e9c6d511a59bae1405218e67208b57ed22b4160d25bb0e8f68133fd"
+  },
+  "by_partition": {
+    "ce400": {
+      "n_total_pairs": 400,
+      "n_structurally_eligible_all_pairs": 278,
+      "proportion_structurally_eligible_all_pairs": 0.695,
+      "n_both_in_universe_all_pairs_for_reference": 248,
+      "n_gold_match_pairs": 103,
+      "n_gold_match_structurally_eligible": 34,
+      "n_gold_match_both_in_universe_for_reference": 15,
+      "n_gold_match_structurally_impossible": 69,
+      "n_eligible_gold_match_captured": 29,
+      "n_eligible_gold_match_missed_by_retrieval": 5,
+      "capture_rate_among_structurally_eligible_gold_match": 0.8529411764705882,
+      "n_gold_match_captured_end_to_end": 29,
+      "end_to_end_benchmark_capture_rate": 0.2815533980582524
+    },
+    "diabetes500": {
+      "n_total_pairs": 500,
+      "n_structurally_eligible_all_pairs": 500,
+      "proportion_structurally_eligible_all_pairs": 1.0,
+      "n_both_in_universe_all_pairs_for_reference": 500,
+      "n_gold_match_pairs": 161,
+      "n_gold_match_structurally_eligible": 161,
+      "n_gold_match_both_in_universe_for_reference": 161,
+      "n_gold_match_structurally_impossible": 0,
+      "n_eligible_gold_match_captured": 137,
+      "n_eligible_gold_match_missed_by_retrieval": 24,
+      "capture_rate_among_structurally_eligible_gold_match": 0.8509316770186336,
+      "n_gold_match_captured_end_to_end": 137,
+      "end_to_end_benchmark_capture_rate": 0.8509316770186336
+    },
+    "pooled900": {
+      "n_total_pairs": 900,
+      "n_structurally_eligible_all_pairs": 778,
+      "proportion_structurally_eligible_all_pairs": 0.8644,
+      "n_both_in_universe_all_pairs_for_reference": 748,
+      "n_gold_match_pairs": 264,
+      "n_gold_match_structurally_eligible": 195,
+      "n_gold_match_both_in_universe_for_reference": 176,
+      "n_gold_match_structurally_impossible": 69,
+      "n_eligible_gold_match_captured": 166,
+      "n_eligible_gold_match_missed_by_retrieval": 29,
+      "capture_rate_among_structurally_eligible_gold_match": 0.8512820512820513,
+      "n_gold_match_captured_end_to_end": 166,
+      "end_to_end_benchmark_capture_rate": 0.6287878787878788
+    }
+  },
+  "ce400_reconciliation_of_29_vs_15": {
+    "ce400_gold_match_captured_end_to_end": 29,
+    "ce400_gold_match_both_in_universe_narrow_stat": 15,
+    "ce400_gold_match_structurally_eligible_correct_stat": 34,
+    "explanation": "CE's 29 end-to-end captured gold-match pairs cannot be reconciled against the narrower '15 gold-match pairs with both strings in universe' stat, because capture does not require both sides in the universe -- it requires only ONE side in the universe (the other side is always used as a seed regardless of universe membership, per the dense_retrieval.py docstring confirmed above). The correct eligibility denominator is n_gold_match_structurally_eligible."
+  },
+  "ce400_interpretation": {
+    "n_gold_match": 103,
+    "n_captured": 29,
+    "n_shortfall_total_missed": 74,
+    "n_structurally_impossible": 69,
+    "n_eligible_but_missed_by_retrieval": 5,
+    "share_of_shortfall_attributable_to_universe_ineligibility": 0.9324324324324325,
+    "share_of_shortfall_attributable_to_retrieval_miss": 0.06756756756756757,
+    "proportion_of_all_gold_match_structurally_impossible": 0.6699029126213593,
+    "proportion_of_all_gold_match_eligible_but_missed": 0.04854368932038835,
+    "capture_rate_among_eligible": 0.8529411764705882,
+    "end_to_end_capture_rate": 0.2815533980582524,
+    "narrowed_interpretation": "Of 103 CE gold-match pairs, 29 were captured end-to-end and 74 were missed. Of THAT 74-pair shortfall, 69 (93.2%) were structurally IMPOSSIBLE to capture (neither string is in the frequency-based universe at all -- a genuine universe-coverage limit), and only 5 (6.8%) were structurally eligible (at least one side in-universe) yet still missed by the lexical/dense retrieval itself. Retrieval quality AMONG eligible pairs is 85.3% (29/34) -- essentially at parity with diabetes' 85.1% end-to-end rate (diabetes has ~100% universe coverage, so its end-to-end rate already IS its eligible-only rate). CONCLUSION: the original C2 wording's DIRECTION ('mainly a universe-coverage problem, not a retrieval-quality problem') is CONFIRMED by this audit and is in fact stronger than originally stated once quantified correctly -- 93% of the shortfall is universe-ineligibility, not the 6.8% retrieval-quality component. What was WRONG in the original C2 wording was its supporting statistic, not its conclusion: it measured eligibility as 'both strings in universe' (15 pairs) rather than the actually-operative 'at least one string in universe' (34 pairs), understating the true eligible pool by more than half and therefore not actually demonstrating the claim it made. This C3 audit supplies the correct supporting statistic for the same substantive conclusion."
+  }
+}

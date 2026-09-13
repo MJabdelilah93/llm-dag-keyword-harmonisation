@@ -1,0 +1,115 @@
+{
+  "source_strengthening_branch": "strengthen/m7-2026",
+  "source_commit": "b6c9504f417caa7f3fcd9e85b5a3cc46824f8289",
+  "execution_timestamp_utc": "2026-09-07T07:11:07.937338+00:00",
+  "python_version": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "jellyfish": "1.2.1",
+    "lxml": "6.1.0",
+    "networkx": "3.6.1",
+    "numpy": "2.4.2",
+    "pandas": "3.0.1",
+    "pytest": "9.0.2",
+    "PyYAML": "6.0.3",
+    "RapidFuzz": "3.14.3",
+    "requests": "2.34.2",
+    "scikit-learn": "1.8.0",
+    "sentence-transformers": "5.2.3"
+  },
+  "random_seed": 42,
+  "legacy_files_read_sha256": {
+    "concept_harmonisation/data/benchmark/gold_benchmark.csv": "3e56fecc6a0b8b6ed8bd9403f122731d22863d0bd4a8070bf45d5e137ea19535",
+    "concept_harmonisation/data/benchmark/dev_set.csv": "d5713c7974cd6c8fe88633132c9c07b816a9f688f2614e12b02f12dbc4dd282e",
+    "concept_harmonisation/data/benchmark/test_set.csv": "996248ac3e4a7e6dc65ac027fcca891b9e0c798282df7d2c840f13739e28aae5",
+    "concept_harmonisation/data/derived/author_keyword_frequencies.csv": "8fd003c60195565a6df6d6d5fbe2204d3df179d80cbe2c41cb997a82d8edd829",
+    "concept_harmonisation/data/derived/index_keyword_frequencies.csv": "81acc77355e89f4cda1ed999711917b06ec4740e4446ccf8d36f0f5bd152bef1",
+    "concept_harmonisation/data/derived/corpus_summary_report.txt": "cc4381d65d1f7afe609cefaddaba391e3342e77a4e136c7ee91e5725aa4473c0",
+    "concept_harmonisation-repair-v1.0.1/configs/v1_execution_config.yaml": "954a158ec5c780c973eddad2ff6c58d3b96969981ba892e29c6f3149145b86bd",
+    "concept_harmonisation-repair-v1.0.1/configs/model_config.yaml": "9a1410cf1223705329a2951f0118c2c1cd1a1ee92f2be2eec1baeaa80ac77c97",
+    "concept_harmonisation-repair-v1.0.1/results/current_paper/three_way_evaluation.json": "e95a9c36e98e5e16b336bb42227441c84a9a2216b5209b4b13a832650430f85a",
+    "concept_harmonisation-repair-v1.0.1/results/current_paper/bootstrap_uncertainty_per_method.csv": "fa062751dacaa88ee147143f15a17d1552c5c515fd56b75eda786677d79a4568",
+    "concept_harmonisation-repair-v1.0.1/results/current_paper/rerun_stability/real_phase1b_stability_report.json": "49f00acf89babbbce95d62770d1a4de24ed159b6b432b7c7f9b5f4876d71f5d0",
+    "concept_harmonisation-repair-v1.0.1/results/current_paper/phase1b/openai_test_binary_metrics.json": "dbac98ca7e8a63f4a5537a58b3da7a0bb460a531d3ee4d6e7197de50d347fd70",
+    "concept_harmonisation-repair-v1.0.1/results/current_paper/downstream_results_corrected.csv": "d5da678e28f113a1b36e624079f46a41b70a24dd38fef1d11bead64c8b1a893f",
+    "concept_harmonisation-repair-v1.0.1/prompts/v1.0.0/prompt_registry.json": "4029685964c83c2e9106b953fe59bd24e688708554e77161d0edbef93dc1dc32",
+    "concept_harmonisation-repair-v1.0.1/prompts/v1.0.0/system_prompt.txt": "7e218690a2b1c34282957e722d3eea7608ada06a7a31546e9b7c294b360f4301",
+    "concept_harmonisation-repair-v1.0.1/prompts/v1.0.0/user_prompt_context.txt": "5978849ce935b4652823a49ff9358df00e1f09894236bc4a8bd671199d6f0a09",
+    "concept_harmonisation-repair-v1.0.1/prompts/v1.0.0/user_prompt_standard.txt": "390d7807c285f6cebc5502c57ec886666f1da3faed26081e25c1481ffb7e67ce",
+    "concept_harmonisation-repair-v1.0.1/scripts/run_baselines.py": "ede7f3ea5454b1a6e680864b8559fc6b3f686fcc7dfd2c3be431a7095e8dcd6f"
+  },
+  "new_benchmark_files": {
+    "ce_400": {
+      "path": "strengthening/restricted_local/ce/ce_400_annotation_candidates_unlabelled.csv",
+      "restricted": true,
+      "total_selected": 400,
+      "stratum_counts": {
+        "i": 32,
+        "ii": 36,
+        "iii": 44,
+        "iv": 32,
+        "v": 28,
+        "vi": 60,
+        "vii": 60,
+        "viii": 48,
+        "ix": 28,
+        "x": 32
+      },
+      "determinism_hash_excl_timestamp": "bf8c8a8aaa162a36b613d07503217faee7f8b1830df71447603d2da8368c3a6c",
+      "legacy_frequency_source_sha256": "8fd003c60195565a6df6d6d5fbe2204d3df179d80cbe2c41cb997a82d8edd829"
+    },
+    "biomedical_500": {
+      "path": null,
+      "status": "NOT GENERATED -- feasibility gate failed on stratum iv (36/40 available after testing one broader time window, 2010-2025 merged with 2015-2025); see reports/pmc_hypertension_feasibility.json and reports/annotation_handoff.md for the documented shortfall and options. Diabetes-mellitus fallback was NOT activated (disproportionate for a single-stratum, 4-pair shortfall)."
+    },
+    "ce_retrieval_audit": {
+      "path": "strengthening/restricted_local/ce/retrieval_audit_ce_seeds_candidates.csv",
+      "restricted": true,
+      "n_seeds": 50,
+      "total_rows": 5127
+    },
+    "biomedical_retrieval_audit": {
+      "path": null,
+      "status": "NOT GENERATED -- gated on the same feasibility shortfall above"
+    }
+  },
+  "pmc_acquisition": {
+    "services_used": [
+      "NCBI E-utilities esearch",
+      "NCBI E-utilities efetch",
+      "PMC OAI-PMH GetRecord"
+    ],
+    "topic_evidence_terms": [
+      "hypertens*",
+      "high blood pressure"
+    ],
+    "primary_date_range": [
+      "2015-01-01",
+      "2025-12-31"
+    ],
+    "extended_date_range_tested": [
+      "2010-01-01",
+      "2025-12-31"
+    ],
+    "total_records_found_primary_plus_extended_merged_inventory": 15368,
+    "records_fully_eligible": 1364,
+    "unique_author_keyword_strings": 5283,
+    "ncbi_rate_limit_policy": "anonymous ~3 req/s (no API key configured); min inter-request interval 0.4s",
+    "gate_result_all_ten_strata_achievable": false
+  },
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2 (loaded fully offline from local cache, HF_HUB_OFFLINE=1)",
+  "test_results": "pytest strengthening/tests/: 207 passed, 0 failed (independently re-run and verified by the orchestrator, not only self-reported by the implementing subagent). Quality gates (strengthening/provenance/run_quality_gates.py): 13 PASS, 0 FAIL, 2 SKIP (the 2 skips are the biomedical licence/ambiguous-keyword gates, correctly inapplicable since no biomedical file was generated).",
+  "files_created": "see `git status` at commit time -- new strengthening/ subtree",
+  "files_modified": [
+    ".gitignore (added strengthening-specific ignore rules)"
+  ],
+  "api_calls_made": {
+    "ncbi_pmc_eutils_and_oai": true,
+    "note": "official NCBI E-utilities (esearch/efetch) and PMC OAI-PMH only, no HTML scraping, no paid service"
+  },
+  "paid_llm_model_call_made": false,
+  "notes": [
+    "Two background subagents (PMC acquisition, B7/B8+metrics build) were interrupted mid-task by an Anthropic session-level rate limit (Opus quota). B7/B8/metrics had already completed all their deliverables before the interruption (independently verified via pytest). The PMC acquisition subagent had completed real NCBI/PMC data collection (14,571 records, fully licence-classified) but not yet the feasibility report or candidate stratification; both were completed directly (no further API calls) by reading its intermediate CSV outputs and reusing this phase's own candidate-generation routines.",
+    "The PMC acquisition script (written by that subagent, strengthening/scripts_pmc/) sends a contact email (the user's own) to NCBI as the standard E-utilities 'tool'/'email' politeness parameters. This is expected, standard practice for NCBI API usage (not a private/unrelated third-party service), but is flagged here for transparency since it was not explicitly requested by the user for this purpose."
+  ]
+}

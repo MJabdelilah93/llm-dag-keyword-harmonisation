@@ -1,0 +1,130 @@
+{
+  "generated_at_utc": "2026-09-07T11:02:32.648885+00:00",
+  "current_commit": "2d657e8bf2a19a3bb5c46f01b19dd0562db9542c",
+  "primary_ce_source_file": {
+    "path": "strengthening/restricted_local/ce/ce_400_annotation_candidates_unlabelled.csv",
+    "sha256": "77aee968e91a7223930223d1fdea05328da5cd609778d7e59b134e87e6cd1fc8"
+  },
+  "primary_biomedical_source_file": {
+    "path": "strengthening/benchmark/biomedical_500_annotation_candidates_unlabelled.csv",
+    "sha256": "3562e732f94d0aaf3b9d3338f2eab11979aa0c2d1cb40f5908a1ccea5ffa1187"
+  },
+  "retrieval_configuration": {
+    "scenario": "E_SEEDS30_DEPTH50",
+    "seeds_per_domain": 30,
+    "top_k_per_route": 50,
+    "domains": [
+      "circular_economy",
+      "biomedical_diabetes_mellitus"
+    ]
+  },
+  "seed_ids": {
+    "circular_economy": [
+      "ce_seed_001",
+      "ce_seed_002",
+      "ce_seed_003",
+      "ce_seed_006",
+      "ce_seed_007",
+      "ce_seed_008",
+      "ce_seed_011",
+      "ce_seed_012",
+      "ce_seed_013",
+      "ce_seed_016",
+      "ce_seed_017",
+      "ce_seed_018",
+      "ce_seed_021",
+      "ce_seed_022",
+      "ce_seed_023",
+      "ce_seed_026",
+      "ce_seed_027",
+      "ce_seed_028",
+      "ce_seed_031",
+      "ce_seed_032",
+      "ce_seed_033",
+      "ce_seed_036",
+      "ce_seed_037",
+      "ce_seed_038",
+      "ce_seed_041",
+      "ce_seed_042",
+      "ce_seed_043",
+      "ce_seed_046",
+      "ce_seed_047",
+      "ce_seed_048"
+    ],
+    "biomedical_diabetes_mellitus": [
+      "bio_seed_001",
+      "bio_seed_002",
+      "bio_seed_003",
+      "bio_seed_006",
+      "bio_seed_007",
+      "bio_seed_008",
+      "bio_seed_011",
+      "bio_seed_012",
+      "bio_seed_013",
+      "bio_seed_016",
+      "bio_seed_017",
+      "bio_seed_018",
+      "bio_seed_021",
+      "bio_seed_022",
+      "bio_seed_023",
+      "bio_seed_026",
+      "bio_seed_027",
+      "bio_seed_028",
+      "bio_seed_031",
+      "bio_seed_032",
+      "bio_seed_033",
+      "bio_seed_036",
+      "bio_seed_037",
+      "bio_seed_038",
+      "bio_seed_041",
+      "bio_seed_042",
+      "bio_seed_043",
+      "bio_seed_046",
+      "bio_seed_047",
+      "bio_seed_048"
+    ]
+  },
+  "counts": {
+    "primary_ce_pairs": 400,
+    "primary_biomedical_pairs": 500,
+    "primary_total_pairs": 900,
+    "annotator_1_retrieval_rows": 6185,
+    "annotator_2_retrieval_rows": 2066,
+    "outside_pool_rows": 300,
+    "audit_sample_30pct_rows": 1766
+  },
+  "selection_random_seed": 42,
+  "annotator_row_order_seeds": {
+    "annotator_1": 42,
+    "annotator_2": 43
+  },
+  "package_file_hashes": {
+    "01_ANNOTATOR_1_PRIMARY.xlsx": "72b7bcff26a61f8f23349349c703d4980f1aaf9f93104d6862463c6283d4a13d",
+    "02_ANNOTATOR_2_PRIMARY.xlsx": "bd731c91d38996b6eebda43545b49233c1421a8fe31980e9f6d22e8ed7b21456",
+    "03_ANNOTATOR_1_RETRIEVAL.xlsx": "404204cac1274a6e5ae70a50939f6099843c4993e1a00171552a84ec68d25fae",
+    "04_ANNOTATOR_2_RETRIEVAL.xlsx": "6cbefd6237df762e4cabb067aac4909cd3f2e9cfacf8919a5a6e154d8fe40dae",
+    "05_CONTEXT_LOOKUP_CE.xlsx": "776686a518cc62f8ffd37df93fc6499cd1f737221eddbfbc1c859281a8fbe4ea",
+    "06_CONTEXT_LOOKUP_DIABETES.xlsx": "7ad40fdd471c69b0c65440ba9c60b24ec30838ffdf3bc592bc9d15dc29a1e755",
+    "csv_backups/01_ANNOTATOR_1_PRIMARY.csv": "a9dc7a7d422f9adfdd2aa653057405512c066329512e3fd0e2108d438397a312",
+    "csv_backups/02_ANNOTATOR_2_PRIMARY.csv": "4659d60139c2666a46df64e167bddc3ac0580180a22efdd15ec854370d2a3963",
+    "csv_backups/03_ANNOTATOR_1_RETRIEVAL.csv": "1ea2790d5535a28e074844a8a89b3e39499cec6b41a0664746811d0fe7de059f",
+    "csv_backups/04_ANNOTATOR_2_RETRIEVAL.csv": "9fc7801b23672daff8836c406fbc255e90086066d005c842cb145fca0ff1ad0c",
+    "csv_backups/05_CONTEXT_LOOKUP_CE.csv": "55e941fdf4edfc0ac81c719a0a67eb3e63a557ff336a8e94384da8516a41206f",
+    "csv_backups/06_CONTEXT_LOOKUP_DIABETES.csv": "2c187ec12735b5936aaf1eb05a5e1481e27392f525d65e38c1a5fdc53b57c6e3"
+  },
+  "context_construction_rule": "up to 3 representative article titles per keyword/string, deterministically selected (sorted title order), CE from the local Scopus corpus (read-only), diabetes from the licence-verified PMC source records; no abstracts; blank if unavailable, never fabricated",
+  "annotation_labels": [
+    "match",
+    "non-match",
+    "uncertain"
+  ],
+  "escalation_rule": "per domain: after the initial 30% blinded in-pool audit is adjudicated, if the adjudicated positive-miss rate (Ann1=non-match/uncertain, Ann2=match, Adjudicator=match) exceeds 2%, expand Annotator-2 coverage to 40% for that domain only (pre-selected deterministically, excluding already-double-coded rows); if still >2% after 40%, expand to full double annotation for that domain. Cohen's kappa and raw agreement are reported descriptively but are not themselves the escalation trigger.",
+  "primary_pair_ids_sha256": "738374440e9d7fc48a0ce4a205ea27d084f96bd008afbf6244a03f9b6c7e7988",
+  "retrieval_pair_ids_annotator_1_sha256": "f7805048f4281a19bfaf5d02a6714839376d6f52484f94847c094cf596208d69",
+  "retrieval_pair_ids_annotator_2_sha256": "0885a0b97df5120df3bfb2214f71b6be4f4b4972a5823850763d90d1ec312098",
+  "software_versions": {
+    "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+    "os": "Windows-11-10.0.26200-SP0",
+    "pandas": "3.0.1"
+  }
+}

@@ -1,0 +1,4 @@
+category,n_pairs,pair_ids
+both_wrong,3,BP0110;BP0298;BP0324
+only_claude_wrong,0,
+only_openai_wrong,14,BP0042;BP0087;BP0137;BP0139;BP0155;BP0257;BP0262;BP0273;BP0280;BP0299;BP0301;BP0389;BP0397;BP0429

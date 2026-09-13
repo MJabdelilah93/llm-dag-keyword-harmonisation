@@ -1,0 +1,26 @@
+{
+  "gold_set": "restricted to match/non_match, N=124 (excludes 25 gold-uncertain pairs)",
+  "abstention_scoring_policy": "An abstention (predicted 'uncertain') on a gold match/non_match pair is scored as NOT CORRECT -- it is a missed decision, distinct from a WRONG_DECIDED active misclassification. This matches the existing binary_metrics() convention where an abstained gold-match pair counts as FN (not a true positive), extended here symmetrically to gold-non_match pairs for the purpose of this contingency table only (binary_metrics() itself does not need a symmetric treatment for TN, since precision/recall are defined over the match class specifically -- this contingency table is a different, more general correctness view).",
+  "claude_outcome_counts_of_124": {
+    "CORRECT": 121,
+    "WRONG_DECIDED": 3
+  },
+  "openai_outcome_counts_of_124": {
+    "CORRECT": 107,
+    "ABSTAINED": 13,
+    "WRONG_DECIDED": 4
+  },
+  "contingency_2x2_by_correctness": {
+    "both_correct": 107,
+    "claude_only_correct": 14,
+    "openai_only_correct": 0,
+    "both_not_correct": 3
+  },
+  "contingency_4x4_by_exact_outcome": {
+    "claude=CORRECT,openai=ABSTAINED": 12,
+    "claude=CORRECT,openai=CORRECT": 107,
+    "claude=CORRECT,openai=WRONG_DECIDED": 2,
+    "claude=WRONG_DECIDED,openai=ABSTAINED": 1,
+    "claude=WRONG_DECIDED,openai=WRONG_DECIDED": 2
+  }
+}

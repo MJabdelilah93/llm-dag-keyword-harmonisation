@@ -1,0 +1,14 @@
+artefact,path,sha256,source_tree,note
+gold_benchmark,data/benchmark/gold_benchmark.csv,3e56fecc6a0b8b6ed8bd9403f122731d22863d0bd4a8070bf45d5e137ea19535,historical evidence tree (restricted; not in this branch),500 pairs; 144/271/85 match/non_match/uncertain
+dev_set,data/benchmark/dev_set.csv,d5713c7974cd6c8fe88633132c9c07b816a9f688f2614e12b02f12dbc4dd282e,historical evidence tree (restricted; not in this branch),351 pairs
+test_set,data/benchmark/test_set.csv,996248ac3e4a7e6dc65ac027fcca891b9e0c798282df7d2c840f13739e28aae5,historical evidence tree (restricted; not in this branch),149 pairs; FROZEN -- no label or split membership may change during Phase 1
+test_predictions_primary,results/test_predictions.csv,049453d4ad960fea8ca81f7157724f914c4967fadd172ecbab6b792fcc708aef,historical evidence tree (restricted; not in this branch),Full_LLM_DAG + all 6 baseline predictions on the 149-pair test set
+test_predictions_baselines,results/test_predictions_baselines.csv,af792dc8a55ea21e2a5f9c20a15d614299ed3aa296b1b3b103dd427f178f38e1,historical evidence tree (restricted; not in this branch),B1-B6 predictions only
+prompt_v1_system,prompts/v1.0.0/system_prompt.txt,7e218690a2b1c34282957e722d3eea7608ada06a7a31546e9b7c294b360f4301,repair branch (origin/main-derived),verified identical to appendices/appendix_a_prompt_templates.md content
+prompt_v1_user_standard,prompts/v1.0.0/user_prompt_standard.txt,390d7807c285f6cebc5502c57ec886666f1da3faed26081e25c1481ffb7e67ce,repair branch (origin/main-derived),the only user-prompt variant actually used (no auxiliary context in v1)
+prompt_v1_user_context,prompts/v1.0.0/user_prompt_context.txt,5978849ce935b4652823a49ff9358df00e1f09894236bc4a8bd671199d6f0a09,repair branch (origin/main-derived),documents an unused code path -- never invoked in v1
+prompt_v1_registry,prompts/v1.0.0/prompt_registry.json,4029685964c83c2e9106b953fe59bd24e688708554e77161d0edbef93dc1dc32,repair branch (origin/main-derived),version 1.0.0; hash fields point to run-time computation, no static hash was ever committed historically
+llm_response_schema,schemas/llm_response.schema.json,904b02ff5029274091f466b94678d44a455cf71d6972f7cdc89c0c0a8289647f,repair branch (origin/main-derived),documents the intended shape; never programmatically validated against in v1
+v1_execution_config,configs/v1_execution_config.yaml,954a158ec5c780c973eddad2ff6c58d3b96969981ba892e29c6f3149145b86bd,repair branch (Phase 0B),the authoritative what-actually-ran record
+guard_threshold,results/tuned_thresholds.json,87715a443597ffa697551968d3a5784d4c4978fb539087cc94bdce7230849836,historical evidence tree (restricted; not in this branch),guard_confidence_threshold.threshold = 0.50 (symmetric)
+repaired_downstream_results,results/current_paper/downstream_results_corrected.csv,d5da678e28f113a1b36e624079f46a41b70a24dd38fef1d11bead64c8b1a893f,repair branch (Phase 0B),distinguishes deterministic-exact vs. Louvain-median/IQR quantities

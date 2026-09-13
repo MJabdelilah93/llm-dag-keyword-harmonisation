@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-09-09T13:27:18.448569+00:00",
+  "held_out_datasets": {
+    "legacy_ce_test": {
+      "n": 149,
+      "role": "held_out",
+      "note": "Legacy circular-economy test split -- read-only reference material, never altered."
+    },
+    "prospective_ce": {
+      "n": 400,
+      "role": "held_out",
+      "note": "New prospective circular-economy benchmark (this project); guaranteed non-overlapping with the legacy 351/149 split."
+    },
+    "open_diabetes": {
+      "n": 500,
+      "role": "held_out",
+      "note": "New prospective open (CC BY/CC0) biomedical diabetes-mellitus benchmark."
+    }
+  },
+  "total_held_out": 1049,
+  "development_set": {
+    "legacy_ce_development": {
+      "n": 351,
+      "role": "development_tuning_only",
+      "note": "Legacy circular-economy development split -- tuning only, NEVER merged into held-out metrics."
+    }
+  },
+  "development_kept_separate_from_held_out": true,
+  "model_evaluation_run": false
+}

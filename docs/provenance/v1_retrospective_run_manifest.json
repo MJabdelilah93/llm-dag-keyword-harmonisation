@@ -1,0 +1,67 @@
+{
+  "_status": "RETROSPECTIVELY RECONSTRUCTED FROM HISTORICAL LOGS ON 2026-08-24",
+  "_warning": "This file is NOT an original run artefact. No run manifest of any kind was written during the original 2026-04-03 to 2026-04-07 execution window. runs/<timestamp>/manifest.yaml, referenced throughout the legacy documentation as the audit-trail target, was never populated — the runs/ directory contains only a .gitkeep placeholder. This file reconstructs, after the fact, the parameters that the historical logs and code prove were used. It must never be cited, displayed, or described as though it were produced contemporaneously with the experiment.",
+
+  "reconstruction_date_utc": "2026-08-24",
+  "reconstructed_by": "Internal Phase 0A/0B repair audit",
+  "source_evidence": "docs/provenance/v1_historical_evidence_manifest.csv, configs/v1_execution_config.yaml",
+
+  "pipeline_version_label": "v1 (current-paper study, as submitted to Scientometrics)",
+
+  "corpus_snapshot": {
+    "retrieval_date": "2026-04-03",
+    "database": "Scopus",
+    "domain": "circular economy",
+    "record_count": 26535,
+    "source_files_sha256": {
+      "scopus_ce_batch1_2017_2021.csv": "d2ce24354d9940faf6de1ff5044f99b72b273737f9d9bb2519264504ffdb7246",
+      "scopus_ce_batch2_2022_2024.csv": "42cc2ec8499e4a2101cdb3e6753f2ea4acefed1121b885214a1c5bf683123c51",
+      "scopus_ce_merged_deduped.csv": "d56077f13b44be90177470debecee8fb50c8d2bbb91b234902d058bac5da9af1"
+    }
+  },
+
+  "normalisation": {"steps": ["unicode_nfkc", "lowercase", "strip", "collapse_whitespace"]},
+
+  "candidate_generation": {
+    "benchmark_seed": 42,
+    "production_seed": 42,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+
+  "benchmark": {"dev_size": 351, "test_size": 149, "split_seed": 42},
+
+  "primary_model": {
+    "provider": "Anthropic",
+    "model_id": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "max_tokens": 256,
+    "prompt_hash_note": "computed live per call, sha256[:16]; no single static hash covers the whole run"
+  },
+
+  "guard": {
+    "checks_implemented": ["G1_json_parse", "G2_required_fields", "G3_valid_decision_enum", "G4_confidence_threshold"],
+    "G5_contradiction_check": {
+      "status": "INTENDED BUT NEVER IMPLEMENTED",
+      "evidence": "comment-only in scripts/run_full_workflow.py ('G5: contradiction check done at batch level') with no corresponding executable code anywhere in the repository. This manifest deliberately records G5 as a documented intention, not an operating safeguard, of v1."
+    },
+    "confidence_threshold": 0.50,
+    "threshold_selection": "dev-set grid sweep [0.50, 0.95] step 0.05, maximise F1 subject to coverage >= 0.70"
+  },
+
+  "canonicalisation": {"rule": "highest_raw_frequency_only"},
+
+  "downstream": {
+    "total_unique_verified_pairs": 24143,
+    "deterministic_pairs": 5196,
+    "original_run_llm_calls": 9709,
+    "fix_run_net_new_pairs": 9238,
+    "network_frequency_cutoff": 5,
+    "louvain_resolution": 1.0,
+    "louvain_random_state_intended": 42,
+    "louvain_determinism_status": "ORIGINALLY NOT RERUN-STABLE — see docs/provenance/downstream_determinism_repair.md for the Phase 0B root-cause fix and verification"
+  },
+
+  "test_suite_at_time_of_original_run": "NONE — tests/*.py were docstring-only stubs at the time of the original 2026-04 execution and remained so until Phase 0B (2026-08) added real tests",
+
+  "schema_validation_at_time_of_original_run": "json.loads() with markdown-fence stripping only; no jsonschema-library validation was ever executed despite jsonschema being a declared dependency"
+}

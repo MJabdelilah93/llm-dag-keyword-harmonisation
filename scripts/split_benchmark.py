@@ -19,6 +19,7 @@ Usage:
 """
 
 import io
+import os
 import pathlib
 import sys
 
@@ -30,7 +31,10 @@ from sklearn.model_selection import StratifiedShuffleSplit
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 SEED = 42
-ROOT  = pathlib.Path(r"c:\Users\AbdelilahElMajjaoui\Downloads\PhD\Article 7\concept_harmonisation")
+ROOT  = pathlib.Path(
+    os.environ.get("V1_EVIDENCE_ROOT")
+    or pathlib.Path(__file__).resolve().parents[1]
+)  # portable: env var override, else auto-discovered from this file's location (Phase 0B Task 15)
 BENCH = ROOT / "data" / "benchmark"
 
 LABELS = ["match", "non-match", "uncertain"]

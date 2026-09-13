@@ -1,0 +1,524 @@
+{
+  "ce400": {
+    "partition": "ce400",
+    "n": 400,
+    "methods": {
+      "B1_Exact": {
+        "binary": {
+          "tp": 32,
+          "fp": 0,
+          "fn": 71,
+          "tn": 291,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 1.0,
+          "recall": 0.3106796116504854,
+          "f1": 0.4740740740740741,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.4740740740740741,
+          "lower": 0.36764705882352944,
+          "upper": 0.5733333333333334,
+          "width": 0.20568627450980392,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        }
+      },
+      "B2_Normalised": {
+        "binary": {
+          "tp": 32,
+          "fp": 0,
+          "fn": 71,
+          "tn": 291,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 1.0,
+          "recall": 0.3106796116504854,
+          "f1": 0.4740740740740741,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.4740740740740741,
+          "lower": 0.36764705882352944,
+          "upper": 0.5733333333333334,
+          "width": 0.20568627450980392,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        }
+      },
+      "B3_JaroWinkler": {
+        "binary": {
+          "tp": 90,
+          "fp": 6,
+          "fn": 13,
+          "tn": 285,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 0.9375,
+          "recall": 0.8737864077669902,
+          "f1": 0.9045226130653266,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.9045226130653266,
+          "lower": 0.8585858585858587,
+          "upper": 0.9447894973827883,
+          "width": 0.0862036387969296,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        },
+        "selective_prediction_demo": {
+          "note": "margin-based confidence proxy (|similarity - frozen_threshold|), NOT a genuine self-reported model confidence -- demonstration only",
+          "n_binary_subset": 394,
+          "n_total": 394,
+          "n_answered": 394,
+          "coverage": 1.0,
+          "risk": 0.048223350253807105,
+          "aurc": 0.022523760459086568,
+          "n_sweep_points": 306,
+          "n_curve_points": 306
+        }
+      },
+      "B4_TFIDF": {
+        "binary": {
+          "tp": 83,
+          "fp": 26,
+          "fn": 20,
+          "tn": 265,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 0.7614678899082569,
+          "recall": 0.8058252427184466,
+          "f1": 0.7830188679245284,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.7830188679245284,
+          "lower": 0.7164179104477613,
+          "upper": 0.8411214953271028,
+          "width": 0.12470358487934152,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        },
+        "selective_prediction_demo": {
+          "note": "margin-based confidence proxy (|similarity - frozen_threshold|), NOT a genuine self-reported model confidence -- demonstration only",
+          "n_binary_subset": 394,
+          "n_total": 394,
+          "n_answered": 394,
+          "coverage": 1.0,
+          "risk": 0.116751269035533,
+          "aurc": 0.044621865002323145,
+          "n_sweep_points": 339,
+          "n_curve_points": 339
+        }
+      },
+      "B5_Embedding": {
+        "binary": {
+          "tp": 88,
+          "fp": 2,
+          "fn": 15,
+          "tn": 289,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 0.9777777777777777,
+          "recall": 0.8543689320388349,
+          "f1": 0.9119170984455958,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.9119170984455958,
+          "lower": 0.8677248677248677,
+          "upper": 0.9502762430939227,
+          "width": 0.08255137536905499,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        },
+        "selective_prediction_demo": {
+          "note": "margin-based confidence proxy (|similarity - frozen_threshold|), NOT a genuine self-reported model confidence -- demonstration only",
+          "n_binary_subset": 394,
+          "n_total": 394,
+          "n_answered": 394,
+          "coverage": 1.0,
+          "risk": 0.04314720812182741,
+          "aurc": 0.0348899593615122,
+          "n_sweep_points": 366,
+          "n_curve_points": 366
+        }
+      }
+    }
+  },
+  "diabetes500": {
+    "partition": "diabetes500",
+    "n": 500,
+    "methods": {
+      "B1_Exact": {
+        "binary": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 121,
+          "tn": 338,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 1.0,
+          "recall": 0.2484472049689441,
+          "f1": 0.3980099502487562,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.3980099502487562,
+          "lower": 0.30998809523809534,
+          "upper": 0.4807783018867924,
+          "width": 0.17079020664869704,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        }
+      },
+      "B2_Normalised": {
+        "binary": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 121,
+          "tn": 338,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 1.0,
+          "recall": 0.2484472049689441,
+          "f1": 0.3980099502487562,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.3980099502487562,
+          "lower": 0.30998809523809534,
+          "upper": 0.4807783018867924,
+          "width": 0.17079020664869704,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        }
+      },
+      "B3_JaroWinkler": {
+        "binary": {
+          "tp": 125,
+          "fp": 7,
+          "fn": 36,
+          "tn": 331,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 0.946969696969697,
+          "recall": 0.7763975155279503,
+          "f1": 0.8532423208191128,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.8532423208191128,
+          "lower": 0.8071428571428573,
+          "upper": 0.89419795221843,
+          "width": 0.08705509507557274,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        },
+        "selective_prediction_demo": {
+          "note": "margin-based confidence proxy (|similarity - frozen_threshold|), NOT a genuine self-reported model confidence -- demonstration only",
+          "n_binary_subset": 499,
+          "n_total": 499,
+          "n_answered": 499,
+          "coverage": 1.0,
+          "risk": 0.08617234468937876,
+          "aurc": 0.06340527222109692,
+          "n_sweep_points": 392,
+          "n_curve_points": 392
+        }
+      },
+      "B4_TFIDF": {
+        "binary": {
+          "tp": 113,
+          "fp": 25,
+          "fn": 48,
+          "tn": 313,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 0.8188405797101449,
+          "recall": 0.7018633540372671,
+          "f1": 0.7558528428093645,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.7558528428093645,
+          "lower": 0.697841166319281,
+          "upper": 0.8065601092896175,
+          "width": 0.10871894297033657,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        },
+        "selective_prediction_demo": {
+          "note": "margin-based confidence proxy (|similarity - frozen_threshold|), NOT a genuine self-reported model confidence -- demonstration only",
+          "n_binary_subset": 499,
+          "n_total": 499,
+          "n_answered": 499,
+          "coverage": 1.0,
+          "risk": 0.1462925851703407,
+          "aurc": 0.07830438777311326,
+          "n_sweep_points": 441,
+          "n_curve_points": 441
+        }
+      },
+      "B5_Embedding": {
+        "binary": {
+          "tp": 118,
+          "fp": 5,
+          "fn": 43,
+          "tn": 333,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 0.959349593495935,
+          "recall": 0.7329192546583851,
+          "f1": 0.8309859154929579,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.8309859154929579,
+          "lower": 0.7806691449814125,
+          "upper": 0.8754448398576512,
+          "width": 0.09477569487623871,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        },
+        "selective_prediction_demo": {
+          "note": "margin-based confidence proxy (|similarity - frozen_threshold|), NOT a genuine self-reported model confidence -- demonstration only",
+          "n_binary_subset": 499,
+          "n_total": 499,
+          "n_answered": 499,
+          "coverage": 1.0,
+          "risk": 0.09619238476953908,
+          "aurc": 0.07389715076089506,
+          "n_sweep_points": 461,
+          "n_curve_points": 461
+        }
+      }
+    }
+  },
+  "pooled900": {
+    "partition": "pooled900",
+    "n": 900,
+    "methods": {
+      "B1_Exact": {
+        "binary": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 192,
+          "tn": 629,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 1.0,
+          "recall": 0.2727272727272727,
+          "f1": 0.42857142857142855,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.42857142857142855,
+          "lower": 0.360128617363344,
+          "upper": 0.4928366762177651,
+          "width": 0.1327080588544211,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        }
+      },
+      "B2_Normalised": {
+        "binary": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 192,
+          "tn": 629,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 1.0,
+          "recall": 0.2727272727272727,
+          "f1": 0.42857142857142855,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.42857142857142855,
+          "lower": 0.360128617363344,
+          "upper": 0.4928366762177651,
+          "width": 0.1327080588544211,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        }
+      },
+      "B3_JaroWinkler": {
+        "binary": {
+          "tp": 215,
+          "fp": 13,
+          "fn": 49,
+          "tn": 616,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 0.9429824561403509,
+          "recall": 0.8143939393939394,
+          "f1": 0.8739837398373983,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.8739837398373983,
+          "lower": 0.8412371134020619,
+          "upper": 0.903885480572597,
+          "width": 0.06264836717053512,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        },
+        "selective_prediction_demo": {
+          "note": "margin-based confidence proxy (|similarity - frozen_threshold|), NOT a genuine self-reported model confidence -- demonstration only",
+          "n_binary_subset": 893,
+          "n_total": 893,
+          "n_answered": 893,
+          "coverage": 1.0,
+          "risk": 0.06942889137737962,
+          "aurc": 0.0444566734666157,
+          "n_sweep_points": 641,
+          "n_curve_points": 641
+        }
+      },
+      "B4_TFIDF": {
+        "binary": {
+          "tp": 197,
+          "fp": 54,
+          "fn": 67,
+          "tn": 575,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 0.7848605577689243,
+          "recall": 0.7462121212121212,
+          "f1": 0.7650485436893204,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.7650485436893204,
+          "lower": 0.7222222222222223,
+          "upper": 0.8043107664131758,
+          "width": 0.08208854419095346,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        },
+        "selective_prediction_demo": {
+          "note": "margin-based confidence proxy (|similarity - frozen_threshold|), NOT a genuine self-reported model confidence -- demonstration only",
+          "n_binary_subset": 893,
+          "n_total": 893,
+          "n_answered": 893,
+          "coverage": 1.0,
+          "risk": 0.135498320268757,
+          "aurc": 0.06282978764052671,
+          "n_sweep_points": 774,
+          "n_curve_points": 774
+        }
+      },
+      "B5_Embedding": {
+        "binary": {
+          "tp": 206,
+          "fp": 7,
+          "fn": 58,
+          "tn": 622,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 0.9671361502347418,
+          "recall": 0.7803030303030303,
+          "f1": 0.8637316561844863,
+          "coverage": 1.0
+        },
+        "f1_bootstrap_ci": {
+          "metric": "f1",
+          "point_estimate": 0.8637316561844863,
+          "lower": 0.8297849112700921,
+          "upper": 0.8951612903225806,
+          "width": 0.0653763790524885,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        },
+        "selective_prediction_demo": {
+          "note": "margin-based confidence proxy (|similarity - frozen_threshold|), NOT a genuine self-reported model confidence -- demonstration only",
+          "n_binary_subset": 893,
+          "n_total": 893,
+          "n_answered": 893,
+          "coverage": 1.0,
+          "risk": 0.07278835386338185,
+          "aurc": 0.05381812628542048,
+          "n_sweep_points": 824,
+          "n_curve_points": 824
+        }
+      }
+    }
+  }
+}

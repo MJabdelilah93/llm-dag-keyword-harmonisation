@@ -1,0 +1,165 @@
+# v1_execution_config.yaml
+#
+# THE TRUE V1 EXECUTION CONFIGURATION.
+#
+# This file describes WHAT ACTUALLY RAN to produce every reported result in
+# the current-paper study, reconstructed from executable code, logs and
+# result files during the 2026-08 internal audit (Phase 0A/0B) — NOT from
+# the five other configs/*.yaml files, which document an earlier *intended*
+# design that was never wired to the code that executed (see the LEGACY
+# headers now added to each of them).
+#
+# Full evidence trail: docs/provenance/v1_execution_config_provenance.md
+#
+# This file is NOT currently loaded by any script — it is a documentation
+# artefact, produced retrospectively, so that intended-vs-executed behaviour
+# is no longer ambiguous. Wiring it into the pipeline is a Phase 1 decision,
+# not made here.
+
+corpus:
+  source_files:
+    - data/raw/scopus_ce_batch1_2017_2021.csv   # 8862 records, 2017-2021
+    - data/raw/scopus_ce_batch2_2022_2024.csv   # 17673 records, 2022-2024
+  merged_deduped: data/interim/scopus_ce_merged_deduped.csv
+  record_count: 26535
+  duplicates_removed: 0
+  unique_author_keywords: 55425
+  evidence: [scripts/ingest_profile.py, data/derived/corpus_summary_report.txt]
+
+normalisation:
+  steps_executed:
+    - unicode_nfkc
+    - lowercase
+    - strip
+    - collapse_whitespace
+  steps_documented_but_not_executed:
+    - punctuation_standardisation
+    - acronym_expansion
+    - stemming_or_lemmatisation
+    - stopword_filtering
+  evidence:
+    - scripts/run_downstream.py
+    - scripts/rebuild_downstream.py
+    - scripts/run_baselines.py
+    - scripts/run_full_workflow.py
+    - src/normalise.py            # docstring only, no executable code
+
+candidate_generation:
+  benchmark_pool:
+    method: stratified_quota_sample
+    strata: [i, ii, iii, iv, v, vi, vii, viii, ix, x]
+    stratum_targets: {i: 40, ii: 45, iii: 55, iv: 40, v: 35, vi: 75, vii: 75, viii: 60, ix: 35, x: 40}
+    raw_pool_size: 143297
+    sampled: 500
+    seed: 42
+    evidence: [scripts/generate_benchmark_candidates.py, data/benchmark/candidate_pairs_summary.txt]
+  production_pool:
+    method: full_pool_no_subsampling
+    evidence: [scripts/run_downstream.py]
+  fuzzy_blocking_window: [0.85, 0.95)   # candidate-generation blocking, NOT the B3 decision threshold
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  embedding_documented_but_unfilled: "PLACEHOLDER in configs/candidate_gen_config.yaml (never loaded)"
+  top_k:
+    standard_length_keywords: 5
+    short_keywords: 3
+  top_k_documented_but_not_executed: [20, 50, 100]   # configs/eval_config.yaml ablation grid, never loaded
+  seed: 42
+
+benchmark:
+  dev_size: 351
+  test_size: 149
+  split_method: sklearn.StratifiedShuffleSplit
+  stratified_on: "stratum + gold_label composite key"
+  seed: 42
+  evidence: [scripts/split_benchmark.py, data/benchmark/split_summary.txt]
+
+baselines:
+  B1_exact:
+    rule: "a.lower() == b.lower()"
+    note: "lowercase only, NOT the full 4-step normalise() chain"
+  B2_normalised:
+    rule: "normalise(a) == normalise(b)"
+  B3_jaro_winkler:
+    threshold: 0.92
+    tuned_on: dev
+    dev_f1: 0.8877
+  B4_tfidf:
+    ngram: "char_wb(2,4)"
+    threshold: 0.68
+    tuned_on: dev
+    dev_f1: 0.7451
+  B5_embedding:
+    model: sentence-transformers/all-MiniLM-L6-v2
+    threshold: 0.85
+    tuned_on: dev
+    dev_f1: 0.8295
+  B6_naive_llm:
+    model_id: claude-haiku-4-5-20251001   # SAME pinned model as the primary pipeline
+    prompt: unconstrained_free_text
+    parsing: substring_match
+    schema: none
+  evidence: [scripts/run_baselines.py, results/tuned_thresholds.json]
+  test_set_leakage: none_found   # all four thresholds tuned exclusively on dev, verified by code order
+
+primary_model:
+  provider: Anthropic
+  model_id: claude-haiku-4-5-20251001
+  temperature: 0
+  top_p_documented: 1.0
+  top_p_actually_passed: false   # never included in the client.messages.create() call — config/code mismatch
+  max_tokens: 256
+  retry:
+    max_attempts: 3
+    backoff_seconds: [1, 2, 4]
+  prompt_hash: "sha256(system_prompt + user_prompt)[:16], computed live per call, never statically committed"
+  json_handling: "markdown-fence strip -> json.loads; no schema-validation library used"
+  auxiliary_context_supplied: false   # never wired into any executed code path, for any of the 500 benchmark pairs
+  evidence: [scripts/run_full_workflow.py, configs/model_config.yaml, results/llm_logs/test_raw_outputs.jsonl]
+
+guard:
+  checks_executed: [G1_json_parse, G2_required_fields, G3_valid_decision_enum, G4_confidence_threshold]
+  G5_contradiction_check_executed: false   # comment-only in code; runs/ manifest directory is empty
+  confidence_threshold: 0.50
+  threshold_type: symmetric
+  dev_tuning_rule: "grid sweep [0.50, 0.95] step 0.05, maximise F1 subject to coverage >= 0.70"
+  documented_but_not_executed:
+    match_threshold: 0.80
+    nonmatch_threshold: 0.70
+  evidence:
+    - results/tuned_thresholds.json
+    - scripts/run_full_workflow.py
+    - docs/provenance/v1_execution_config_provenance.md   # independent Phase 0A/0B reparse, exact match
+
+canonicalisation:
+  rule_executed: highest_raw_frequency_only
+  documented_but_not_executed:
+    - controlled_vocabulary   # priority 1
+    - shortest_label          # priority 3
+    - alphabetical            # priority 4
+  overrides_file_used: false   # outputs/artefacts/canonical_overrides.csv was never populated
+  evidence: [scripts/rebuild_downstream.py]
+
+clustering:
+  method: union_find
+  path_compression: true
+  edges_used: match_decisions_only
+  contradiction_check: none
+  evidence: [scripts/rebuild_downstream.py]
+
+downstream:
+  total_unique_verified_pairs: 24143
+  deterministic_scope_policy_pairs: 5196    # strata iv/v, $0
+  original_run_llm_calls: 9709
+  fix_run_net_new_unique_pairs: 9238        # raw fix-run attempts: 54063 = 31251 succeeded + 22530 api_failed
+  decision_distribution: {match: 15685, non_match: 4751, uncertain: 3707}
+  network_frequency_cutoff: 5               # article-frequency, identical across Raw/B3/LLM-DAG
+  louvain:
+    resolution: 1.0
+    random_state: 42
+    library: python-louvain
+    library_version_pinned: false           # not pinned in requirements.txt — see Task 7/8 determinism repair
+  ari_ami_method: "sklearn adjusted_rand_score / adjusted_mutual_info_score vs. Raw partition"
+  status:
+    pair_decisions_and_cluster_membership: EXECUTED_VALUE_CONFIRMED   # exact reproduction, Phase 0A + 0B
+    louvain_derived_metrics: SEE_TASK_7_8_9_DETERMINISM_REPAIR         # not rerun-stable as originally executed
+  evidence: [results/llm_logs/downstream_*.jsonl, scripts/rebuild_downstream.py]

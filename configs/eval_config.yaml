@@ -1,3 +1,14 @@
+# LEGACY / NOT USED IN V1 EXECUTION.
+# This file is never opened by any script that produced a reported result
+# (verified by exhaustive grep). The dev_path/test_path/label_column values
+# below are correct (they match the real files) but that correctness is
+# coincidental — no code reads them. The actual gold-uncertain exclusion
+# rule, metric formulas, and threshold values that ran are hardcoded
+# independently in scripts/run_baselines.py, run_full_workflow.py and
+# run_ablations.py — see configs/v1_execution_config.yaml for what actually
+# ran. Retained unmodified as historical documentation of the intended
+# design.
+#
 # Evaluation and Ablation Configuration
 # Paper reference: El Majjaoui et al. (2026), Section 2.5, Tables 4-5
 

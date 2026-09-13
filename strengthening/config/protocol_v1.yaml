@@ -1,0 +1,146 @@
+# M7 strengthening protocol configuration (Stage 1).
+# This file encodes fixed, pre-registered parameters for the strengthening
+# benchmark construction. It does not contain any restricted keyword strings.
+
+random_seed: 42
+
+legacy:
+  development_n: 351
+  legacy_test_n: 149
+
+new_tests:
+  circular_economy_n: 400
+  biomedical_n: 500
+
+combined_heldout_n: 1049
+
+biomedical:
+  primary_topic: hypertension
+  fallback_topic: diabetes mellitus
+  primary_start_date: 2015-01-01
+  primary_end_date: 2025-12-31
+  language: English
+  abstract_required: true
+  allowed_licences:
+    - CC BY
+    - CC0
+
+# Topic inclusion MUST be based on title/abstract text, never on author
+# keywords (author keywords are the metadata being harmonised, not the
+# eligibility signal).
+topic_inclusion_evidence:
+  hypertension:
+    - "hypertens*"
+    - "high blood pressure"
+  diabetes_mellitus:
+    # Conservative, pre-specified query: covers ordinary type-1/type-2
+    # naming without intentionally admitting diabetes insipidus (a
+    # distinct, unrelated condition despite the shared "diabetes" word).
+    # "diabetic" was deliberately dropped from the earlier placeholder --
+    # it is broader than pre-specified here (would admit e.g. "diabetic
+    # retinopathy"/"diabetic foot" articles whose primary topic may not be
+    # diabetes mellitus itself) and was not justified for inclusion.
+    - "diabetes mellitus"
+    - "type 1 diabetes"
+    - "type 2 diabetes"
+
+# Ten legacy difficulty strata: names and conceptual definitions are
+# preserved verbatim from the original 500-pair benchmark design. Strata are
+# sampling-difficulty buckets, NOT gold-label predictors — labels are never
+# derived from stratum membership.
+strata:
+  i:
+    name: "Capitalisation and whitespace variants"
+  ii:
+    name: "Spelling variants"
+    legacy_jaro_winkler_interval: [0.85, 0.95]
+  iii:
+    name: "Acronym and expanded form"
+  iv:
+    name: "Punctuation and hyphenation variants"
+  v:
+    name: "Singular and plural forms"
+  vi:
+    name: "Near-synonyms"
+    legacy_embedding_interval: [0.75, 0.85]
+  vii:
+    name: "Broader/narrower traps"
+    legacy_embedding_interval: [0.60, 0.75]
+  viii:
+    name: "Ambiguous short forms"
+  ix:
+    name: "Malformed strings"
+  x:
+    name: "Weak semantic variants"
+    legacy_embedding_interval: [0.50, 0.60]
+
+# Candidate-sampling targets (NOT required label counts). Circular-economy
+# quotas are the proportional 80% scaling of the original 500-pair stratum
+# allocation; biomedical quotas are the original allocation.
+stratum_quotas:
+  circular_economy_400:
+    i: 32
+    ii: 36
+    iii: 44
+    iv: 32
+    v: 28
+    vi: 60
+    vii: 60
+    viii: 48
+    ix: 28
+    x: 32
+    total: 400
+  biomedical_500:
+    i: 40
+    ii: 45
+    iii: 55
+    iv: 40
+    v: 35
+    vi: 75
+    vii: 75
+    viii: 60
+    ix: 35
+    x: 40
+    total: 500
+
+# Deterministic legacy normalisation (authoritative, do not extend silently).
+normalisation:
+  steps:
+    - unicode_nfkc
+    - lowercase
+    - strip_leading_trailing_whitespace
+    - collapse_internal_whitespace
+  excluded_by_policy:
+    - punctuation_standardisation
+    - acronym_expansion_cleanup
+    - stemming
+    - lemmatisation
+    - stopword_removal
+
+embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+
+retrieval_audit:
+  seeds_per_domain: 50
+  top_k_per_route: 50
+  domains:
+    - circular_economy
+    - biomedical_hypertension
+
+labels:
+  allowed:
+    - match
+    - non-match
+    - uncertain
+  policy:
+    spelling_variants: match
+    punctuation_hyphenation_variants: match
+    singular_plural_when_concept_equivalent: match
+    unambiguous_acronym_expansion: match
+    broader_narrower: non-match
+    related_but_distinct: non-match
+    ambiguous_acronym: uncertain
+    context_dependent_equivalence: uncertain
+    malformed_underspecified: uncertain
+
+clustering:
+  primary_mechanism: connected_components_after_accepted_match_edges

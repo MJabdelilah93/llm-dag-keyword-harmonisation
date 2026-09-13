@@ -1,5 +1,47 @@
 # Changelog
 
+## [2.0.0] — Unreleased
+
+### Strengthened resubmission release
+Following an editorial invitation to revise and resubmit, this release replaces the single-domain,
+149-pair held-out result with a genuinely prospective, held-out, two-domain benchmark and adds a
+second-provider robustness check and several additional diagnostics. The manuscript's primary
+reported result is now the prospective benchmark below, not the original 500-pair (351
+development + 149 held-out) legacy benchmark, which is preserved as a development-phase result.
+
+### Added
+- `strengthening/` — the full strengthened evidence base: candidate-generation, baseline (B1–B8),
+  evaluation, paired-bootstrap, selective-prediction, and diagnostic code, plus frozen aggregate
+  reports.
+- A 900-pair prospective, held-out benchmark (400 circular-economy + 500 diabetes-mellitus pairs;
+  gold distribution 264 match / 629 non-match / 7 uncertain), evaluated only after every
+  prediction was frozen and hashed.
+- A diabetes-mellitus domain benchmark (PMC Open Access, CC BY/CC0), new for this release, with a
+  standalone, redistribution-cleared package at `release/zenodo_diabetes_benchmark/`.
+- A second-provider robustness check (`gpt-5.4-nano-2026-03-17`) alongside the primary method
+  (`claude-haiku-4-5-20251001`).
+- Paired bootstrap (N=10,000, seed 42), selective-prediction/AURC analysis, a corrected B8
+  retrieval-eligibility diagnostic, and an observed-transitive-contradiction safety check.
+- Root-level `REPRODUCIBILITY.md` and `DATA_AVAILABILITY.md` for the strengthened evidence base.
+- 464 additional tests (`strengthening/tests/`), all offline, no network/API calls.
+
+### Changed
+- `README.md`, `CITATION.cff` — updated to the current manuscript title, author list, and the
+  strengthened primary result (prospective-benchmark pooled precision/recall/F1/coverage:
+  0.9766 / 0.9579 / 0.9671 / 0.9720); no longer present the 149-pair held-out result as primary.
+- Release-safety cleanup: removed a small number of personal absolute filesystem paths from
+  publication-facing documentation/scripts and excluded one file
+  (`results/downstream_qualitative_examples.txt`) from public release pending further review (see
+  the private v2.0.0 release-safety audit).
+
+### Notes
+- The diabetes-mellitus benchmark's compiled-dataset licence and this release's own DOIs
+  (software and dataset) are not yet assigned; see `release/zenodo_diabetes_benchmark/PROVENANCE.md`
+  and `DATA_AVAILABILITY.md`.
+- The circular-economy domain (both the legacy 500-pair benchmark and the 400-pair half of the
+  prospective benchmark) remains Scopus-derived and is not redistributed, per Elsevier's Terms of
+  Use, unchanged from the v1.0.0 policy below.
+
 ## [1.0.0] — 2026-06-25
 
 ### Paper submission release

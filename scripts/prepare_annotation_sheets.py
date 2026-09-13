@@ -1,3 +1,4 @@
+import os
 """
 prepare_annotation_sheets.py  (Phase 1 — Task 1B)
 ---------------------------------------------------
@@ -18,7 +19,10 @@ import numpy as np
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 SEED = 42
-ROOT  = pathlib.Path(r"c:\Users\AbdelilahElMajjaoui\Downloads\PhD\Article 7\concept_harmonisation")
+ROOT  = pathlib.Path(
+    os.environ.get("V1_EVIDENCE_ROOT")
+    or pathlib.Path(__file__).resolve().parents[1]
+)  # portable: env var override, else auto-discovered from this file's location (Phase 0B Task 15)
 BENCH = ROOT / "data" / "benchmark"
 
 # ── Load candidate pairs ───────────────────────────────────────────────────────

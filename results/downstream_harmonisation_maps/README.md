@@ -8,11 +8,11 @@ were never removed from public git tracking during the earlier
 public-release cleanup. Both directories were populated in the same
 initial commit (`f75bc65`); only `outputs/harmonisation_maps/` was
 subsequently redacted. This mirror location was missed. It has now been
-removed from tracking, and scrubbed from all reachable git history,
-under the same restricted-data policy that already applies to
-`outputs/harmonisation_maps/`. This public-history cleanup was performed
-on 2026-08-24 — see `docs/provenance/public_history_cleanup_2026-08-24.md`
-for the full record of what was rewritten and why.
+removed from tracking in this repair branch under the same restricted-data
+policy that already applies to `outputs/harmonisation_maps/`. See
+`docs/release/v1.0.1_release_plan.md` for the exact git-history remediation
+this requires on the actual public repository (not executed by this
+repair — GitHub history changes are a human-authorised action).
 
 These files contain Scopus-derived keyword strings and are not publicly
 redistributable under Elsevier's Terms of Use.

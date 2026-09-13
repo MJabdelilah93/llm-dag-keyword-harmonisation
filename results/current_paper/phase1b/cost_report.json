@@ -1,0 +1,66 @@
+{
+  "anthropic": {
+    "runs": [
+      {
+        "run_id": "real_run_1",
+        "n_pairs": 149,
+        "input_tokens": 62981,
+        "output_tokens": 14137,
+        "cost_usd": 0.0334
+      },
+      {
+        "run_id": "real_run_2",
+        "n_pairs": 149,
+        "input_tokens": 62981,
+        "output_tokens": 14128,
+        "cost_usd": 0.0334
+      },
+      {
+        "run_id": "real_run_3",
+        "n_pairs": 149,
+        "input_tokens": 62981,
+        "output_tokens": 14105,
+        "cost_usd": 0.0334
+      },
+      {
+        "run_id": "real_run_4",
+        "n_pairs": 149,
+        "input_tokens": 62981,
+        "output_tokens": 14071,
+        "cost_usd": 0.0333
+      },
+      {
+        "run_id": "real_run_5",
+        "n_pairs": 149,
+        "input_tokens": 62981,
+        "output_tokens": 14111,
+        "cost_usd": 0.0334
+      }
+    ],
+    "total_cost_usd": 0.1669
+  },
+  "openai": {
+    "runs": [
+      {
+        "run_id": "dev_real_dev_1",
+        "n_pairs": 351,
+        "input_tokens": 155436,
+        "output_tokens": 20140,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.0563
+      },
+      {
+        "run_id": "test_real_test_1",
+        "n_pairs": 149,
+        "input_tokens": 66023,
+        "output_tokens": 8712,
+        "reasoning_tokens": 0,
+        "cost_usd": 0.0241
+      }
+    ],
+    "total_cost_usd": 0.0804
+  },
+  "combined_total_cost_usd": 0.2473,
+  "authorised_hard_stop_usd": 2.0,
+  "pct_of_hard_stop_used": 12.36
+}

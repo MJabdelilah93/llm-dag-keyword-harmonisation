@@ -1,0 +1,155 @@
+{
+  "generated_at_utc": "2026-09-09T09:30:56.196923+00:00",
+  "diabetes_reannotation_validation": {
+    "ok": true,
+    "row_count": 500
+  },
+  "overall": {
+    "n": 900,
+    "agreements": 614,
+    "disagreements": 286,
+    "raw_agreement_proportion": 0.6822,
+    "cohens_kappa": 0.3099,
+    "kappa_terminology_note": "reported as inter-annotator agreement (Cohen's kappa), not 'reliability'",
+    "annotator_1_label_distribution": {
+      "non-match": 623,
+      "match": 267,
+      "uncertain": 10
+    },
+    "annotator_2_label_distribution": {
+      "non-match": 588,
+      "match": 263,
+      "uncertain": 49
+    },
+    "confusion_matrix_rows_annotator_1_cols_annotator_2": {
+      "match": {
+        "match": 140,
+        "non-match": 113,
+        "uncertain": 14
+      },
+      "non-match": {
+        "match": 120,
+        "non-match": 471,
+        "uncertain": 32
+      },
+      "uncertain": {
+        "match": 3,
+        "non-match": 4,
+        "uncertain": 3
+      }
+    }
+  },
+  "circular_economy": {
+    "n": 400,
+    "agreements": 258,
+    "disagreements": 142,
+    "raw_agreement_proportion": 0.645,
+    "cohens_kappa": 0.3051,
+    "kappa_terminology_note": "reported as inter-annotator agreement (Cohen's kappa), not 'reliability'",
+    "annotator_1_label_distribution": {
+      "non-match": 290,
+      "match": 103,
+      "uncertain": 7
+    },
+    "annotator_2_label_distribution": {
+      "non-match": 209,
+      "match": 170,
+      "uncertain": 21
+    },
+    "confusion_matrix_rows_annotator_1_cols_annotator_2": {
+      "match": {
+        "match": 74,
+        "non-match": 25,
+        "uncertain": 4
+      },
+      "non-match": {
+        "match": 93,
+        "non-match": 182,
+        "uncertain": 15
+      },
+      "uncertain": {
+        "match": 3,
+        "non-match": 2,
+        "uncertain": 2
+      }
+    }
+  },
+  "biomedical_diabetes_mellitus": {
+    "n": 500,
+    "agreements": 356,
+    "disagreements": 144,
+    "raw_agreement_proportion": 0.712,
+    "cohens_kappa": 0.3361,
+    "kappa_terminology_note": "reported as inter-annotator agreement (Cohen's kappa), not 'reliability'",
+    "annotator_1_label_distribution": {
+      "non-match": 333,
+      "match": 164,
+      "uncertain": 3
+    },
+    "annotator_2_label_distribution": {
+      "non-match": 379,
+      "match": 93,
+      "uncertain": 28
+    },
+    "confusion_matrix_rows_annotator_1_cols_annotator_2": {
+      "match": {
+        "match": 66,
+        "non-match": 88,
+        "uncertain": 10
+      },
+      "non-match": {
+        "match": 27,
+        "non-match": 289,
+        "uncertain": 17
+      },
+      "uncertain": {
+        "match": 0,
+        "non-match": 2,
+        "uncertain": 1
+      }
+    }
+  },
+  "disagreement_types_overall": {
+    "unordered": {
+      "match vs non-match": 233,
+      "non-match vs uncertain": 36,
+      "match vs uncertain": 17
+    },
+    "directional": {
+      "annotator_1=non-match / annotator_2=match": 120,
+      "annotator_1=match / annotator_2=non-match": 113,
+      "annotator_1=non-match / annotator_2=uncertain": 32,
+      "annotator_1=uncertain / annotator_2=non-match": 4,
+      "annotator_1=match / annotator_2=uncertain": 14,
+      "annotator_1=uncertain / annotator_2=match": 3
+    },
+    "other": 0
+  },
+  "context_use_crosstab_overall": {
+    "neither": {
+      "n": 892,
+      "proportion_of_total": 0.9911,
+      "disagreement_count": 282,
+      "disagreement_rate": 0.3161
+    },
+    "annotator_1_only": {
+      "n": 6,
+      "proportion_of_total": 0.0067,
+      "disagreement_count": 4,
+      "disagreement_rate": 0.6667
+    },
+    "annotator_2_only": {
+      "n": 2,
+      "proportion_of_total": 0.0022,
+      "disagreement_count": 0,
+      "disagreement_rate": 0.0
+    },
+    "both": {
+      "n": 0,
+      "proportion_of_total": 0.0,
+      "disagreement_count": 0,
+      "disagreement_rate": null
+    }
+  },
+  "superseded_note": "The ORIGINAL H2 report (PRIMARY_H1_INTERANNOTATOR_AGREEMENT.{json,md}) is preserved unchanged for provenance. Its diabetes-domain figures are SUPERSEDED by this corrected report; its overall and circular-economy figures are unaffected/reproduced here. This corrected report is the one to use going forward."
+}

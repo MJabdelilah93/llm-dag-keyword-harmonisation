@@ -1,0 +1,110 @@
+{
+  "n_closed_triangles_observed": 6,
+  "min_triangles_for_consistency_analysis": 10,
+  "closed_triangle_consistency_analysis_performed": false,
+  "methods": {
+    "B1_Exact": {
+      "method": "B1_Exact",
+      "n_gold_non_match_evaluated": 629,
+      "n_connected_incorrectly": 0,
+      "proportion_connected_incorrectly": 0.0,
+      "n_direct_error": 0,
+      "n_transitive_only_contradiction": 0,
+      "component_sizes_involved": [],
+      "n_predicted_clusters": 1383,
+      "n_predicted_singletons": 1311,
+      "is_lower_bound_safety_diagnostic_not_complete_cluster_metric": true
+    },
+    "B2_Normalised": {
+      "method": "B2_Normalised",
+      "n_gold_non_match_evaluated": 629,
+      "n_connected_incorrectly": 0,
+      "proportion_connected_incorrectly": 0.0,
+      "n_direct_error": 0,
+      "n_transitive_only_contradiction": 0,
+      "component_sizes_involved": [],
+      "n_predicted_clusters": 1383,
+      "n_predicted_singletons": 1311,
+      "is_lower_bound_safety_diagnostic_not_complete_cluster_metric": true
+    },
+    "B3_JaroWinkler": {
+      "method": "B3_JaroWinkler",
+      "n_gold_non_match_evaluated": 629,
+      "n_connected_incorrectly": 13,
+      "proportion_connected_incorrectly": 0.02066772655007949,
+      "n_direct_error": 13,
+      "n_transitive_only_contradiction": 0,
+      "component_sizes_involved": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_predicted_clusters": 1230,
+      "n_predicted_singletons": 1028,
+      "is_lower_bound_safety_diagnostic_not_complete_cluster_metric": true
+    },
+    "B4_TFIDF": {
+      "method": "B4_TFIDF",
+      "n_gold_non_match_evaluated": 629,
+      "n_connected_incorrectly": 54,
+      "proportion_connected_incorrectly": 0.08585055643879173,
+      "n_direct_error": 54,
+      "n_transitive_only_contradiction": 0,
+      "component_sizes_involved": [
+        10,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "n_predicted_clusters": 1204,
+      "n_predicted_singletons": 983,
+      "is_lower_bound_safety_diagnostic_not_complete_cluster_metric": true
+    },
+    "B5_Embedding": {
+      "method": "B5_Embedding",
+      "n_gold_non_match_evaluated": 629,
+      "n_connected_incorrectly": 7,
+      "proportion_connected_incorrectly": 0.011128775834658187,
+      "n_direct_error": 7,
+      "n_transitive_only_contradiction": 0,
+      "component_sizes_involved": [
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "n_predicted_clusters": 1245,
+      "n_predicted_singletons": 1056,
+      "is_lower_bound_safety_diagnostic_not_complete_cluster_metric": true
+    }
+  }
+}

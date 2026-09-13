@@ -1,0 +1,65 @@
+{
+  "generated_at_utc": "2026-09-09T09:30:55.056696+00:00",
+  "new_reannotation_session": {
+    "total_audit_log_rows": 502,
+    "action_counts": {
+      "label": 500,
+      "relabel": 2
+    },
+    "n_decide_actions_label_plus_relabel": 502,
+    "n_distinct_pairs_decided": 500,
+    "relabel_count": 2,
+    "skip_count": 0,
+    "context_opened_count": 0,
+    "first_timestamp_utc": "2026-09-08T18:17:34.148501+00:00",
+    "last_timestamp_utc": "2026-09-09T08:54:32.348434+00:00",
+    "duration_span_seconds": 52618.2,
+    "duration_span_human": "14:36:58.199933",
+    "dates_touched": [
+      "2026-09-08",
+      "2026-09-09"
+    ],
+    "median_inter_decision_interval_s": 3.386,
+    "min_inter_decision_interval_s": 0.743,
+    "max_inter_decision_interval_s": 41349.8,
+    "n_intervals_under_2s": 131,
+    "n_intervals_under_1s": 46,
+    "n_intervals_under_100ms": 0,
+    "longest_identical_label_run": 60,
+    "longest_identical_label_run_value": "non-match",
+    "label_distribution": {
+      "non-match": 379,
+      "match": 93,
+      "uncertain": 28
+    },
+    "label_distribution_is_degenerate_single_class": false,
+    "evidence_of_stuck_key_or_autorepeat": false,
+    "evidence_of_duplicated_gui_callback": false
+  },
+  "original_superseded_session_reference": {
+    "n_label_actions": 501,
+    "first_timestamp_utc": "2026-09-08T10:39:51.126325+00:00",
+    "last_timestamp_utc": "2026-09-08T16:17:15.110931+00:00",
+    "duration_span_seconds": 20244.0,
+    "duration_span_human": "5:37:23.984606",
+    "dates_touched": [
+      "2026-09-08"
+    ],
+    "decisions_per_minute_avg_over_span": 1.485,
+    "median_inter_decision_interval_s": 3.622,
+    "min_inter_decision_interval_s": 1.291,
+    "max_inter_decision_interval_s": 11854.4,
+    "n_intervals_under_2s": 5,
+    "n_intervals_under_1s_sub_second": 0,
+    "n_intervals_under_100ms": 0,
+    "longest_identical_label_run": 501,
+    "longest_identical_label_run_value": "match",
+    "new_label_distribution": {
+      "match": 501
+    }
+  },
+  "comprehension_gate_note": "The comprehension gate (6 synthetic examples) is enforced purely in-memory by ComprehensionGateState and is NOT written to this audit log -- no log-based evidence of gate completion exists. Structural evidence only: the shipped ReannotationApp code reaches the real annotation screen (the only path that can produce 'label' audit-log rows) exclusively through _build_comprehension_screen(), which falls through to it only when ComprehensionGateState.is_complete is True, i.e. only after all 6 examples were answered correctly. This is a code-path guarantee, not a log record, and is reported as such.",
+  "degenerate_constant_label_run_detected": false,
+  "mechanical_or_data_integrity_anomaly_detected": false,
+  "recommendation": "PROCEED"
+}

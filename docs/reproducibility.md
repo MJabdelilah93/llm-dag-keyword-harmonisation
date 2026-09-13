@@ -1,5 +1,10 @@
 # Reproducibility Guide
 
+> **Scope note (v2.0.0):** this file covers the **original pipeline** (`src/`) only. For the
+> strengthened v2.0.0 evidence base (`strengthening/`) — the 900-pair prospective benchmark, the
+> diabetes-mellitus domain, baselines B1–B8, bootstrap, selective prediction, and diagnostics —
+> see the repository root's `REPRODUCIBILITY.md` instead.
+
 Step-by-step instructions for a licensed Scopus user to regenerate the corpus
 and reproduce the benchmark results from scratch.
 
@@ -128,4 +133,5 @@ python scripts/export_vosviewer.py
 - Scopus indexing changes over time; re-running the query after 3 April 2026
   will return additional records. Minor count differences are expected.
 - JSONL log files for large downstream runs (51 MB, 27 MB) are archived on
-  Zenodo: https://doi.org/10.5281/zenodo.19451886
+  Zenodo: https://doi.org/10.5281/zenodo.20923992 (Zenodo-DATA; corrected
+  2026-08-24 from a superseded DOI — see `docs/release/v1.0.1_release_plan.md`)

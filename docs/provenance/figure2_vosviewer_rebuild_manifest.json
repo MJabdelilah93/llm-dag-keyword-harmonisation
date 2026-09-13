@@ -1,0 +1,40 @@
+{
+  "generated_utc": "2026-08-24T08:14:16.582204+00:00",
+  "freq_thresh": 5,
+  "top_n": 100,
+  "conditions": {
+    "raw": {
+      "label": "Raw (unharmonised)",
+      "source_map": "raw_map_v1_verified.csv",
+      "source_map_sha256": "239e0ae317014f6847bfcb4494c12a740eee080d21df76ef70f4852b9efa800d",
+      "n_top_keywords": 100,
+      "n_edges": 1921,
+      "cooccurrence_matrix_sha256": "c6534b2ac74df75d7b23cf8af812dd5e73df9f4cea056b56dbf6daa28432eb54",
+      "keyword_frequencies_sha256": "89b8a79b21b9634d4071c57be363352bd35bd9b48b95b01f073270e1a91a9e5d",
+      "edge_list_sha256": "1a097ccd4274b41a5aa835a3889bd555fcbd5126686449a1a11d03db1281409b",
+      "edge_list_vos_sha256": "9cbb9126de2f59c62c5a8f9cc5691df0d0f98ac55ed078f8d0d25c1c34a22cc8"
+    },
+    "b3": {
+      "label": "B3 Jaro-Winkler",
+      "source_map": "b3_map_v1_verified.csv",
+      "source_map_sha256": "3463696744396528350ed47be1a65e8a133a08e4fe785e0a78194f5ba5d15b27",
+      "n_top_keywords": 100,
+      "n_edges": 2997,
+      "cooccurrence_matrix_sha256": "ba411cb861de9865d285f3f2cd565582c83a0a869b8a2829ad4995d606b5fad4",
+      "keyword_frequencies_sha256": "f24e69908a37b34431b4e440af77b89e2436aba4f2de3c0afce4f04e3dec16fb",
+      "edge_list_sha256": "638b2804e00372a1789a5fd672410ded24ecc6149e994137523faf9d9d14b249",
+      "edge_list_vos_sha256": "9f3738b0c5b5df602665b194aab94cb82bc41f678e659b4488ff0cc786f67974"
+    },
+    "llm_dag": {
+      "label": "Full LLM-DAG (corrected)",
+      "source_map": "full_llm_dag_map_v1_corrected.csv",
+      "source_map_sha256": "df6c25aae0c081ea7ca205b94eda6a11ca3bbd8c9b01a801934b916ae95d96c2",
+      "n_top_keywords": 100,
+      "n_edges": 2744,
+      "cooccurrence_matrix_sha256": "fed78d8f6423c50023228d6e319afabb7334995a527b3161b336eef23adb1fc0",
+      "keyword_frequencies_sha256": "8ad3504acd4d04d5ff482c52e11ce0550edbd38e6f64bc882601923f2f41dde1",
+      "edge_list_sha256": "b674380c9ee4126bdb74b233c956bc69a29bb3eb0dd499088d2a737c23f0f18b",
+      "edge_list_vos_sha256": "4132c0fa142f9c71f95c8ab23ba406aff87cd4063f5f330448d6c87b0b19a0dd"
+    }
+  }
+}

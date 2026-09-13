@@ -1,0 +1,178 @@
+{
+  "def1_raw_connected_component_top10": [
+    {
+      "size": 374,
+      "canonical": "Sustainability"
+    },
+    {
+      "size": 214,
+      "canonical": "Circular economy"
+    },
+    {
+      "size": 193,
+      "canonical": "Environmental sustainability"
+    },
+    {
+      "size": 86,
+      "canonical": "Recycling"
+    },
+    {
+      "size": 70,
+      "canonical": "Material flow analysis"
+    },
+    {
+      "size": 69,
+      "canonical": "Wastewater"
+    },
+    {
+      "size": 59,
+      "canonical": "industrial ecology"
+    },
+    {
+      "size": 50,
+      "canonical": "Resource recovery"
+    },
+    {
+      "size": 50,
+      "canonical": "Agriculture"
+    },
+    {
+      "size": 39,
+      "canonical": "End-of-life"
+    }
+  ],
+  "def1_any_cluster_equals_109": false,
+  "def2_sustainability_subset_top10": [
+    {
+      "size": 277,
+      "canonical": "Sustainability"
+    },
+    {
+      "size": 5,
+      "canonical": "Life cycle sustainability assessment"
+    },
+    {
+      "size": 3,
+      "canonical": "Social sustainability"
+    },
+    {
+      "size": 3,
+      "canonical": "Environmental sustainability"
+    },
+    {
+      "size": 2,
+      "canonical": "ecological sustainability"
+    },
+    {
+      "size": 2,
+      "canonical": "corporate sustainability"
+    },
+    {
+      "size": 2,
+      "canonical": "Urban sustainability"
+    },
+    {
+      "size": 2,
+      "canonical": "United Nations Sustainable Development Goals"
+    },
+    {
+      "size": 2,
+      "canonical": "UN Sustainable Development Goals"
+    },
+    {
+      "size": 2,
+      "canonical": "Sustainable environment"
+    }
+  ],
+  "def2_any_group_equals_109": false,
+  "def2_total_sustain_matched_across_all_56_groups": 355,
+  "def3_freq_ge5_filtered_top10": [
+    {
+      "size": 115,
+      "canonical": "Sustainability"
+    },
+    {
+      "size": 56,
+      "canonical": "Circular economy"
+    },
+    {
+      "size": 51,
+      "canonical": "Environmental sustainability"
+    },
+    {
+      "size": 22,
+      "canonical": "Recycling"
+    },
+    {
+      "size": 20,
+      "canonical": "Material flow analysis"
+    },
+    {
+      "size": 16,
+      "canonical": "Plastic waste"
+    },
+    {
+      "size": 15,
+      "canonical": "industrial ecology"
+    },
+    {
+      "size": 15,
+      "canonical": "Wastewater"
+    },
+    {
+      "size": 14,
+      "canonical": "Municipal solid waste"
+    },
+    {
+      "size": 13,
+      "canonical": "Construction"
+    }
+  ],
+  "def3_any_cluster_equals_109": false,
+  "def4_vosviewer_note": "scripts/export_vosviewer.py caps exports at TOP_N=100 highest-frequency CANONICAL keywords per condition — a different unit (canonical concepts) from 'raw keyword strings merged into one node'. No objectively-defined sub-count of 109 raw strings follows from this filter; not applicable as stated.",
+  "largest_excluding_sustain_and_ce_families_top10": [
+    {
+      "size": 86,
+      "canonical": "Recycling"
+    },
+    {
+      "size": 70,
+      "canonical": "Material flow analysis"
+    },
+    {
+      "size": 69,
+      "canonical": "Wastewater"
+    },
+    {
+      "size": 59,
+      "canonical": "industrial ecology"
+    },
+    {
+      "size": 50,
+      "canonical": "Resource recovery"
+    },
+    {
+      "size": 50,
+      "canonical": "Agriculture"
+    },
+    {
+      "size": 39,
+      "canonical": "End-of-life"
+    },
+    {
+      "size": 38,
+      "canonical": "Agri-food"
+    },
+    {
+      "size": 36,
+      "canonical": "Plastic waste"
+    },
+    {
+      "size": 36,
+      "canonical": "Carbon"
+    }
+  ],
+  "largest_excluding_families_equals_109": false,
+  "ANY_DEFINITION_YIELDS_109": false,
+  "verdict": "CANNOT_REPRODUCE"
+}

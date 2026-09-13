@@ -1,0 +1,165 @@
+{
+  "branch_and_head": {
+    "ok": true,
+    "branch": "strengthen/m7-2026",
+    "head": "fa972cefc83eee3b7e7bb689022435365c6fe395",
+    "expected_branch": "strengthen/m7-2026",
+    "expected_head_prefix": "fa972ce"
+  },
+  "clean_tree": {
+    "ok": true,
+    "status_output": "?? strengthening/experiments/c3_verify_final_state.py\n",
+    "unexpected_lines": []
+  },
+  "gold_hashes": {
+    "ok": true,
+    "xlsx_sha256": "bb90618580e944e54904c231efca83f50eebc1ef5eb4ea7f0fd8e803adbbec0a",
+    "xlsx_expected": "bb90618580e944e54904c231efca83f50eebc1ef5eb4ea7f0fd8e803adbbec0a",
+    "xlsx_ok": true,
+    "csv_sha256": "89dd427b04ecd6f362192f8102e5d7dc750fbae1e056fe527949a3dce3ade479",
+    "csv_expected": "89dd427b04ecd6f362192f8102e5d7dc750fbae1e056fe527949a3dce3ade479",
+    "csv_ok": true
+  },
+  "candidate_set_hashes": {
+    "ok": true,
+    "observed": {
+      "circular_economy": "aa494e5b11543fe37996d842f8a3f9ed40622ee5c951b889b03e1f9ba58eea79",
+      "biomedical_diabetes_mellitus": "4c0875bb7e9c6d511a59bae1405218e67208b57ed22b4160d25bb0e8f68133fd"
+    },
+    "expected": {
+      "circular_economy": "aa494e5b11543fe37996d842f8a3f9ed40622ee5c951b889b03e1f9ba58eea79",
+      "biomedical_diabetes_mellitus": "4c0875bb7e9c6d511a59bae1405218e67208b57ed22b4160d25bb0e8f68133fd"
+    },
+    "mismatches": {}
+  },
+  "freeze_hashes_rows_duplicates": {
+    "primary_m7": {
+      "ok": true,
+      "sha256_observed": "f0c495736503b6eaac948bce46288374ed3532df6de913ad22f70610b2f2b1f9",
+      "sha256_expected": "f0c495736503b6eaac948bce46288374ed3532df6de913ad22f70610b2f2b1f9",
+      "hash_ok": true,
+      "n_rows": 900,
+      "rows_ok": true,
+      "n_duplicate_pair_ids": 0,
+      "duplicate_pair_ids": [],
+      "no_dup_ok": true,
+      "missing_field_counts": {
+        "pair_id": 0,
+        "domain": 0,
+        "guard_decision": 0,
+        "guard_confidence": 0
+      }
+    },
+    "b6": {
+      "ok": true,
+      "sha256_observed": "682cac6bbe7a8137657028df55d6fa5035d574928e508e8cbdf6bfdbc0e0e284",
+      "sha256_expected": "682cac6bbe7a8137657028df55d6fa5035d574928e508e8cbdf6bfdbc0e0e284",
+      "hash_ok": true,
+      "n_rows": 900,
+      "rows_ok": true,
+      "n_duplicate_pair_ids": 0,
+      "duplicate_pair_ids": [],
+      "no_dup_ok": true,
+      "missing_field_counts": {
+        "pair_id": 0,
+        "domain": 0,
+        "parsed_decision": 0
+      }
+    },
+    "b7": {
+      "ok": true,
+      "sha256_observed": "5262d37040c27af804f9c387424f941db66ba49d1d0c732cccfc8f2bfa64aa83",
+      "sha256_expected": "5262d37040c27af804f9c387424f941db66ba49d1d0c732cccfc8f2bfa64aa83",
+      "hash_ok": true,
+      "n_rows": 900,
+      "rows_ok": true,
+      "n_duplicate_pair_ids": 0,
+      "duplicate_pair_ids": [],
+      "no_dup_ok": true,
+      "missing_field_counts": {
+        "pair_id": 0,
+        "domain": 0,
+        "binary_label": 0
+      }
+    },
+    "b8": {
+      "ok": true,
+      "sha256_observed": "d09ac5104cbdec7d09adf8afce124eadb24a36214c92a55311ff604aec85e3a2",
+      "sha256_expected": "d09ac5104cbdec7d09adf8afce124eadb24a36214c92a55311ff604aec85e3a2",
+      "hash_ok": true,
+      "n_rows": 900,
+      "rows_ok": true,
+      "n_duplicate_pair_ids": 0,
+      "duplicate_pair_ids": [],
+      "no_dup_ok": true,
+      "missing_field_counts": {
+        "pair_id": 0,
+        "domain": 0,
+        "b8_predicted_label": 0
+      }
+    },
+    "openai": {
+      "ok": true,
+      "sha256_observed": "c7b4bc5a830a73c709f014c5de62f0cd7d1ce5fba433e0b6e745105b318b4dd8",
+      "sha256_expected": "c7b4bc5a830a73c709f014c5de62f0cd7d1ce5fba433e0b6e745105b318b4dd8",
+      "hash_ok": true,
+      "n_rows": 900,
+      "rows_ok": true,
+      "n_duplicate_pair_ids": 0,
+      "duplicate_pair_ids": [],
+      "no_dup_ok": true,
+      "missing_field_counts": {
+        "pair_id": 0,
+        "domain": 0,
+        "guard_decision": 0,
+        "guard_confidence": 0
+      }
+    },
+    "b1_b5": {
+      "ok": true,
+      "sha256_observed": "1c0be1dba7f9e457ba468cdbfbc2dc552a121e678a4449b6594736f2c52c01ed",
+      "sha256_expected": "1c0be1dba7f9e457ba468cdbfbc2dc552a121e678a4449b6594736f2c52c01ed",
+      "hash_ok": true,
+      "n_rows": 900,
+      "rows_ok": true,
+      "n_duplicate_pair_ids": 0,
+      "duplicate_pair_ids": [],
+      "no_dup_ok": true,
+      "missing_field_counts": {
+        "pair_id": 0,
+        "B1_Exact": 0,
+        "B2_Normalised": 0,
+        "B3_JaroWinkler": 0,
+        "B4_TFIDF": 0,
+        "B5_Embedding": 0
+      }
+    }
+  },
+  "core_required_fields": {
+    "primary_m7": {
+      "pair_id_missing": 0,
+      "ok": true
+    },
+    "b6": {
+      "pair_id_missing": 0,
+      "ok": true
+    },
+    "b7": {
+      "pair_id_missing": 0,
+      "ok": true
+    },
+    "b8": {
+      "pair_id_missing": 0,
+      "ok": true
+    },
+    "openai": {
+      "pair_id_missing": 0,
+      "ok": true
+    },
+    "b1_b5": {
+      "pair_id_missing": 0,
+      "ok": true
+    }
+  },
+  "all_checks_passed": true
+}

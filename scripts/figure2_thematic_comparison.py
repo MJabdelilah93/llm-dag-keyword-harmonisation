@@ -15,6 +15,7 @@ import numpy as np
 import pandas as pd
 import networkx as nx
 import matplotlib
+import os
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -28,7 +29,10 @@ except ImportError:
 SEED = 42
 np.random.seed(SEED)
 
-BASE    = pathlib.Path(r"c:\Users\AbdelilahElMajjaoui\Downloads\PhD\Article 7\concept_harmonisation")
+BASE    = pathlib.Path(
+    os.environ.get("V1_EVIDENCE_ROOT")
+    or pathlib.Path(__file__).resolve().parents[1]
+)  # portable: env var override, else auto-discovered from this file's location (Phase 0B Task 15)
 INTERN  = BASE / "data" / "interim"
 MAPS    = BASE / "results" / "downstream_harmonisation_maps"
 FIGDIR  = BASE / "results" / "figures"

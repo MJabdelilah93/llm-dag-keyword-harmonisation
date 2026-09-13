@@ -16,6 +16,7 @@ Outputs:
 """
 
 import io
+import os
 import json
 import logging
 import pathlib
@@ -25,7 +26,10 @@ import sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-ROOT = pathlib.Path(r"c:\Users\AbdelilahElMajjaoui\Downloads\PhD\Article 7\concept_harmonisation")
+ROOT = pathlib.Path(
+    os.environ.get("V1_EVIDENCE_ROOT")
+    or pathlib.Path(__file__).resolve().parents[1]
+)  # portable: env var override, else auto-discovered from this file's location (Phase 0B Task 15)
 RESULTS = ROOT / "results"
 LLM_LOGS = RESULTS / "llm_logs"
 BENCH = ROOT / "data" / "benchmark"

@@ -1,0 +1,23 @@
+{
+  "run_id": "real_run_1",
+  "mode": "real",
+  "is_synthetic": false,
+  "started_at_utc": "2026-08-24T14:33:56.713936+00:00",
+  "finished_at_utc": "2026-08-24T14:38:25.420015+00:00",
+  "n_pairs": 149,
+  "n_pairs_expected": 149,
+  "model_id_requested": "claude-haiku-4-5-20251001",
+  "temperature": 0,
+  "max_tokens": 256,
+  "top_p_passed": false,
+  "auxiliary_context_used": false,
+  "guard_threshold": 0.5,
+  "guard_version": "v1_verified_1.0.0",
+  "system_prompt_sha256": "df4da6f0375506f23c603b96e0128b642e895a9f98faa60625b595ee19fe2a31",
+  "user_prompt_template_sha256": "2f925a103d19f5a39afaa47783bf37a8ce69c730609c94dfb4f0c0a852fd4409",
+  "frozen_test_set_sha256": "996248ac3e4a7e6dc65ac027fcca891b9e0c798282df7d2c840f13739e28aae5",
+  "cache_reuse_policy": "NONE -- every pair gets a fresh call, no existing log is ever read or skipped",
+  "total_estimated_cost_usd": 0.0334,
+  "total_input_tokens": 62981,
+  "total_output_tokens": 14137
+}

@@ -1,3 +1,13 @@
+# LEGACY / NOT USED IN V1 EXECUTION.
+# This file is never loaded by any script that produced a reported result.
+# The asymmetric thresholds below (0.80 match / 0.70 non-match) never ran;
+# the executed guard used a single symmetric threshold of 0.50, selected by
+# a dev-set grid sweep in scripts/run_full_workflow.py and persisted in
+# results/tuned_thresholds.json. The contradiction check described below
+# (G5) was never implemented — see docs/provenance/v1_retrospective_run_manifest.json
+# and docs/provenance/v1_execution_config_provenance.md. Retained unmodified
+# as historical documentation of the intended design.
+#
 # Guard Layer Thresholds and Rules
 
 confidence:

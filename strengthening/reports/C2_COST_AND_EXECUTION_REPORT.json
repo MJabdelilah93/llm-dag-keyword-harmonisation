@@ -1,0 +1,83 @@
+{
+  "per_method": {
+    "primary_m7": {
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001",
+      "logical_pairs": 900,
+      "successful_responses": 900,
+      "api_attempts": 900,
+      "input_tokens": 382251,
+      "output_tokens": 88991,
+      "cost_usd": 0.8272,
+      "errors": 0
+    },
+    "b6": {
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001",
+      "logical_pairs": 900,
+      "successful_responses": 900,
+      "api_attempts": 900,
+      "input_tokens": 41151,
+      "output_tokens": 105491,
+      "cost_usd": 0.5686,
+      "errors": 0
+    },
+    "b7": {
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001",
+      "logical_pairs": 900,
+      "successful_responses": 900,
+      "api_attempts": 900,
+      "input_tokens": 327351,
+      "output_tokens": 52802,
+      "cost_usd": 0.5914,
+      "errors": 0
+    },
+    "b8": {
+      "provider": null,
+      "model": null,
+      "logical_pairs": 900,
+      "successful_responses": 900,
+      "api_attempts": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0.0,
+      "errors": 0
+    },
+    "openai": {
+      "provider": "openai",
+      "model": "gpt-5.4-nano-2026-03-17",
+      "logical_pairs": 900,
+      "successful_responses": 900,
+      "api_attempts": 900,
+      "input_tokens": 474936,
+      "output_tokens": 53026,
+      "cost_usd": 0.1613,
+      "errors": 0
+    },
+    "b1_b5": {
+      "provider": null,
+      "model": null,
+      "logical_pairs": 900,
+      "successful_responses": 900,
+      "api_attempts": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cost_usd": 0.0,
+      "errors": 0
+    }
+  },
+  "combined_cost_usd": 2.1484,
+  "total_errors_across_all_methods": 0,
+  "prices_used": {
+    "anthropic": {
+      "input": 1.0,
+      "output": 5.0
+    },
+    "openai": {
+      "input": 0.2,
+      "output": 1.25
+    }
+  },
+  "api_keys_exposed": false
+}

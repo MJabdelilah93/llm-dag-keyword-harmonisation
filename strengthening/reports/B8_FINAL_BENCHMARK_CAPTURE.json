@@ -1,0 +1,37 @@
+{
+  "top_k": 5,
+  "candidate_generation_manifest": "B8_DENSE_CANDIDATE_GENERATION.json (candidate sets frozen and hashed before this gold join)",
+  "n_pairs_total": 900,
+  "n_pairs_captured": 440,
+  "n_pending_b7_prediction": 440,
+  "capture_by_partition": {
+    "ce400": {
+      "n_total_pairs": 400,
+      "n_all_pairs_captured": 128,
+      "n_gold_match_pairs": 103,
+      "n_gold_match_pairs_captured": 29,
+      "n_gold_non_match_pairs": 291,
+      "n_gold_non_match_pairs_captured": 99,
+      "benchmark_capture_rate": 0.2815533980582524
+    },
+    "diabetes500": {
+      "n_total_pairs": 500,
+      "n_all_pairs_captured": 312,
+      "n_gold_match_pairs": 161,
+      "n_gold_match_pairs_captured": 137,
+      "n_gold_non_match_pairs": 338,
+      "n_gold_non_match_pairs_captured": 174,
+      "benchmark_capture_rate": 0.8509316770186336
+    },
+    "pooled900": {
+      "n_total_pairs": 900,
+      "n_all_pairs_captured": 440,
+      "n_gold_match_pairs": 264,
+      "n_gold_match_pairs_captured": 166,
+      "n_gold_non_match_pairs": 629,
+      "n_gold_non_match_pairs_captured": 273,
+      "benchmark_capture_rate": 0.6287878787878788
+    }
+  },
+  "zero_additional_llm_calls_confirmation": "'benchmark capture rate' measures only whether B8's retrieval stage would surface each GOLD-MATCH BENCHMARK pair among its own candidates -- it is NOT pair completeness, NOT domain-wide retrieval recall, NOT global candidate recall, and NOT an unbiased estimate of unseen equivalences. The 900-pair benchmark was not built as an exhaustive retrieval-gold universe; this statistic is scoped strictly to the benchmark's own pairs."
+}

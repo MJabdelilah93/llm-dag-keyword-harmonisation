@@ -1,0 +1,64 @@
+{
+  "code_version": "v1_corrected_maps_1.0.0",
+  "generated_utc": "2026-08-24T07:54:57.681416+00:00",
+  "input_hashes": {
+    "scopus_ce_merged_deduped.csv": "d56077f13b44be90177470debecee8fb50c8d2bbb91b234902d058bac5da9af1",
+    "downstream_raw_outputs.jsonl": "275ae78f874b03be1b72fac9aa0b729b1e50219b19d1178e870a8ce796b2af1b",
+    "downstream_fix_raw_outputs.jsonl": "d88764b44243ac85a1e625e31a29d9bd403dab6fe6adfed35387c0c0f8ba8351",
+    "downstream_deterministic_completions.jsonl": "e79000a15a42ce9189f51c181334cf3c184f808e2a185dbfa25e80622a91d7a0"
+  },
+  "output_files": {
+    "raw_map_v1_verified.csv": {
+      "path": "restricted_local/corrected_maps/raw_map_v1_verified.csv",
+      "path_note": "relative to repair-repo root; restricted_local/ is git-ignored, local machine only",
+      "sha256": "239e0ae317014f6847bfcb4494c12a740eee080d21df76ef70f4852b9efa800d",
+      "rows": 55425
+    },
+    "b3_map_v1_verified.csv": {
+      "path": "restricted_local/corrected_maps/b3_map_v1_verified.csv",
+      "path_note": "relative to repair-repo root; restricted_local/ is git-ignored, local machine only",
+      "sha256": "3463696744396528350ed47be1a65e8a133a08e4fe785e0a78194f5ba5d15b27",
+      "rows": 55425
+    },
+    "full_llm_dag_map_v1_corrected.csv": {
+      "path": "restricted_local/corrected_maps/full_llm_dag_map_v1_corrected.csv",
+      "path_note": "relative to repair-repo root; restricted_local/ is git-ignored, local machine only",
+      "sha256": "df6c25aae0c081ea7ca205b94eda6a11ca3bbd8c9b01a801934b916ae95d96c2",
+      "rows": 55425
+    }
+  },
+  "keyword_universe": 55425,
+  "active_vocab_freq_ge_5": {
+    "raw": 3646,
+    "b3": 2880,
+    "llm_dag": 3464
+  },
+  "expected_active_vocab": {
+    "raw": 3646,
+    "b3": 2880,
+    "llm_dag": 3464
+  },
+  "circular_economy_true_cluster_size": {
+    "b3": 214,
+    "llm_dag": 57
+  },
+  "expected_circular_economy": {
+    "b3": 214,
+    "llm_dag": 57
+  },
+  "sustainability_family_groups": {
+    "b3": 56,
+    "llm_dag": 216
+  },
+  "expected_sustainability_family": {
+    "b3": 56,
+    "llm_dag": 216
+  },
+  "b3_clusters_fragmented_by_llm_dag": 194,
+  "expected_fragmented": 194,
+  "total_clusters": {
+    "b3": 42022,
+    "llm_dag": 43054
+  },
+  "all_checks_pass": true
+}

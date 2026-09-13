@@ -1,3 +1,13 @@
+# LEGACY / NOT USED IN V1 EXECUTION.
+# This file is never loaded by any script that produced a reported result.
+# Only priority 2 (highest_frequency) actually ran, via plain Python max()
+# in scripts/rebuild_downstream.py and elsewhere. Priorities 1, 3 and 4 were
+# never implemented. overrides_file below was never populated (the path does
+# not exist). See docs/provenance/v1_execution_config_provenance.md and
+# docs/provenance/canonical_label_rule_check.md for the verified quantitative
+# comparison. Retained unmodified as historical documentation of the intended
+# design.
+#
 # Canonical Label Assignment Rules
 # Rules are applied in priority order (lower number = higher priority).
 

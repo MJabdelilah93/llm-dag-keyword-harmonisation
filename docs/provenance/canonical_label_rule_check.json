@@ -1,0 +1,123 @@
+{
+  "tier_1_controlled_vocabulary": "NOT TESTED — no MeSH/ACM-CCS/JEL lookup table exists anywhere in this repository; implementing it would require inventing a data source not present in v1, which Task 12 explicitly prohibits.",
+  "tiers_tested": "2 (highest_frequency) vs. 2+3+4 (frequency > shortest_label > alphabetical)",
+  "full_llm_dag": {
+    "total_clusters": 43054,
+    "multi_member_clusters": 7713,
+    "canonical_labels_that_would_change": 1366,
+    "pct_of_multi_member_clusters_changed": 17.71,
+    "examples": [
+      {
+        "executed": "EU-28",
+        "under_3tier_rule": "EU28",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Societal change",
+        "under_3tier_rule": "Social change",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Ni-based catalysts",
+        "under_3tier_rule": "Ni-based catalyst",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Land application system",
+        "under_3tier_rule": "LAS",
+        "cluster_size": 3
+      },
+      {
+        "executed": "Calcium hydroxide",
+        "under_3tier_rule": "Calcium Hydroxide",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Heritage buildings",
+        "under_3tier_rule": "Heritage Buildings",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Green fuels",
+        "under_3tier_rule": "green fuel",
+        "cluster_size": 3
+      },
+      {
+        "executed": "Wine waste",
+        "under_3tier_rule": "Wine Waste",
+        "cluster_size": 3
+      },
+      {
+        "executed": "technospheric mining",
+        "under_3tier_rule": "Technospheric mining",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Clean technologies",
+        "under_3tier_rule": "Clean technology",
+        "cluster_size": 4
+      }
+    ]
+  },
+  "b3_jaro_winkler": {
+    "total_clusters": 42022,
+    "multi_member_clusters": 6601,
+    "canonical_labels_that_would_change": 1339,
+    "pct_of_multi_member_clusters_changed": 20.285,
+    "examples": [
+      {
+        "executed": "EU-28",
+        "under_3tier_rule": "EU28",
+        "cluster_size": 3
+      },
+      {
+        "executed": "Ni-based catalysts",
+        "under_3tier_rule": "Ni-based catalyst",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Calcium hydroxide",
+        "under_3tier_rule": "Calcium Hydroxide",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Heritage buildings",
+        "under_3tier_rule": "Heritage Buildings",
+        "cluster_size": 2
+      },
+      {
+        "executed": "material flow accounting/analysis (MFA)",
+        "under_3tier_rule": "Material flow accounting/analysis (MFA)",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Wine waste",
+        "under_3tier_rule": "Wine Waste",
+        "cluster_size": 3
+      },
+      {
+        "executed": "technospheric mining",
+        "under_3tier_rule": "Technospheric mining",
+        "cluster_size": 2
+      },
+      {
+        "executed": "Clean technologies",
+        "under_3tier_rule": "Clean technology",
+        "cluster_size": 3
+      },
+      {
+        "executed": "lignin depolymerization",
+        "under_3tier_rule": "Lignin depolymerization",
+        "cluster_size": 2
+      },
+      {
+        "executed": "spectroscopy",
+        "under_3tier_rule": "Spectroscopy",
+        "cluster_size": 2
+      }
+    ]
+  },
+  "cluster_membership_changes": false,
+  "cluster_membership_note": "Canonicalisation runs strictly after union-find clustering and only selects a display label for each already-fixed cluster; changing the label-selection rule cannot, by construction, change which raw keywords are grouped together.",
+  "downstream_numeric_metrics_change": "NOT RECOMPUTED — vocabulary/edge/density/modularity/ARI/AMI are computed over CANONICAL LABELS as network node identifiers; changing which specific label represents a cluster (without changing cluster membership) does not change vocab/edge counts, but WOULD relabel graph nodes. See Task 11 for whether this affects Figure 2 labels specifically."
+}

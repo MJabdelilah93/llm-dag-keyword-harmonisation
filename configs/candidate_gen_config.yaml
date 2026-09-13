@@ -1,3 +1,11 @@
+# LEGACY / NOT USED IN V1 EXECUTION.
+# This file is never loaded by any script that produced a reported result
+# (verified by exhaustive grep across scripts/ during the 2026-08 audit).
+# The embedding_retrieval.model_id below was never filled in ("PLACEHOLDER").
+# The values that actually ran are in configs/v1_execution_config.yaml,
+# with evidence in docs/provenance/v1_execution_config_provenance.md.
+# Retained unmodified as historical documentation of the intended design.
+#
 # Candidate Generation Configuration
 
 lexical_blocking:

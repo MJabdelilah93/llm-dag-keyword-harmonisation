@@ -1,0 +1,107 @@
+{
+  "figure_15368_represents": "unique PMC articles across PRIMARY (2015-2025) UNION EXTENDED (2010-2025) windows, deduplicated by PMCID -- the complete evidentiary base for the feasibility gate",
+  "figure_14571_represents": "unique PMC articles from the PRIMARY (2015-2025) window ALONE, i.e. the original acquisition subagent's completed work before the broader-window supplement",
+  "figure_12366_represents": "unique PMC articles from the EXTENDED (2010-2025) window ALONE (run separately to test the broader-window remedy)",
+  "arithmetic_check": {
+    "n_primary": 14571,
+    "n_extended": 12366,
+    "n_merged_deduplicated": 15368,
+    "overlap_between_runs": 11569,
+    "identity_holds": true
+  },
+  "methodological_note": "Primary and extended acquisitions used DIFFERENT per-year retrieval caps: primary probe_per_year=300 corpus_per_year=1400; extended probe_per_year=120 corpus_per_year=1200 (this script's own CLI defaults, not overridden to match primary when the broader-window test was run). Disclosed for transparency; does not change the feasibility conclusion, which the current instruction supersedes with the diabetes-mellitus fallback rather than further hypertension optimisation.",
+  "primary_acquisition_manifest": {
+    "retrieval_started_utc": "2026-09-06T16:13:00.687174+00:00",
+    "retrieval_finished_utc": "2026-09-06T17:21:14.197353+00:00",
+    "n_uids_requested": 14571,
+    "n_article_records_parsed": 14571,
+    "n_unique_pmcids": 14571,
+    "n_records_without_pmcid": 0,
+    "n_duplicate_pmcid_records_dropped": 0,
+    "probe_per_year": 300,
+    "corpus_per_year": 1400,
+    "total_live_ncbi_requests": 992
+  },
+  "extended_acquisition_manifest": {
+    "retrieval_started_utc": "2026-09-06T20:10:33.133922+00:00",
+    "retrieval_finished_utc": "2026-09-06T21:20:31.900293+00:00",
+    "n_uids_requested": 12366,
+    "n_article_records_parsed": 12366,
+    "n_unique_pmcids": 12366,
+    "n_records_without_pmcid": 0,
+    "n_duplicate_pmcid_records_dropped": 0,
+    "probe_per_year": 120,
+    "corpus_per_year": 1200,
+    "total_live_ncbi_requests": 928
+  },
+  "funnel": {
+    "primary": {
+      "n_rows": 14571,
+      "flag_language_english": 14547,
+      "flag_date_in_window": 14548,
+      "flag_topic_evidence": 14523,
+      "flag_abstract_present": 14328,
+      "flag_licence_ccby_or_cc0": 12441,
+      "flag_any_kwd_group": 13324,
+      "flag_confident_author_kwds": 1599,
+      "flag_eligible_for_release": 12252,
+      "flag_fully_eligible": 1341,
+      "duplicate_pmcid": 0,
+      "duplicate_doi_nonnull": 0,
+      "missing_title": 2130,
+      "parse_error_nonnull": 0
+    },
+    "extended": {
+      "n_rows": 12366,
+      "flag_language_english": 12358,
+      "flag_date_in_window": 12358,
+      "flag_topic_evidence": 12332,
+      "flag_abstract_present": 12152,
+      "flag_licence_ccby_or_cc0": 11056,
+      "flag_any_kwd_group": 11319,
+      "flag_confident_author_kwds": 1268,
+      "flag_eligible_for_release": 10892,
+      "flag_fully_eligible": 1148,
+      "duplicate_pmcid": 0,
+      "duplicate_doi_nonnull": 0,
+      "missing_title": 1310,
+      "parse_error_nonnull": 0
+    },
+    "merged_authoritative": {
+      "n_rows": 15368,
+      "flag_language_english": 15343,
+      "flag_date_in_window": 15342,
+      "flag_topic_evidence": 15311,
+      "flag_abstract_present": 15079,
+      "flag_licence_ccby_or_cc0": 12866,
+      "flag_any_kwd_group": 13982,
+      "flag_confident_author_kwds": 1635,
+      "flag_eligible_for_release": 12655,
+      "flag_fully_eligible": 1364,
+      "duplicate_pmcid": 0,
+      "duplicate_doi_nonnull": 0,
+      "missing_title": 2502,
+      "parse_error_nonnull": 0
+    }
+  },
+  "strict_author_keyword_corpus": {
+    "primary": {
+      "author_keyword_occurrences": 7521,
+      "unique_raw_author_keyword_strings": 5213,
+      "contributing_articles": 1341
+    },
+    "merged_authoritative": {
+      "author_keyword_occurrences": 7633,
+      "unique_raw_author_keyword_strings": 5283,
+      "contributing_articles": 1364
+    }
+  },
+  "authoritative_raw_count": 15368,
+  "authoritative_fully_eligible_count": 1364,
+  "authoritative_unique_strict_keyword_count": 5283,
+  "discrepancy_resolved": true,
+  "original_feasibility_reports_preserved_unmodified": [
+    "strengthening/reports/pmc_hypertension_feasibility.json",
+    "strengthening/reports/pmc_hypertension_feasibility.md"
+  ]
+}

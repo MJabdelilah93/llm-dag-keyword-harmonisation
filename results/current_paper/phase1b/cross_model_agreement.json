@@ -1,0 +1,317 @@
+{
+  "n_pairs": 149,
+  "overall_exact_agreement_3way": 0.8121,
+  "cohens_kappa_3way": 0.6852,
+  "n_disagreements": 28,
+  "n_claude_wrong_vs_gold_decided_only": 3,
+  "n_openai_wrong_vs_gold_decided_only": 17,
+  "n_both_wrong": 3,
+  "n_only_claude_wrong": 0,
+  "n_only_openai_wrong": 14,
+  "error_overlap_pair_ids": {
+    "both_wrong": [
+      "BP0110",
+      "BP0298",
+      "BP0324"
+    ],
+    "only_claude_wrong": [],
+    "only_openai_wrong": [
+      "BP0042",
+      "BP0087",
+      "BP0137",
+      "BP0139",
+      "BP0155",
+      "BP0257",
+      "BP0262",
+      "BP0273",
+      "BP0280",
+      "BP0299",
+      "BP0301",
+      "BP0389",
+      "BP0397",
+      "BP0429"
+    ]
+  },
+  "disagreements_vs_gold": [
+    {
+      "pair_id": "BP0042",
+      "gold_label": "non_match",
+      "stratum": "ii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.78,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0087",
+      "gold_label": "match",
+      "stratum": "iii",
+      "claude_majority_decision": "match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0088",
+      "gold_label": "uncertain",
+      "stratum": "iii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.15,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0095",
+      "gold_label": "uncertain",
+      "stratum": "iii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.15,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0110",
+      "gold_label": "match",
+      "stratum": "iii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.42,
+      "claude_matches_gold": false,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0120",
+      "gold_label": "uncertain",
+      "stratum": "iii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.15,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0137",
+      "gold_label": "match",
+      "stratum": "iii",
+      "claude_majority_decision": "match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.45,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0139",
+      "gold_label": "match",
+      "stratum": "iii",
+      "claude_majority_decision": "match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0155",
+      "gold_label": "match",
+      "stratum": "iv",
+      "claude_majority_decision": "match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0189",
+      "gold_label": "uncertain",
+      "stratum": "ix",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0195",
+      "gold_label": "uncertain",
+      "stratum": "ix",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.15,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0197",
+      "gold_label": "uncertain",
+      "stratum": "ix",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0204",
+      "gold_label": "uncertain",
+      "stratum": "ix",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0213",
+      "gold_label": "uncertain",
+      "stratum": "ix",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "match",
+      "openai_confidence": 0.9,
+      "claude_matches_gold": false,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0215",
+      "gold_label": "uncertain",
+      "stratum": "ix",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0257",
+      "gold_label": "non_match",
+      "stratum": "vi",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.45,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0262",
+      "gold_label": "non_match",
+      "stratum": "vi",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.45,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0273",
+      "gold_label": "non_match",
+      "stratum": "vi",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.78,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0280",
+      "gold_label": "non_match",
+      "stratum": "vi",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "match",
+      "openai_confidence": 0.86,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0299",
+      "gold_label": "non_match",
+      "stratum": "vi",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "match",
+      "openai_confidence": 0.9,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0301",
+      "gold_label": "non_match",
+      "stratum": "vi",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.78,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0389",
+      "gold_label": "non_match",
+      "stratum": "vii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.45,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0397",
+      "gold_label": "non_match",
+      "stratum": "vii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.78,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0401",
+      "gold_label": "uncertain",
+      "stratum": "viii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0402",
+      "gold_label": "uncertain",
+      "stratum": "viii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0417",
+      "gold_label": "uncertain",
+      "stratum": "viii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.35,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    },
+    {
+      "pair_id": "BP0429",
+      "gold_label": "non_match",
+      "stratum": "viii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.2,
+      "claude_matches_gold": true,
+      "openai_matches_gold": false
+    },
+    {
+      "pair_id": "BP0433",
+      "gold_label": "uncertain",
+      "stratum": "viii",
+      "claude_majority_decision": "non_match",
+      "openai_decision": "uncertain",
+      "openai_confidence": 0.2,
+      "claude_matches_gold": false,
+      "openai_matches_gold": true
+    }
+  ]
+}

@@ -10,6 +10,7 @@ from collections import defaultdict, Counter
 from datetime import datetime
 import pathlib
 
+import os
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 import pandas as pd
@@ -21,7 +22,10 @@ from sklearn.metrics import adjusted_rand_score, adjusted_mutual_info_score
 SEED = 42
 np.random.seed(SEED)
 
-BASE   = pathlib.Path(r"c:\Users\AbdelilahElMajjaoui\Downloads\PhD\Article 7\concept_harmonisation")
+BASE   = pathlib.Path(
+    os.environ.get("V1_EVIDENCE_ROOT")
+    or pathlib.Path(__file__).resolve().parents[1]
+)  # portable: env var override, else auto-discovered from this file's location (Phase 0B Task 15)
 INTERN = BASE / "data" / "interim"
 RES    = BASE / "results"
 LOGS   = RES / "llm_logs"

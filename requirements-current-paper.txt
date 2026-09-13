@@ -1,0 +1,45 @@
+# requirements-current-paper.txt
+#
+# CURRENT REPRODUCIBLE ENVIRONMENT PIN — captured 2026-08-24 during the
+# Phase 0B repair, on the machine that also holds the historical evidence.
+#
+# THIS IS NOT A RECORD OF THE ORIGINAL 2026-04 EXECUTION ENVIRONMENT.
+# No lockfile, version pin, or environment snapshot was captured at the time
+# of the original run, and none can be reconstructed after the fact with
+# certainty. Treat every version below as "known to work with the verified
+# v1 logic as of 2026-08", not as "what produced the original numbers."
+#
+# Confirmed relevant to the Task 7-9 determinism repair specifically:
+# networkx and python-louvain were UNPINNED in the original requirements.txt
+# and are the most likely source of the original Louvain non-determinism
+# (see docs/provenance/downstream_determinism_repair.md). Pinning them here
+# does not retroactively fix the original run; it only fixes the *repair*
+# scripts' own reproducibility going forward.
+
+anthropic==0.84.0
+google-genai==2.19.0
+jellyfish==1.2.1
+openai==3.3.1
+matplotlib==3.10.8
+networkx==3.6.1
+numpy==2.4.2
+pandas==3.0.1
+pytest==9.0.2
+python-dotenv==1.2.2
+python-louvain==0.16
+PyYAML==6.0.3
+RapidFuzz==3.14.3
+scikit-learn==1.8.0
+seaborn==0.13.2
+sentence-transformers==5.2.3
+tqdm==4.67.3
+
+# Declared in the original requirements.txt but NOT installed in this
+# reproducible pin (confirmed via `pip list`). jsonschema is confirmed
+# unused by any executed script (Phase 0A audit). python-Levenshtein and
+# unidecode are not confirmed used by any executed script either — install
+# them only if a specific script is found to require them.
+#   jsonschema
+#   python-Levenshtein
+#   unidecode
+#   pytest-cov

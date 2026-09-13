@@ -1,5 +1,11 @@
 # Data Access Guide
 
+> **Scope note (v2.0.0):** this file describes the **original, pre-strengthening (v1.0.0)**
+> benchmark and its Zenodo records only. It is preserved unchanged as historical documentation.
+> For the strengthened v2.0.0 evidence base (the 900-pair prospective benchmark, the
+> diabetes-mellitus domain, and the current data-availability picture), see the repository root's
+> `DATA_AVAILABILITY.md` instead.
+
 Explains what is available where and how to access it.
 
 ---

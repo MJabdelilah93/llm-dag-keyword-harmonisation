@@ -1,0 +1,137 @@
+{
+  "generated_at_utc": "2026-09-07T06:51:29.692534+00:00",
+  "api_service": [
+    "NCBI E-utilities esearch",
+    "NCBI E-utilities efetch",
+    "PMC OAI-PMH GetRecord"
+  ],
+  "exact_query_topic_evidence": [
+    "hypertens*",
+    "high blood pressure"
+  ],
+  "retrieval_window_primary": [
+    "2026-09-06T16:13:00.687174+00:00",
+    "2026-09-06T17:21:14.197353+00:00"
+  ],
+  "retrieval_window_extended": [
+    "2026-09-06T20:10:33.133922+00:00",
+    "2026-09-06T21:20:31.900293+00:00"
+  ],
+  "date_range_primary": [
+    "2015-01-01",
+    "2025-12-31"
+  ],
+  "date_range_extended_tested": [
+    "2010-01-01",
+    "2025-12-31"
+  ],
+  "start_date_override_used": "2010-01-01 (primary 2015-01-01 was insufficient for stratum iv alone; merged with primary rather than replacing it)",
+  "total_records_found": 15368,
+  "records_passing_language_filter": 15343,
+  "records_passing_date_filter": 15342,
+  "records_passing_topic_filter": 15311,
+  "records_with_abstract": 15079,
+  "licence_counts": {
+    "by": 12769,
+    "by-nc-nd": 1127,
+    "by-nc": 874,
+    "by-nc-sa": 252,
+    "unknown": 162,
+    "cc0": 97,
+    "none": 74,
+    "by-nd": 9,
+    "by-sa": 3,
+    "cc-by": 1
+  },
+  "cc_by_count": 12769,
+  "cc0_count": 97,
+  "excluded_licence_counts_by_reason": {
+    "non_permitted_licence_cc_by_nc_nd": 1127,
+    "non_permitted_licence_cc_by_nc": 874,
+    "non_permitted_licence_cc_by_nc_sa": 252,
+    "unclear_or_unrecognised_licence": 162,
+    "no_license_element": 74,
+    "non_permitted_licence_cc_by_nd": 9,
+    "non_permitted_licence_cc_by_sa": 3,
+    "non_permitted_licence_cc_cc_by": 1
+  },
+  "records_with_any_keyword_group": 13982,
+  "records_with_confident_author_keywords": 1635,
+  "ambiguous_keyword_group_count": 12425,
+  "records_fully_eligible": 1364,
+  "total_author_keyword_occurrences_strict": 7633,
+  "unique_raw_author_keyword_strings_strict": 5283,
+  "keywords_per_article_distribution_strict": {
+    "count": 1364.0,
+    "mean": 5.596041055718475,
+    "std": 1.5687751533618475,
+    "min": 1.0,
+    "25%": 5.0,
+    "50%": 5.0,
+    "75%": 6.0,
+    "max": 23.0
+  },
+  "duplicate_pmcid_check": 0,
+  "duplicate_doi_check": 0,
+  "missing_title_count": 2502,
+  "missing_abstract_count": 289,
+  "top_20_keyword_frequencies_strict": {
+    "hypertension": 193,
+    "cardiovascular disease": 51,
+    "pulmonary hypertension": 42,
+    "pregnancy": 36,
+    "obesity": 34,
+    "stroke": 33,
+    "COVID-19": 32,
+    "heart failure": 32,
+    "blood pressure": 31,
+    "diabetes mellitus": 31,
+    "case report": 30,
+    "risk factors": 29,
+    "Hypertension": 28,
+    "preeclampsia": 24,
+    "mortality": 24,
+    "metabolic syndrome": 23,
+    "atrial fibrillation": 23,
+    "diabetes": 22,
+    "coronary artery disease": 21,
+    "cardiovascular diseases": 20
+  },
+  "keyword_string_character_flags_strict": {
+    "punctuation": 295,
+    "hyphen": 508,
+    "uppercase_acronym_like": 75,
+    "digits": 166,
+    "parentheses": 227
+  },
+  "candidate_pool_size_per_stratum": {
+    "vii": 8164,
+    "vi": 1407,
+    "x": 14109,
+    "viii": 793,
+    "iii": 332,
+    "iv": 36,
+    "ii": 5561,
+    "i": 178,
+    "v": 61,
+    "ix": 38
+  },
+  "stratum_quotas_biomedical_500": {
+    "i": 40,
+    "ii": 45,
+    "iii": 55,
+    "iv": 40,
+    "v": 35,
+    "vi": 75,
+    "vii": 75,
+    "viii": 60,
+    "ix": 35,
+    "x": 40
+  },
+  "all_ten_strata_quotas_achievable": false,
+  "diabetes_fallback_activated": false,
+  "broader_time_window_tested": true,
+  "n_contributing_articles_strict": 1364,
+  "ncbi_rate_limit_policy": "anonymous ~3 req/s (no API key configured); min inter-request interval 0.4s",
+  "total_live_ncbi_requests": 992
+}

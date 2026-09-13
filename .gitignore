@@ -59,3 +59,36 @@ INTERNAL_PROJECT_STATE.md
 
 # Claude Code internal settings
 .claude/
+
+# Phase 0B: local-only restricted artefacts (Scopus-derived keyword content).
+# Full corrected maps / reparsed logs with real keyword strings live here,
+# never committed. Only checksums/aggregate summaries are tracked in the repo.
+restricted_local/
+
+# Phase 1B: REAL (--mode real) LLM raw outputs quote the actual Scopus-derived
+# keyword pair text verbatim in the model's own "justification" field (e.g.
+# "Brazil and England are distinct geographic entities..."), same Elsevier
+# licensing restriction as restricted_local/ above. Synthetic dry-run outputs
+# (MockClient -- fixed placeholder text, no real keyword content) remain
+# tracked; only real-mode run directories (named *_real_*, this repair's
+# convention) are excluded here. Manifests/aggregate metrics/hashes are
+# tracked in git; raw model completions stay local only. See
+# docs/provenance/phase1b_real_raw_outputs_manifest.md.
+results/current_paper/rerun_stability/run_real_*/raw_outputs.jsonl
+results/current_paper/second_model/*/*_real_*/raw_outputs.jsonl
+
+# M7 strengthening phase (2026): restricted/local-only areas for the new
+# strengthening/ subtree. Circular-economy keyword strings are Scopus-derived
+# (Elsevier licensing, same restriction as legacy restricted_local/ above);
+# raw PMC XML and raw run outputs are local working data, not for commit.
+strengthening/restricted_local/
+strengthening/data_raw/
+strengthening/runs/raw/
+
+# strengthening/data_pmc/ mixes article metadata and keyword text from
+# licence-eligible (CC BY/CC0) AND ineligible (e.g. CC BY-NC-ND) PMC
+# articles in the same files -- it is local, mixed-licence intermediate
+# research material, never releaseable as-is. Only a strictly re-filtered
+# derivative under strengthening/data_release/pmc_<topic>/ (CC BY/CC0 +
+# confidently_author records only) may ever be committed.
+strengthening/data_pmc/

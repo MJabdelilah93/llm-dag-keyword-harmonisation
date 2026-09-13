@@ -1,0 +1,594 @@
+{
+  "scan_date": "2026-08-24",
+  "scan_method": "local, no-network; git rev-list --objects across origin/main, repair/current-paper-v1.0.1, v1.0.0, v_1.0.0; CSV header / JSON(L) key inspection; markdown SHA-256 line-hash comparison against 4 known leak signatures",
+  "refs_scanned": [
+    "origin/main",
+    "repair/current-paper-v1.0.1",
+    "v1.0.0",
+    "v_1.0.0"
+  ],
+  "total_blobs_examined": 76,
+  "entries": [
+    {
+      "filepath": "results/error_analysis.csv",
+      "affected_commit_count": 1,
+      "affected_blob_count": 1,
+      "restricted_content_category": "prediction_error_file",
+      "currently_public_at_head": true,
+      "historical_only": false,
+      "blob_shas": [
+        "904458c2194c00503895660fdf00172fc3d06b58"
+      ],
+      "source": "author-provided known list"
+    },
+    {
+      "filepath": "results/test_predictions.csv",
+      "affected_commit_count": 1,
+      "affected_blob_count": 1,
+      "restricted_content_category": "prediction_error_file",
+      "currently_public_at_head": true,
+      "historical_only": false,
+      "blob_shas": [
+        "ef432ea3509ced5150da586e9b90399108648878"
+      ],
+      "source": "author-provided known list"
+    },
+    {
+      "filepath": "results/test_predictions_baselines.csv",
+      "affected_commit_count": 1,
+      "affected_blob_count": 1,
+      "restricted_content_category": "prediction_error_file",
+      "currently_public_at_head": true,
+      "historical_only": false,
+      "blob_shas": [
+        "131f1ef8af9f9cc82e1755e6275c6e416aa94974"
+      ],
+      "source": "author-provided known list"
+    },
+    {
+      "filepath": "results/downstream_harmonisation_maps/raw_map.csv",
+      "affected_commit_count": 2,
+      "affected_blob_count": 1,
+      "restricted_content_category": "harmonisation_map",
+      "currently_public_at_head": true,
+      "historical_only": false,
+      "blob_shas": [
+        "7de34f8661da4a974703518e9d6fb3353e8f64a2"
+      ],
+      "source": "author-provided known list"
+    },
+    {
+      "filepath": "results/downstream_harmonisation_maps/b3_map.csv",
+      "affected_commit_count": 2,
+      "affected_blob_count": 1,
+      "restricted_content_category": "harmonisation_map",
+      "currently_public_at_head": true,
+      "historical_only": false,
+      "blob_shas": [
+        "1cd654dcedf9baec889bcde5272ab45e66ae8f28"
+      ],
+      "source": "author-provided known list"
+    },
+    {
+      "filepath": "results/downstream_harmonisation_maps/full_llm_dag_map.csv",
+      "affected_commit_count": 2,
+      "affected_blob_count": 1,
+      "restricted_content_category": "harmonisation_map",
+      "currently_public_at_head": true,
+      "historical_only": false,
+      "blob_shas": [
+        "cf1296670f480d674f70e082a8992d704f86a148"
+      ],
+      "source": "author-provided known list"
+    },
+    {
+      "filepath": "docs/provenance/phase1b_real_raw_outputs_manifest.md",
+      "affected_commit_count": 3,
+      "affected_blob_count": 3,
+      "restricted_content_category": "phase1b_documentation_quotation",
+      "currently_public_at_head": false,
+      "historical_only": true,
+      "scope": "local-only, repair branch, never pushed",
+      "blob_shas": [
+        "396f1939aef14958f82d05de324a2f5e3f685029",
+        "e27b4fe4362fffac4aed23b327dca9494d042cb9",
+        "e42251dbd7e960dd850ca21778991f0ac3992a33"
+      ],
+      "leak_blob_shas": [
+        "396f1939aef14958f82d05de324a2f5e3f685029",
+        "e42251dbd7e960dd850ca21778991f0ac3992a33"
+      ],
+      "source": "author-provided known list"
+    },
+    {
+      "filepath": "PHASE_1B_RESULTS_REPORT.md",
+      "affected_commit_count": 3,
+      "affected_blob_count": 3,
+      "restricted_content_category": "phase1b_documentation_quotation",
+      "currently_public_at_head": false,
+      "historical_only": true,
+      "scope": "local-only, repair branch, never pushed",
+      "blob_shas": [
+        "b2a40c18a50f9d41fa7bf3f3fb7a4d78a48a7021",
+        "c9f7d10c81b8bbbabf6cc3c8d0d7925a0762e78b",
+        "f5370d23b91122c184e2c2b3378bec2b319420dc"
+      ],
+      "leak_blob_shas": [
+        "b2a40c18a50f9d41fa7bf3f3fb7a4d78a48a7021"
+      ],
+      "source": "author-provided known list"
+    },
+    {
+      "filepath": "data/benchmark/adjudication_sheet.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "ba422528b482a98a70c855d7bff7d077d4677f98"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/annotation_sheet.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "8fb250c7e21de22f3f313cc15f08a99986a5394c"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/annotation_sheet_annotator1.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "af3b920014eb6bba4444f81501711669842becdf"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/annotation_sheet_annotator2.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "ee048108c8f7ff14bc8bd3740819565ce4881de1"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/candidate_pairs.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "09d760c39d1ff0cd643eb9d7d40328a907e0f8be"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/dev_set.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "adfe143707a3399b7e7b5e9752795542e84f8e67"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/disagreement_pairs.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "5e51dbe297c07095d99ff20ede9b47f24d21948b"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/gold_benchmark.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "6fca8b2edb2c6755f04e5c133844e9760d22877f"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/pilot_annotator1.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "4c4cb6eaa388ad1e38c14abb9c5c559fe1441113"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/pilot_annotator1_COMPLETED.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "dcd725282f0b50fd95fda30923ca4f2931bb31e5"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/pilot_annotator2.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "4401f63439eb2bb112be63ff18e0b78cc7c96312"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/pilot_annotator2_COMPLETED.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "47f172e72b982c7656d664f3248852578fc22e07"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/pilot_pairs.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "d7d9eaa66e077d1243b21e7e029ee8a3f29087ad"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/benchmark/test_set.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "benchmark_annotation_data",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "d699b8ed4c31da4808c74cdd10f582f80299e2b1"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/derived/author_keyword_frequencies.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "corpus_frequency_data",
+      "matched_suspect_columns": [
+        "keyword"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "5a10962f51359c3b93bfdab0743d77093184766c"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "data/derived/index_keyword_frequencies.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "corpus_frequency_data",
+      "matched_suspect_columns": [
+        "keyword"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "2276601781913eaeb036973421a1a75153e2980e"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "examples/synthetic_keywords.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "RESOLVED_2026-08-26: SAFE_SYNTHETIC (see restricted_examples_files_check_2026-08-26.md)",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": true,
+      "currently_present_at_repair_branch_head": true,
+      "historical_only": false,
+      "blob_shas": [
+        "02392160d8956491dba52b724300006c4b572864"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "examples/synthetic_mapping_example.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "RESOLVED_2026-08-26: SAFE_SYNTHETIC (see restricted_examples_files_check_2026-08-26.md)",
+      "matched_suspect_columns": [
+        "raw_keyword"
+      ],
+      "currently_public_at_head": true,
+      "currently_present_at_repair_branch_head": true,
+      "historical_only": false,
+      "blob_shas": [
+        "b68b48f7e1d7ba1526ac22c997448cde8f241a34"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "outputs/figures/vosviewer_exports/b3_keyword_frequencies.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "vosviewer_export_data",
+      "matched_suspect_columns": [
+        "keyword"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "23ad70a7d38a090008fc4f94666e3165d8c7e267"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "outputs/figures/vosviewer_exports/llm_dag_keyword_frequencies.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "vosviewer_export_data",
+      "matched_suspect_columns": [
+        "keyword"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "8d0f086d4e1173ea50b43da741a812e3c1af5d91"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "outputs/figures/vosviewer_exports/raw_keyword_frequencies.csv",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "vosviewer_export_data",
+      "matched_suspect_columns": [
+        "keyword"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "74c8db3cf6901242659be0cacba9d1ba7f64f3e4"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "results/llm_logs/ablation_A2_raw_outputs.jsonl",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "llm_raw_output_log",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "fdf206dcf002ac702a01817023e22edc09599030"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "results/llm_logs/ablation_A4_raw_outputs.jsonl",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "llm_raw_output_log",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "a6838f5594cd8b68aac5c19c67e328b89a458701"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "results/llm_logs/b6_dev_raw_outputs.jsonl",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "llm_raw_output_log",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "4f0d3f2f30f4fea2a0731c2681e2784dacf5fd78"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "results/llm_logs/b6_test_raw_outputs.jsonl",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "llm_raw_output_log",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "b2fc1615be88b874fb75baa9e600be21d83e0fa6"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "results/llm_logs/dev_workflow_raw_outputs.jsonl",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "llm_raw_output_log",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "309514ea0b1036adbd6c019b2a0179b5b24707e5"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "results/llm_logs/downstream_deterministic_completions.jsonl",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "llm_raw_output_log",
+      "matched_suspect_columns": [
+        "justification",
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "e41205ba3a1685bb90c55c06a33801c14632f0fe"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    },
+    {
+      "filepath": "results/llm_logs/test_raw_outputs.jsonl",
+      "affected_commit_count": null,
+      "affected_blob_count": 1,
+      "restricted_content_category": "llm_raw_output_log",
+      "matched_suspect_columns": [
+        "keyword_a",
+        "keyword_b"
+      ],
+      "currently_public_at_head": false,
+      "currently_present_at_repair_branch_head": false,
+      "historical_only": true,
+      "blob_shas": [
+        "4a3a8f5e78679c90cda57f1b6510fc9649198680"
+      ],
+      "source": "broad sweep (not in author-provided known list)"
+    }
+  ],
+  "ambiguous_finding_note": "examples/synthetic_keywords.csv and examples/synthetic_mapping_example.csv are named as synthetic/example data and are currently public at origin/main HEAD. A safe, no-display check found EXACT full-cell-value matches against the real corpus keyword list at a rate too high to confidently attribute to coincidence (11/30 cells for the first file, 19/35 for the second), but this audit does not conclusively determine whether these are genuinely synthetic examples that happen to reuse common domain vocabulary, or mislabelled real content. Flagged for author verification; NOT included in the Phase D rewrite scope pending that verification, to avoid unilaterally altering potentially-legitimate documentation content on inconclusive evidence. [2026-08-26 RESOLUTION: both files classified SAFE_SYNTHETIC based on author commit-message provenance, distinct ID scheme, and small hand-authored structure; left unchanged. See docs/provenance/restricted_examples_files_check_2026-08-26.md for full detail.]"
+}

@@ -1,0 +1,23 @@
+{
+  "denominator_definitions": {
+    "ALL_149": "every test pair, regardless of gold label",
+    "GOLD_BINARY_124": "test pairs whose gold label is match or non_match only (excludes the 25 gold-uncertain pairs)"
+  },
+  "openai": {
+    "definitive_predictions_among_all_149": 113,
+    "abstentions_among_all_149": 36,
+    "coverage_over_all_149": 0.7584,
+    "definitive_predictions_among_gold_binary_124": 111,
+    "abstentions_among_gold_binary_124": 13,
+    "coverage_over_gold_binary_124": 0.8952
+  },
+  "claude_majority": {
+    "definitive_predictions_among_all_149": 138,
+    "abstentions_among_all_149": 11,
+    "coverage_over_all_149": 0.9262,
+    "definitive_predictions_among_gold_binary_124": 124,
+    "abstentions_among_gold_binary_124": 0,
+    "coverage_over_gold_binary_124": 1.0
+  },
+  "clarification": "The previously reported 'coverage=0.7584' for OpenAI uses denominator ALL_149 (113/149 definitive = 0.7584). The previously reported 'n_decided=111' is the count of definitive predictions among the GOLD_BINARY_124 subset only (111/124), NOT 111/149 as the prior report's prose incorrectly stated -- 111/149 would be 0.7450, which is not the reported coverage figure. This script fixes the label; the underlying binary_metrics() computation in phase1b_analysis.py was already numerically correct (precision/recall/F1 were computed over the right subset), only the report's PROSE mislabelled the denominator of the printed 'n_decided' number."
+}

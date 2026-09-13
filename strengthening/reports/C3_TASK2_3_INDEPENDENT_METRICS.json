@@ -1,0 +1,1529 @@
+{
+  "independent_recomputation": {
+    "B1_Exact": {
+      "ce400": {
+        "binary": {
+          "tp": 32,
+          "fp": 0,
+          "fn": 71,
+          "tn": 291,
+          "abstained": 0,
+          "n_binary_eligible": 394,
+          "n_answered": 394,
+          "precision": 1.0,
+          "recall": 0.3106796116504854,
+          "f1": 0.4740740740740741,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 394,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 323,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.8197969543147208,
+          "accuracy_conditional_on_answering": 0.8197969543147208,
+          "fp_count": 0,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.0,
+          "fp_rate_of_answered_non_match": 0.0
+        },
+        "three_way": {
+          "accuracy": 0.8075,
+          "macro_f1": 0.45241012383146934,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 32,
+              "non-match": 71,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 0,
+              "non-match": 291,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 6,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 121,
+          "tn": 338,
+          "abstained": 0,
+          "n_binary_eligible": 499,
+          "n_answered": 499,
+          "precision": 1.0,
+          "recall": 0.2484472049689441,
+          "f1": 0.3980099502487562,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 499,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 378,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.7575150300601202,
+          "accuracy_conditional_on_answering": 0.7575150300601202,
+          "fp_count": 0,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.0,
+          "fp_rate_of_answered_non_match": 0.0
+        },
+        "three_way": {
+          "accuracy": 0.756,
+          "macro_f1": 0.41504258157832385,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 40,
+              "non-match": 121,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 0,
+              "non-match": 338,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 192,
+          "tn": 629,
+          "abstained": 0,
+          "n_binary_eligible": 893,
+          "n_answered": 893,
+          "precision": 1.0,
+          "recall": 0.2727272727272727,
+          "f1": 0.42857142857142855,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 893,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 701,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.7849944008958567,
+          "accuracy_conditional_on_answering": 0.7849944008958567,
+          "fp_count": 0,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.0,
+          "fp_rate_of_answered_non_match": 0.0
+        },
+        "three_way": {
+          "accuracy": 0.7788888888888889,
+          "macro_f1": 0.4306631369088472,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 72,
+              "non-match": 192,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 0,
+              "non-match": 629,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 7,
+              "uncertain": 0
+            }
+          }
+        }
+      }
+    },
+    "B2_Normalised": {
+      "ce400": {
+        "binary": {
+          "tp": 32,
+          "fp": 0,
+          "fn": 71,
+          "tn": 291,
+          "abstained": 0,
+          "n_binary_eligible": 394,
+          "n_answered": 394,
+          "precision": 1.0,
+          "recall": 0.3106796116504854,
+          "f1": 0.4740740740740741,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 394,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 323,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.8197969543147208,
+          "accuracy_conditional_on_answering": 0.8197969543147208,
+          "fp_count": 0,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.0,
+          "fp_rate_of_answered_non_match": 0.0
+        },
+        "three_way": {
+          "accuracy": 0.8075,
+          "macro_f1": 0.45241012383146934,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 32,
+              "non-match": 71,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 0,
+              "non-match": 291,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 6,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 121,
+          "tn": 338,
+          "abstained": 0,
+          "n_binary_eligible": 499,
+          "n_answered": 499,
+          "precision": 1.0,
+          "recall": 0.2484472049689441,
+          "f1": 0.3980099502487562,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 499,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 378,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.7575150300601202,
+          "accuracy_conditional_on_answering": 0.7575150300601202,
+          "fp_count": 0,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.0,
+          "fp_rate_of_answered_non_match": 0.0
+        },
+        "three_way": {
+          "accuracy": 0.756,
+          "macro_f1": 0.41504258157832385,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 40,
+              "non-match": 121,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 0,
+              "non-match": 338,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 192,
+          "tn": 629,
+          "abstained": 0,
+          "n_binary_eligible": 893,
+          "n_answered": 893,
+          "precision": 1.0,
+          "recall": 0.2727272727272727,
+          "f1": 0.42857142857142855,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 893,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 701,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.7849944008958567,
+          "accuracy_conditional_on_answering": 0.7849944008958567,
+          "fp_count": 0,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.0,
+          "fp_rate_of_answered_non_match": 0.0
+        },
+        "three_way": {
+          "accuracy": 0.7788888888888889,
+          "macro_f1": 0.4306631369088472,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 72,
+              "non-match": 192,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 0,
+              "non-match": 629,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 7,
+              "uncertain": 0
+            }
+          }
+        }
+      }
+    },
+    "B3_JaroWinkler": {
+      "ce400": {
+        "binary": {
+          "tp": 90,
+          "fp": 6,
+          "fn": 13,
+          "tn": 285,
+          "abstained": 0,
+          "n_binary_eligible": 394,
+          "n_answered": 394,
+          "precision": 0.9375,
+          "recall": 0.8737864077669902,
+          "f1": 0.9045226130653266,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 394,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 375,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9517766497461929,
+          "accuracy_conditional_on_answering": 0.9517766497461929,
+          "fp_count": 6,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.020618556701030927,
+          "fp_rate_of_answered_non_match": 0.020618556701030927
+        },
+        "three_way": {
+          "accuracy": 0.9375,
+          "macro_f1": 0.6208352687808791,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 90,
+              "non-match": 13,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 6,
+              "non-match": 285,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 6,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 125,
+          "fp": 7,
+          "fn": 36,
+          "tn": 331,
+          "abstained": 0,
+          "n_binary_eligible": 499,
+          "n_answered": 499,
+          "precision": 0.946969696969697,
+          "recall": 0.7763975155279503,
+          "f1": 0.8532423208191128,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 499,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 456,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9138276553106213,
+          "accuracy_conditional_on_answering": 0.9138276553106213,
+          "fp_count": 7,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.020710059171597635,
+          "fp_rate_of_answered_non_match": 0.020710059171597635
+        },
+        "three_way": {
+          "accuracy": 0.912,
+          "macro_f1": 0.5969731248811585,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 125,
+              "non-match": 36,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 7,
+              "non-match": 331,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 215,
+          "fp": 13,
+          "fn": 49,
+          "tn": 616,
+          "abstained": 0,
+          "n_binary_eligible": 893,
+          "n_answered": 893,
+          "precision": 0.9429824561403509,
+          "recall": 0.8143939393939394,
+          "f1": 0.8739837398373983,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 893,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 831,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9305711086226204,
+          "accuracy_conditional_on_answering": 0.9305711086226204,
+          "fp_count": 13,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.02066772655007949,
+          "fp_rate_of_answered_non_match": 0.02066772655007949
+        },
+        "three_way": {
+          "accuracy": 0.9233333333333333,
+          "macro_f1": 0.6069825379268396,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 215,
+              "non-match": 49,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 13,
+              "non-match": 616,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 7,
+              "uncertain": 0
+            }
+          }
+        }
+      }
+    },
+    "B4_TFIDF": {
+      "ce400": {
+        "binary": {
+          "tp": 82,
+          "fp": 29,
+          "fn": 21,
+          "tn": 262,
+          "abstained": 0,
+          "n_binary_eligible": 394,
+          "n_answered": 394,
+          "precision": 0.7387387387387387,
+          "recall": 0.7961165048543689,
+          "f1": 0.7663551401869159,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 394,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 344,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.8730964467005076,
+          "accuracy_conditional_on_answering": 0.8730964467005076,
+          "fp_count": 29,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.09965635738831616,
+          "fp_rate_of_answered_non_match": 0.09965635738831616
+        },
+        "three_way": {
+          "accuracy": 0.86,
+          "macro_f1": 0.556601138682995,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 82,
+              "non-match": 21,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 29,
+              "non-match": 262,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 6,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 115,
+          "fp": 25,
+          "fn": 46,
+          "tn": 313,
+          "abstained": 0,
+          "n_binary_eligible": 499,
+          "n_answered": 499,
+          "precision": 0.8214285714285714,
+          "recall": 0.7142857142857143,
+          "f1": 0.7641196013289038,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 499,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 428,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.8577154308617234,
+          "accuracy_conditional_on_answering": 0.8577154308617234,
+          "fp_count": 25,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.07396449704142012,
+          "fp_rate_of_answered_non_match": 0.07396449704142012
+        },
+        "three_way": {
+          "accuracy": 0.856,
+          "macro_f1": 0.5536559129549068,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 115,
+              "non-match": 46,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 25,
+              "non-match": 313,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 197,
+          "fp": 54,
+          "fn": 67,
+          "tn": 575,
+          "abstained": 0,
+          "n_binary_eligible": 893,
+          "n_answered": 893,
+          "precision": 0.7848605577689243,
+          "recall": 0.7462121212121212,
+          "f1": 0.7650485436893204,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 893,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 772,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.864501679731243,
+          "accuracy_conditional_on_answering": 0.864501679731243,
+          "fp_count": 54,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.08585055643879173,
+          "fp_rate_of_answered_non_match": 0.08585055643879173
+        },
+        "three_way": {
+          "accuracy": 0.8577777777777778,
+          "macro_f1": 0.5549640163888763,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 197,
+              "non-match": 67,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 54,
+              "non-match": 575,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 7,
+              "uncertain": 0
+            }
+          }
+        }
+      }
+    },
+    "B5_Embedding": {
+      "ce400": {
+        "binary": {
+          "tp": 88,
+          "fp": 2,
+          "fn": 15,
+          "tn": 289,
+          "abstained": 0,
+          "n_binary_eligible": 394,
+          "n_answered": 394,
+          "precision": 0.9777777777777777,
+          "recall": 0.8543689320388349,
+          "f1": 0.9119170984455958,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 394,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 377,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9568527918781726,
+          "accuracy_conditional_on_answering": 0.9568527918781726,
+          "fp_count": 2,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.006872852233676976,
+          "fp_rate_of_answered_non_match": 0.006872852233676976
+        },
+        "three_way": {
+          "accuracy": 0.9425,
+          "macro_f1": 0.6245491825656145,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 88,
+              "non-match": 15,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 2,
+              "non-match": 289,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 6,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 118,
+          "fp": 5,
+          "fn": 43,
+          "tn": 333,
+          "abstained": 0,
+          "n_binary_eligible": 499,
+          "n_answered": 499,
+          "precision": 0.959349593495935,
+          "recall": 0.7329192546583851,
+          "f1": 0.8309859154929579,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 499,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 451,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9038076152304609,
+          "accuracy_conditional_on_answering": 0.9038076152304609,
+          "fp_count": 5,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.014792899408284023,
+          "fp_rate_of_answered_non_match": 0.014792899408284023
+        },
+        "three_way": {
+          "accuracy": 0.902,
+          "macro_f1": 0.5874848156538298,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 118,
+              "non-match": 43,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 5,
+              "non-match": 333,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 206,
+          "fp": 7,
+          "fn": 58,
+          "tn": 622,
+          "abstained": 0,
+          "n_binary_eligible": 893,
+          "n_answered": 893,
+          "precision": 0.9671361502347418,
+          "recall": 0.7803030303030303,
+          "f1": 0.8637316561844863,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 893,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 828,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9272116461366181,
+          "accuracy_conditional_on_answering": 0.9272116461366181,
+          "fp_count": 7,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.011128775834658187,
+          "fp_rate_of_answered_non_match": 0.011128775834658187
+        },
+        "three_way": {
+          "accuracy": 0.92,
+          "macro_f1": 0.6030068033279595,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 206,
+              "non-match": 58,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 7,
+              "non-match": 622,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 7,
+              "uncertain": 0
+            }
+          }
+        }
+      }
+    },
+    "Primary_M7": {
+      "ce400": {
+        "binary": {
+          "tp": 99,
+          "fp": 4,
+          "fn": 4,
+          "tn": 269,
+          "abstained": 18,
+          "n_binary_eligible": 394,
+          "n_answered": 376,
+          "precision": 0.9611650485436893,
+          "recall": 0.9611650485436893,
+          "f1": 0.9611650485436893,
+          "coverage": 0.9543147208121827,
+          "uncertain_count": 18,
+          "uncertain_rate": 0.04568527918781726
+        },
+        "task3_abstention_handling": {
+          "n_answered": 376,
+          "n_abstained": 18,
+          "coverage": 0.9543147208121827,
+          "n_correct_among_893_abstain_as_wrong": 368,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.934010152284264,
+          "accuracy_conditional_on_answering": 0.9787234042553191,
+          "fp_count": 4,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.013745704467353952,
+          "fp_rate_of_answered_non_match": 0.014652014652014652
+        },
+        "three_way": {
+          "accuracy": 0.935,
+          "macro_f1": 0.7716885859211825,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 99,
+              "non-match": 4,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 4,
+              "non-match": 269,
+              "uncertain": 18
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 0,
+              "uncertain": 6
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 151,
+          "fp": 2,
+          "fn": 7,
+          "tn": 332,
+          "abstained": 7,
+          "n_binary_eligible": 499,
+          "n_answered": 492,
+          "precision": 0.9869281045751634,
+          "recall": 0.9556962025316456,
+          "f1": 0.9710610932475884,
+          "coverage": 0.9859719438877755,
+          "uncertain_count": 7,
+          "uncertain_rate": 0.014028056112224449
+        },
+        "task3_abstention_handling": {
+          "n_answered": 492,
+          "n_abstained": 7,
+          "coverage": 0.9859719438877755,
+          "n_correct_among_893_abstain_as_wrong": 483,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9679358717434869,
+          "accuracy_conditional_on_answering": 0.9817073170731707,
+          "fp_count": 2,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.005917159763313609,
+          "fp_rate_of_answered_non_match": 0.005988023952095809
+        },
+        "three_way": {
+          "accuracy": 0.966,
+          "macro_f1": 0.6470448239796077,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 151,
+              "non-match": 7,
+              "uncertain": 3
+            },
+            "non-match": {
+              "match": 2,
+              "non-match": 332,
+              "uncertain": 4
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 250,
+          "fp": 6,
+          "fn": 11,
+          "tn": 601,
+          "abstained": 25,
+          "n_binary_eligible": 893,
+          "n_answered": 868,
+          "precision": 0.9765625,
+          "recall": 0.9578544061302682,
+          "f1": 0.9671179883945841,
+          "coverage": 0.9720044792833147,
+          "uncertain_count": 25,
+          "uncertain_rate": 0.027995520716685332
+        },
+        "task3_abstention_handling": {
+          "n_answered": 868,
+          "n_abstained": 25,
+          "coverage": 0.9720044792833147,
+          "n_correct_among_893_abstain_as_wrong": 851,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9529675251959686,
+          "accuracy_conditional_on_answering": 0.9804147465437788,
+          "fp_count": 6,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.009538950715421303,
+          "fp_rate_of_answered_non_match": 0.009884678747940691
+        },
+        "three_way": {
+          "accuracy": 0.9522222222222222,
+          "macro_f1": 0.7483739386866771,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 250,
+              "non-match": 11,
+              "uncertain": 3
+            },
+            "non-match": {
+              "match": 6,
+              "non-match": 601,
+              "uncertain": 22
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 6
+            }
+          }
+        }
+      }
+    },
+    "B6": {
+      "ce400": {
+        "binary": {
+          "tp": 98,
+          "fp": 34,
+          "fn": 5,
+          "tn": 257,
+          "abstained": 0,
+          "n_binary_eligible": 394,
+          "n_answered": 394,
+          "precision": 0.7424242424242424,
+          "recall": 0.9514563106796117,
+          "f1": 0.8340425531914895,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 394,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 355,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9010152284263959,
+          "accuracy_conditional_on_answering": 0.9010152284263959,
+          "fp_count": 34,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.11683848797250859,
+          "fp_rate_of_answered_non_match": 0.11683848797250859
+        },
+        "three_way": {
+          "accuracy": 0.8875,
+          "macro_f1": 0.5820699360448314,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 98,
+              "non-match": 5,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 34,
+              "non-match": 257,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 4,
+              "non-match": 2,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 151,
+          "fp": 14,
+          "fn": 10,
+          "tn": 324,
+          "abstained": 0,
+          "n_binary_eligible": 499,
+          "n_answered": 499,
+          "precision": 0.9151515151515152,
+          "recall": 0.937888198757764,
+          "f1": 0.9263803680981596,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 499,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 475,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9519038076152304,
+          "accuracy_conditional_on_answering": 0.9519038076152304,
+          "fp_count": 14,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.04142011834319527,
+          "fp_rate_of_answered_non_match": 0.04142011834319527
+        },
+        "three_way": {
+          "accuracy": 0.95,
+          "macro_f1": 0.6297444218573856,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 151,
+              "non-match": 10,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 14,
+              "non-match": 324,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 249,
+          "fp": 48,
+          "fn": 15,
+          "tn": 581,
+          "abstained": 0,
+          "n_binary_eligible": 893,
+          "n_answered": 893,
+          "precision": 0.8383838383838383,
+          "recall": 0.9431818181818182,
+          "f1": 0.8877005347593583,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 893,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 830,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9294512877939529,
+          "accuracy_conditional_on_answering": 0.9294512877939529,
+          "fp_count": 48,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.07631160572337042,
+          "fp_rate_of_answered_non_match": 0.07631160572337042
+        },
+        "three_way": {
+          "accuracy": 0.9222222222222223,
+          "macro_f1": 0.6092233336215925,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 249,
+              "non-match": 15,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 48,
+              "non-match": 581,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 4,
+              "non-match": 3,
+              "uncertain": 0
+            }
+          }
+        }
+      }
+    },
+    "B7": {
+      "ce400": {
+        "binary": {
+          "tp": 99,
+          "fp": 19,
+          "fn": 4,
+          "tn": 272,
+          "abstained": 0,
+          "n_binary_eligible": 394,
+          "n_answered": 394,
+          "precision": 0.8389830508474576,
+          "recall": 0.9611650485436893,
+          "f1": 0.8959276018099547,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 394,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 371,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9416243654822335,
+          "accuracy_conditional_on_answering": 0.9416243654822335,
+          "fp_count": 19,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.06529209621993128,
+          "fp_rate_of_answered_non_match": 0.06529209621993128
+        },
+        "three_way": {
+          "accuracy": 0.9275,
+          "macro_f1": 0.6127715121136174,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 99,
+              "non-match": 4,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 19,
+              "non-match": 272,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 3,
+              "non-match": 3,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 156,
+          "fp": 7,
+          "fn": 5,
+          "tn": 331,
+          "abstained": 0,
+          "n_binary_eligible": 499,
+          "n_answered": 499,
+          "precision": 0.9570552147239264,
+          "recall": 0.968944099378882,
+          "f1": 0.962962962962963,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 499,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 487,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9759519038076152,
+          "accuracy_conditional_on_answering": 0.9759519038076152,
+          "fp_count": 7,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.020710059171597635,
+          "fp_rate_of_answered_non_match": 0.020710059171597635
+        },
+        "three_way": {
+          "accuracy": 0.974,
+          "macro_f1": 0.6479012345679013,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 156,
+              "non-match": 5,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 7,
+              "non-match": 331,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 255,
+          "fp": 26,
+          "fn": 9,
+          "tn": 603,
+          "abstained": 0,
+          "n_binary_eligible": 893,
+          "n_answered": 893,
+          "precision": 0.9074733096085409,
+          "recall": 0.9659090909090909,
+          "f1": 0.9357798165137614,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 893,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 858,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9608062709966405,
+          "accuracy_conditional_on_answering": 0.9608062709966405,
+          "fp_count": 26,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.04133545310015898,
+          "fp_rate_of_answered_non_match": 0.04133545310015898
+        },
+        "three_way": {
+          "accuracy": 0.9533333333333334,
+          "macro_f1": 0.6331105443672501,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 255,
+              "non-match": 9,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 26,
+              "non-match": 603,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 3,
+              "non-match": 4,
+              "uncertain": 0
+            }
+          }
+        }
+      }
+    },
+    "B8": {
+      "ce400": {
+        "binary": {
+          "tp": 27,
+          "fp": 4,
+          "fn": 76,
+          "tn": 287,
+          "abstained": 0,
+          "n_binary_eligible": 394,
+          "n_answered": 394,
+          "precision": 0.8709677419354839,
+          "recall": 0.2621359223300971,
+          "f1": 0.40298507462686567,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 394,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 314,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.7969543147208121,
+          "accuracy_conditional_on_answering": 0.7969543147208121,
+          "fp_count": 4,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.013745704467353952,
+          "fp_rate_of_answered_non_match": 0.013745704467353952
+        },
+        "three_way": {
+          "accuracy": 0.785,
+          "macro_f1": 0.4242273481079452,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 27,
+              "non-match": 76,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 4,
+              "non-match": 287,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 6,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 133,
+          "fp": 2,
+          "fn": 28,
+          "tn": 336,
+          "abstained": 0,
+          "n_binary_eligible": 499,
+          "n_answered": 499,
+          "precision": 0.9851851851851852,
+          "recall": 0.8260869565217391,
+          "f1": 0.8986486486486487,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 499,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 469,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.9398797595190381,
+          "accuracy_conditional_on_answering": 0.9398797595190381,
+          "fp_count": 2,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.005917159763313609,
+          "fp_rate_of_answered_non_match": 0.005917159763313609
+        },
+        "three_way": {
+          "accuracy": 0.938,
+          "macro_f1": 0.6181839734471314,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 133,
+              "non-match": 28,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 2,
+              "non-match": 336,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 160,
+          "fp": 6,
+          "fn": 104,
+          "tn": 623,
+          "abstained": 0,
+          "n_binary_eligible": 893,
+          "n_answered": 893,
+          "precision": 0.963855421686747,
+          "recall": 0.6060606060606061,
+          "f1": 0.744186046511628,
+          "coverage": 1.0,
+          "uncertain_count": 0,
+          "uncertain_rate": 0.0
+        },
+        "task3_abstention_handling": {
+          "n_answered": 893,
+          "n_abstained": 0,
+          "coverage": 1.0,
+          "n_correct_among_893_abstain_as_wrong": 783,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.8768197088465846,
+          "accuracy_conditional_on_answering": 0.8768197088465846,
+          "fp_count": 6,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.009538950715421303,
+          "fp_rate_of_answered_non_match": 0.009538950715421303
+        },
+        "three_way": {
+          "accuracy": 0.87,
+          "macro_f1": 0.5527819959391903,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 160,
+              "non-match": 104,
+              "uncertain": 0
+            },
+            "non-match": {
+              "match": 6,
+              "non-match": 623,
+              "uncertain": 0
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 7,
+              "uncertain": 0
+            }
+          }
+        }
+      }
+    },
+    "OpenAI_Robustness": {
+      "ce400": {
+        "binary": {
+          "tp": 97,
+          "fp": 8,
+          "fn": 2,
+          "tn": 171,
+          "abstained": 116,
+          "n_binary_eligible": 394,
+          "n_answered": 278,
+          "precision": 0.9238095238095239,
+          "recall": 0.9797979797979798,
+          "f1": 0.9509803921568627,
+          "coverage": 0.7055837563451777,
+          "uncertain_count": 116,
+          "uncertain_rate": 0.29441624365482233
+        },
+        "task3_abstention_handling": {
+          "n_answered": 278,
+          "n_abstained": 116,
+          "coverage": 0.7055837563451777,
+          "n_correct_among_893_abstain_as_wrong": 268,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.6802030456852792,
+          "accuracy_conditional_on_answering": 0.9640287769784173,
+          "fp_count": 8,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.027491408934707903,
+          "fp_rate_of_answered_non_match": 0.0446927374301676
+        },
+        "three_way": {
+          "accuracy": 0.685,
+          "macro_f1": 0.5878370910698497,
+          "n_items": 400,
+          "confusion_matrix": {
+            "match": {
+              "match": 97,
+              "non-match": 2,
+              "uncertain": 4
+            },
+            "non-match": {
+              "match": 8,
+              "non-match": 171,
+              "uncertain": 112
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 0,
+              "uncertain": 6
+            }
+          }
+        }
+      },
+      "diabetes500": {
+        "binary": {
+          "tp": 148,
+          "fp": 14,
+          "fn": 1,
+          "tn": 246,
+          "abstained": 90,
+          "n_binary_eligible": 499,
+          "n_answered": 409,
+          "precision": 0.9135802469135802,
+          "recall": 0.9932885906040269,
+          "f1": 0.9517684887459807,
+          "coverage": 0.8196392785571143,
+          "uncertain_count": 90,
+          "uncertain_rate": 0.18036072144288579
+        },
+        "task3_abstention_handling": {
+          "n_answered": 409,
+          "n_abstained": 90,
+          "coverage": 0.8196392785571143,
+          "n_correct_among_893_abstain_as_wrong": 394,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.7895791583166333,
+          "accuracy_conditional_on_answering": 0.9633251833740831,
+          "fp_count": 14,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.04142011834319527,
+          "fp_rate_of_answered_non_match": 0.05384615384615385
+        },
+        "three_way": {
+          "accuracy": 0.788,
+          "macro_f1": 0.585333037472219,
+          "n_items": 500,
+          "confusion_matrix": {
+            "match": {
+              "match": 148,
+              "non-match": 1,
+              "uncertain": 12
+            },
+            "non-match": {
+              "match": 14,
+              "non-match": 246,
+              "uncertain": 78
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 0
+            }
+          }
+        }
+      },
+      "pooled900": {
+        "binary": {
+          "tp": 245,
+          "fp": 22,
+          "fn": 3,
+          "tn": 417,
+          "abstained": 206,
+          "n_binary_eligible": 893,
+          "n_answered": 687,
+          "precision": 0.9176029962546817,
+          "recall": 0.9879032258064516,
+          "f1": 0.9514563106796116,
+          "coverage": 0.7693169092945129,
+          "uncertain_count": 206,
+          "uncertain_rate": 0.23068309070548712
+        },
+        "task3_abstention_handling": {
+          "n_answered": 687,
+          "n_abstained": 206,
+          "coverage": 0.7693169092945129,
+          "n_correct_among_893_abstain_as_wrong": 662,
+          "accuracy_abstain_as_wrong_over_binary_eligible": 0.7413213885778276,
+          "accuracy_conditional_on_answering": 0.9636098981077147,
+          "fp_count": 22,
+          "fp_rate_of_gold_non_match_binary_eligible": 0.034976152623211444,
+          "fp_rate_of_answered_non_match": 0.05011389521640091
+        },
+        "three_way": {
+          "accuracy": 0.7422222222222222,
+          "macro_f1": 0.590622476269098,
+          "n_items": 900,
+          "confusion_matrix": {
+            "match": {
+              "match": 245,
+              "non-match": 3,
+              "uncertain": 16
+            },
+            "non-match": {
+              "match": 22,
+              "non-match": 417,
+              "uncertain": 190
+            },
+            "uncertain": {
+              "match": 0,
+              "non-match": 1,
+              "uncertain": 6
+            }
+          }
+        }
+      }
+    }
+  },
+  "comparison_to_c2_evaluation_results": {
+    "n_discrepancies": 0,
+    "discrepancies": [],
+    "all_match": true
+  }
+}

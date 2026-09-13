@@ -1,0 +1,68 @@
+{
+  "_purpose": "Phase 1B Task 6 -- committed BEFORE any held-out OpenAI test-set access, as auditable proof that the confidence threshold was pre-registered on development data only.",
+  "run_id": "real_dev_1",
+  "mode": "real",
+  "is_synthetic": false,
+  "started_at_utc": "2026-08-24T14:41:42.435999+00:00",
+  "finished_at_utc": "2026-08-24T14:49:08.965859+00:00",
+  "n_pairs": 351,
+  "n_pairs_expected": 351,
+  "n_errors": 0,
+  "test_set_accessed": false,
+  "model": {
+    "provider": "OpenAI",
+    "model_id_requested": "gpt-5.4-nano-2026-03-17",
+    "endpoint": "Responses API (POST /v1/responses)",
+    "reasoning_effort": "none",
+    "temperature": 0,
+    "max_output_tokens": 256,
+    "seed_passed": false,
+    "top_p_passed": false,
+    "structured_output": {
+      "enforced": true,
+      "format": "text.format=json_schema, strict=true, name=llm_response",
+      "schema_source": "schemas/llm_response.schema.json"
+    },
+    "store": false,
+    "total_input_tokens": 155436,
+    "total_output_tokens": 20140,
+    "total_reasoning_tokens": 0
+  },
+  "prompt": {
+    "system_prompt_path": "prompts/v1.0.0/system_prompt.txt",
+    "user_prompt_template_path": "prompts/v1.0.0/user_prompt_standard.txt",
+    "system_prompt_sha256": "df4da6f0375506f23c603b96e0128b642e895a9f98faa60625b595ee19fe2a31",
+    "user_prompt_template_sha256": "2f925a103d19f5a39afaa47783bf37a8ce69c730609c94dfb4f0c0a852fd4409",
+    "identical_to_historical_primary_model_prompt": true,
+    "auxiliary_context_used": false
+  },
+  "guard": {
+    "guard_version": "v1_verified_1.0.0",
+    "guard_module": "scripts/current_paper/second_model/openai/guard_v1.py"
+  },
+  "threshold_selection": {
+    "rule": "maximise F1 subject to coverage >= 0.70, evaluated on the frozen dev set only",
+    "threshold_grid": [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95],
+    "coverage_floor": 0.70,
+    "full_candidate_table_csv": "results/current_paper/second_model/openai/dev_run_real_dev_1/threshold_candidate_table.csv",
+    "selected_threshold": 0.80,
+    "selected_threshold_dev_metrics": {
+      "precision": 0.901,
+      "recall": 0.901,
+      "f1": 0.901,
+      "coverage": 0.735
+    },
+    "note": "0.80 and 0.85 tie at F1=0.901/coverage=0.735 on dev; the pre-specified rule (first threshold in ascending grid order strictly improving on the running best) deterministically selects 0.80. This tie-break was fixed in the rule before any OpenAI call, not chosen after seeing this result -- see scripts/current_paper/second_model/openai/run_dev_evaluation.py, unchanged from the Gemini-era design in Phase 1B Tasks 1-2."
+  },
+  "adapter_provenance": {
+    "llm_client.py_sha256": "68e41d44980edfdf4a17d013b58435c6b6e572b36f578e909afccb18dc5f1b50",
+    "guard_v1.py_sha256": "077b24f67b97d169527c3ee9399471628a50f288cc685ac4c71dee3ee6db25ae",
+    "run_dev_evaluation.py_sha256": "9819d5e7d88d77b7532ecbe2e27f9baa2ebcd9d71f1318e52c0dd9474d19003e",
+    "run_test_evaluation.py_sha256": "366c39f158e2b867d8df9bccbe14273473497426c7ea7c284302349108e9a67b",
+    "repo_commit_at_time_of_dev_run": "2f9cb89666d5fe2e1ec55227c80aa321555e2231",
+    "openai_sdk_version": "3.3.1"
+  },
+  "frozen_dev_set_sha256": "d5713c7974cd6c8fe88633132c9c07b816a9f688f2614e12b02f12dbc4dd282e",
+  "raw_outputs_path": "results/current_paper/second_model/openai/dev_run_real_dev_1/raw_outputs.jsonl",
+  "commitment": "The threshold, model, prompt, and adapter above are now FROZEN. The held-out OpenAI test run (N=149) must reference this exact file via --dev-manifest and --frozen-threshold 0.80, and run_test_evaluation.py refuses to proceed on any mismatch or if this file's test_set_accessed field is not false."
+}

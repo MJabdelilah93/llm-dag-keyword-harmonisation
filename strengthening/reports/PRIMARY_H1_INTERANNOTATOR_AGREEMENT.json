@@ -1,0 +1,156 @@
+{
+  "generated_at_utc": "2026-09-08T17:09:26.447830+00:00",
+  "validation": {
+    "annotator_1_ok": true,
+    "annotator_2_ok": true
+  },
+  "overall": {
+    "n": 900,
+    "agreements": 422,
+    "disagreements": 478,
+    "raw_agreement_proportion": 0.4689,
+    "cohens_kappa": 0.1408,
+    "kappa_terminology_note": "reported as inter-annotator agreement (Cohen's kappa), not 'reliability'",
+    "annotator_1_label_distribution": {
+      "non-match": 623,
+      "match": 267,
+      "uncertain": 10
+    },
+    "annotator_2_label_distribution": {
+      "match": 670,
+      "non-match": 209,
+      "uncertain": 21
+    },
+    "confusion_matrix_rows_annotator_1_cols_annotator_2": {
+      "match": {
+        "match": 238,
+        "non-match": 25,
+        "uncertain": 4
+      },
+      "non-match": {
+        "match": 426,
+        "non-match": 182,
+        "uncertain": 15
+      },
+      "uncertain": {
+        "match": 6,
+        "non-match": 2,
+        "uncertain": 2
+      }
+    }
+  },
+  "circular_economy": {
+    "n": 400,
+    "agreements": 258,
+    "disagreements": 142,
+    "raw_agreement_proportion": 0.645,
+    "cohens_kappa": 0.3051,
+    "kappa_terminology_note": "reported as inter-annotator agreement (Cohen's kappa), not 'reliability'",
+    "annotator_1_label_distribution": {
+      "non-match": 290,
+      "match": 103,
+      "uncertain": 7
+    },
+    "annotator_2_label_distribution": {
+      "non-match": 209,
+      "match": 170,
+      "uncertain": 21
+    },
+    "confusion_matrix_rows_annotator_1_cols_annotator_2": {
+      "match": {
+        "match": 74,
+        "non-match": 25,
+        "uncertain": 4
+      },
+      "non-match": {
+        "match": 93,
+        "non-match": 182,
+        "uncertain": 15
+      },
+      "uncertain": {
+        "match": 3,
+        "non-match": 2,
+        "uncertain": 2
+      }
+    }
+  },
+  "biomedical_diabetes_mellitus": {
+    "n": 500,
+    "agreements": 164,
+    "disagreements": 336,
+    "raw_agreement_proportion": 0.328,
+    "cohens_kappa": 0.0,
+    "kappa_terminology_note": "reported as inter-annotator agreement (Cohen's kappa), not 'reliability'",
+    "annotator_1_label_distribution": {
+      "non-match": 333,
+      "match": 164,
+      "uncertain": 3
+    },
+    "annotator_2_label_distribution": {
+      "match": 500
+    },
+    "confusion_matrix_rows_annotator_1_cols_annotator_2": {
+      "match": {
+        "match": 164,
+        "non-match": 0,
+        "uncertain": 0
+      },
+      "non-match": {
+        "match": 333,
+        "non-match": 0,
+        "uncertain": 0
+      },
+      "uncertain": {
+        "match": 3,
+        "non-match": 0,
+        "uncertain": 0
+      }
+    }
+  },
+  "disagreement_types_overall": {
+    "unordered": {
+      "match vs non-match": 451,
+      "match vs uncertain": 10,
+      "non-match vs uncertain": 17
+    },
+    "directional": {
+      "annotator_1=non-match / annotator_2=match": 426,
+      "annotator_1=uncertain / annotator_2=match": 6,
+      "annotator_1=non-match / annotator_2=uncertain": 15,
+      "annotator_1=match / annotator_2=non-match": 25,
+      "annotator_1=uncertain / annotator_2=non-match": 2,
+      "annotator_1=match / annotator_2=uncertain": 4
+    },
+    "other": 0
+  },
+  "context_use_crosstab_overall": {
+    "neither": {
+      "n": 892,
+      "proportion_of_total": 0.9911,
+      "disagreement_count": 474,
+      "disagreement_rate": 0.5314
+    },
+    "annotator_1_only": {
+      "n": 6,
+      "proportion_of_total": 0.0067,
+      "disagreement_count": 4,
+      "disagreement_rate": 0.6667
+    },
+    "annotator_2_only": {
+      "n": 2,
+      "proportion_of_total": 0.0022,
+      "disagreement_count": 0,
+      "disagreement_rate": 0.0
+    },
+    "both": {
+      "n": 0,
+      "proportion_of_total": 0.0,
+      "disagreement_count": 0,
+      "disagreement_rate": null
+    }
+  },
+  "historical_context_only_not_a_comparison": {
+    "legacy_pilot_full_round_cohens_kappa": 0.8075,
+    "note": "This is the ORIGINAL legacy benchmark's full-round Cohen's kappa, included here purely as historical background. It is NOT a statistical comparison against the new 900-pair benchmark's agreement figures above -- different annotators, different pairs, different domains."
+  }
+}

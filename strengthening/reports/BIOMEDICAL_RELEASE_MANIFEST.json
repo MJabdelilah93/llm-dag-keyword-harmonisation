@@ -1,0 +1,44 @@
+{
+  "n_diabetes_pairs": 500,
+  "source_licence_counts": {
+    "CC BY": 497,
+    "CC0": 3
+  },
+  "licence_accounting_matches_established_497_cc_by_3_cc0": true,
+  "release_readiness_result": "READY_FOR_FUTURE_RELEASE_DECISION",
+  "public_release_performed": false,
+  "safe_public_fields": [
+    "pair_id",
+    "domain",
+    "string_a",
+    "string_b",
+    "frequency_a",
+    "frequency_b",
+    "canonical_unordered_pair_key",
+    "source_licence",
+    "source_pmcids_a",
+    "source_pmcids_b"
+  ],
+  "restricted_methodology_internal_fields": [
+    "candidate_stratum",
+    "proposing_routes",
+    "route_specific_ranks",
+    "jaro_winkler_score",
+    "tfidf_cosine",
+    "embedding_cosine",
+    "acronym_feature",
+    "punctuation_feature",
+    "plural_feature",
+    "malformed_feature",
+    "short_form_feature",
+    "generation_seed",
+    "generation_timestamp_utc"
+  ],
+  "requires_separate_licensing_review_fields": [
+    "annotator_1_justification",
+    "annotator_2_justification",
+    "adjudicator_notes",
+    "context_lookup_titles"
+  ],
+  "action_taken_this_phase": "PRECHECK ONLY -- no files published, no external upload, no release decision made."
+}

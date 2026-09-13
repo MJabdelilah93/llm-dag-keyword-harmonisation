@@ -1,3 +1,12 @@
+# LEGACY / NOT USED IN V1 EXECUTION.
+# The 9-node list below correctly describes the executed pipeline shape, but
+# the candidate_generation/guard_layer parameter values are never loaded by
+# any script (they are explicitly self-labelled "Placeholder values" below
+# and were, in fact, never updated). No run manifest was ever written to
+# runs/<timestamp>/ — that directory is empty. The values that actually ran
+# are in configs/v1_execution_config.yaml. Retained unmodified as historical
+# documentation of the intended design.
+#
 # DAG Configuration — Concept Harmonisation Pipeline
 # All parameters are logged per run in runs/<timestamp>/manifest.yaml
 

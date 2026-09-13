@@ -1,0 +1,164 @@
+{
+  "current_prices_used": {
+    "claude-haiku-4-5-20251001": {
+      "input": 1.0,
+      "output": 5.0
+    },
+    "gpt-5.4-nano-2026-03-17": {
+      "input": 0.2,
+      "output": 1.25
+    }
+  },
+  "historical_rates": {
+    "anthropic_5_reruns_149pairs": {
+      "n_runs": 5,
+      "total_pairs_across_runs": 745,
+      "total_input_tokens": 314905,
+      "total_output_tokens": 70552,
+      "mean_input_tokens_per_pair": 422.69127516778525,
+      "mean_output_tokens_per_pair": 94.70067114093959,
+      "per_call_percentiles_available": false,
+      "per_call_percentiles_note": "No per-call token arrays survive locally for these runs (raw_outputs.jsonl is gitignored/absent or Zenodo-only); only aggregate per-run totals are available, so mean/median/p95/max PER CALL cannot be computed -- only a mean PER PAIR across runs."
+    },
+    "openai_dev_test": {
+      "n_runs": 2,
+      "total_pairs_across_runs": 500,
+      "total_input_tokens": 221459,
+      "total_output_tokens": 28852,
+      "mean_input_tokens_per_pair": 442.918,
+      "mean_output_tokens_per_pair": 57.704,
+      "per_call_percentiles_available": false,
+      "per_call_percentiles_note": "No per-call token arrays survive locally for these runs (raw_outputs.jsonl is gitignored/absent or Zenodo-only); only aggregate per-run totals are available, so mean/median/p95/max PER CALL cannot be computed -- only a mean PER PAIR across runs."
+    }
+  },
+  "cost_projection": {
+    "primary_m7": {
+      "ce400": {
+        "n_pairs": 400,
+        "expected_cost_usd": 0.3585,
+        "conservative_bound_usd_heuristic_1_5x": 0.5377,
+        "worst_defensible_bound_usd_heuristic_2x": 0.717,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      },
+      "diabetes500": {
+        "n_pairs": 500,
+        "expected_cost_usd": 0.4481,
+        "conservative_bound_usd_heuristic_1_5x": 0.6721,
+        "worst_defensible_bound_usd_heuristic_2x": 0.8962,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      },
+      "combined_900_new_requests": {
+        "n_pairs": 900,
+        "expected_cost_usd": 0.8066,
+        "conservative_bound_usd_heuristic_1_5x": 1.2099,
+        "worst_defensible_bound_usd_heuristic_2x": 1.6132,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      }
+    },
+    "b6_naive_llm_proxy_from_primary_rate": {
+      "ce400": {
+        "n_pairs": 400,
+        "expected_cost_usd": 0.3585,
+        "conservative_bound_usd_heuristic_1_5x": 0.5377,
+        "worst_defensible_bound_usd_heuristic_2x": 0.717,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      },
+      "diabetes500": {
+        "n_pairs": 500,
+        "expected_cost_usd": 0.4481,
+        "conservative_bound_usd_heuristic_1_5x": 0.6721,
+        "worst_defensible_bound_usd_heuristic_2x": 0.8962,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      },
+      "combined_900_new_requests": {
+        "n_pairs": 900,
+        "expected_cost_usd": 0.8066,
+        "conservative_bound_usd_heuristic_1_5x": 1.2099,
+        "worst_defensible_bound_usd_heuristic_2x": 1.6132,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      }
+    },
+    "b7_direct_relation_proxy_from_primary_rate": {
+      "ce400": {
+        "n_pairs": 400,
+        "expected_cost_usd": 0.3585,
+        "conservative_bound_usd_heuristic_1_5x": 0.5377,
+        "worst_defensible_bound_usd_heuristic_2x": 0.717,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      },
+      "diabetes500": {
+        "n_pairs": 500,
+        "expected_cost_usd": 0.4481,
+        "conservative_bound_usd_heuristic_1_5x": 0.6721,
+        "worst_defensible_bound_usd_heuristic_2x": 0.8962,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      },
+      "combined_900_new_requests": {
+        "n_pairs": 900,
+        "expected_cost_usd": 0.8066,
+        "conservative_bound_usd_heuristic_1_5x": 1.2099,
+        "worst_defensible_bound_usd_heuristic_2x": 1.6132,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      }
+    },
+    "openai_second_provider": {
+      "ce400": {
+        "n_pairs": 400,
+        "expected_cost_usd": 0.0643,
+        "conservative_bound_usd_heuristic_1_5x": 0.0964,
+        "worst_defensible_bound_usd_heuristic_2x": 0.1286,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      },
+      "diabetes500": {
+        "n_pairs": 500,
+        "expected_cost_usd": 0.0804,
+        "conservative_bound_usd_heuristic_1_5x": 0.1205,
+        "worst_defensible_bound_usd_heuristic_2x": 0.1607,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      },
+      "combined_900_new_requests": {
+        "n_pairs": 900,
+        "expected_cost_usd": 0.1446,
+        "conservative_bound_usd_heuristic_1_5x": 0.217,
+        "worst_defensible_bound_usd_heuristic_2x": 0.2893,
+        "bound_methodology_note": "No real per-call token percentile exists locally for this method (see per_call_percentiles_note); the 1.5x/2x multipliers are explicit heuristic safety margins, not measured p95/max values, and are labelled as such."
+      }
+    },
+    "b8_hybrid": {
+      "n_new_requests": 0,
+      "cost_usd": 0.0,
+      "note": "reuses B7 predictions, adds zero new LLM calls"
+    }
+  },
+  "combined_expected_cost_usd_900_new_pairs": 2.5644,
+  "paid_request_matrix": {
+    "primary_m7": {
+      "n_new_requests": 900,
+      "provider": "Anthropic",
+      "verified_from_code": "exactly 1 request per pair (scripts/run_full_workflow.py, single call site)"
+    },
+    "b6_naive_llm": {
+      "n_new_requests": 900,
+      "provider": "Anthropic",
+      "verified_from_code": "exactly 1 request per pair (scripts/run_baselines.py:run_b6, single call site)"
+    },
+    "b7_direct_relation": {
+      "n_new_requests": 900,
+      "provider": "Anthropic",
+      "verified_from_code": "exactly 1 request per pair (strengthening/baselines/b7_direct_relation, one classify() per pair)"
+    },
+    "b8_hybrid": {
+      "n_new_requests": 0,
+      "provider": "Anthropic (via B7, reused)",
+      "verified_from_code": "b8_benchmark_eval.py reuses B7's prediction for captured pairs and predicts non-match structurally for uncaptured pairs -- zero additional classify() calls"
+    },
+    "openai_second_provider": {
+      "n_new_requests": 900,
+      "provider": "OpenAI",
+      "verified_from_code": "exactly 1 request per pair (scripts/current_paper/second_model/openai, single call site)"
+    },
+    "total_anthropic_requests": 2700,
+    "total_openai_requests": 900,
+    "note_on_pooled900": "pooled900 is the UNION of ce400 and diabetes500 (900 pairs total), not an ADDITIONAL 900 pairs -- each LLM-based method needs exactly 900 new requests total (run once, then evaluated three ways: CE-only, diabetes-only, pooled), not 400+500+900=1800."
+  }
+}

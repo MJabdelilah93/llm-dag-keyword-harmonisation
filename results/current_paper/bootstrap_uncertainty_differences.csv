@@ -1,0 +1,7 @@
+comparison,metric,point_diff,ci_2.5,ci_97.5,ci_excludes_zero
+Full_LLM_DAG_minus_B3,precision,0.0333,-0.0486,0.1282,False
+Full_LLM_DAG_minus_B3,recall,0.186,0.0769,0.3111,True
+Full_LLM_DAG_minus_B3,f1,0.1186,0.0429,0.2116,True
+Full_LLM_DAG_minus_B6,precision,0.1095,0.0256,0.2096,True
+Full_LLM_DAG_minus_B6,recall,0.0465,-0.0444,0.1429,False
+Full_LLM_DAG_minus_B6,f1,0.0783,0.0166,0.1533,True

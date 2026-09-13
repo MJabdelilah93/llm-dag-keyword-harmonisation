@@ -1,0 +1,82 @@
+{
+  "scope": "ALL 149 pairs, all 3 labels (match/non_match/uncertain), correctness = pred == gold exactly",
+  "claude_majority_confusion_matrix_gold_rows_pred_cols": {
+    "match": {
+      "match": 41,
+      "non_match": 2,
+      "uncertain": 0
+    },
+    "non_match": {
+      "match": 1,
+      "non_match": 80,
+      "uncertain": 0
+    },
+    "uncertain": {
+      "match": 1,
+      "non_match": 13,
+      "uncertain": 11
+    }
+  },
+  "openai_confusion_matrix_gold_rows_pred_cols": {
+    "match": {
+      "match": 37,
+      "non_match": 1,
+      "uncertain": 5
+    },
+    "non_match": {
+      "match": 3,
+      "non_match": 70,
+      "uncertain": 8
+    },
+    "uncertain": {
+      "match": 2,
+      "non_match": 0,
+      "uncertain": 23
+    }
+  },
+  "correctness_contingency_vs_gold": {
+    "both_correct": 118,
+    "claude_only_correct": 14,
+    "openai_only_correct": 12,
+    "both_incorrect": 5
+  },
+  "pairs_where_claude_correct_openai_wrong": [
+    "BP0042",
+    "BP0087",
+    "BP0137",
+    "BP0139",
+    "BP0155",
+    "BP0257",
+    "BP0262",
+    "BP0273",
+    "BP0280",
+    "BP0299",
+    "BP0301",
+    "BP0389",
+    "BP0397",
+    "BP0429"
+  ],
+  "pairs_where_openai_correct_claude_wrong": [
+    "BP0088",
+    "BP0095",
+    "BP0120",
+    "BP0189",
+    "BP0195",
+    "BP0197",
+    "BP0204",
+    "BP0215",
+    "BP0401",
+    "BP0402",
+    "BP0417",
+    "BP0433"
+  ],
+  "both_incorrect_pair_ids": [
+    "BP0110",
+    "BP0212",
+    "BP0213",
+    "BP0298",
+    "BP0324"
+  ],
+  "claude_vs_openai_exact_agreement": 0.8121,
+  "claude_vs_openai_cohens_kappa": 0.6852
+}

@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-09-09T13:28:31.455373+00:00",
+  "scenario": "E_SEEDS30_DEPTH50 + R2-30%",
+  "expected": {
+    "annotator_1_total_rows": 6185,
+    "annotator_1_ce_rows": 3117,
+    "annotator_1_diabetes_rows": 3068,
+    "annotator_2_total_rows": 2066,
+    "annotator_2_outside_pool_rows": 300,
+    "annotator_2_audit_sample_rows": 1766
+  },
+  "observed": {
+    "annotator_1_total_rows": 6185,
+    "annotator_1_ce_rows": 3117,
+    "annotator_1_diabetes_rows": 3068,
+    "annotator_2_total_rows": 2066
+  },
+  "package_files_present": true,
+  "row_counts_match_frozen_manifest": true,
+  "launchers_are_blocking_placeholders": true,
+  "no_working_or_completed_retrieval_files": true,
+  "no_retrieval_labels_filled": true,
+  "package_intact": true,
+  "any_retrieval_label_created": false,
+  "h3_started": false,
+  "h3_ready": true
+}

@@ -1,0 +1,31 @@
+domain,stratum,stratum_label,n,final_match,final_non_match,final_uncertain,initial_agreement_count,initial_agreement_rate,adjudicated_count,adjudicated_rate
+circular_economy,i,Capitalisation and whitespace variants,32,32,0,0,23,0.7188,9,0.2812
+circular_economy,ii,Spelling variants,36,1,35,0,23,0.6389,13,0.3611
+circular_economy,iii,Acronym and expanded form,44,5,33,6,22,0.5,22,0.5
+circular_economy,iv,Punctuation and hyphenation variants,32,32,0,0,22,0.6875,10,0.3125
+circular_economy,v,Singular and plural forms,28,28,0,0,20,0.7143,8,0.2857
+circular_economy,vi,Near-synonyms,60,2,58,0,33,0.55,27,0.45
+circular_economy,vii,Broader/narrower traps,60,3,57,0,41,0.6833,19,0.3167
+circular_economy,viii,Ambiguous short forms,48,0,48,0,30,0.625,18,0.375
+circular_economy,ix,Malformed strings,28,0,28,0,20,0.7143,8,0.2857
+circular_economy,x,Weak semantic variants,32,0,32,0,24,0.75,8,0.25
+biomedical_diabetes_mellitus,i,Capitalisation and whitespace variants,40,40,0,0,14,0.35,26,0.65
+biomedical_diabetes_mellitus,ii,Spelling variants,45,5,39,1,35,0.7778,10,0.2222
+biomedical_diabetes_mellitus,iii,Acronym and expanded form,55,13,42,0,40,0.7273,15,0.2727
+biomedical_diabetes_mellitus,iv,Punctuation and hyphenation variants,40,40,0,0,15,0.375,25,0.625
+biomedical_diabetes_mellitus,v,Singular and plural forms,35,35,0,0,18,0.5143,17,0.4857
+biomedical_diabetes_mellitus,vi,Near-synonyms,75,18,57,0,57,0.76,18,0.24
+biomedical_diabetes_mellitus,vii,Broader/narrower traps,75,2,73,0,66,0.88,9,0.12
+biomedical_diabetes_mellitus,viii,Ambiguous short forms,60,8,52,0,46,0.7667,14,0.2333
+biomedical_diabetes_mellitus,ix,Malformed strings,35,0,35,0,27,0.7714,8,0.2286
+biomedical_diabetes_mellitus,x,Weak semantic variants,40,0,40,0,38,0.95,2,0.05
+overall,i,Capitalisation and whitespace variants,72,72,0,0,37,0.5139,35,0.4861
+overall,ii,Spelling variants,81,6,74,1,58,0.716,23,0.284
+overall,iii,Acronym and expanded form,99,18,75,6,62,0.6263,37,0.3737
+overall,iv,Punctuation and hyphenation variants,72,72,0,0,37,0.5139,35,0.4861
+overall,v,Singular and plural forms,63,63,0,0,38,0.6032,25,0.3968
+overall,vi,Near-synonyms,135,20,115,0,90,0.6667,45,0.3333
+overall,vii,Broader/narrower traps,135,5,130,0,107,0.7926,28,0.2074
+overall,viii,Ambiguous short forms,108,8,100,0,76,0.7037,32,0.2963
+overall,ix,Malformed strings,63,0,63,0,47,0.746,16,0.254
+overall,x,Weak semantic variants,72,0,72,0,62,0.8611,10,0.1389

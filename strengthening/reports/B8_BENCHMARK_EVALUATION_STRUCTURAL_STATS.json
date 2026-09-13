@@ -1,0 +1,33 @@
+{
+  "top_k": 5,
+  "use_dense": false,
+  "performance_note": "use_dense=False in the run that produced this report: B8's dense_retrieval.py re-encodes the full domain universe (~700-800 strings) on EVERY seed query rather than batch-encoding once, which was found to be impractically slow (many minutes, not completed within this session) at this benchmark's universe size (it was designed for smaller retrieval-audit seed sets). This is a real, actionable performance limitation of the existing module, not a data unavailability -- flagged here rather than silently worked around. Lexical-exact anchoring alone was used to produce the real capture/structural numbers below; a batched dense-retrieval pass is a valid follow-up given more running time, not attempted in this phase.",
+  "structural_stats_by_domain": {
+    "biomedical_diabetes_mellitus": {
+      "universe_size": 769,
+      "total_candidate_count_distinct_pairs": 40,
+      "exhaustive_comparison_count": 295296,
+      "reduction_ratio": 0.9998645426961422,
+      "lexical_exclusive_candidates": 80,
+      "dense_exclusive_candidates": 0,
+      "lexical_and_dense_overlap_candidates": 0,
+      "dense_retrieval_available": true,
+      "dense_unavailable_reason": null
+    },
+    "circular_economy": {
+      "universe_size": 687,
+      "total_candidate_count_distinct_pairs": 35,
+      "exhaustive_comparison_count": 235641,
+      "reduction_ratio": 0.9998514689718683,
+      "lexical_exclusive_candidates": 70,
+      "dense_exclusive_candidates": 0,
+      "lexical_and_dense_overlap_candidates": 0,
+      "dense_retrieval_available": true,
+      "dense_unavailable_reason": null
+    }
+  },
+  "n_pairs_captured": 72,
+  "n_pairs_total": 900,
+  "n_pending_prediction": 72,
+  "zero_additional_llm_calls_confirmation": "B8's benchmark-evaluation predictions are either 'non-match' (structural, not captured) or a REUSE of an existing B7 prediction for the same pair_id -- classify_pair()/client.classify() is never invoked by this module."
+}

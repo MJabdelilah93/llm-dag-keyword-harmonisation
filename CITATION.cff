@@ -1,10 +1,16 @@
 cff-version: 1.2.0
-title: "LLM-DAG Keyword Harmonisation Workflow"
+title: "Auditable Concept Harmonisation for Bibliometric Thematic Analysis: Benchmarking Pairwise Equivalence and Downstream Effects"
 message: "If you use this software or benchmark, please cite it using the metadata below."
 type: software
-version: 1.0.0
-date-released: "2026-06-26"
-doi: 10.5281/zenodo.20931435
+version: 2.0.0
+# date-released and doi intentionally left unset: this is the strengthened M7 release, not yet
+# tagged or archived on Zenodo. Do not fill these in with placeholder/fake values -- set them at
+# the moment of actual release. NOTE: a DIFFERENT, EARLIER software DOI already exists for the
+# original (pre-strengthening, rejected) submission's v1.0.0: 10.5281/zenodo.20931435 (released
+# 2026-06-26). That DOI describes different code/results and must not be reused for this release.
+# Also note: git tags `v1.0.0` and `v_1.0.0` already exist on this repository (pointing at the
+# OLD submission's commit) -- the `version: 1.0.0` value below will collide with them if this
+# release is tagged `v1.0.0` as-is. See M7_PUBLIC_RELEASE_AUDIT.md for the recommended resolution.
 repository-code: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
 url: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
 authors:
@@ -12,30 +18,41 @@ authors:
     given-names: Abdelilah
   - family-names: El Haddadi
     given-names: Oumaima
+  - family-names: El Haddadi
+    given-names: Anass
+  - family-names: Bahri
+    given-names: Abdelkhalak
   - family-names: Bouhafer
     given-names: Fadwa
   - family-names: Ouald Chaib
     given-names: Sara
-  - family-names: Bahri
-    given-names: Abdelkhalek
-  - family-names: El Haddadi
-    given-names: Anass
+# NOTE: the previous version of this file spelled the fourth author "Abdelkhalek" Bahri; this
+# revision uses "Abdelkhalak" per the exact spelling supplied for this release. This is a genuine
+# discrepancy between two authoritative-looking sources, not a typo this task can silently
+# resolve -- the correct spelling must be confirmed with the author before publication. No
+# ORCID or affiliation is set for any author: none was supplied to this preparation task and none
+# is invented here.
 abstract: >
-  Pipeline code, prompt templates, configuration files, schemas, and
-  documentation for the auditable LLM-DAG keyword harmonisation workflow
-  described in El Majjaoui et al. (2026), Scientometrics (under review).
-  The workflow formalises bibliometric keyword harmonisation as a pairwise
-  concept-equivalence task with three constrained outputs (match / non-match /
-  uncertain), a guard layer permitting principled abstention, and full
-  provenance logging. Benchmarked against six baselines on a 500-pair
-  gold-standard benchmark (kappa = 0.81, F1 = 0.965, abstention rate 7.4%).
+  Pipeline code, prompt templates, configuration files, schemas, evaluation/audit scripts, and
+  documentation for the auditable concept-harmonisation workflow described in the manuscript
+  "Auditable Concept Harmonisation for Bibliometric Thematic Analysis: Benchmarking Pairwise
+  Equivalence and Downstream Effects". This is the strengthened evidence base prepared following
+  an editorial invitation to resubmit: a 900-pair prospective held-out benchmark (400
+  circular-economy + 500 diabetes-mellitus pairs, gold-labelled 264 match / 629 non-match / 7
+  uncertain) evaluated against eight baselines plus a primary LLM-based method (claude-haiku-4-5)
+  and a second-provider robustness check (gpt-5.4-nano), with paired bootstrap comparison,
+  selective-prediction/AURC analysis, retrieval-augmented (B8) diagnostics, and a
+  transitive-contradiction safety check. Primary method pooled precision/recall/F1 on the
+  prospective benchmark: 0.9766 / 0.9579 / 0.9671 at 97.2% coverage. The original (pre-repair)
+  500-pair legacy benchmark (351 development + 149 held-out pairs) is preserved as the
+  development-phase result, not the primary reported result.
 license: MIT
 keywords:
   - bibliometrics
   - keyword harmonisation
   - concept equivalence
   - large language models
-  - directed acyclic graph
+  - pairwise equivalence benchmarking
   - scientometrics
   - reproducibility
   - co-word analysis
@@ -46,15 +63,15 @@ preferred-citation:
       given-names: Abdelilah
     - family-names: El Haddadi
       given-names: Oumaima
+    - family-names: El Haddadi
+      given-names: Anass
+    - family-names: Bahri
+      given-names: Abdelkhalak
     - family-names: Bouhafer
       given-names: Fadwa
     - family-names: Ouald Chaib
       given-names: Sara
-    - family-names: Bahri
-      given-names: Abdelkhalek
-    - family-names: El Haddadi
-      given-names: Anass
-  title: "Auditable Concept Harmonisation in Bibliometric Analysis: Benchmarking an LLM-DAG Workflow"
+  title: "Auditable Concept Harmonisation for Bibliometric Thematic Analysis: Benchmarking Pairwise Equivalence and Downstream Effects"
   journal: "Scientometrics"
-  year: 2026
-  notes: "Manuscript in preparation for submission"
+  # year and DOI intentionally omitted: not yet assigned. Do not invent.
+  notes: "Strengthened resubmission following an editorial invitation to revise; supersedes the earlier 'Auditable Concept Harmonisation in Bibliometric Analysis: Benchmarking an LLM-DAG Workflow' submission (DOI 10.5281/zenodo.20931435 for that version's software archive)."

@@ -1,0 +1,117 @@
+{
+  "baseline": {
+    "TP": 41,
+    "FP": 1,
+    "FN": 2,
+    "TN": 80,
+    "n_decided": 124,
+    "precision": 0.9762,
+    "recall": 0.9535,
+    "f1": 0.9647,
+    "accuracy": 0.9758
+  },
+  "scenarios": {
+    "k=1": {
+      "n_valid_combinations_enumerated": 4,
+      "f1": {
+        "best_case": 0.9767,
+        "worst_case": 0.9524,
+        "baseline": 0.9647,
+        "best_case_delta": 0.012,
+        "worst_case_delta": -0.0123
+      },
+      "precision": {
+        "best_case": 1.0,
+        "worst_case": 0.9535
+      },
+      "recall": {
+        "best_case": 0.9767,
+        "worst_case": 0.9302
+      },
+      "accuracy": {
+        "best_case": 0.9839,
+        "worst_case": 0.9677
+      },
+      "best_f1_scenario_flips": {
+        "a_TPtoFN": 0,
+        "b_FNtoTP": 1,
+        "c_FPtoTN": 0,
+        "d_TNtoFP": 0
+      },
+      "worst_f1_scenario_flips": {
+        "a_TPtoFN": 1,
+        "b_FNtoTP": 0,
+        "c_FPtoTN": 0,
+        "d_TNtoFP": 0
+      }
+    },
+    "k=2": {
+      "n_valid_combinations_enumerated": 9,
+      "f1": {
+        "best_case": 0.9885,
+        "worst_case": 0.9398,
+        "baseline": 0.9647,
+        "best_case_delta": 0.0238,
+        "worst_case_delta": -0.0249
+      },
+      "precision": {
+        "best_case": 1.0,
+        "worst_case": 0.9318
+      },
+      "recall": {
+        "best_case": 1.0,
+        "worst_case": 0.907
+      },
+      "accuracy": {
+        "best_case": 0.9919,
+        "worst_case": 0.9597
+      },
+      "best_f1_scenario_flips": {
+        "a_TPtoFN": 0,
+        "b_FNtoTP": 2,
+        "c_FPtoTN": 0,
+        "d_TNtoFP": 0
+      },
+      "worst_f1_scenario_flips": {
+        "a_TPtoFN": 2,
+        "b_FNtoTP": 0,
+        "c_FPtoTN": 0,
+        "d_TNtoFP": 0
+      }
+    },
+    "k=3": {
+      "n_valid_combinations_enumerated": 15,
+      "f1": {
+        "best_case": 1.0,
+        "worst_case": 0.9268,
+        "baseline": 0.9647,
+        "best_case_delta": 0.0353,
+        "worst_case_delta": -0.0379
+      },
+      "precision": {
+        "best_case": 1.0,
+        "worst_case": 0.9111
+      },
+      "recall": {
+        "best_case": 1.0,
+        "worst_case": 0.8837
+      },
+      "accuracy": {
+        "best_case": 1.0,
+        "worst_case": 0.9516
+      },
+      "best_f1_scenario_flips": {
+        "a_TPtoFN": 0,
+        "b_FNtoTP": 2,
+        "c_FPtoTN": 1,
+        "d_TNtoFP": 0
+      },
+      "worst_f1_scenario_flips": {
+        "a_TPtoFN": 3,
+        "b_FNtoTP": 0,
+        "c_FPtoTN": 0,
+        "d_TNtoFP": 0
+      }
+    }
+  }
+}

@@ -3,7 +3,9 @@
 The full annotation guide for the gold-standard benchmark is published as:
 
 - **Online Resource 1, Section S1** (PDF, submitted to Scientometrics alongside the manuscript)
-- **Zenodo dataset record** (restricted): https://doi.org/10.5281/zenodo.19451886
+- **Zenodo dataset record** (restricted): https://doi.org/10.5281/zenodo.20923992
+  (Zenodo-DATA; corrected 2026-08-24 from a superseded DOI — see
+  `docs/release/v1.0.1_release_plan.md`)
 
 ## Why it is not reproduced here
 

@@ -1,0 +1,42 @@
+{
+  "generated_at_utc": "2026-09-09T09:30:56.221048+00:00",
+  "old_overall": {
+    "n": 900,
+    "agreements": 422,
+    "disagreements": 478,
+    "raw_agreement": 0.4689,
+    "cohens_kappa": 0.1408
+  },
+  "corrected_overall": {
+    "n": 900,
+    "agreements": 614,
+    "disagreements": 286,
+    "raw_agreement": 0.6822,
+    "cohens_kappa": 0.3099
+  },
+  "old_diabetes": {
+    "n": 500,
+    "agreements": 164,
+    "disagreements": 336,
+    "raw_agreement": 0.328,
+    "cohens_kappa": 0.0
+  },
+  "corrected_diabetes": {
+    "n": 500,
+    "agreements": 356,
+    "disagreements": 144,
+    "raw_agreement": 0.712,
+    "cohens_kappa": 0.3361
+  },
+  "original_a2_diabetes_label_distribution": {
+    "match": 500
+  },
+  "reannotated_a2_diabetes_label_distribution": {
+    "non-match": 379,
+    "match": 93,
+    "uncertain": 28
+  },
+  "n_a2_diabetes_common_pair_ids_compared": 500,
+  "n_a2_diabetes_labels_changed_between_original_and_redo": 407,
+  "note": "The superseded original Annotator-2 diabetes labels are NOT used in the corrected H2 analysis, the corrected adjudication package, or any future gold construction -- retained only as restricted provenance."
+}

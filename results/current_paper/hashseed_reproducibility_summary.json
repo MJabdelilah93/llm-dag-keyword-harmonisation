@@ -1,0 +1,22 @@
+{
+  "n_hashseeds_tested": 20,
+  "louvain_seed_fixed_at": 42,
+  "agreement": {
+    "raw": {
+      "n_runs": 20,
+      "n_distinct_results": 1,
+      "fully_identical": true
+    },
+    "b3_jaro_winkler": {
+      "n_runs": 20,
+      "n_distinct_results": 1,
+      "fully_identical": true
+    },
+    "full_llm_dag": {
+      "n_runs": 20,
+      "n_distinct_results": 1,
+      "fully_identical": true
+    }
+  },
+  "ALL_CONDITIONS_FULLY_REPRODUCIBLE": true
+}

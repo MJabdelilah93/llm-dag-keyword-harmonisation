@@ -1,0 +1,2681 @@
+{
+  "evaluation": {
+    "ce400": {
+      "B1_Exact": {
+        "binary": {
+          "tp": 32,
+          "fp": 0,
+          "fn": 71,
+          "tn": 291,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 1.0,
+          "recall": 0.3106796116504854,
+          "f1": 0.4740740740740741,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              32,
+              71,
+              0
+            ],
+            [
+              0,
+              291,
+              0
+            ],
+            [
+              0,
+              6,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 32,
+              "fp": 0,
+              "fn": 71,
+              "support": 103,
+              "precision": 1.0,
+              "recall": 0.3106796116504854,
+              "f1": 0.4740740740740741
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 291,
+              "fp": 77,
+              "fn": 0,
+              "support": 291,
+              "precision": 0.7907608695652174,
+              "recall": 1.0,
+              "f1": 0.8831562974203339
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.8075,
+          "macro_precision": 0.5969202898550724,
+          "macro_recall": 0.4368932038834951,
+          "macro_f1": 0.45241012383146934,
+          "n_items": 400
+        }
+      },
+      "B2_Normalised": {
+        "binary": {
+          "tp": 32,
+          "fp": 0,
+          "fn": 71,
+          "tn": 291,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 1.0,
+          "recall": 0.3106796116504854,
+          "f1": 0.4740740740740741,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              32,
+              71,
+              0
+            ],
+            [
+              0,
+              291,
+              0
+            ],
+            [
+              0,
+              6,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 32,
+              "fp": 0,
+              "fn": 71,
+              "support": 103,
+              "precision": 1.0,
+              "recall": 0.3106796116504854,
+              "f1": 0.4740740740740741
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 291,
+              "fp": 77,
+              "fn": 0,
+              "support": 291,
+              "precision": 0.7907608695652174,
+              "recall": 1.0,
+              "f1": 0.8831562974203339
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.8075,
+          "macro_precision": 0.5969202898550724,
+          "macro_recall": 0.4368932038834951,
+          "macro_f1": 0.45241012383146934,
+          "n_items": 400
+        }
+      },
+      "B3_JaroWinkler": {
+        "binary": {
+          "tp": 90,
+          "fp": 6,
+          "fn": 13,
+          "tn": 285,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 0.9375,
+          "recall": 0.8737864077669902,
+          "f1": 0.9045226130653266,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              90,
+              13,
+              0
+            ],
+            [
+              6,
+              285,
+              0
+            ],
+            [
+              0,
+              6,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 90,
+              "fp": 6,
+              "fn": 13,
+              "support": 103,
+              "precision": 0.9375,
+              "recall": 0.8737864077669902,
+              "f1": 0.9045226130653266
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 285,
+              "fp": 19,
+              "fn": 6,
+              "support": 291,
+              "precision": 0.9375,
+              "recall": 0.979381443298969,
+              "f1": 0.9579831932773109
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.9375,
+          "macro_precision": 0.625,
+          "macro_recall": 0.6177226170219864,
+          "macro_f1": 0.6208352687808791,
+          "n_items": 400
+        }
+      },
+      "B4_TFIDF": {
+        "binary": {
+          "tp": 82,
+          "fp": 29,
+          "fn": 21,
+          "tn": 262,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 0.7387387387387387,
+          "recall": 0.7961165048543689,
+          "f1": 0.7663551401869159,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              82,
+              21,
+              0
+            ],
+            [
+              29,
+              262,
+              0
+            ],
+            [
+              0,
+              6,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 82,
+              "fp": 29,
+              "fn": 21,
+              "support": 103,
+              "precision": 0.7387387387387387,
+              "recall": 0.7961165048543689,
+              "f1": 0.7663551401869159
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 262,
+              "fp": 27,
+              "fn": 29,
+              "support": 291,
+              "precision": 0.9065743944636678,
+              "recall": 0.9003436426116839,
+              "f1": 0.903448275862069
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.86,
+          "macro_precision": 0.5484377110674689,
+          "macro_recall": 0.5654867158220176,
+          "macro_f1": 0.556601138682995,
+          "n_items": 400
+        }
+      },
+      "B5_Embedding": {
+        "binary": {
+          "tp": 88,
+          "fp": 2,
+          "fn": 15,
+          "tn": 289,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 0.9777777777777777,
+          "recall": 0.8543689320388349,
+          "f1": 0.9119170984455958,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              88,
+              15,
+              0
+            ],
+            [
+              2,
+              289,
+              0
+            ],
+            [
+              0,
+              6,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 88,
+              "fp": 2,
+              "fn": 15,
+              "support": 103,
+              "precision": 0.9777777777777777,
+              "recall": 0.8543689320388349,
+              "f1": 0.9119170984455958
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 289,
+              "fp": 21,
+              "fn": 2,
+              "support": 291,
+              "precision": 0.932258064516129,
+              "recall": 0.993127147766323,
+              "f1": 0.961730449251248
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.9425,
+          "macro_precision": 0.6366786140979689,
+          "macro_recall": 0.6158320266017193,
+          "macro_f1": 0.6245491825656145,
+          "n_items": 400
+        }
+      },
+      "Primary_M7": {
+        "binary": {
+          "tp": 99,
+          "fp": 4,
+          "fn": 4,
+          "tn": 269,
+          "abstained": 18,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 376,
+          "n_total": 394,
+          "precision": 0.9611650485436893,
+          "recall": 0.9611650485436893,
+          "f1": 0.9611650485436893,
+          "coverage": 0.9543147208121827
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              99,
+              4,
+              0
+            ],
+            [
+              4,
+              269,
+              18
+            ],
+            [
+              0,
+              0,
+              6
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 99,
+              "fp": 4,
+              "fn": 4,
+              "support": 103,
+              "precision": 0.9611650485436893,
+              "recall": 0.9611650485436893,
+              "f1": 0.9611650485436893
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 269,
+              "fp": 4,
+              "fn": 22,
+              "support": 291,
+              "precision": 0.9853479853479854,
+              "recall": 0.9243986254295533,
+              "f1": 0.9539007092198583
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 6,
+              "fp": 18,
+              "fn": 0,
+              "support": 6,
+              "precision": 0.25,
+              "recall": 1.0,
+              "f1": 0.4
+            }
+          },
+          "accuracy": 0.935,
+          "macro_precision": 0.732171011297225,
+          "macro_recall": 0.961854557991081,
+          "macro_f1": 0.7716885859211825,
+          "n_items": 400
+        }
+      },
+      "B6": {
+        "binary": {
+          "tp": 98,
+          "fp": 34,
+          "fn": 5,
+          "tn": 257,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 0.7424242424242424,
+          "recall": 0.9514563106796117,
+          "f1": 0.8340425531914895,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              98,
+              5,
+              0
+            ],
+            [
+              34,
+              257,
+              0
+            ],
+            [
+              4,
+              2,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 98,
+              "fp": 38,
+              "fn": 5,
+              "support": 103,
+              "precision": 0.7205882352941176,
+              "recall": 0.9514563106796117,
+              "f1": 0.8200836820083681
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 257,
+              "fp": 7,
+              "fn": 34,
+              "support": 291,
+              "precision": 0.9734848484848485,
+              "recall": 0.8831615120274914,
+              "f1": 0.926126126126126
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.8875,
+          "macro_precision": 0.5646910279263221,
+          "macro_recall": 0.611539274235701,
+          "macro_f1": 0.5820699360448314,
+          "n_items": 400
+        }
+      },
+      "B7": {
+        "binary": {
+          "tp": 99,
+          "fp": 19,
+          "fn": 4,
+          "tn": 272,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 0.8389830508474576,
+          "recall": 0.9611650485436893,
+          "f1": 0.8959276018099547,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              99,
+              4,
+              0
+            ],
+            [
+              19,
+              272,
+              0
+            ],
+            [
+              3,
+              3,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 99,
+              "fp": 22,
+              "fn": 4,
+              "support": 103,
+              "precision": 0.8181818181818182,
+              "recall": 0.9611650485436893,
+              "f1": 0.8839285714285714
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 272,
+              "fp": 7,
+              "fn": 19,
+              "support": 291,
+              "precision": 0.974910394265233,
+              "recall": 0.9347079037800687,
+              "f1": 0.9543859649122806
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.9275,
+          "macro_precision": 0.5976974041490171,
+          "macro_recall": 0.631957650774586,
+          "macro_f1": 0.6127715121136174,
+          "n_items": 400
+        }
+      },
+      "B8": {
+        "binary": {
+          "tp": 27,
+          "fp": 4,
+          "fn": 76,
+          "tn": 287,
+          "abstained": 0,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 394,
+          "n_total": 394,
+          "precision": 0.8709677419354839,
+          "recall": 0.2621359223300971,
+          "f1": 0.40298507462686567,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              27,
+              76,
+              0
+            ],
+            [
+              4,
+              287,
+              0
+            ],
+            [
+              0,
+              6,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 27,
+              "fp": 4,
+              "fn": 76,
+              "support": 103,
+              "precision": 0.8709677419354839,
+              "recall": 0.2621359223300971,
+              "f1": 0.40298507462686567
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 287,
+              "fp": 82,
+              "fn": 4,
+              "support": 291,
+              "precision": 0.7777777777777778,
+              "recall": 0.9862542955326461,
+              "f1": 0.8696969696969699
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "support": 6,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.785,
+          "macro_precision": 0.5495818399044206,
+          "macro_recall": 0.41613007262091434,
+          "macro_f1": 0.4242273481079452,
+          "n_items": 400
+        }
+      },
+      "OpenAI_Robustness": {
+        "binary": {
+          "tp": 97,
+          "fp": 8,
+          "fn": 2,
+          "tn": 171,
+          "abstained": 116,
+          "excluded_gold_uncertain": 6,
+          "n_answered": 278,
+          "n_total": 394,
+          "precision": 0.9238095238095239,
+          "recall": 0.9797979797979798,
+          "f1": 0.9509803921568627,
+          "coverage": 0.7055837563451777
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              97,
+              2,
+              4
+            ],
+            [
+              8,
+              171,
+              112
+            ],
+            [
+              0,
+              0,
+              6
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 97,
+              "fp": 8,
+              "fn": 6,
+              "support": 103,
+              "precision": 0.9238095238095239,
+              "recall": 0.941747572815534,
+              "f1": 0.9326923076923078
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 171,
+              "fp": 2,
+              "fn": 120,
+              "support": 291,
+              "precision": 0.9884393063583815,
+              "recall": 0.5876288659793815,
+              "f1": 0.7370689655172414
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 6,
+              "fp": 116,
+              "fn": 0,
+              "support": 6,
+              "precision": 0.04918032786885246,
+              "recall": 1.0,
+              "f1": 0.09375
+            }
+          },
+          "accuracy": 0.685,
+          "macro_precision": 0.653809719345586,
+          "macro_recall": 0.8431254795983052,
+          "macro_f1": 0.5878370910698497,
+          "n_items": 400
+        }
+      }
+    },
+    "diabetes500": {
+      "B1_Exact": {
+        "binary": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 121,
+          "tn": 338,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 1.0,
+          "recall": 0.2484472049689441,
+          "f1": 0.3980099502487562,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              40,
+              121,
+              0
+            ],
+            [
+              0,
+              338,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 40,
+              "fp": 0,
+              "fn": 121,
+              "support": 161,
+              "precision": 1.0,
+              "recall": 0.2484472049689441,
+              "f1": 0.3980099502487562
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 338,
+              "fp": 122,
+              "fn": 0,
+              "support": 338,
+              "precision": 0.7347826086956522,
+              "recall": 1.0,
+              "f1": 0.8471177944862155
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.756,
+          "macro_precision": 0.5782608695652174,
+          "macro_recall": 0.4161490683229814,
+          "macro_f1": 0.41504258157832385,
+          "n_items": 500
+        }
+      },
+      "B2_Normalised": {
+        "binary": {
+          "tp": 40,
+          "fp": 0,
+          "fn": 121,
+          "tn": 338,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 1.0,
+          "recall": 0.2484472049689441,
+          "f1": 0.3980099502487562,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              40,
+              121,
+              0
+            ],
+            [
+              0,
+              338,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 40,
+              "fp": 0,
+              "fn": 121,
+              "support": 161,
+              "precision": 1.0,
+              "recall": 0.2484472049689441,
+              "f1": 0.3980099502487562
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 338,
+              "fp": 122,
+              "fn": 0,
+              "support": 338,
+              "precision": 0.7347826086956522,
+              "recall": 1.0,
+              "f1": 0.8471177944862155
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.756,
+          "macro_precision": 0.5782608695652174,
+          "macro_recall": 0.4161490683229814,
+          "macro_f1": 0.41504258157832385,
+          "n_items": 500
+        }
+      },
+      "B3_JaroWinkler": {
+        "binary": {
+          "tp": 125,
+          "fp": 7,
+          "fn": 36,
+          "tn": 331,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 0.946969696969697,
+          "recall": 0.7763975155279503,
+          "f1": 0.8532423208191128,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              125,
+              36,
+              0
+            ],
+            [
+              7,
+              331,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 125,
+              "fp": 7,
+              "fn": 36,
+              "support": 161,
+              "precision": 0.946969696969697,
+              "recall": 0.7763975155279503,
+              "f1": 0.8532423208191128
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 331,
+              "fp": 37,
+              "fn": 7,
+              "support": 338,
+              "precision": 0.8994565217391305,
+              "recall": 0.9792899408284024,
+              "f1": 0.9376770538243627
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.912,
+          "macro_precision": 0.6154754062362758,
+          "macro_recall": 0.5852291521187842,
+          "macro_f1": 0.5969731248811585,
+          "n_items": 500
+        }
+      },
+      "B4_TFIDF": {
+        "binary": {
+          "tp": 115,
+          "fp": 25,
+          "fn": 46,
+          "tn": 313,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 0.8214285714285714,
+          "recall": 0.7142857142857143,
+          "f1": 0.7641196013289038,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              115,
+              46,
+              0
+            ],
+            [
+              25,
+              313,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 115,
+              "fp": 25,
+              "fn": 46,
+              "support": 161,
+              "precision": 0.8214285714285714,
+              "recall": 0.7142857142857143,
+              "f1": 0.7641196013289038
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 313,
+              "fp": 47,
+              "fn": 25,
+              "support": 338,
+              "precision": 0.8694444444444445,
+              "recall": 0.9260355029585798,
+              "f1": 0.8968481375358166
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.856,
+          "macro_precision": 0.5636243386243386,
+          "macro_recall": 0.5467737390814315,
+          "macro_f1": 0.5536559129549068,
+          "n_items": 500
+        }
+      },
+      "B5_Embedding": {
+        "binary": {
+          "tp": 118,
+          "fp": 5,
+          "fn": 43,
+          "tn": 333,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 0.959349593495935,
+          "recall": 0.7329192546583851,
+          "f1": 0.8309859154929579,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              118,
+              43,
+              0
+            ],
+            [
+              5,
+              333,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 118,
+              "fp": 5,
+              "fn": 43,
+              "support": 161,
+              "precision": 0.959349593495935,
+              "recall": 0.7329192546583851,
+              "f1": 0.8309859154929579
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 333,
+              "fp": 44,
+              "fn": 5,
+              "support": 338,
+              "precision": 0.883289124668435,
+              "recall": 0.985207100591716,
+              "f1": 0.9314685314685316
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.902,
+          "macro_precision": 0.61421290605479,
+          "macro_recall": 0.5727087850833671,
+          "macro_f1": 0.5874848156538298,
+          "n_items": 500
+        }
+      },
+      "Primary_M7": {
+        "binary": {
+          "tp": 151,
+          "fp": 2,
+          "fn": 7,
+          "tn": 332,
+          "abstained": 7,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 492,
+          "n_total": 499,
+          "precision": 0.9869281045751634,
+          "recall": 0.9556962025316456,
+          "f1": 0.9710610932475884,
+          "coverage": 0.9859719438877755
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              151,
+              7,
+              3
+            ],
+            [
+              2,
+              332,
+              4
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 151,
+              "fp": 2,
+              "fn": 10,
+              "support": 161,
+              "precision": 0.9869281045751634,
+              "recall": 0.937888198757764,
+              "f1": 0.9617834394904458
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 332,
+              "fp": 8,
+              "fn": 6,
+              "support": 338,
+              "precision": 0.9764705882352941,
+              "recall": 0.9822485207100592,
+              "f1": 0.9793510324483775
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 7,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.966,
+          "macro_precision": 0.6544662309368192,
+          "macro_recall": 0.640045573155941,
+          "macro_f1": 0.6470448239796077,
+          "n_items": 500
+        }
+      },
+      "B6": {
+        "binary": {
+          "tp": 151,
+          "fp": 14,
+          "fn": 10,
+          "tn": 324,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 0.9151515151515152,
+          "recall": 0.937888198757764,
+          "f1": 0.9263803680981596,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              151,
+              10,
+              0
+            ],
+            [
+              14,
+              324,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 151,
+              "fp": 14,
+              "fn": 10,
+              "support": 161,
+              "precision": 0.9151515151515152,
+              "recall": 0.937888198757764,
+              "f1": 0.9263803680981596
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 324,
+              "fp": 11,
+              "fn": 14,
+              "support": 338,
+              "precision": 0.9671641791044776,
+              "recall": 0.9585798816568047,
+              "f1": 0.962852897473997
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.95,
+          "macro_precision": 0.6274385647519977,
+          "macro_recall": 0.6321560268048563,
+          "macro_f1": 0.6297444218573856,
+          "n_items": 500
+        }
+      },
+      "B7": {
+        "binary": {
+          "tp": 156,
+          "fp": 7,
+          "fn": 5,
+          "tn": 331,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 0.9570552147239264,
+          "recall": 0.968944099378882,
+          "f1": 0.962962962962963,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              156,
+              5,
+              0
+            ],
+            [
+              7,
+              331,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 156,
+              "fp": 7,
+              "fn": 5,
+              "support": 161,
+              "precision": 0.9570552147239264,
+              "recall": 0.968944099378882,
+              "f1": 0.962962962962963
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 331,
+              "fp": 6,
+              "fn": 7,
+              "support": 338,
+              "precision": 0.9821958456973294,
+              "recall": 0.9792899408284024,
+              "f1": 0.9807407407407408
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.974,
+          "macro_precision": 0.6464170201404186,
+          "macro_recall": 0.6494113467357615,
+          "macro_f1": 0.6479012345679013,
+          "n_items": 500
+        }
+      },
+      "B8": {
+        "binary": {
+          "tp": 133,
+          "fp": 2,
+          "fn": 28,
+          "tn": 336,
+          "abstained": 0,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 499,
+          "n_total": 499,
+          "precision": 0.9851851851851852,
+          "recall": 0.8260869565217391,
+          "f1": 0.8986486486486487,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              133,
+              28,
+              0
+            ],
+            [
+              2,
+              336,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 133,
+              "fp": 2,
+              "fn": 28,
+              "support": 161,
+              "precision": 0.9851851851851852,
+              "recall": 0.8260869565217391,
+              "f1": 0.8986486486486487
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 336,
+              "fp": 29,
+              "fn": 2,
+              "support": 338,
+              "precision": 0.9205479452054794,
+              "recall": 0.9940828402366864,
+              "f1": 0.9559032716927454
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.938,
+          "macro_precision": 0.6352443767968882,
+          "macro_recall": 0.6067232655861418,
+          "macro_f1": 0.6181839734471314,
+          "n_items": 500
+        }
+      },
+      "OpenAI_Robustness": {
+        "binary": {
+          "tp": 148,
+          "fp": 14,
+          "fn": 1,
+          "tn": 246,
+          "abstained": 90,
+          "excluded_gold_uncertain": 1,
+          "n_answered": 409,
+          "n_total": 499,
+          "precision": 0.9135802469135802,
+          "recall": 0.9932885906040269,
+          "f1": 0.9517684887459807,
+          "coverage": 0.8196392785571143
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              148,
+              1,
+              12
+            ],
+            [
+              14,
+              246,
+              78
+            ],
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 148,
+              "fp": 14,
+              "fn": 13,
+              "support": 161,
+              "precision": 0.9135802469135802,
+              "recall": 0.9192546583850931,
+              "f1": 0.9164086687306501
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 246,
+              "fp": 2,
+              "fn": 92,
+              "support": 338,
+              "precision": 0.9919354838709677,
+              "recall": 0.727810650887574,
+              "f1": 0.8395904436860069
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 90,
+              "fn": 1,
+              "support": 1,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.788,
+          "macro_precision": 0.635171910261516,
+          "macro_recall": 0.5490217697575557,
+          "macro_f1": 0.585333037472219,
+          "n_items": 500
+        }
+      }
+    },
+    "pooled900": {
+      "B1_Exact": {
+        "binary": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 192,
+          "tn": 629,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 1.0,
+          "recall": 0.2727272727272727,
+          "f1": 0.42857142857142855,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              72,
+              192,
+              0
+            ],
+            [
+              0,
+              629,
+              0
+            ],
+            [
+              0,
+              7,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 72,
+              "fp": 0,
+              "fn": 192,
+              "support": 264,
+              "precision": 1.0,
+              "recall": 0.2727272727272727,
+              "f1": 0.42857142857142855
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 629,
+              "fp": 199,
+              "fn": 0,
+              "support": 629,
+              "precision": 0.7596618357487923,
+              "recall": 1.0,
+              "f1": 0.8634179821551132
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 7,
+              "support": 7,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.7788888888888889,
+          "macro_precision": 0.5865539452495975,
+          "macro_recall": 0.42424242424242425,
+          "macro_f1": 0.4306631369088472,
+          "n_items": 900
+        }
+      },
+      "B2_Normalised": {
+        "binary": {
+          "tp": 72,
+          "fp": 0,
+          "fn": 192,
+          "tn": 629,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 1.0,
+          "recall": 0.2727272727272727,
+          "f1": 0.42857142857142855,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              72,
+              192,
+              0
+            ],
+            [
+              0,
+              629,
+              0
+            ],
+            [
+              0,
+              7,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 72,
+              "fp": 0,
+              "fn": 192,
+              "support": 264,
+              "precision": 1.0,
+              "recall": 0.2727272727272727,
+              "f1": 0.42857142857142855
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 629,
+              "fp": 199,
+              "fn": 0,
+              "support": 629,
+              "precision": 0.7596618357487923,
+              "recall": 1.0,
+              "f1": 0.8634179821551132
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 7,
+              "support": 7,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.7788888888888889,
+          "macro_precision": 0.5865539452495975,
+          "macro_recall": 0.42424242424242425,
+          "macro_f1": 0.4306631369088472,
+          "n_items": 900
+        }
+      },
+      "B3_JaroWinkler": {
+        "binary": {
+          "tp": 215,
+          "fp": 13,
+          "fn": 49,
+          "tn": 616,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 0.9429824561403509,
+          "recall": 0.8143939393939394,
+          "f1": 0.8739837398373983,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              215,
+              49,
+              0
+            ],
+            [
+              13,
+              616,
+              0
+            ],
+            [
+              0,
+              7,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 215,
+              "fp": 13,
+              "fn": 49,
+              "support": 264,
+              "precision": 0.9429824561403509,
+              "recall": 0.8143939393939394,
+              "f1": 0.8739837398373983
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 616,
+              "fp": 56,
+              "fn": 13,
+              "support": 629,
+              "precision": 0.9166666666666666,
+              "recall": 0.9793322734499205,
+              "f1": 0.9469638739431206
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 7,
+              "support": 7,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.9233333333333333,
+          "macro_precision": 0.6198830409356725,
+          "macro_recall": 0.5979087376146199,
+          "macro_f1": 0.6069825379268396,
+          "n_items": 900
+        }
+      },
+      "B4_TFIDF": {
+        "binary": {
+          "tp": 197,
+          "fp": 54,
+          "fn": 67,
+          "tn": 575,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 0.7848605577689243,
+          "recall": 0.7462121212121212,
+          "f1": 0.7650485436893204,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              197,
+              67,
+              0
+            ],
+            [
+              54,
+              575,
+              0
+            ],
+            [
+              0,
+              7,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 197,
+              "fp": 54,
+              "fn": 67,
+              "support": 264,
+              "precision": 0.7848605577689243,
+              "recall": 0.7462121212121212,
+              "f1": 0.7650485436893204
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 575,
+              "fp": 74,
+              "fn": 54,
+              "support": 629,
+              "precision": 0.8859784283513097,
+              "recall": 0.9141494435612083,
+              "f1": 0.8998435054773084
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 7,
+              "support": 7,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.8577777777777778,
+          "macro_precision": 0.5569463287067447,
+          "macro_recall": 0.5534538549244431,
+          "macro_f1": 0.5549640163888763,
+          "n_items": 900
+        }
+      },
+      "B5_Embedding": {
+        "binary": {
+          "tp": 206,
+          "fp": 7,
+          "fn": 58,
+          "tn": 622,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 0.9671361502347418,
+          "recall": 0.7803030303030303,
+          "f1": 0.8637316561844863,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              206,
+              58,
+              0
+            ],
+            [
+              7,
+              622,
+              0
+            ],
+            [
+              0,
+              7,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 206,
+              "fp": 7,
+              "fn": 58,
+              "support": 264,
+              "precision": 0.9671361502347418,
+              "recall": 0.7803030303030303,
+              "f1": 0.8637316561844863
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 622,
+              "fp": 65,
+              "fn": 7,
+              "support": 629,
+              "precision": 0.9053857350800583,
+              "recall": 0.9888712241653418,
+              "f1": 0.9452887537993923
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 7,
+              "support": 7,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.92,
+          "macro_precision": 0.6241739617716,
+          "macro_recall": 0.5897247514894574,
+          "macro_f1": 0.6030068033279595,
+          "n_items": 900
+        }
+      },
+      "Primary_M7": {
+        "binary": {
+          "tp": 250,
+          "fp": 6,
+          "fn": 11,
+          "tn": 601,
+          "abstained": 25,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 868,
+          "n_total": 893,
+          "precision": 0.9765625,
+          "recall": 0.9578544061302682,
+          "f1": 0.9671179883945841,
+          "coverage": 0.9720044792833147
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              250,
+              11,
+              3
+            ],
+            [
+              6,
+              601,
+              22
+            ],
+            [
+              0,
+              1,
+              6
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 250,
+              "fp": 6,
+              "fn": 14,
+              "support": 264,
+              "precision": 0.9765625,
+              "recall": 0.946969696969697,
+              "f1": 0.9615384615384616
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 601,
+              "fp": 12,
+              "fn": 28,
+              "support": 629,
+              "precision": 0.9804241435562806,
+              "recall": 0.9554848966613673,
+              "f1": 0.9677938808373591
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 6,
+              "fp": 25,
+              "fn": 1,
+              "support": 7,
+              "precision": 0.1935483870967742,
+              "recall": 0.8571428571428571,
+              "f1": 0.3157894736842105
+            }
+          },
+          "accuracy": 0.9522222222222222,
+          "macro_precision": 0.716845010217685,
+          "macro_recall": 0.9198658169246405,
+          "macro_f1": 0.7483739386866771,
+          "n_items": 900
+        }
+      },
+      "B6": {
+        "binary": {
+          "tp": 249,
+          "fp": 48,
+          "fn": 15,
+          "tn": 581,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 0.8383838383838383,
+          "recall": 0.9431818181818182,
+          "f1": 0.8877005347593583,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              249,
+              15,
+              0
+            ],
+            [
+              48,
+              581,
+              0
+            ],
+            [
+              4,
+              3,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 249,
+              "fp": 52,
+              "fn": 15,
+              "support": 264,
+              "precision": 0.8272425249169435,
+              "recall": 0.9431818181818182,
+              "f1": 0.8814159292035398
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 581,
+              "fp": 18,
+              "fn": 48,
+              "support": 629,
+              "precision": 0.9699499165275459,
+              "recall": 0.9236883942766295,
+              "f1": 0.9462540716612378
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 7,
+              "support": 7,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.9222222222222223,
+          "macro_precision": 0.5990641471481631,
+          "macro_recall": 0.6222900708194826,
+          "macro_f1": 0.6092233336215925,
+          "n_items": 900
+        }
+      },
+      "B7": {
+        "binary": {
+          "tp": 255,
+          "fp": 26,
+          "fn": 9,
+          "tn": 603,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 0.9074733096085409,
+          "recall": 0.9659090909090909,
+          "f1": 0.9357798165137614,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              255,
+              9,
+              0
+            ],
+            [
+              26,
+              603,
+              0
+            ],
+            [
+              3,
+              4,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 255,
+              "fp": 29,
+              "fn": 9,
+              "support": 264,
+              "precision": 0.897887323943662,
+              "recall": 0.9659090909090909,
+              "f1": 0.9306569343065695
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 603,
+              "fp": 13,
+              "fn": 26,
+              "support": 629,
+              "precision": 0.9788961038961039,
+              "recall": 0.958664546899841,
+              "f1": 0.9686746987951806
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 7,
+              "support": 7,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.9533333333333334,
+          "macro_precision": 0.6255944759465887,
+          "macro_recall": 0.6415245459363107,
+          "macro_f1": 0.6331105443672501,
+          "n_items": 900
+        }
+      },
+      "B8": {
+        "binary": {
+          "tp": 160,
+          "fp": 6,
+          "fn": 104,
+          "tn": 623,
+          "abstained": 0,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 893,
+          "n_total": 893,
+          "precision": 0.963855421686747,
+          "recall": 0.6060606060606061,
+          "f1": 0.744186046511628,
+          "coverage": 1.0
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              160,
+              104,
+              0
+            ],
+            [
+              6,
+              623,
+              0
+            ],
+            [
+              0,
+              7,
+              0
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 160,
+              "fp": 6,
+              "fn": 104,
+              "support": 264,
+              "precision": 0.963855421686747,
+              "recall": 0.6060606060606061,
+              "f1": 0.744186046511628
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 623,
+              "fp": 111,
+              "fn": 6,
+              "support": 629,
+              "precision": 0.8487738419618529,
+              "recall": 0.9904610492845787,
+              "f1": 0.9141599413059428
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 0,
+              "fp": 0,
+              "fn": 7,
+              "support": 7,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "accuracy": 0.87,
+          "macro_precision": 0.6042097545495333,
+          "macro_recall": 0.5321738851150616,
+          "macro_f1": 0.5527819959391903,
+          "n_items": 900
+        }
+      },
+      "OpenAI_Robustness": {
+        "binary": {
+          "tp": 245,
+          "fp": 22,
+          "fn": 3,
+          "tn": 417,
+          "abstained": 206,
+          "excluded_gold_uncertain": 7,
+          "n_answered": 687,
+          "n_total": 893,
+          "precision": 0.9176029962546817,
+          "recall": 0.9879032258064516,
+          "f1": 0.9514563106796116,
+          "coverage": 0.7693169092945129
+        },
+        "three_way": {
+          "class_order": [
+            "match",
+            "non-match",
+            "uncertain"
+          ],
+          "confusion_matrix": [
+            [
+              245,
+              3,
+              16
+            ],
+            [
+              22,
+              417,
+              190
+            ],
+            [
+              0,
+              1,
+              6
+            ]
+          ],
+          "per_class": {
+            "match": {
+              "label": "match",
+              "tp": 245,
+              "fp": 22,
+              "fn": 19,
+              "support": 264,
+              "precision": 0.9176029962546817,
+              "recall": 0.928030303030303,
+              "f1": 0.9227871939736346
+            },
+            "non-match": {
+              "label": "non-match",
+              "tp": 417,
+              "fp": 4,
+              "fn": 212,
+              "support": 629,
+              "precision": 0.9904988123515439,
+              "recall": 0.6629570747217806,
+              "f1": 0.7942857142857143
+            },
+            "uncertain": {
+              "label": "uncertain",
+              "tp": 6,
+              "fp": 206,
+              "fn": 1,
+              "support": 7,
+              "precision": 0.02830188679245283,
+              "recall": 0.8571428571428571,
+              "f1": 0.05479452054794521
+            }
+          },
+          "accuracy": 0.7422222222222222,
+          "macro_precision": 0.6454678984662262,
+          "macro_recall": 0.816043411631647,
+          "macro_f1": 0.590622476269098,
+          "n_items": 900
+        }
+      }
+    }
+  },
+  "bootstrap": {
+    "ce400": {
+      "Primary_M7_vs_B3_JaroWinkler": {
+        "metric": "f1",
+        "point_estimate_a": 0.9611650485436893,
+        "point_estimate_b": 0.9045226130653266,
+        "observed_difference": 0.056642435478362785,
+        "lower": 0.018823197075440327,
+        "upper": 0.09914022012168691,
+        "width": 0.08031702304624658,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 394
+      },
+      "Primary_M7_vs_B5_Embedding": {
+        "metric": "f1",
+        "point_estimate_a": 0.9611650485436893,
+        "point_estimate_b": 0.9119170984455958,
+        "observed_difference": 0.049247950098093574,
+        "lower": 0.008637091461588428,
+        "upper": 0.09169778013426878,
+        "width": 0.08306068867268035,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 394
+      },
+      "Primary_M7_vs_B6": {
+        "metric": "f1",
+        "point_estimate_a": 0.9611650485436893,
+        "point_estimate_b": 0.8340425531914895,
+        "observed_difference": 0.12712249535219988,
+        "lower": 0.08156133836703305,
+        "upper": 0.178118407455449,
+        "width": 0.09655706908841594,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 394
+      },
+      "Primary_M7_vs_B7": {
+        "metric": "f1",
+        "point_estimate_a": 0.9611650485436893,
+        "point_estimate_b": 0.8959276018099547,
+        "observed_difference": 0.06523744673373466,
+        "lower": 0.03442364021185728,
+        "upper": 0.10019701660568525,
+        "width": 0.06577337639382796,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 394
+      },
+      "Primary_M7_f1_ci": {
+        "metric": "f1",
+        "point_estimate": 0.9611650485436893,
+        "lower": 0.9312169312169313,
+        "upper": 0.985781990521327,
+        "width": 0.0545650593043957,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 394
+      }
+    },
+    "diabetes500": {
+      "Primary_M7_vs_B3_JaroWinkler": {
+        "metric": "f1",
+        "point_estimate_a": 0.9710610932475884,
+        "point_estimate_b": 0.8532423208191128,
+        "observed_difference": 0.1178187724284756,
+        "lower": 0.07786222451250029,
+        "upper": 0.16145175718969496,
+        "width": 0.08358953267719467,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 499
+      },
+      "Primary_M7_vs_B5_Embedding": {
+        "metric": "f1",
+        "point_estimate_a": 0.9710610932475884,
+        "point_estimate_b": 0.8309859154929579,
+        "observed_difference": 0.14007517775463052,
+        "lower": 0.0980214336453597,
+        "upper": 0.1872243161938873,
+        "width": 0.0892028825485276,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 499
+      },
+      "Primary_M7_vs_B6": {
+        "metric": "f1",
+        "point_estimate_a": 0.9710610932475884,
+        "point_estimate_b": 0.9263803680981596,
+        "observed_difference": 0.04468072514942878,
+        "lower": 0.015962335231748,
+        "upper": 0.07568597007165542,
+        "width": 0.05972363483990742,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 499
+      },
+      "Primary_M7_vs_B7": {
+        "metric": "f1",
+        "point_estimate_a": 0.9710610932475884,
+        "point_estimate_b": 0.962962962962963,
+        "observed_difference": 0.00809813028462536,
+        "lower": -0.013774298391973801,
+        "upper": 0.030392237298107243,
+        "width": 0.04416653569008104,
+        "excludes_zero": false,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 499
+      },
+      "Primary_M7_f1_ci": {
+        "metric": "f1",
+        "point_estimate": 0.9710610932475884,
+        "lower": 0.9503546099290779,
+        "upper": 0.9877300613496933,
+        "width": 0.03737545142061538,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 499
+      }
+    },
+    "pooled900": {
+      "Primary_M7_vs_B3_JaroWinkler": {
+        "metric": "f1",
+        "point_estimate_a": 0.9671179883945841,
+        "point_estimate_b": 0.8739837398373983,
+        "observed_difference": 0.09313424855718577,
+        "lower": 0.06377508540764763,
+        "upper": 0.12379882449297655,
+        "width": 0.06002373908532892,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 893
+      },
+      "Primary_M7_vs_B5_Embedding": {
+        "metric": "f1",
+        "point_estimate_a": 0.9671179883945841,
+        "point_estimate_b": 0.8637316561844863,
+        "observed_difference": 0.10338633221009774,
+        "lower": 0.07317678756042426,
+        "upper": 0.13455791952128907,
+        "width": 0.06138113196086481,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 893
+      },
+      "Primary_M7_vs_B6": {
+        "metric": "f1",
+        "point_estimate_a": 0.9671179883945841,
+        "point_estimate_b": 0.8877005347593583,
+        "observed_difference": 0.07941745363522579,
+        "lower": 0.05388192600224371,
+        "upper": 0.10668585230414265,
+        "width": 0.052803926301898944,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 893
+      },
+      "Primary_M7_vs_B7": {
+        "metric": "f1",
+        "point_estimate_a": 0.9671179883945841,
+        "point_estimate_b": 0.9357798165137614,
+        "observed_difference": 0.03133817188082266,
+        "lower": 0.012798517672586924,
+        "upper": 0.05077967323651429,
+        "width": 0.037981155563927366,
+        "excludes_zero": true,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 893
+      },
+      "Primary_M7_f1_ci": {
+        "metric": "f1",
+        "point_estimate": 0.9671179883945841,
+        "lower": 0.9500998003992015,
+        "upper": 0.9815950920245398,
+        "width": 0.03149529162533826,
+        "confidence": 0.95,
+        "n_resamples": 10000,
+        "seed": 42,
+        "n_items": 893
+      }
+    }
+  },
+  "selective_prediction": {
+    "Primary_M7": {
+      "ce400": {
+        "n_binary_subset": 394,
+        "n_total": 394,
+        "n_answered": 394,
+        "coverage": 1.0,
+        "risk": 0.06598984771573604,
+        "aurc": 0.01279011582985978,
+        "n_sweep_points": 9,
+        "n_curve_points": 9
+      },
+      "diabetes500": {
+        "n_binary_subset": 499,
+        "n_total": 499,
+        "n_answered": 499,
+        "coverage": 1.0,
+        "risk": 0.03206412825651302,
+        "aurc": 0.004835213778933246,
+        "n_sweep_points": 11,
+        "n_curve_points": 11
+      },
+      "pooled900": {
+        "n_binary_subset": 893,
+        "n_total": 893,
+        "n_answered": 893,
+        "coverage": 1.0,
+        "risk": 0.04703247480403135,
+        "aurc": 0.00792558060099915,
+        "n_sweep_points": 11,
+        "n_curve_points": 11
+      }
+    },
+    "OpenAI_Robustness": {
+      "ce400": {
+        "n_binary_subset": 394,
+        "n_total": 394,
+        "n_answered": 394,
+        "coverage": 1.0,
+        "risk": 0.3197969543147208,
+        "aurc": 0.0650285425327479,
+        "n_sweep_points": 16,
+        "n_curve_points": 16
+      },
+      "diabetes500": {
+        "n_binary_subset": 499,
+        "n_total": 499,
+        "n_answered": 499,
+        "coverage": 1.0,
+        "risk": 0.21042084168336672,
+        "aurc": 0.03323183264904344,
+        "n_sweep_points": 17,
+        "n_curve_points": 17
+      },
+      "pooled900": {
+        "n_binary_subset": 893,
+        "n_total": 893,
+        "n_answered": 893,
+        "coverage": 1.0,
+        "risk": 0.25867861142217247,
+        "aurc": 0.045346795995122105,
+        "n_sweep_points": 17,
+        "n_curve_points": 17
+      }
+    }
+  },
+  "transitivity_diagnostic": {
+    "n_closed_triangles_observed": 6,
+    "closed_triangle_analysis_note": "descriptive only -- too few (6) to support a stable consistency estimate; not forced.",
+    "methods": {
+      "B1_Exact": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 0,
+        "proportion_connected_incorrectly": 0.0,
+        "n_direct_error": 0,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1383
+      },
+      "B2_Normalised": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 0,
+        "proportion_connected_incorrectly": 0.0,
+        "n_direct_error": 0,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1383
+      },
+      "B3_JaroWinkler": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 13,
+        "proportion_connected_incorrectly": 0.02066772655007949,
+        "n_direct_error": 13,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1230
+      },
+      "B4_TFIDF": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 54,
+        "proportion_connected_incorrectly": 0.08585055643879173,
+        "n_direct_error": 54,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1204
+      },
+      "B5_Embedding": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 7,
+        "proportion_connected_incorrectly": 0.011128775834658187,
+        "n_direct_error": 7,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1245
+      },
+      "Primary_M7": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 6,
+        "proportion_connected_incorrectly": 0.009538950715421303,
+        "n_direct_error": 6,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1202
+      },
+      "B6": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 48,
+        "proportion_connected_incorrectly": 0.07631160572337042,
+        "n_direct_error": 48,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1155
+      },
+      "B7": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 26,
+        "proportion_connected_incorrectly": 0.04133545310015898,
+        "n_direct_error": 26,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1174
+      },
+      "B8": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 6,
+        "proportion_connected_incorrectly": 0.009538950715421303,
+        "n_direct_error": 6,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1292
+      },
+      "OpenAI_Robustness": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 22,
+        "proportion_connected_incorrectly": 0.034976152623211444,
+        "n_direct_error": 22,
+        "n_transitive_only_contradiction": 0,
+        "n_predicted_clusters": 1191
+      }
+    }
+  }
+}

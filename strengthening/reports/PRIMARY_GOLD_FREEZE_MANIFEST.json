@@ -1,0 +1,33 @@
+{
+  "generated_at_utc": "2026-09-09T13:37:07.171469+00:00",
+  "git_commit": "d8520c0f4f359cc2b18ea38e515a7b605b3b6d0b",
+  "protocol_version": "v1",
+  "dataset_names": [
+    "primary_circular_economy_400",
+    "primary_biomedical_diabetes_mellitus_500"
+  ],
+  "n_total": 900,
+  "domain_counts": {
+    "circular_economy": 400,
+    "biomedical_diabetes_mellitus": 500
+  },
+  "class_counts_overall": {
+    "n": 900,
+    "match": {
+      "count": 264,
+      "proportion": 0.2933
+    },
+    "non-match": {
+      "count": 629,
+      "proportion": 0.6989
+    },
+    "uncertain": {
+      "count": 7,
+      "proportion": 0.0078
+    }
+  },
+  "direct_agreement_count": 614,
+  "adjudicated_count": 286,
+  "final_gold_xlsx_sha256": "bb90618580e944e54904c231efca83f50eebc1ef5eb4ea7f0fd8e803adbbec0a",
+  "final_gold_csv_sha256": "89dd427b04ecd6f362192f8102e5d7dc750fbae1e056fe527949a3dce3ade479"
+}

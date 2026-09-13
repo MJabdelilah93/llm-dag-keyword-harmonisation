@@ -1,0 +1,11 @@
+stratum,n_total,n_gold_match,n_gold_nonmatch,n_gold_uncertain,pred_match,pred_nonmatch,pred_uncertain,TP,FP,FN,TN,precision,recall,f1,coverage,note
+i,12,12,0,0,12,0,0,12,0,0,0,1.0,1.0,1.0,1.0,
+ii,13,0,13,0,0,13,0,0,0,0,13,,,,1.0,precision undefined: no predicted matches in stratum; recall undefined: no gold matches in stratum; F1 not computed: precision or recall undefined
+iii,17,7,0,10,6,4,7,6,0,1,0,1.0,0.8571,0.9231,0.5882,
+iv,12,12,0,0,12,0,0,12,0,0,0,1.0,1.0,1.0,1.0,
+ix,11,0,0,11,1,6,4,0,0,0,0,,,,0.6364,precision undefined: no predicted matches in stratum; recall undefined: no gold matches in stratum; F1 not computed: precision or recall undefined
+v,10,10,0,0,10,0,0,10,0,0,0,1.0,1.0,1.0,1.0,
+vi,22,1,21,0,1,21,0,0,1,1,20,0.0,0.0,0.0,1.0,
+vii,22,0,22,0,0,22,0,0,0,0,22,,,,1.0,precision undefined: no predicted matches in stratum; recall undefined: no gold matches in stratum; F1 not computed: precision or recall undefined
+viii,18,1,13,4,1,17,0,1,0,0,13,1.0,1.0,1.0,1.0,
+x,12,0,12,0,0,12,0,0,0,0,12,,,,1.0,precision undefined: no predicted matches in stratum; recall undefined: no gold matches in stratum; F1 not computed: precision or recall undefined

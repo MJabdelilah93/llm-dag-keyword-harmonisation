@@ -1,0 +1,501 @@
+pair_id,domain,string_a,string_b,frequency_a,frequency_b,candidate_stratum,final_gold_label,source_licence,source_pmcids_a,source_pmcids_b
+bio_diab_0035a336e5ac,biomedical_diabetes_mellitus,Quality of Life,quality‐of‐life,2,1,iv,match,CC BY,PMC11892693;PMC12915350,PMC12628715
+bio_diab_006ec0ce6551,biomedical_diabetes_mellitus,self care,self‐care,1,1,iv,match,CC BY,PMC13068177,PMC12080094
+bio_diab_00a8ee595250,biomedical_diabetes_mellitus,Bicarbonate,bilothorax,1,1,x,non-match,CC BY,PMC11061715,PMC12853066
+bio_diab_00c1fb9fd6f9,biomedical_diabetes_mellitus,albumin to creatinine ratio,creatinine,1,1,vii,non-match,CC BY,PMC13284644,PMC12744308
+bio_diab_01b9c97b684a,biomedical_diabetes_mellitus,T2DM control,type 2 diabetes (T2DM),1,1,iii,non-match,CC BY,PMC8593624,PMC12606594
+bio_diab_01bd0819e542,biomedical_diabetes_mellitus,saudi arabia,Saudi Arabia,13,1,i,match,CC BY,PMC10710872;PMC10748796;PMC10823190;PMC11574914;PMC11586061,PMC12915350
+bio_diab_01f6540cef98,biomedical_diabetes_mellitus,antibiotic prophylaxis,antibiotic treatment,1,1,vi,non-match,CC BY,PMC5839224,PMC11624012
+bio_diab_0283093a9186,biomedical_diabetes_mellitus,drug-eluting stent,drug eluting stent,2,1,iv,match,CC BY,PMC11683691;PMC12781018,PMC11273130
+bio_diab_03bdbbd1626a,biomedical_diabetes_mellitus,diabetic skin,diabetes melitus,1,1,vii,non-match,CC BY,PMC10787628,PMC9998049
+bio_diab_04afeeec709d,biomedical_diabetes_mellitus,Insulin,Prandial insulin,3,1,vi,non-match,CC BY,PMC11041815;PMC4909112;PMC8749489,PMC8783624
+bio_diab_04c546db721b,biomedical_diabetes_mellitus,MACCEs,mace,1,1,viii,non-match,CC BY,PMC11272856,PMC11627430
+bio_diab_05b96a8f572f,biomedical_diabetes_mellitus,ckd,ckd-mbd,1,1,viii,non-match,CC BY,PMC11568967,PMC11646636
+bio_diab_0635a5676256,biomedical_diabetes_mellitus,mouse model,mouse models,1,1,v,match,CC BY,PMC7343475,PMC9640193
+bio_diab_063ddf565aa0,biomedical_diabetes_mellitus,ACC,ACS,1,1,viii,non-match,CC BY,PMC10637786,PMC10280997
+bio_diab_06fc7fe4e3de,biomedical_diabetes_mellitus,minimum inhibitory concentration,pd-1 inhibitor,1,1,ix,non-match,CC BY,PMC11531786,PMC11619197
+bio_diab_07747b503178,biomedical_diabetes_mellitus,urinary tract infection,urinary tract infections,5,1,v,match,CC BY,PMC11579796;PMC11688164;PMC11693407;PMC11734641;PMC12740499,PMC10749406
+bio_diab_07b6a861b9b7,biomedical_diabetes_mellitus,ace inhibitors,pd-1 inhibitor,1,1,ix,non-match,CC BY,PMC12708013,PMC11619197
+bio_diab_09514d27466b,biomedical_diabetes_mellitus,COVID-19,COVID ‐19,10,1,iv,match,CC0,PMC10043905;PMC10637772;PMC10877389;PMC11266831;PMC11387936,PMC7461002
+bio_diab_0abb814f3563,biomedical_diabetes_mellitus,Diabetes Mellitus Type 1,type 1 and type 2 diabetes,1,1,vi,non-match,CC BY,PMC11742745,PMC12712548
+bio_diab_0b3ea3ece6bb,biomedical_diabetes_mellitus,acquired perforating dermatosis,pigmented lesions,1,1,x,non-match,CC BY,PMC12812320,PMC11667131
+bio_diab_0cb2df3b367f,biomedical_diabetes_mellitus,vitamin d,Vitamin D,3,2,i,match,CC BY,PMC10765456;PMC11512165;PMC11736670,PMC12709533;PMC5897984
+bio_diab_0ce607760457,biomedical_diabetes_mellitus,metabolic dysfunction-associated steatotic liver disease (MASLD),cardiometabolic disease,1,3,iii,non-match,CC BY,PMC12181761,PMC11411246;PMC12507511;PMC12681011
+bio_diab_0d0739f203f4,biomedical_diabetes_mellitus,preterm infants,fetal outcomes,1,1,x,non-match,CC BY,PMC11263992,PMC11574696
+bio_diab_0d0bf8785d30,biomedical_diabetes_mellitus,perioperative chemotherapy,perioperative medicine,1,1,ii,non-match,CC BY,PMC10824543,PMC12673413
+bio_diab_0db87697cabb,biomedical_diabetes_mellitus,type 1 diabetic encephalopathy,Type 1 diabetes mellitus,1,2,ii,non-match,CC BY,PMC6682534,PMC10405895;PMC5362970
+bio_diab_0e6808f248bf,biomedical_diabetes_mellitus,alcohol,Alcohol,3,1,i,match,CC BY,PMC12039747;PMC12614912;PMC12638270,PMC9804259
+bio_diab_0eab68b42464,biomedical_diabetes_mellitus,Hypoglycaemia,hypoglycaemia,1,1,i,match,CC BY,PMC5362970,PMC12836439
+bio_diab_0f9ae87a0f30,biomedical_diabetes_mellitus,pseudo germ-free mice,pseudo-germ-free mice,1,1,iv,match,CC BY,PMC7762484,PMC6914402
+bio_diab_1042fe50f052,biomedical_diabetes_mellitus,mineralocorticoid receptor antagonists,mineralocorticoid receptor antagonist,2,1,v,match,CC BY,PMC11496389;PMC12641577,PMC12643440
+bio_diab_1075e959ac62,biomedical_diabetes_mellitus,Elderly,geriatric patient,1,1,vi,match,CC BY,PMC10617786,PMC12831521
+bio_diab_1081f2644f29,biomedical_diabetes_mellitus,proton pump inhibitor,proton pump inhibitors,1,1,v,match,CC BY,PMC12738080,PMC11510648
+bio_diab_1155660cd6a4,biomedical_diabetes_mellitus,hypertension and therapy,treatment-resistant hypertension,1,1,vi,non-match,CC BY,PMC11608648,PMC10757316
+bio_diab_119575f2f0ba,biomedical_diabetes_mellitus,candidiasis,fungal infections,2,1,vii,non-match,CC BY,PMC11605486;PMC11667131,PMC10823190
+bio_diab_12090ce2c651,biomedical_diabetes_mellitus,Health literacy,minority health,1,1,x,non-match,CC BY,PMC10730987,PMC11622169
+bio_diab_13281f90dc4b,biomedical_diabetes_mellitus,Randomised controlled trial,randomised controlled trials,1,1,v,match,CC BY,PMC9751497,PMC12605316
+bio_diab_134a6670183d,biomedical_diabetes_mellitus,hypertriglyceridemia induced pancreatitis,hypertriglyceridemia-induced pancreatitis,1,1,iv,match,CC BY,PMC12802807,PMC11717404
+bio_diab_138471c4fe27,biomedical_diabetes_mellitus,albumin creatinine ratio,urinary-albumin-creatinine-ratio (uacr),1,1,vi,match,CC BY,PMC11537672,PMC11588321
+bio_diab_13d1b91595b2,biomedical_diabetes_mellitus,self-management support,self‐management,1,1,ii,non-match,CC BY,PMC12645092,PMC13176700
+bio_diab_13edbeccfa37,biomedical_diabetes_mellitus,health risks,risk,1,2,viii,non-match,CC BY,PMC11501561,PMC11364966;PMC12860575
+bio_diab_143f7d198d6f,biomedical_diabetes_mellitus,glp1 receptor agonist,glucagon-like peptide-1 receptor agonists (glp-1 ras),2,1,vi,match,CC BY,PMC11568967;PMC12594042,PMC12682503
+bio_diab_1462948a91ac,biomedical_diabetes_mellitus,CD8 +,Controlled diabetes,1,1,iii,non-match,CC BY,PMC12709533,PMC12813546
+bio_diab_146f7d81f377,biomedical_diabetes_mellitus,interstitial nephritis,renal disorders,1,1,x,non-match,CC BY,PMC12703639,PMC10754713
+bio_diab_14e73854e0d0,biomedical_diabetes_mellitus,drug reaction,reac,1,1,viii,non-match,CC BY,PMC11531368,PMC11497859
+bio_diab_15113baa14ff,biomedical_diabetes_mellitus,Cardiovascular risk factors,cardiovascular risk factor,1,1,v,match,CC BY,PMC8866909,PMC12543425
+bio_diab_159b2905663d,biomedical_diabetes_mellitus,DNA,Mutations,1,1,viii,non-match,CC BY,PMC6530605,PMC5564019
+bio_diab_15ba5dfd366d,biomedical_diabetes_mellitus,diabetes type 2,Type 1 Diabetes,8,1,vii,non-match,CC BY,PMC10749287;PMC10810724;PMC10815781;PMC11663298;PMC12662256,PMC6973524
+bio_diab_1633009d7c9b,biomedical_diabetes_mellitus,opportunistic fungal infections,opportunistic screening,1,1,ii,non-match,CC BY,PMC11608831,PMC7676396
+bio_diab_16607b6f5efe,biomedical_diabetes_mellitus,acute abdominal pain,pain,1,1,viii,non-match,CC BY,PMC11651802,PMC12627979
+bio_diab_167655caffb9,biomedical_diabetes_mellitus,periodontal disease (pd),periodontium,1,1,ii,non-match,CC BY,PMC11736515,PMC11537775
+bio_diab_173e8cb441af,biomedical_diabetes_mellitus,benfotiamine (BTMP),bisoprolol,1,1,iii,non-match,CC BY,PMC6682534,PMC11694328
+bio_diab_178b355d19b6,biomedical_diabetes_mellitus,meta-analysis,systematic review and meta-analysis,15,1,vi,non-match,CC BY,PMC10280997;PMC10723756;PMC10764202;PMC10822685;PMC11262450,PMC10810724
+bio_diab_17c49c052253,biomedical_diabetes_mellitus,immune-related adverse event,immune-related adverse event (irae),1,1,vi,match,CC BY,PMC12728766,PMC11619197
+bio_diab_18596d983cf6,biomedical_diabetes_mellitus,Quality-of-life,quality‐of‐life,1,1,iv,match,CC BY,PMC10698780,PMC12628715
+bio_diab_1885abc370f0,biomedical_diabetes_mellitus,obesity management,cardiovascular and obesity,1,1,vii,non-match,CC BY,PMC11745841,PMC11683709
+bio_diab_18bc08837a7d,biomedical_diabetes_mellitus,gallstone ileus,stone in gallbladder,1,1,vii,non-match,CC BY,PMC11663021,PMC10798649
+bio_diab_1921b5df6b0c,biomedical_diabetes_mellitus,surgery,surgical repair,1,1,vi,non-match,CC BY,PMC10735250,PMC12598257
+bio_diab_1922ee17de3f,biomedical_diabetes_mellitus,reconstructive surgery,surgical management,1,1,vii,non-match,CC BY,PMC12854536,PMC11651802
+bio_diab_192da0323dde,biomedical_diabetes_mellitus,type 1 diabetic encephalopathy,Diabetes Mellitus Type 1,1,1,vii,non-match,CC BY,PMC6682534,PMC11742745
+bio_diab_19b853169b7b,biomedical_diabetes_mellitus,risk,cancer risk,2,1,viii,non-match,CC BY,PMC11364966;PMC12860575,PMC12676983
+bio_diab_1a3ae2a0d573,biomedical_diabetes_mellitus,cardiac mechanics,cardiology research,1,1,vii,non-match,CC BY,PMC13327773,PMC12750961
+bio_diab_1bbf2cc18b07,biomedical_diabetes_mellitus,CD8 +,cognitive decline,1,3,iii,non-match,CC BY,PMC12709533,PMC10617788;PMC11628202;PMC7695387
+bio_diab_1c943b86a24b,biomedical_diabetes_mellitus,T1DM,type 1 diabetes mellitus (T1DM),2,1,iii,match,CC BY,PMC10617786;PMC11061715,PMC6682534
+bio_diab_1cae14d45fe5,biomedical_diabetes_mellitus,Gut Microbiota,intestinal microbiota and metabolites,1,1,vi,non-match,CC BY,PMC12915503,PMC7521520
+bio_diab_1cd014d1d039,biomedical_diabetes_mellitus,metabolic dysfunction-associated steatotic liver disease,Nonalcoholic fatty liver disease,3,1,vii,non-match,CC BY,PMC11743228;PMC12681021;PMC12813296,PMC5645706
+bio_diab_1ced5f94d770,biomedical_diabetes_mellitus,early diabetes,Diabetes,1,15,vi,non-match,CC BY,PMC12079847,PMC10728834;PMC11840297;PMC12606594;PMC12606611;PMC5721334
+bio_diab_1cf9610a4380,biomedical_diabetes_mellitus,familial hypertriglyceridemia,hyperglycaemia,1,1,vii,non-match,CC BY,PMC12802807,PMC10556372
+bio_diab_1d113fa5e835,biomedical_diabetes_mellitus,metabolic parameters,metabolic surgery,1,1,ii,non-match,CC BY,PMC10709660,PMC11537774
+bio_diab_1dddd043fd7e,biomedical_diabetes_mellitus,glp-1 agonist,GLP‐1,4,2,vi,non-match,CC BY,PMC10768942;PMC11579408;PMC11704649;PMC11743417,PMC7617301;PMC7617304
+bio_diab_1e7e6aa1933e,biomedical_diabetes_mellitus,pregnancy outcomes,fetal outcomes,4,1,vi,non-match,CC BY,PMC11232475;PMC12670981;PMC12699164;PMC12747792,PMC11574696
+bio_diab_1ed768c8523a,biomedical_diabetes_mellitus,fasting,fasting blood sugar (FBS),1,1,iii,non-match,CC BY,PMC11606437,PMC12606594
+bio_diab_1f0884f0a676,biomedical_diabetes_mellitus,difficult diagnosis,diagnostic tests,1,1,vii,non-match,CC BY,PMC12645516,PMC12742893
+bio_diab_1f3b74e54833,biomedical_diabetes_mellitus,neonatal diabetes,diabetes in pregnancy,1,1,vii,non-match,CC BY,PMC12698496,PMC10757212
+bio_diab_1f62af788905,biomedical_diabetes_mellitus,iron,iron deficiency,1,1,viii,non-match,CC BY,PMC12612779,PMC11266479
+bio_diab_20ee5b0129ce,biomedical_diabetes_mellitus,Semaglutide,oral semaglutide,1,1,vi,non-match,CC BY,PMC10730985,PMC12682503
+bio_diab_21c4d6244c85,biomedical_diabetes_mellitus,prosthesis-related infections,upper limb infections,1,1,x,non-match,CC BY,PMC12640431,PMC12812222
+bio_diab_2204659dced8,biomedical_diabetes_mellitus,hemodialysis,continuous hemodiafiltration,3,1,vii,non-match,CC BY,PMC10828751;PMC12627981;PMC12812320,PMC12786623
+bio_diab_2206dd2033b9,biomedical_diabetes_mellitus,carbetocin,anti-diabetics,1,1,x,non-match,CC BY,PMC8561611,PMC10752751
+bio_diab_2274709e2568,biomedical_diabetes_mellitus,HBP1,IGFBP1,1,1,viii,non-match,CC BY,PMC9699764,PMC9699764
+bio_diab_22ffcc3c2754,biomedical_diabetes_mellitus,sleeve gastrectomy,sleeve,4,1,ii,uncertain,CC BY,PMC11533043;PMC11745527;PMC12616207;PMC12826555,PMC10822685
+bio_diab_2301a4d04ab4,biomedical_diabetes_mellitus,cad: coronary artery disease,Cardiovascular Disease,1,1,vii,non-match,CC BY,PMC12664678,PMC11041996
+bio_diab_24e4ef61442b,biomedical_diabetes_mellitus,Na+/glucose cotransporters,Transporters,1,1,ix,non-match,CC BY,PMC6014526,PMC5033009
+bio_diab_27620fd27ca2,biomedical_diabetes_mellitus,osteoporosis,Osteoporosis,4,1,i,match,CC BY,PMC10733621;PMC11683720;PMC13147945;PMC9640193,PMC5925862
+bio_diab_27dd08b1c5c1,biomedical_diabetes_mellitus,Diabetes Mellitus Type 2,diabetes mellitus Type 2,1,1,i,match,CC BY,PMC8459622,PMC12039595
+bio_diab_281189e8480a,biomedical_diabetes_mellitus,homa-ir,HOMA-IR,5,1,i,match,CC BY,PMC11512165;PMC11524544;PMC11568420;PMC11725313;PMC12599267,PMC5761020
+bio_diab_289b5dc0dd4d,biomedical_diabetes_mellitus,uncontrolled diabetes mellitus,diabete mellitus,1,2,vi,non-match,CC BY,PMC11608831,PMC11771532;PMC12619631
+bio_diab_2a0f6376d4fb,biomedical_diabetes_mellitus,thrombosis,thrombotic microangiopathy,3,1,vii,non-match,CC BY,PMC11264001;PMC12701315;PMC12786623,PMC10749684
+bio_diab_2a1835c65819,biomedical_diabetes_mellitus,diabetes and metabolic syndrome,metabolic diseases,1,1,vi,non-match,CC BY,PMC11625967,PMC11273146
+bio_diab_2a869f064542,biomedical_diabetes_mellitus,CD8 +,cardiometabolic disease,1,3,iii,non-match,CC BY,PMC12709533,PMC11411246;PMC12507511;PMC12681011
+bio_diab_2af183971dd7,biomedical_diabetes_mellitus,T2DM,type 2 diabetes mellitus(t2dm),7,1,viii,match,CC BY,PMC10637786;PMC11499864;PMC12624264;PMC4943291;PMC7377876,PMC11498909
+bio_diab_2bb8166609cf,biomedical_diabetes_mellitus,Sodium-glucose cotransporter 2 inhibitors,sodium-glucose cotransporter-2 inhibitors,1,1,iv,match,CC BY,PMC10879742,PMC11262332
+bio_diab_2cd4f57593e3,biomedical_diabetes_mellitus,Endocrine disorder,endocrine disorders,1,1,v,match,CC BY,PMC6166392,PMC12834178
+bio_diab_2dbd62292c87,biomedical_diabetes_mellitus,sotagliflozin,Sotagliflozin,2,1,i,match,CC BY,PMC11269072;PMC12690223,PMC11535465
+bio_diab_2dc7f60e03ab,biomedical_diabetes_mellitus,DA3-CH,ORMDL3,1,1,ix,non-match,CC BY,PMC10637786,PMC6535075
+bio_diab_2e4b00e9467c,biomedical_diabetes_mellitus,diabetic foot ulcers,diabetic foot ulcers management,4,1,ii,non-match,CC BY,PMC10815781;PMC11525235;PMC11723777;PMC12640533,PMC10815781
+bio_diab_303961c2e041,biomedical_diabetes_mellitus,RCT,cgm,1,1,viii,non-match,CC BY,PMC9804259,PMC10733160
+bio_diab_30f336308fe9,biomedical_diabetes_mellitus,intensive care unit,icu,2,1,viii,match,CC BY,PMC12743196;PMC9290692,PMC12686196
+bio_diab_3122c3e8a7ad,biomedical_diabetes_mellitus,mHealth,mhealth,1,1,i,match,CC BY,PMC7463300,PMC11557727
+bio_diab_32014b94787a,biomedical_diabetes_mellitus,CD4 +,cognitive decline,1,3,iii,non-match,CC BY,PMC12709533,PMC10617788;PMC11628202;PMC7695387
+bio_diab_321339794c1f,biomedical_diabetes_mellitus,cardio protection,cardiovascular prevention,1,1,vii,non-match,CC BY,PMC12683079,PMC12794424
+bio_diab_3233defd74eb,biomedical_diabetes_mellitus,CVD,ascvd,1,1,viii,non-match,CC BY,PMC12307987,PMC11519579
+bio_diab_339c5925c9a0,biomedical_diabetes_mellitus,Emotions,Sex,1,1,viii,non-match,CC BY,PMC6480860,PMC8866909
+bio_diab_33f4c9f934bf,biomedical_diabetes_mellitus,Endocrine disorder,endocrinologists,1,1,x,non-match,CC BY,PMC6166392,PMC12591781
+bio_diab_35ec29871b01,biomedical_diabetes_mellitus,hepatocytes,hepatolithiasis,2,1,ii,non-match,CC BY,PMC11080919;PMC8080987,PMC11543374
+bio_diab_36d1d393d9b6,biomedical_diabetes_mellitus,albumin to creatinine ratio,urinary-albumin-creatinine-ratio (uacr),1,1,vii,match,CC BY,PMC13284644,PMC11588321
+bio_diab_36ebe7d5b6ea,biomedical_diabetes_mellitus,complications,complication,7,1,v,match,CC BY,PMC10762880;PMC10808950;PMC11651802;PMC11671117;PMC11711708,PMC10733165
+bio_diab_36f553cc633f,biomedical_diabetes_mellitus,Cross-sectional study,cross-sectional study,1,1,i,match,CC BY,PMC11923534,PMC10777169
+bio_diab_3740f335eaed,biomedical_diabetes_mellitus,telemedicine,telehealth,7,2,vi,non-match,CC BY,PMC10277979;PMC10877389;PMC11176708;PMC11495680;PMC11574696,PMC10277979;PMC10877389
+bio_diab_3777b16f67fa,biomedical_diabetes_mellitus,gastrectomy,surgical management,1,1,x,non-match,CC BY,PMC12718428,PMC11651802
+bio_diab_379009ccedfa,biomedical_diabetes_mellitus,anxiety,medical comorbidities,3,1,x,non-match,CC BY,PMC12728544;PMC12790400;PMC12817614,PMC12633637
+bio_diab_37c5a497b746,biomedical_diabetes_mellitus,functional foods,diet,1,2,viii,non-match,CC BY,PMC11683719,PMC12667557;PMC8650574
+bio_diab_38147b324e12,biomedical_diabetes_mellitus,Age,age of onset of menopause,1,1,viii,non-match,CC BY,PMC8866909,PMC10794094
+bio_diab_3859a7a12416,biomedical_diabetes_mellitus,NLRP 3,nspt,1,1,viii,non-match,CC BY,PMC5887903,PMC12640194
+bio_diab_387064b3b86e,biomedical_diabetes_mellitus,HIV,antiretroviral therapy,1,1,viii,non-match,CC BY,PMC7446035,PMC12701939
+bio_diab_38eaefb5a2d2,biomedical_diabetes_mellitus,pre-gestational diabetes mellitus,pregestational diabetes mellitus,1,1,vi,match,CC BY,PMC11748812,PMC10757212
+bio_diab_390eb92e512e,biomedical_diabetes_mellitus,covid-19-associated pulmonary aspergillosis (capa),pulmonary aspergillosis,1,1,vi,non-match,CC BY,PMC10776451,PMC10776451
+bio_diab_3a00deb66121,biomedical_diabetes_mellitus,nutraceuticals,nutrients,1,1,ii,non-match,CC BY,PMC11683719,PMC12645107
+bio_diab_3b8719966896,biomedical_diabetes_mellitus,DA3-CH,HDL3-C,1,1,ix,non-match,CC BY,PMC10637786,PMC11041996
+bio_diab_3cab5a390d6c,biomedical_diabetes_mellitus,Type 2 Diabetes Mellitus,Type-2 diabetes mellitus,4,1,iv,match,CC BY,PMC12915350;PMC12915503;PMC6480935;PMC8593624,PMC6198411
+bio_diab_3d78cad6277f,biomedical_diabetes_mellitus,type 1 diabetes mellitus (t1dm),type 1 diabetes mellitus (T1DM),3,1,i,match,CC BY,PMC10726016;PMC11682726;PMC12645516,PMC6682534
+bio_diab_3da8982f1023,biomedical_diabetes_mellitus,C13,DA3-CH,1,1,ix,non-match,CC BY,PMC11555695,PMC10637786
+bio_diab_3e2bca015641,biomedical_diabetes_mellitus,Cross-sectional study,cross-sectional studies,1,1,v,match,CC BY,PMC11923534,PMC9904780
+bio_diab_3e6040f65b90,biomedical_diabetes_mellitus,diabetic foot ulcers,Diabetic foot ulcer,4,1,v,match,CC BY,PMC10815781;PMC11525235;PMC11723777;PMC12640533,PMC6131315
+bio_diab_3f6278084051,biomedical_diabetes_mellitus,metabolic dysfunction-associated fatty liver disease (mafld),nonalcoholic fatty liver disease (nafld),1,1,vi,non-match,CC BY,PMC11707007,PMC11584147
+bio_diab_3f82a1d6aeb8,biomedical_diabetes_mellitus,SES,sirs,1,1,viii,non-match,CC BY,PMC8866909,PMC12664664
+bio_diab_3fd85b38413a,biomedical_diabetes_mellitus,Non-alcoholic fatty liver disease,non-alcoholic steatohepatitis (nash),1,1,ii,non-match,CC BY,PMC13181203,PMC11495423
+bio_diab_401d651f1a36,biomedical_diabetes_mellitus,Alcohol,wine,1,1,viii,non-match,CC BY,PMC9804259,PMC9804259
+bio_diab_406750b4e19a,biomedical_diabetes_mellitus,Diabetes Mellitus Type 2,"Diabetes mellitus, type 2",1,1,iv,match,CC BY,PMC8459622,PMC12090250
+bio_diab_40a9715f05e5,biomedical_diabetes_mellitus,chronic illness,health,1,1,vii,non-match,CC BY,PMC13068177,PMC11557730
+bio_diab_40ce9dd00d8d,biomedical_diabetes_mellitus,non-communicable disease clinic,noncommunicable diseases,1,1,ii,non-match,CC BY,PMC12783931,PMC12701319
+bio_diab_40f9eb6a6125,biomedical_diabetes_mellitus,aseptic encephalitis,encephalitis,1,1,vi,non-match,CC BY,PMC11775637,PMC10805624
+bio_diab_412153000978,biomedical_diabetes_mellitus,microvascular complications,microvascular complication,4,1,v,match,CC BY,PMC10726016;PMC11531331;PMC11569825;PMC12667217,PMC12746900
+bio_diab_4192aae99569,biomedical_diabetes_mellitus,cardioembolic stroke,ischaemic stroke,1,1,vii,non-match,CC BY,PMC12809190,PMC12615988
+bio_diab_41ad8b75fa47,biomedical_diabetes_mellitus,type 2 diabetes mellitus (T2DM),Type 2 Diabetes Mellitus (T2DM),2,1,i,match,CC BY,PMC13248776;PMC7159822,PMC5712635
+bio_diab_41c2bd405ce9,biomedical_diabetes_mellitus,DA3-CH,SCARA3,1,1,ix,non-match,CC BY,PMC10637786,PMC7880357
+bio_diab_42856f535125,biomedical_diabetes_mellitus,weightloss,diet,1,2,viii,non-match,CC BY,PMC11745527,PMC12667557;PMC8650574
+bio_diab_42967fdb89e6,biomedical_diabetes_mellitus,dental implant,oral,1,1,viii,non-match,CC BY,PMC11700303,PMC10617787
+bio_diab_432678c2f66b,biomedical_diabetes_mellitus,Fanconi Anemia (FA),anaemia,1,1,iii,non-match,CC BY,PMC6046246,PMC10763517
+bio_diab_434fba3fedfb,biomedical_diabetes_mellitus,type 2 diabetes mellitus (dm),Type 2 Diabetes Mellitus (T2DM),4,1,iii,match,CC BY,PMC10557367;PMC12711359;PMC12728360;PMC12784311,PMC5712635
+bio_diab_4376008d7144,biomedical_diabetes_mellitus,fibroblast growth factor-21,Fibroblast Growth Factor 21,2,1,iv,match,CC BY,PMC11273855;PMC11560389,PMC10728834
+bio_diab_43f84a395631,biomedical_diabetes_mellitus,diabetes mellitus management,Diabetic mellitus,4,1,vi,non-match,CC BY,PMC11497807;PMC11498909;PMC11627120;PMC12783931,PMC6198407
+bio_diab_44863661eefd,biomedical_diabetes_mellitus,T1DM,Type 1,2,1,viii,match,CC BY,PMC10617786;PMC11061715,PMC11041815
+bio_diab_44c98872ffa8,biomedical_diabetes_mellitus,national diabetes prevention programme,diabetes therapy,1,1,vii,non-match,CC BY,PMC6181096,PMC12647397
+bio_diab_453f8f8eccf1,biomedical_diabetes_mellitus,fatty liver,fatty liver Index (FLI),1,1,iii,non-match,CC BY,PMC11663027,PMC12606594
+bio_diab_45d166645c38,biomedical_diabetes_mellitus,fatty liver disease,non-alcoholic fatty liver,3,1,vi,non-match,CC BY,PMC10772480;PMC10810724;PMC11743228,PMC11743228
+bio_diab_45d208742aa2,biomedical_diabetes_mellitus,cad: coronary artery disease,coronary artery thrombus,1,1,vii,non-match,CC BY,PMC12664678,PMC11646640
+bio_diab_469b61913d30,biomedical_diabetes_mellitus,management of type 2 diabetes,type 1 and type 2 diabetes,1,1,vi,non-match,CC BY,PMC11579408,PMC12712548
+bio_diab_4840466c165d,biomedical_diabetes_mellitus,chronic invasive pulmonary aspergillosis,invasive aspergillosis,1,1,vi,non-match,CC BY,PMC10765265,PMC10776451
+bio_diab_48cdd66acc38,biomedical_diabetes_mellitus,bradyarrhythmia,tachyarrhythmia,1,1,vi,non-match,CC BY,PMC11262450,PMC11262450
+bio_diab_48fb6a1c8490,biomedical_diabetes_mellitus,fibrinogen to albumin ratio,fibrinogen-to-albumin ratio,1,1,iv,match,CC BY,PMC11691999,PMC11272855
+bio_diab_496f4c82da52,biomedical_diabetes_mellitus,Type 1 Diabetes,type 1 diabetes mellitus (T1DM),1,1,iii,match,CC BY,PMC6973524,PMC6682534
+bio_diab_49c987269dc6,biomedical_diabetes_mellitus,predictors,prediction model,7,2,ii,non-match,CC BY,PMC10764296;PMC10791138;PMC11700303;PMC11725303;PMC12679496,PMC11270478;PMC7880388
+bio_diab_4ae464c4f8d9,biomedical_diabetes_mellitus,diabetic macular oedema,sight‐threatening diabetic retinopathy (STDR),1,1,iii,non-match,CC BY,PMC11646637,PMC13248776
+bio_diab_4bef5751544a,biomedical_diabetes_mellitus,CD8 +,comorbidity documentation,1,1,iii,non-match,CC BY,PMC12709533,PMC12664664
+bio_diab_4db9fc9eaa6b,biomedical_diabetes_mellitus,morbid obesity,weight loss and obesity,1,1,vii,non-match,CC BY,PMC10822685,PMC12783929
+bio_diab_4de583630f20,biomedical_diabetes_mellitus,pregnancy complications,retinal complications,2,1,ii,non-match,CC BY,PMC11508815;PMC11728208,PMC11560390
+bio_diab_4e255fa253b7,biomedical_diabetes_mellitus,CD8 +,Cardiovascular Diseases,1,1,iii,non-match,CC BY,PMC12709533,PMC12915353
+bio_diab_4ed79e8f040c,biomedical_diabetes_mellitus,glycosylated haemoglobin,haemoglobin,2,1,vi,non-match,CC BY,PMC11579401;PMC7685098,PMC11584213
+bio_diab_4f1e23b14328,biomedical_diabetes_mellitus,chorea,cholelithiasis,2,1,vii,non-match,CC BY,PMC11586875;PMC11671813,PMC10798649
+bio_diab_4f4b42194826,biomedical_diabetes_mellitus,AS04-adjuvanted HPV-16/18 vaccine,COVID-19 Vaccine,1,1,ix,non-match,CC BY,PMC7482795,PMC11061715
+bio_diab_4f958faa099c,biomedical_diabetes_mellitus,Diabetes mellitus,Diabetes Mellitus,7,5,i,match,CC BY,PMC10156041;PMC4995685;PMC5420190;PMC5925866;PMC6009131,PMC11041815;PMC11892751;PMC12915353;PMC6816448;PMC8866909
+bio_diab_50b61e9c6bc0,biomedical_diabetes_mellitus,Type 2 Diabetes Mellitus (T2DM),type 2 diabetes mellitus(t2dm),1,1,iv,match,CC BY,PMC5712635,PMC11498909
+bio_diab_50b8be98a808,biomedical_diabetes_mellitus,Insulin pump,Insulin pumps,1,1,v,match,CC BY,PMC8783624,PMC12776363
+bio_diab_515fdcb6ef98,biomedical_diabetes_mellitus,weight loss medication,weightloss,1,1,ii,non-match,CC BY,PMC12709405,PMC11745527
+bio_diab_516387ebb2fd,biomedical_diabetes_mellitus,Na+/glucose cotransporters,glucose metabolism,1,1,ix,non-match,CC BY,PMC6014526,PMC9699764
+bio_diab_529d10766746,biomedical_diabetes_mellitus,cancer risk,cancer screening,1,1,ii,non-match,CC BY,PMC12676983,PMC11671176
+bio_diab_53565dc33d0f,biomedical_diabetes_mellitus,C13,hb1ac,1,1,ix,non-match,CC BY,PMC11555695,PMC10800162
+bio_diab_53e8b6872ca9,biomedical_diabetes_mellitus,Ethiopia,tanzania,2,1,vii,non-match,CC BY,PMC6198407;PMC9712051,PMC12701939
+bio_diab_541bb0421254,biomedical_diabetes_mellitus,dm,DM (diabetes mellitus),2,1,viii,match,CC BY,PMC10810724;PMC11538487,PMC7425465
+bio_diab_54625bcc736e,biomedical_diabetes_mellitus,polymorphism,C(-104)T polymorphism,2,1,ix,non-match,CC BY,PMC10758537;PMC6530605,PMC6198411
+bio_diab_54c4cb05b4e0,biomedical_diabetes_mellitus,immune checkpoint inhibitors,immune-checkpoint inhibitors,2,2,iv,match,CC BY,PMC11619197;PMC12728766,PMC11781837;PMC12614663
+bio_diab_55418997ebbb,biomedical_diabetes_mellitus,SGLT2 inhibitors,SGLT2 inhibitor,3,1,v,match,CC BY,PMC11270380;PMC11273146;PMC11273890,PMC11270412
+bio_diab_55adc3b70922,biomedical_diabetes_mellitus,autoimmune gastritis,exogenous insulin autoimmune syndrome,1,1,x,non-match,CC BY,PMC11745562,PMC11580819
+bio_diab_55be7b084fe3,biomedical_diabetes_mellitus,risk assessment tool,risk assessment tools,1,1,v,match,CC BY,PMC10828751,PMC10757824
+bio_diab_56419a0a19b8,biomedical_diabetes_mellitus,C13,FZD3,1,1,ix,non-match,CC BY,PMC11555695,PMC7746375
+bio_diab_57c37a6c86ae,biomedical_diabetes_mellitus,T1D,tendon degeneration,1,1,iii,non-match,CC BY,PMC11041820,PMC12598257
+bio_diab_58469e9cd563,biomedical_diabetes_mellitus,surgical management,­reconstructive surgery,1,1,vii,non-match,CC BY,PMC11651802,PMC12786623
+bio_diab_58887b9e67db,biomedical_diabetes_mellitus,hyperthyroidism,thyroiditits,1,1,vii,non-match,CC BY,PMC12590050,PMC12615017
+bio_diab_58eef7541aec,biomedical_diabetes_mellitus,stiff person syndrome,stiff-person syndrome,1,1,iv,match,CC BY,PMC11624894,PMC11624894
+bio_diab_5975e4880a9e,biomedical_diabetes_mellitus,FBS,FGF 21,1,1,viii,non-match,CC BY,PMC11499864,PMC6079533
+bio_diab_5988ba3f5232,biomedical_diabetes_mellitus,end-stage renal disease (esrd),end stage renal disease (esrd),3,1,iv,match,CC BY,PMC11495420;PMC11646636;PMC11684553,PMC11731551
+bio_diab_5a30917e5fdb,biomedical_diabetes_mellitus,Insulin pump,insulin initiation,1,1,vii,non-match,CC BY,PMC8783624,PMC12745633
+bio_diab_5b1e22984b67,biomedical_diabetes_mellitus,T1D,Type 2 Diabetes,1,4,iii,non-match,CC BY,PMC11041820,PMC10750786;PMC11892693;PMC5842840;PMC6181096
+bio_diab_5c136fe54db8,biomedical_diabetes_mellitus,risk assessment tools,risk factor investigation,1,1,x,non-match,CC BY,PMC10757824,PMC11560319
+bio_diab_5c2b8d8ac1ad,biomedical_diabetes_mellitus,AS04-adjuvanted HPV-16/18 vaccine,covid-19 vaccination,1,1,ix,non-match,CC BY,PMC7482795,PMC12824426
+bio_diab_5c2e44fa0ba7,biomedical_diabetes_mellitus,glp-1 agonist,glp-1 agonists,4,2,v,match,CC BY,PMC10768942;PMC11579408;PMC11704649;PMC11743417,PMC11564366;PMC12660513
+bio_diab_5cbc4d7a8fa4,biomedical_diabetes_mellitus,glp1-gip receptor agonist,glp-1 agonists,1,2,vi,non-match,CC BY,PMC12594042,PMC11564366;PMC12660513
+bio_diab_5d73bfb4cb80,biomedical_diabetes_mellitus,hypothyroidism,levothyroxine,5,1,x,non-match,CC BY,PMC10557367;PMC11521962;PMC11671117;PMC12590050;PMC12834317,PMC10557367
+bio_diab_5ede6be0776a,biomedical_diabetes_mellitus,ticagrelor,“tirzepatide”,1,1,x,non-match,CC BY,PMC12696682,PMC12783929
+bio_diab_5eeff9c5ed75,biomedical_diabetes_mellitus,cardiovascular pregnancy complications,pregnancy-related complications,1,1,vi,non-match,CC BY,PMC9904780,PMC10729291
+bio_diab_60608e068c8c,biomedical_diabetes_mellitus,first trimester,first-trimester,1,1,iv,match,CC BY,PMC12137773,PMC12860573
+bio_diab_6073b95c0dd7,biomedical_diabetes_mellitus,COVID-19,COVID 19,10,1,iv,match,CC0,PMC10043905;PMC10637772;PMC10877389;PMC11266831;PMC11387936,PMC8719279
+bio_diab_60a8988ca853,biomedical_diabetes_mellitus,diabetic retinopathy,Diabetic retinopathy,16,3,i,match,CC BY,PMC10710872;PMC10726016;PMC10755086;PMC11527494;PMC11560319,PMC10617788;PMC5897984;PMC6198411
+bio_diab_60cd99adf74b,biomedical_diabetes_mellitus,tuberculosis,Tuberculosis,6,3,i,match,CC BY,PMC10749406;PMC11655090;PMC11734866;PMC12674587;PMC12851828,PMC11840297;PMC6107974;PMC6816448
+bio_diab_60e43d33e1ae,biomedical_diabetes_mellitus,microvascular dysfunction,ocular microvasculature,1,1,vii,non-match,CC BY,PMC11710919,PMC12680907
+bio_diab_6150a3858ee8,biomedical_diabetes_mellitus,fasting blood sugar,fasting blood sugar (FBS),1,1,iii,match,CC BY,PMC12853005,PMC12606594
+bio_diab_616d1fd83b8e,biomedical_diabetes_mellitus,hyperthyroidism,thyroid dysfunction,1,4,vii,non-match,CC BY,PMC12590050,PMC11521962;PMC12590050;PMC12646130;PMC12747792
+bio_diab_618e18096f38,biomedical_diabetes_mellitus,Insulin,insulin therapy,3,2,ii,non-match,CC BY,PMC11041815;PMC4909112;PMC8749489,PMC12646130;PMC12840817
+bio_diab_61ab01c23f14,biomedical_diabetes_mellitus,lipid,lipids,1,1,v,match,CC BY,PMC4888855,PMC11695108
+bio_diab_623d0f3711f0,biomedical_diabetes_mellitus,Risk Factor,Risk factor,1,1,i,match,CC BY,PMC4995685,PMC13176754
+bio_diab_62fdd458b163,biomedical_diabetes_mellitus,coronary artery bypass surgery,off-pump coronary artery bypass grafting,1,1,vii,non-match,CC BY,PMC10704061,PMC12620707
+bio_diab_636a27018d3e,biomedical_diabetes_mellitus,Chronic kidney disease,Chronic Kidney Disease,3,1,i,match,CC BY,PMC12606617;PMC12673439;PMC12709536,PMC6480935
+bio_diab_64e17485d68d,biomedical_diabetes_mellitus,neutrophil-to-lymphocyte ratio,Neutrophil Lymphocyte Ratio,3,1,ii,match,CC BY,PMC12718085;PMC12744308;PMC12746900,PMC4505778
+bio_diab_656c32552f1e,biomedical_diabetes_mellitus,reciever operating characteristic (roc) curve,roc curve analysis,1,1,vi,match,CC BY,PMC12824426,PMC12641199
+bio_diab_65f53cb2fb51,biomedical_diabetes_mellitus,long covid,covid-19 vaccination,1,1,vii,non-match,CC BY,PMC10790598,PMC12824426
+bio_diab_66ae3af3fb18,biomedical_diabetes_mellitus,Metabolic syndrome,metabolism syndrome,3,1,ii,match,CC BY,PMC12645107;PMC5760971;PMC8577060,PMC10733621
+bio_diab_66d3fcbff3d4,biomedical_diabetes_mellitus,sodium-glucose cotransporter 2 inhibitors,Sodium-glucose cotransporter 2 inhibitors,2,1,i,match,CC BY,PMC11262450;PMC11269072,PMC10879742
+bio_diab_66fc5db93452,biomedical_diabetes_mellitus,diabetic eye disease,sight‐threatening diabetic retinopathy (STDR),1,1,iii,non-match,CC BY,PMC11700368,PMC13248776
+bio_diab_6748766232a3,biomedical_diabetes_mellitus,health behaviour,Health Education,1,1,ii,non-match,CC BY,PMC8114388,PMC12915350
+bio_diab_676a77e1949b,biomedical_diabetes_mellitus,CD8 +,coordination disorders,1,1,iii,non-match,CC BY,PMC12709533,PMC12620914
+bio_diab_68bc5af7147e,biomedical_diabetes_mellitus,ACS,Acute coronary syndromes,1,1,iii,match,CC BY,PMC10280997,PMC5838636
+bio_diab_68fffebe3875,biomedical_diabetes_mellitus,Insulin glargine,insulin action,1,1,ii,non-match,CC BY,PMC5941245,PMC6243331
+bio_diab_696a0a393003,biomedical_diabetes_mellitus,T1D,young t2dm,1,1,viii,non-match,CC BY,PMC11041820,PMC11538487
+bio_diab_6b337670e6c3,biomedical_diabetes_mellitus,bilateral endophthalmitis,retinal lesions,1,1,x,non-match,CC BY,PMC11614361,PMC11527494
+bio_diab_6b3dd8b4030c,biomedical_diabetes_mellitus,Fasting Blood Glucose (FBG),glucose metabolism,1,1,iii,non-match,CC BY,PMC5712635,PMC9699764
+bio_diab_6b62c728c946,biomedical_diabetes_mellitus,pfo,pfo closure,1,1,viii,non-match,CC BY,PMC10660138,PMC10660138
+bio_diab_6b7cb04183f3,biomedical_diabetes_mellitus,hospital readmission,hospital management,1,1,ii,non-match,CC BY,PMC12716367,PMC4943291
+bio_diab_6bafafedc4e9,biomedical_diabetes_mellitus,CD4 +,cardiometabolic disease,1,3,iii,non-match,CC BY,PMC12709533,PMC11411246;PMC12507511;PMC12681011
+bio_diab_6bc28e906396,biomedical_diabetes_mellitus,Diabetes Control and Complications Trial (DCCT),complications,1,7,iii,non-match,CC BY,PMC5362970,PMC10762880;PMC10808950;PMC11651802;PMC11671117;PMC11711708
+bio_diab_6bfdee082df4,biomedical_diabetes_mellitus,artificial intelligence,artificial sweeteners,1,1,ii,non-match,CC BY,PMC12618048,PMC11501561
+bio_diab_6c2d66b645e8,biomedical_diabetes_mellitus,fibrosis,diabetic renal fibrosis,3,1,vii,non-match,CC BY,PMC12476221;PMC6446227;PMC6834398,PMC6014487
+bio_diab_6c4b7ed80fbe,biomedical_diabetes_mellitus,proliferative diabetic retinopathy (pdr),sight‐threatening diabetic retinopathy (STDR),1,1,iii,non-match,CC BY,PMC11646637,PMC13248776
+bio_diab_6cb4ce053d8e,biomedical_diabetes_mellitus,meta-analysis,meta‐analysis,15,1,iv,match,CC BY,PMC10280997;PMC10723756;PMC10764202;PMC10822685;PMC11262450,PMC7685098
+bio_diab_6cfa74c462cd,biomedical_diabetes_mellitus,cardiorespiratory fitness (CRF),american heart association (aha) and american college of cardiology (acc),1,1,iii,non-match,CC BY,PMC9902048,PMC11608648
+bio_diab_6da0c47d6392,biomedical_diabetes_mellitus,angiographic severity,computed coronary angiography,1,1,x,non-match,CC BY,PMC12790255,PMC11551071
+bio_diab_6dca7f22474d,biomedical_diabetes_mellitus,hypertrophic cardiomyopathy,myocardial hypertrophy,1,1,vii,non-match,CC BY,PMC7762520,PMC10879742
+bio_diab_6dd5626c13d4,biomedical_diabetes_mellitus,tnf-α,nf-κb,2,1,ix,non-match,CC BY,PMC12611295;PMC12640194,PMC12611295
+bio_diab_6dee39c71e73,biomedical_diabetes_mellitus,hospitalization,patient care,3,1,vii,non-match,CC BY,PMC10828751;PMC12605316;PMC12678213,PMC12747464
+bio_diab_7043917e6331,biomedical_diabetes_mellitus,nspt,nt-probnp,1,1,viii,non-match,CC BY,PMC12640194,PMC11602244
+bio_diab_71d1bd05638f,biomedical_diabetes_mellitus,Fibroblast Growth Factor 21,fibroblast growth factor 21,1,1,i,match,CC BY,PMC10728834,PMC10787595
+bio_diab_71e3b84625d4,biomedical_diabetes_mellitus,T2,newly diagnosed t2dm,1,1,viii,non-match,CC BY,PMC5510560,PMC11560389
+bio_diab_71f6f8e450a4,biomedical_diabetes_mellitus,Cytokine TGF-β1,TGF-β,1,1,vi,non-match,CC BY,PMC12523975,PMC6446227
+bio_diab_72290ee64a2d,biomedical_diabetes_mellitus,Determinants,determinant,1,1,v,match,CC BY,PMC6480935,PMC10624955
+bio_diab_723ceddbb9eb,biomedical_diabetes_mellitus,health-related quality of life,quality‐of‐life,1,1,vi,non-match,CC BY,PMC11706570,PMC12628715
+bio_diab_72b69e171b69,biomedical_diabetes_mellitus,diabete mellitus,diabetic patients,2,1,vi,non-match,CC BY,PMC11771532;PMC12619631,PMC11749097
+bio_diab_72c4cf83d9a1,biomedical_diabetes_mellitus,Continuous glucose monitoring,continuous glucose monitoring,4,4,i,match,CC BY,PMC8501458;PMC8501470;PMC8783624;PMC8783627,PMC10733160;PMC11761540;PMC12543421;PMC12846742
+bio_diab_72f639803941,biomedical_diabetes_mellitus,T1,tsh,1,1,viii,non-match,CC BY,PMC5510560,PMC11585484
+bio_diab_74b0161647ab,biomedical_diabetes_mellitus,cats,mice,1,1,viii,non-match,CC BY,PMC7379708,PMC7425515
+bio_diab_74c497bfbe1f,biomedical_diabetes_mellitus,cranial nerve palsy,third nerve palsy,1,1,vi,non-match,CC BY,PMC10786188,PMC11668228
+bio_diab_74de0c9793e1,biomedical_diabetes_mellitus,family medicine,family practice,2,1,vi,match,CC BY,PMC12701738;PMC12790827,PMC9904780
+bio_diab_75d85c75fe97,biomedical_diabetes_mellitus,Clinical Trial,randomized trial,1,1,vii,non-match,CC BY,PMC12106965,PMC9804259
+bio_diab_75eb4ed01d2a,biomedical_diabetes_mellitus,comorbidities,Comorbidity,4,2,v,match,CC BY,PMC10722336;PMC11684534;PMC12765514;PMC12830071,PMC11840297;PMC13176754
+bio_diab_76e6339c853a,biomedical_diabetes_mellitus,UK,bulgaria,1,1,viii,non-match,CC BY,PMC6107974,PMC11588144
+bio_diab_7798f94cfef7,biomedical_diabetes_mellitus,idiopathic inflammatory myopathy,inflammatory myositis,1,1,vi,match,CC BY,PMC11495885,PMC11495885
+bio_diab_780af4f6fbb8,biomedical_diabetes_mellitus,diabetic,diabetics,2,1,v,match,CC BY,PMC11522845;PMC11586875,PMC12764281
+bio_diab_7813d24a5c3f,biomedical_diabetes_mellitus,Leptin,le,1,1,viii,non-match,CC BY,PMC12307987,PMC12738080
+bio_diab_792a99b82d5a,biomedical_diabetes_mellitus,hyperlipidemia,Hyperglucagonaemia.,3,1,x,non-match,CC BY,PMC11504137;PMC11584249;PMC11623971,PMC4909112
+bio_diab_7a2d70d77b19,biomedical_diabetes_mellitus,diet,fasting-mimicking diet,2,1,viii,non-match,CC BY,PMC12667557;PMC8650574,PMC11513225
+bio_diab_7adeb71d45ba,biomedical_diabetes_mellitus,thrombocytopenia,thromboembolism,2,1,vi,non-match,CC BY,PMC12596170;PMC12728544,PMC11270478
+bio_diab_7b89f9d57dae,biomedical_diabetes_mellitus,il-6,comq-12,2,1,ix,non-match,CC BY,PMC12611295;PMC12780812,PMC12806162
+bio_diab_7ba8b77f09eb,biomedical_diabetes_mellitus,hba1c variability,glycated hemoglobin (HbA1c),1,1,vii,non-match,CC BY,PMC12795397,PMC13248776
+bio_diab_7be7b6e48072,biomedical_diabetes_mellitus,minority health,Health Education,1,1,x,non-match,CC BY,PMC11622169,PMC12915350
+bio_diab_7c28cd51f36b,biomedical_diabetes_mellitus,real-world evidence,real‐world evidence,1,1,iv,match,CC BY,PMC12647397,PMC12673439
+bio_diab_7c8cb2595938,biomedical_diabetes_mellitus,hydrocephalus,post-obstructive hydrocephalus,1,1,vi,non-match,CC BY,PMC12824465,PMC12824465
+bio_diab_7ce290217041,biomedical_diabetes_mellitus,hospitalizations,in-hospital outcomes,1,2,vii,non-match,CC BY,PMC11568830,PMC12698491;PMC12797277
+bio_diab_7d9933a266b4,biomedical_diabetes_mellitus,Interstitial lung abnormalities,lung injury,1,1,x,non-match,CC BY,PMC13181192,PMC11611797
+bio_diab_7fbfa76886d7,biomedical_diabetes_mellitus,randomized controlled trials,randomised controlled trial.,2,1,vi,match,CC BY,PMC11574696;PMC12605316,PMC12754366
+bio_diab_800595890b32,biomedical_diabetes_mellitus,COVID,covid-19 vaccination,1,1,ii,non-match,CC BY,PMC10277979,PMC12824426
+bio_diab_805024eea90c,biomedical_diabetes_mellitus,Quality of Life,Quality of life,2,2,i,match,CC BY,PMC11892693;PMC12915350,PMC10405895;PMC6166392
+bio_diab_80b9df350b74,biomedical_diabetes_mellitus,mace,major adverse cardiovascular events (mace),1,2,viii,match,CC BY,PMC11627430,PMC11578637;PMC12592220
+bio_diab_8103709bc346,biomedical_diabetes_mellitus,prss1,stz,1,1,viii,non-match,CC BY,PMC11645519,PMC11662991
+bio_diab_8105795a6ff8,biomedical_diabetes_mellitus,Diabetes Obstacles Questionnaire-30,diabetes self-management questionnaire,1,1,vi,non-match,CC BY,PMC11923534,PMC12712548
+bio_diab_81cf0cbbd22a,biomedical_diabetes_mellitus,Diabetic kidney disease,diabetic patients,1,1,ii,non-match,CC BY,PMC10405895,PMC11749097
+bio_diab_82035632d79a,biomedical_diabetes_mellitus,Electronic Health Records,electronic health records,1,1,i,match,CC BY,PMC10285340,PMC9904780
+bio_diab_827aa5f618ca,biomedical_diabetes_mellitus,percutaneous coronary intervention (pci),coronary artery disease (cad),1,1,vii,non-match,CC BY,PMC11585208,PMC12790255
+bio_diab_82860f583db3,biomedical_diabetes_mellitus,gip and glp-1 receptor agonist,glucagon-like peptide 1 receptor agonist (glp-1a),1,1,vi,non-match,CC BY,PMC12742330,PMC11576062
+bio_diab_82875ca4ab7a,biomedical_diabetes_mellitus,cardiorespiratory,cardiorespiratory fitness (CRF),1,1,iii,non-match,CC BY,PMC11269068,PMC9902048
+bio_diab_828ec902d24f,biomedical_diabetes_mellitus,arrhythmia,arrhythmias,4,1,v,match,CC BY,PMC10769121;PMC11262450;PMC11266831;PMC12716871,PMC10704061
+bio_diab_82b46b8a1de1,biomedical_diabetes_mellitus,random blood glucose (rbg),self-monitoring of blood glucose,1,1,vii,non-match,CC BY,PMC10771033,PMC12846742
+bio_diab_8343a376e442,biomedical_diabetes_mellitus,focal myocarditis,fulminant myocarditis,1,1,vii,non-match,CC BY,PMC11495885,PMC11495885
+bio_diab_834da267bb54,biomedical_diabetes_mellitus,distal femur fracture,interarticular fracture,1,1,vii,non-match,CC BY,PMC11512120,PMC11512120
+bio_diab_83dce5c4b5c7,biomedical_diabetes_mellitus,T2DM,T2,7,1,viii,match,CC BY,PMC10637786;PMC11499864;PMC12624264;PMC4943291;PMC7377876,PMC5510560
+bio_diab_846192e358b6,biomedical_diabetes_mellitus,bradycardia,ventricular arrhythmias,2,1,x,non-match,CC BY,PMC11262450;PMC11266831,PMC12698491
+bio_diab_84a2425b503e,biomedical_diabetes_mellitus,Taiwan,asian american,1,1,x,non-match,CC BY,PMC6535054,PMC11622169
+bio_diab_862bc0a2611e,biomedical_diabetes_mellitus,biomarkers,serum biomarker,4,1,vi,non-match,CC BY,PMC11496046;PMC11531331;PMC11568420;PMC11671176,PMC12640694
+bio_diab_870d21b4d137,biomedical_diabetes_mellitus,self-management,Self-Management,6,2,i,match,CC BY,PMC10792707;PMC11570704;PMC11717380;PMC11725051;PMC12754366,PMC6662872;PMC8825946
+bio_diab_875bdf001ff8,biomedical_diabetes_mellitus,miR-122-5p,rs780094,1,1,ix,non-match,CC BY,PMC7880398,PMC13284661
+bio_diab_877ce654a4ff,biomedical_diabetes_mellitus,Fasting Blood Glucose (FBG),flash glucose monitoring,1,2,iii,non-match,CC BY,PMC5712635,PMC11497140;PMC12846742
+bio_diab_87e3a7552d0b,biomedical_diabetes_mellitus,Cross-sectional study,cross sectional study,1,1,iv,match,CC BY,PMC11923534,PMC10751034
+bio_diab_8cd08ffd9ad2,biomedical_diabetes_mellitus,kidney replacement therapy,kidney transplant,1,1,vi,non-match,CC BY,PMC12709536,PMC10749684
+bio_diab_8eac4876f046,biomedical_diabetes_mellitus,acne,skin necrosis,1,1,viii,non-match,CC BY,PMC11612288,PMC11655088
+bio_diab_8f7b06655d6a,biomedical_diabetes_mellitus,Hybrid closed loop,hybrid closed‐loop,1,1,iv,match,CC BY,PMC12352573,PMC12628715
+bio_diab_91403caa5538,biomedical_diabetes_mellitus,leptin,Leptin,2,1,i,match,CC BY,PMC12780812;PMC5137856,PMC12307987
+bio_diab_918f08c99377,biomedical_diabetes_mellitus,hospitalization,hospitalizations,3,1,v,match,CC BY,PMC10828751;PMC12605316;PMC12678213,PMC11568830
+bio_diab_91d7b4bee66f,biomedical_diabetes_mellitus,steroids,steroid,2,1,v,match,CC BY,PMC11578860;PMC8730627,PMC12619965
+bio_diab_926634d139c7,biomedical_diabetes_mellitus,ROC,reciever operating characteristic (roc) curve,1,1,viii,match,CC BY,PMC12751036,PMC12824426
+bio_diab_926a33b2c732,biomedical_diabetes_mellitus,FGF 21,fgf-21,1,1,iv,match,CC BY,PMC6079533,PMC10787595
+bio_diab_94b337071171,biomedical_diabetes_mellitus,Fasting Blood Glucose (FBG),blood glucose estimation,1,1,iii,non-match,CC BY,PMC5712635,PMC11604175
+bio_diab_94ba4350b5fa,biomedical_diabetes_mellitus,long-acting insulin,insulin treatment,1,1,vi,non-match,CC BY,PMC11676328,PMC11725313
+bio_diab_954539e34c43,biomedical_diabetes_mellitus,diabetes in pregnancy,pregestational diabetes,1,1,vi,non-match,CC BY,PMC10757212,PMC12079847
+bio_diab_954eb02bc478,biomedical_diabetes_mellitus,experimental animals,mice,1,1,viii,non-match,CC BY,PMC11747299,PMC7425515
+bio_diab_9584394d2dda,biomedical_diabetes_mellitus,gad65,rs1260326,1,1,ix,non-match,CC BY,PMC11624894,PMC13284661
+bio_diab_9598fd31c06b,biomedical_diabetes_mellitus,cognitive impairment,cognitive dysfunction,4,1,vi,match,CC BY,PMC11628202;PMC13256395;PMC6682534;PMC7425475,PMC10617788
+bio_diab_95b4fe3fb5c4,biomedical_diabetes_mellitus,ulcerative colitis,autoimmune gastritis,3,1,x,non-match,CC BY,PMC11520026;PMC12716367;PMC12718477,PMC11745562
+bio_diab_95c7c518c810,biomedical_diabetes_mellitus,ischemic stroke subtypes,hemorrhagic stroke,1,1,x,non-match,CC BY,PMC6680058,PMC12698496
+bio_diab_9657b1940929,biomedical_diabetes_mellitus,Self-care,self‐care,1,1,iv,match,CC BY,PMC10156041,PMC12080094
+bio_diab_96a93a414436,biomedical_diabetes_mellitus,elderly patient,elderly patients,3,2,v,match,CC BY,PMC12822169;PMC12824465;PMC12853940,PMC11753819;PMC12747464
+bio_diab_97d3f266d2f9,biomedical_diabetes_mellitus,glycosylated haemoglobin,Glycated haemoglobin (HbA1c),2,1,vi,match,CC BY,PMC11579401;PMC7685098,PMC5362970
+bio_diab_97e67a34f970,biomedical_diabetes_mellitus,COVID 19,COVID ‐19,1,1,iv,match,CC BY,PMC8719279,PMC7461002
+bio_diab_989e936af1ce,biomedical_diabetes_mellitus,Clinical trials,Clinical Trial,2,1,v,match,CC BY,PMC12776363;PMC5897984,PMC12106965
+bio_diab_9953d5285b2e,biomedical_diabetes_mellitus,type 2 diabetic mellitus (t2dm),type 2 diabetes (T2DM),2,1,iii,match,CC BY,PMC11627120;PMC12645516,PMC12606594
+bio_diab_99842bf6597a,biomedical_diabetes_mellitus,PD-L1,pd-1 inhibitor,1,1,ix,non-match,CC BY,PMC7733742,PMC11619197
+bio_diab_99f98ea07d20,biomedical_diabetes_mellitus,adipocytes,adipokines,2,1,ii,non-match,CC BY,PMC11080919;PMC6595317,PMC6768253
+bio_diab_9a526be07324,biomedical_diabetes_mellitus,sight‐threatening diabetic retinopathy (STDR),diabetic microangiopathy,1,1,iii,non-match,CC BY,PMC13248776,PMC11700368
+bio_diab_9bb408da2f97,biomedical_diabetes_mellitus,CD8 +,COVID-19; Diabetes,1,1,iii,non-match,CC BY,PMC12709533,PMC12784043
+bio_diab_9bcaa65ca0cb,biomedical_diabetes_mellitus,glycosylated hemoglobin (HbA1C),glycosylated hemoglobin (hba1c),1,1,i,match,CC BY,PMC12606594,PMC10771033
+bio_diab_9bf60111e4bc,biomedical_diabetes_mellitus,Chronic heart failure,cardiovascular illness,1,1,vii,non-match,CC BY,PMC11284697,PMC12590050
+bio_diab_9c5f0266df6c,biomedical_diabetes_mellitus,dental implants,dental implant,2,1,v,match,CC BY,PMC11759002;PMC13383164,PMC11700303
+bio_diab_9c6d7763e0a5,biomedical_diabetes_mellitus,glp-1 receptor agonists,glp-1 receptor agonist,10,3,v,match,CC BY,PMC10811430;PMC11568484;PMC11578637;PMC11771532;PMC12603435,PMC12591504;PMC12709405;PMC12716871
+bio_diab_9c7593d1d9b5,biomedical_diabetes_mellitus,TBI,tbsa,1,1,viii,non-match,CC BY,PMC9811955,PMC11753819
+bio_diab_9cbc206bf180,biomedical_diabetes_mellitus,perioperative medicine,surgical management,1,1,x,non-match,CC BY,PMC12673413,PMC11651802
+bio_diab_9ce032ce696d,biomedical_diabetes_mellitus,type i diabetes mellitus,Type 1 diabetes mellitus,4,2,vi,match,CC BY,PMC11541163;PMC11624894;PMC11736515;PMC12717671,PMC10405895;PMC5362970
+bio_diab_9da2d04a6336,biomedical_diabetes_mellitus,HIV,hiv,1,1,i,match,CC BY,PMC7446035,PMC12701939
+bio_diab_9daf9c93067c,biomedical_diabetes_mellitus,adipokines,central adiposity,1,1,x,non-match,CC BY,PMC6768253,PMC12718085
+bio_diab_9df9b1acfc57,biomedical_diabetes_mellitus,SGLT-2/SGLT-1 inhibitors,sglt-2 inhibitors,1,1,ii,non-match,CC BY,PMC11535465,PMC12612781
+bio_diab_9e2ce454b3d3,biomedical_diabetes_mellitus,Attenuation imaging,mri imaging,1,1,x,non-match,CC BY,PMC13181203,PMC11731551
+bio_diab_9e754e5e02c0,biomedical_diabetes_mellitus,fibrosis,hepatic fibrosis,3,1,vi,non-match,CC BY,PMC12476221;PMC6446227;PMC6834398,PMC12829429
+bio_diab_9f56f690d491,biomedical_diabetes_mellitus,UK,UK Biobank,1,1,viii,non-match,CC BY,PMC6107974,PMC10688972
+bio_diab_9f708b4c0d1e,biomedical_diabetes_mellitus,ACE2,atherogenic co-efficient,1,1,iii,non-match,CC BY,PMC11041820,PMC11588321
+bio_diab_a001723439fb,biomedical_diabetes_mellitus,systematic review and meta analysis,systematic review and meta-analysis,2,1,iv,match,CC BY,PMC11561859;PMC12750961,PMC10810724
+bio_diab_a02e67314574,biomedical_diabetes_mellitus,CD4 +,caesarean delivery,1,1,iii,non-match,CC BY,PMC12709533,PMC8561611
+bio_diab_a038d29a5238,biomedical_diabetes_mellitus,humoral immune response,immune tolerance,1,1,vii,non-match,CC BY,PMC12824426,PMC6597240
+bio_diab_a094b58aa21b,biomedical_diabetes_mellitus,proliferative retinopathy,sight‐threatening diabetic retinopathy (STDR),1,1,iii,non-match,CC BY,PMC11682734,PMC13248776
+bio_diab_a1e808da6212,biomedical_diabetes_mellitus,autoimmune thyroid disorders,thyroid function,1,1,vii,non-match,CC BY,PMC11745562,PMC11585484
+bio_diab_a359d9cfbcd7,biomedical_diabetes_mellitus,Glycemic Profile,Impaired glucose tolerance,1,1,vii,non-match,CC BY,PMC11892692,PMC4995685
+bio_diab_a4076c28b1c0,biomedical_diabetes_mellitus,adipokines,adipose tissue,1,4,vii,non-match,CC BY,PMC6768253,PMC11272880;PMC6410654;PMC6768253;PMC9640193
+bio_diab_a491f65d3eef,biomedical_diabetes_mellitus,sodium-glucose cotransporter-2 (sglt-2) inhibitors,Na+/glucose cotransporters,2,1,ix,non-match,CC BY,PMC10749287;PMC10817760,PMC6014526
+bio_diab_a507fa32c001,biomedical_diabetes_mellitus,screening,Screening,4,2,i,match,CC BY,PMC11498909;PMC11602244;PMC11726392;PMC12137773,PMC6816448;PMC7539074
+bio_diab_a508d1592baa,biomedical_diabetes_mellitus,hepatic abscess,liver disease,1,1,vii,non-match,CC BY,PMC11725050,PMC12840817
+bio_diab_a5094de54238,biomedical_diabetes_mellitus,immune related adverse events,Major adverse cardiovascular events,1,1,x,non-match,CC BY,PMC11619197,PMC12673439
+bio_diab_a560d9b9a8a8,biomedical_diabetes_mellitus,outpatient care,outpatients,1,1,ii,non-match,CC BY,PMC12765514,PMC10877389
+bio_diab_a757537c7ce4,biomedical_diabetes_mellitus,acute pyelonephritis,interstitial nephritis,1,1,x,non-match,CC BY,PMC11688164,PMC12703639
+bio_diab_a80ae4c244d1,biomedical_diabetes_mellitus,SARS-CoV-2,SARS ‐CoV-2,6,1,iv,match,CC0,PMC10637772;PMC11041820;PMC11266831;PMC11387936;PMC7607482,PMC7461002
+bio_diab_a817e7d45e1f,biomedical_diabetes_mellitus,al ahsa,al-ahsa,1,1,iv,match,CC BY,PMC10748796,PMC11753791
+bio_diab_a8680c0d2271,biomedical_diabetes_mellitus,Diabetes Control and Complications Trial (DCCT),anesthesia complications,1,1,iii,non-match,CC BY,PMC5362970,PMC11743506
+bio_diab_a9c1b31ea074,biomedical_diabetes_mellitus,otitis externa,otitis media complication,1,1,vii,non-match,CC BY,PMC12790827,PMC12613139
+bio_diab_aab78c4cc807,biomedical_diabetes_mellitus,miR-18a,miR-222,1,1,vi,non-match,CC BY,PMC7835052,PMC7746358
+bio_diab_ab2d44576dd9,biomedical_diabetes_mellitus,hypertension and therapy,hypertensive emergency,1,1,vii,non-match,CC BY,PMC11608648,PMC11681835
+bio_diab_ac684da81e5f,biomedical_diabetes_mellitus,pd-1 inhibitor,SGLT2 inhibitors,1,3,ix,non-match,CC BY,PMC11619197,PMC11270380;PMC11273146;PMC11273890
+bio_diab_ac7e2d133490,biomedical_diabetes_mellitus,Non-alcoholic steatohepatitis,non-alcoholic fatty liver,1,1,ii,non-match,CC BY,PMC4909112,PMC11743228
+bio_diab_acd1af28ae44,biomedical_diabetes_mellitus,FBS,fasting blood sugar,1,1,iii,match,CC BY,PMC11499864,PMC12853005
+bio_diab_ad2eb5a27328,biomedical_diabetes_mellitus,AKR1B1,rs1260326,1,1,ix,non-match,CC BY,PMC6446175,PMC13284661
+bio_diab_adb9f5774207,biomedical_diabetes_mellitus,cord blood insulin,Insulin pumps,1,1,x,non-match,CC BY,PMC7475957,PMC12776363
+bio_diab_ae024e839ff7,biomedical_diabetes_mellitus,Diabetic wounds,diabetic wound,1,1,v,match,CC BY,PMC8641666,PMC12848859
+bio_diab_aeb1b14ca682,biomedical_diabetes_mellitus,high density lipoprotein-cholesterol,triglycerides to high-density lipoprotein cholesterol,1,1,vi,non-match,CC BY,PMC10771033,PMC11273665
+bio_diab_af341ec3c7c4,biomedical_diabetes_mellitus,advanced glycation end products,advanced glycation end-products,1,1,iv,match,CC BY,PMC12424577,PMC6014491
+bio_diab_b0435602d17e,biomedical_diabetes_mellitus,type 2 diabetes mellitus glycemic control,management of type 2 diabetes,1,1,vi,non-match,CC BY,PMC11599163,PMC11579408
+bio_diab_b076bf83ef5d,biomedical_diabetes_mellitus,hospitalisation,hospitalizations,1,1,ii,match,CC BY,PMC12605316,PMC11568830
+bio_diab_b07eeb23c9b0,biomedical_diabetes_mellitus,management of type 2 diabetes,Type-2 diabetes mellitus,1,1,vi,non-match,CC BY,PMC11579408,PMC6198411
+bio_diab_b13907a8c27d,biomedical_diabetes_mellitus,incident type 2 diabetes,"Diabetes mellitus, type 2",1,1,vi,non-match,CC BY,PMC8650574,PMC12090250
+bio_diab_b144b24e99b7,biomedical_diabetes_mellitus,Self-care,self care,1,1,iv,match,CC BY,PMC10156041,PMC13068177
+bio_diab_b38d15e9e211,biomedical_diabetes_mellitus,hemoglobin a1c (hba1c),glycated hemoglobin (HbA1c),3,1,vi,match,CC BY,PMC11560319;PMC11772562;PMC12737921,PMC13248776
+bio_diab_b3bbccf75812,biomedical_diabetes_mellitus,diabetic keto acidosis,diabetic ketoacidosis in adult,2,1,ii,non-match,CC BY,PMC11616898;PMC12614663,PMC12739188
+bio_diab_b43f859ae7b9,biomedical_diabetes_mellitus,PCR,primary PCI,1,1,viii,non-match,CC BY,PMC6198411,PMC11522793
+bio_diab_b567c4a270a2,biomedical_diabetes_mellitus,Lifestyle Interventions,lifestyle,1,1,ii,non-match,CC BY,PMC12915364,PMC12539534
+bio_diab_b5983f5fdf56,biomedical_diabetes_mellitus,myocardial infarction,myocardial infraction,7,1,vi,match,CC BY,PMC10746948;PMC11270468;PMC11440330;PMC11564130;PMC11646640,PMC12721581
+bio_diab_b5cc45f19f62,biomedical_diabetes_mellitus,AGEs,older individuals,1,1,viii,non-match,CC BY,PMC7377852,PMC7803515
+bio_diab_b6aae7928b0f,biomedical_diabetes_mellitus,dental extraction,oral,1,1,viii,non-match,CC BY,PMC11539834,PMC10617787
+bio_diab_b7bfa93f3cbe,biomedical_diabetes_mellitus,Uganda,Saudi Arabia,3,1,x,non-match,CC BY,PMC6816448;PMC7446035;PMC8729021,PMC12915350
+bio_diab_b88c5800f441,biomedical_diabetes_mellitus,atherosclerosis,atherogenic dyslipidemia,4,1,vii,non-match,CC BY,PMC10280997;PMC10726066;PMC11625015;PMC12831505,PMC12718085
+bio_diab_b9166838fc06,biomedical_diabetes_mellitus,drug adherence,non-adherence,1,1,vii,non-match,CC BY,PMC10771968,PMC10748829
+bio_diab_b962c6d01801,biomedical_diabetes_mellitus,hypoglycemic attacks,oral hypoglycemic agents,1,1,vii,non-match,CC BY,PMC11586061,PMC11497140
+bio_diab_ba2b037efbf1,biomedical_diabetes_mellitus,SDG3,sdsca instrument,1,1,viii,non-match,CC BY,PMC13176700,PMC11570704
+bio_diab_bb825c3ff32e,biomedical_diabetes_mellitus,CD8 +,chronic disease,1,2,iii,non-match,CC BY,PMC12709533,PMC11523505;PMC12745632
+bio_diab_bb976fdda700,biomedical_diabetes_mellitus,HDL-C,hacl,1,1,viii,non-match,CC BY,PMC11499864,PMC12678213
+bio_diab_bcb973760a99,biomedical_diabetes_mellitus,ROC,receiver operating curve,1,1,iii,match,CC BY,PMC12751036,PMC11537672
+bio_diab_bcfbc02282c4,biomedical_diabetes_mellitus,type 2 diabetes symptoms,Type I diabetes,1,1,ii,non-match,CC BY,PMC11684537,PMC10698780
+bio_diab_bd036172449f,biomedical_diabetes_mellitus,SGLT-2/SGLT-1 inhibitors,pd-1 inhibitor,1,1,ix,non-match,CC BY,PMC11535465,PMC11619197
+bio_diab_bd74c08ab831,biomedical_diabetes_mellitus,Risk factors,Risk Factor,3,1,v,match,CC BY,PMC5725598;PMC5838636;PMC5925866,PMC4995685
+bio_diab_bd8f6b1cd771,biomedical_diabetes_mellitus,first trimester,postpartum,1,1,x,non-match,CC BY,PMC12137773,PMC12678213
+bio_diab_be062f113227,biomedical_diabetes_mellitus,ventricular fibrillation,ventricular tachycardia,1,1,x,non-match,CC BY,PMC12698491,PMC12698491
+bio_diab_be4ecbcb6a1b,biomedical_diabetes_mellitus,sodium-glucose cotransporter-2 (sglt-2) inhibitors,sglt-2 inhibitors,2,1,vi,match,CC BY,PMC10749287;PMC10817760,PMC12612781
+bio_diab_bf08c58bc6a2,biomedical_diabetes_mellitus,Qualitative Research,Qualitative research,1,1,i,match,CC BY,PMC6480860,PMC7539074
+bio_diab_bf2e72aa6877,biomedical_diabetes_mellitus,integrated care,integration,1,1,ii,non-match,CC BY,PMC12701939,PMC12674587
+bio_diab_bf88df24ae26,biomedical_diabetes_mellitus,C(-9)G polymorphism,genetic polymorphisms,1,1,ix,non-match,CC BY,PMC6198411,PMC12612610
+bio_diab_bfba572f9389,biomedical_diabetes_mellitus,Type 2 Diabetes Mellitus (T2DM),types 2 diabetes mellitus (t2dm),1,1,iii,match,CC BY,PMC5712635,PMC11634216
+bio_diab_c0df16f7d531,biomedical_diabetes_mellitus,Associated factors,psychosocial factors,1,1,vii,non-match,CC BY,PMC6198407,PMC11273054
+bio_diab_c21c2f18f3a8,biomedical_diabetes_mellitus,glp-1 receptor agonist,glucagon-like peptid-1 receptor agonists,3,1,vii,match,CC BY,PMC12591504;PMC12709405;PMC12716871,PMC12724355
+bio_diab_c3ca66b5f621,biomedical_diabetes_mellitus,Diabetes Mellitus type 2; obesity; body mass index; depression.,Diabetes distress,1,1,vii,non-match,CC BY,PMC4358412,PMC7539074
+bio_diab_c43581b7f59f,biomedical_diabetes_mellitus,renal hemodynamics,renal disorders,1,1,vii,non-match,CC BY,PMC12708013,PMC10754713
+bio_diab_c5180f59a3e6,biomedical_diabetes_mellitus,cognitive impairment,neurocognitive impairment,4,1,vi,match,CC BY,PMC11628202;PMC13256395;PMC6682534;PMC7425475,PMC12711359
+bio_diab_c67ba74a6a29,biomedical_diabetes_mellitus,prevention,disease prevention,3,1,vi,non-match,CC BY,PMC12745630;PMC12812417;PMC7463300,PMC9680740
+bio_diab_c6a26a71fc6f,biomedical_diabetes_mellitus,diabetes type 2,type 1 and type 2 diabetes,8,1,vi,non-match,CC BY,PMC10749287;PMC10810724;PMC10815781;PMC11663298;PMC12662256,PMC12712548
+bio_diab_c722f58e2c6f,biomedical_diabetes_mellitus,pd-1 inhibitor,proton pump inhibitors,1,1,ix,non-match,CC BY,PMC11619197,PMC11510648
+bio_diab_c95ca1de3591,biomedical_diabetes_mellitus,amyloid,amyloidosis,1,1,ii,non-match,CC BY,PMC6055827,PMC12756682
+bio_diab_c99532948f0a,biomedical_diabetes_mellitus,SNP,single nuclear polymorphism,1,1,iii,match,CC BY,PMC5842840,PMC11576614
+bio_diab_cb04011ef7a8,biomedical_diabetes_mellitus,invasive fungal infections,invasive pulmonary aspergillosis,2,1,vii,non-match,CC BY,PMC11525039;PMC11608831,PMC12831519
+bio_diab_cbd26af642aa,biomedical_diabetes_mellitus,cardiorespiratory fitness (CRF),respiratory failure,1,1,iii,non-match,CC BY,PMC9902048,PMC12606512
+bio_diab_cc61ae9be48e,biomedical_diabetes_mellitus,extra pulmonary tuberculosis,laryngeal tuberculosis,1,1,vii,non-match,CC BY,PMC11655090,PMC12851828
+bio_diab_cdae38d49114,biomedical_diabetes_mellitus,glycated hemoglobin (hba1c),glycated hemoglobin (HbA1c),5,1,i,match,CC BY,PMC11530257;PMC11588321;PMC11616898;PMC12604075;PMC12853005,PMC13248776
+bio_diab_cdb35c53b9b9,biomedical_diabetes_mellitus,cardiac arrest,acute myocardial infarction injury,3,1,x,non-match,CC BY,PMC11262450;PMC12620923;PMC12721581,PMC7425465
+bio_diab_cebab064f914,biomedical_diabetes_mellitus,type 2 diabetes (T2DM),"Diabetes mellitus, type 2",1,1,iii,match,CC BY,PMC12606594,PMC12090250
+bio_diab_cedb61a44e64,biomedical_diabetes_mellitus,microRNA,microRNAs,1,1,v,match,CC BY,PMC12751036,PMC7377889
+bio_diab_cef7b74049c7,biomedical_diabetes_mellitus,septic shock (ss),surviving sepsis guidelines,1,1,x,non-match,CC BY,PMC11731534,PMC11668267
+bio_diab_cf57dade6cdc,biomedical_diabetes_mellitus,DA3-CH,chd,1,1,ix,non-match,CC BY,PMC10637786,PMC10749406
+bio_diab_cf72c9a2fe28,biomedical_diabetes_mellitus,RNA stability,microRNA-9,1,1,x,non-match,CC BY,PMC6986786,PMC7343507
+bio_diab_cf7f70e76cc9,biomedical_diabetes_mellitus,Self-Management,self‐management,2,1,iv,match,CC BY,PMC6662872;PMC8825946,PMC13176700
+bio_diab_cf967c71a861,biomedical_diabetes_mellitus,serum sodium,sodium channels,1,1,x,non-match,CC BY,PMC11501493,PMC11270397
+bio_diab_d0b052930654,biomedical_diabetes_mellitus,Na+/glucose cotransporters,a sodium-glucose cotransporter 2 inhibitor,1,1,ix,non-match,CC BY,PMC6014526,PMC11743228
+bio_diab_d0c6ed123d51,biomedical_diabetes_mellitus,Chronic Diseases,Chronic diseases,1,1,i,match,CC BY,PMC8825946,PMC8649966
+bio_diab_d16d0e263a35,biomedical_diabetes_mellitus,lifestyle intervention,Lifestyle Interventions,2,1,v,match,CC BY,PMC12607247;PMC12783929,PMC12915364
+bio_diab_d183073b3a26,biomedical_diabetes_mellitus,GLP‐1,GLP-1,2,1,iv,match,CC BY,PMC7617301;PMC7617304,PMC4909112
+bio_diab_d1af9913b454,biomedical_diabetes_mellitus,cardiovascular and obesity,cardiovascular,1,1,ii,non-match,CC BY,PMC11683709,PMC12614121
+bio_diab_d2925cb84ec5,biomedical_diabetes_mellitus,triglycerides,lipids,2,1,vii,non-match,CC BY,PMC11512664;PMC5760971,PMC11695108
+bio_diab_d2edb3ce4b82,biomedical_diabetes_mellitus,mycobacterium tuberculosis (mtb),tuberculosis (tb),1,1,vi,non-match,CC BY,PMC12754560,PMC10757316
+bio_diab_d31efdab54fc,biomedical_diabetes_mellitus,ards,attitudes towards exercise,1,1,viii,non-match,CC BY,PMC10800029,PMC6169949
+bio_diab_d3e3b7b8b43e,biomedical_diabetes_mellitus,Quality of Life,Quality-of-life,2,1,iv,match,CC BY,PMC11892693;PMC12915350,PMC10698780
+bio_diab_d61fdc19112e,biomedical_diabetes_mellitus,type 1 diabetes mellitus (T1DM),Diabetes Mellitus Type 2,1,1,iii,non-match,CC BY,PMC6682534,PMC8459622
+bio_diab_d654ea7290e0,biomedical_diabetes_mellitus,drug-induced lupus,hydralazine-induced lupus syndrome,1,1,vii,non-match,CC BY,PMC11578857,PMC11578857
+bio_diab_d6ddc5c38659,biomedical_diabetes_mellitus,adverse drug reaction,adverse drug reactions,1,1,v,match,CC BY,PMC12742330,PMC12765514
+bio_diab_d7be2750f1d5,biomedical_diabetes_mellitus,α-amylase,α–amylase,1,1,iv,match,CC BY,PMC10824705,PMC8080987
+bio_diab_d80ed5f3a1cc,biomedical_diabetes_mellitus,retinal diseases,sight‐threatening diabetic retinopathy (STDR),1,1,iii,non-match,CC BY,PMC12798166,PMC13248776
+bio_diab_d89a496db36c,biomedical_diabetes_mellitus,adolescent diabetes,Diabetes,2,15,vii,non-match,CC BY,PMC11616732;PMC12645516,PMC10728834;PMC11840297;PMC12606594;PMC12606611;PMC5721334
+bio_diab_d89d26fc4a78,biomedical_diabetes_mellitus,depression,Depression,5,3,i,match,CC BY,PMC12790400;PMC12817614;PMC12856767;PMC13256395;PMC8544326,PMC10156041;PMC6446172;PMC7539074
+bio_diab_d91f2d9da253,biomedical_diabetes_mellitus,diabetic neuropathic pain,neuropathic pain,2,2,vi,non-match,CC BY,PMC11694051;PMC12723995,PMC12723995;PMC8730627
+bio_diab_d956c9e81a63,biomedical_diabetes_mellitus,diabetic kidney disease,Diabetic kidney disease,5,1,i,match,CC BY,PMC11537672;PMC11576614;PMC11691999;PMC12643440;PMC12709536,PMC10405895
+bio_diab_d971435bfdb8,biomedical_diabetes_mellitus,GDM,obs&gy,1,1,viii,non-match,CC BY,PMC6973531,PMC10729291
+bio_diab_d97d71f0eaf6,biomedical_diabetes_mellitus,CD8 +,cardiometabolic diseases,1,1,iii,non-match,CC BY,PMC12709533,PMC10734663
+bio_diab_da32e3f85254,biomedical_diabetes_mellitus,BMI,Obesity,5,6,viii,non-match,CC BY,PMC10688972;PMC12813546;PMC5388792;PMC6768253;PMC9290692,PMC10728834;PMC5897984;PMC5925866;PMC6348435;PMC7453922
+bio_diab_da6c62b9a43c,biomedical_diabetes_mellitus,clinical outcome,patient outcomes,1,1,vi,non-match,CC BY,PMC7607482,PMC11651802
+bio_diab_dacc39a91f0d,biomedical_diabetes_mellitus,de novo diabetes mellitus,Diabetes Mellitus Type 2,1,1,vii,non-match,CC BY,PMC12802807,PMC8459622
+bio_diab_db07dfdc587c,biomedical_diabetes_mellitus,sodium channels,Na+/glucose cotransporters,1,1,ix,non-match,CC BY,PMC11270397,PMC6014526
+bio_diab_db2a910bd7c9,biomedical_diabetes_mellitus,lipid profile,lipid-profile,4,1,iv,match,CC BY,PMC10765456;PMC11524515;PMC11584249;PMC11590170,PMC12793644
+bio_diab_db309f778211,biomedical_diabetes_mellitus,Obesity,cardiovascular and obesity,6,1,vi,non-match,CC BY,PMC10728834;PMC5897984;PMC5925866;PMC6348435;PMC7453922,PMC11683709
+bio_diab_dba72f08ffb1,biomedical_diabetes_mellitus,semaglutide,Semaglutide,6,1,i,match,CC BY,PMC11704649;PMC12660513;PMC12676983;PMC12754808;PMC12783929,PMC10730985
+bio_diab_de8318688f4a,biomedical_diabetes_mellitus,diabetic neuropathies,Diabetic neuropathy,2,1,v,match,CC BY,PMC12627979;PMC12701738,PMC6009131
+bio_diab_deba98d0e9e0,biomedical_diabetes_mellitus,non-diabetic hyperglycaemia,non-ketotic hyperglycemia,1,1,ii,non-match,CC BY,PMC6181096,PMC12615992
+bio_diab_dfa8ad0d9e75,biomedical_diabetes_mellitus,DPP-4 Inhibitors,pd-1 inhibitor,1,1,ix,non-match,CC BY,PMC11892788,PMC11619197
+bio_diab_e029a430c306,biomedical_diabetes_mellitus,PCR,posterior capsular rupture,1,1,iii,non-match,CC BY,PMC6198411,PMC11513221
+bio_diab_e051b8e8b2da,biomedical_diabetes_mellitus,complications of diabetes,incident type 2 diabetes,1,1,vii,non-match,CC BY,PMC12660019,PMC8650574
+bio_diab_e16b7b1aeb0b,biomedical_diabetes_mellitus,GDM,gdm- gestational diabetes mellitus,1,1,viii,match,CC BY,PMC6973531,PMC12747792
+bio_diab_e24b6c218dec,biomedical_diabetes_mellitus,CD8 +,cardiac death,1,1,iii,non-match,CC BY,PMC12709533,PMC11273665
+bio_diab_e2caf3882cc0,biomedical_diabetes_mellitus,influenza type a,influenza type c,1,1,vi,non-match,CC BY,PMC12721581,PMC12721581
+bio_diab_e359cf246f45,biomedical_diabetes_mellitus,international society for pediatric and adolescent diabetes,national diabetes prevention programme,1,1,vii,non-match,CC BY,PMC11512664,PMC6181096
+bio_diab_e35f5c07af92,biomedical_diabetes_mellitus,RCT,Randomised controlled trial,1,1,iii,match,CC BY,PMC9804259,PMC9751497
+bio_diab_e3fdfeb2bc5c,biomedical_diabetes_mellitus,hypertriglyceridemia,diabetic hyperglycemia,2,1,vii,non-match,CC BY,PMC11512664;PMC12606512,PMC5287388
+bio_diab_e423e26f91d4,biomedical_diabetes_mellitus,Randomised controlled trial,randomised controlled trial.,1,1,iv,match,CC BY,PMC9751497,PMC12754366
+bio_diab_e4ea9f759271,biomedical_diabetes_mellitus,AS04-adjuvanted HPV-16/18 vaccine,vaccination,1,2,ix,non-match,CC BY,PMC7482795,PMC12721581;PMC12824978
+bio_diab_e5be445f733d,biomedical_diabetes_mellitus,lifestyle factors,factors,2,1,vii,non-match,CC BY,PMC11515689;PMC12764281,PMC10764296
+bio_diab_e5c11117c3b3,biomedical_diabetes_mellitus,high fat diet,high‐fat diet,1,1,iv,match,CC BY,PMC11524602,PMC6674232
+bio_diab_e81b505166ab,biomedical_diabetes_mellitus,GIP,gip and glp-1 receptor agonist,2,1,viii,non-match,CC BY,PMC7617301;PMC7617304,PMC12742330
+bio_diab_e84329b4eed8,biomedical_diabetes_mellitus,Na+/glucose cotransporters,sodium-glucose cotransporter-2 inhibitors,1,1,ix,non-match,CC BY,PMC6014526,PMC11262332
+bio_diab_e8a276f1c6a8,biomedical_diabetes_mellitus,Glucagon,glucagon-like peptide,1,1,ii,non-match,CC BY,PMC4909112,PMC11579408
+bio_diab_e8c191c7f059,biomedical_diabetes_mellitus,Duodenal-Jejunal Bypass (DJB),duodenal switch,1,1,iii,non-match,CC BY,PMC5712635,PMC11745527
+bio_diab_e90aa404d168,biomedical_diabetes_mellitus,Intraocular pressure,intraocular pressure,1,1,i,match,CC BY,PMC5876923,PMC10777169
+bio_diab_e98846cca0c9,biomedical_diabetes_mellitus,Elderly,middle aged,1,1,vii,non-match,CC BY,PMC10617786,PMC9794446
+bio_diab_e99c8610aeca,biomedical_diabetes_mellitus,Vitamin E,vitamin E,1,1,i,match,CC BY,PMC5420190,PMC6748682
+bio_diab_e99caa37438d,biomedical_diabetes_mellitus,ROG,ROS,1,1,viii,non-match,CC BY,PMC5909056,PMC7695387
+bio_diab_e9a221d38d46,biomedical_diabetes_mellitus,pancreatogenic diabetes,pancreatic cancer,1,2,vii,non-match,CC BY,PMC10797847,PMC12795622;PMC5933488
+bio_diab_ea61959ef640,biomedical_diabetes_mellitus,pseudomonas aeroginosa,pseudomonas aeruginosa,1,1,vi,match,CC BY,PMC11589657,PMC11759660
+bio_diab_eb04ec54c2d0,biomedical_diabetes_mellitus,lifespan expansion,long-term mortality,1,1,vii,non-match,CC BY,PMC6398530,PMC11272855
+bio_diab_eb3056657205,biomedical_diabetes_mellitus,glp-1r,glp-1 agonist,1,4,vii,non-match,CC BY,PMC10771104,PMC10768942;PMC11579408;PMC11704649;PMC11743417
+bio_diab_eb489d93daef,biomedical_diabetes_mellitus,low density lipoprotein-cholesterol,triglycerides to high-density lipoprotein cholesterol,1,1,vi,non-match,CC BY,PMC10771033,PMC11273665
+bio_diab_ec15439fca62,biomedical_diabetes_mellitus,pre-diabetes,pre-gestational diabetes mellitus,1,1,vi,non-match,CC BY,PMC12750478,PMC11748812
+bio_diab_ec6246dee326,biomedical_diabetes_mellitus,oral,oral hypoglycemic agents,1,1,viii,non-match,CC BY,PMC10617787,PMC11497140
+bio_diab_ec77d8f1ba30,biomedical_diabetes_mellitus,types 2 diabetes mellitus (t2dm),Diabetes Mellitus Type 2,1,1,vi,match,CC BY,PMC11634216,PMC8459622
+bio_diab_ecb4957b0fff,biomedical_diabetes_mellitus,CVD,cardiovascular risk (cvr),1,1,viii,non-match,CC BY,PMC12307987,PMC11588321
+bio_diab_ecca2a445766,biomedical_diabetes_mellitus,le,translation,1,1,viii,non-match,CC BY,PMC12738080,PMC11747299
+bio_diab_ecfc590a70a2,biomedical_diabetes_mellitus,anti-Müllerian hormone,anti-müllerian hormone,1,1,i,match,CC BY,PMC11266950,PMC12599267
+bio_diab_ed2334be6020,biomedical_diabetes_mellitus,HIV,genital infections,1,1,viii,non-match,CC BY,PMC7446035,PMC11734641
+bio_diab_ed67a258468f,biomedical_diabetes_mellitus,Na+/glucose cotransporters,Sodium-glucose cotransporter 2 inhibitors,1,1,ix,non-match,CC BY,PMC6014526,PMC10879742
+bio_diab_eea6d889ca6f,biomedical_diabetes_mellitus,Metabolic syndrome,metabolic control,3,1,ii,non-match,CC BY,PMC12645107;PMC5760971;PMC8577060,PMC10808950
+bio_diab_ef60ac47ae16,biomedical_diabetes_mellitus,Cardiovascular risk factors,cardiovascular risk factors,1,1,i,match,CC BY,PMC8866909,PMC11634559
+bio_diab_ef75a1797216,biomedical_diabetes_mellitus,glycated haemoglobin,haemoglobin,2,1,vi,non-match,CC BY,PMC12090250;PMC13068177,PMC11584213
+bio_diab_efaa2ef94cec,biomedical_diabetes_mellitus,autoimmune disorder,exogenous insulin autoimmune syndrome,1,1,vii,non-match,CC BY,PMC12619965,PMC11580819
+bio_diab_f0027b973618,biomedical_diabetes_mellitus,fibrosis,plantar fibromatosis,3,1,vii,non-match,CC BY,PMC12476221;PMC6446227;PMC6834398,PMC12706499
+bio_diab_f035a69698d6,biomedical_diabetes_mellitus,pathology,pathophysiology,1,1,ii,non-match,CC BY,PMC12860575,PMC11107473
+bio_diab_f17dc490b69d,biomedical_diabetes_mellitus,vertebral osteomyelitis,vertebral-osteomyelitis,1,1,iv,match,CC BY,PMC11731551,PMC11589657
+bio_diab_f20827d1ad2e,biomedical_diabetes_mellitus,bilateral endophthalmitis,suspected glaucoma,1,1,x,non-match,CC BY,PMC11614361,PMC12712239
+bio_diab_f2557880e354,biomedical_diabetes_mellitus,HIV,HIV patients,1,1,viii,non-match,CC BY,PMC7446035,PMC6198417
+bio_diab_f273ad129285,biomedical_diabetes_mellitus,diabetic ketoacidosis (dka),euglycaemic diabetic ketoacidosis,7,1,vi,non-match,CC BY,PMC10740381;PMC10749796;PMC11681835;PMC11688928;PMC11710868,PMC11575501
+bio_diab_f3258c24fa0c,biomedical_diabetes_mellitus,child health outcomes,fetal outcomes,1,1,x,non-match,CC BY,PMC11508815,PMC11574696
+bio_diab_f3852904bbf6,biomedical_diabetes_mellitus,maternal clinical outcomes,maternal complications,1,1,ii,non-match,CC BY,PMC12616195,PMC10804211
+bio_diab_f5a00570f8cb,biomedical_diabetes_mellitus,Diabetes Control and Complications Trial (DCCT),maternal complications,1,1,iii,non-match,CC BY,PMC5362970,PMC10804211
+bio_diab_f5a2ae886725,biomedical_diabetes_mellitus,Hemoglobin A1c,hemoglobin a1c,1,1,i,match,CC BY,PMC13181192,PMC10750114
+bio_diab_f5cb2ee14472,biomedical_diabetes_mellitus,biomarkers,biomarker,4,3,v,match,CC BY,PMC11496046;PMC11531331;PMC11568420;PMC11671176,PMC11602244;PMC11709702;PMC12700841
+bio_diab_f5e06bb11359,biomedical_diabetes_mellitus,medication adherence,Medication adherence,3,1,i,match,CC BY,PMC11588324;PMC11772562;PMC12647397,PMC8649966
+bio_diab_f61b634afe8d,biomedical_diabetes_mellitus,type 2 diabetes (T2DM),Type 2 Diabetes Mellitus,1,4,iii,match,CC BY,PMC12606594,PMC12915350;PMC12915503;PMC6480935;PMC8593624
+bio_diab_f6653ed0cb02,biomedical_diabetes_mellitus,elderly patient,Elderly,3,1,ii,match,CC BY,PMC12822169;PMC12824465;PMC12853940,PMC10617786
+bio_diab_f787ec791c8b,biomedical_diabetes_mellitus,glucocorticoid receptor,glp-1 receptor agonists,1,10,x,non-match,CC BY,PMC7880398,PMC10811430;PMC11568484;PMC11578637;PMC11771532;PMC12603435
+bio_diab_f80c5c144204,biomedical_diabetes_mellitus,hyperglycemia,non-diabetic hyperglycaemia,13,1,vi,non-match,CC BY,PMC10734663;PMC11504137;PMC11527494;PMC11580818;PMC11580819,PMC6181096
+bio_diab_f8157cdbaf85,biomedical_diabetes_mellitus,Na+/glucose cotransporters,sodium-glucose co-transporter 2 inhibitors (sglt2-i),1,1,ix,non-match,CC BY,PMC6014526,PMC11572685
+bio_diab_f8f27f978f50,biomedical_diabetes_mellitus,influences of gut microbiota,intestinal microbiota and metabolites,1,1,vii,non-match,CC BY,PMC10757596,PMC7521520
+bio_diab_f9036ba45da6,biomedical_diabetes_mellitus,glycated hemoglobin,Glycated haemoglobin (HbA1c),9,1,ii,match,CC BY,PMC10726644;PMC11502981;PMC11537775;PMC11584249;PMC11634567,PMC5362970
+bio_diab_f9ddaabc8e69,biomedical_diabetes_mellitus,pathology,disease-specific,1,1,vii,non-match,CC BY,PMC12860575,PMC9998049
+bio_diab_fa563320683f,biomedical_diabetes_mellitus,body mass index (bmi),body mass index: bmi,1,1,iv,match,CC BY,PMC10726016,PMC11588321
+bio_diab_fa5b01c4273b,biomedical_diabetes_mellitus,insulin deficiency,Insulin,1,3,ii,non-match,CC BY,PMC11688928,PMC11041815;PMC4909112;PMC8749489
+bio_diab_fa5e38673c01,biomedical_diabetes_mellitus,nf-κb,tumor necrosis factor‐alpha (TNF‐α),1,1,ix,non-match,CC BY,PMC12611295,PMC11895649
+bio_diab_fa7eb329ac23,biomedical_diabetes_mellitus,C(-104)T polymorphism,C(-9)G polymorphism,1,1,ix,non-match,CC BY,PMC6198411,PMC6198411
+bio_diab_fa8e16748aa2,biomedical_diabetes_mellitus,metabolic syndrome,Metabolic syndrome,17,3,i,match,CC BY,PMC11080919;PMC11269068;PMC11273869;PMC11550883;PMC11616732,PMC12645107;PMC5760971;PMC8577060
+bio_diab_fb002c935daa,biomedical_diabetes_mellitus,Antioxidants,antioxidant,1,1,v,match,CC BY,PMC6748682,PMC8787437
+bio_diab_fb493e6f2d5d,biomedical_diabetes_mellitus,diabetes treatment,insulin therapy,4,2,vi,non-match,CC BY,PMC11588324;PMC11710868;PMC11745841;PMC12645516,PMC12646130;PMC12840817
+bio_diab_fb75d2cc3640,biomedical_diabetes_mellitus,C13,HDL3-C,1,1,ix,non-match,CC BY,PMC11555695,PMC11041996
+bio_diab_fcc48937602d,biomedical_diabetes_mellitus,CD8 +,Cell Death,1,1,iii,non-match,CC BY,PMC12709533,PMC12749205
+bio_diab_fd58e288e199,biomedical_diabetes_mellitus,precipitating factors for euglycemic dka,euglycemic dka,2,1,vi,non-match,CC BY,PMC10749796;PMC11710868,PMC10740381
+bio_diab_fe6e14fbd468,biomedical_diabetes_mellitus,Diabetic retinopathy,diabetic retinopathies,3,1,v,match,CC BY,PMC10617788;PMC5897984;PMC6198411,PMC11634216
+bio_diab_fe6fc17cf51e,biomedical_diabetes_mellitus,uric acid,uti,1,1,viii,non-match,CC BY,PMC11709702,PMC11605486
+bio_diab_ff1957a9b54b,biomedical_diabetes_mellitus,myocardial infraction,cardiology research,1,1,x,non-match,CC BY,PMC12721581,PMC12750961
+bio_diab_ff269d1117b0,biomedical_diabetes_mellitus,screening camp,screening tests,1,1,ii,non-match,CC BY,PMC12712239,PMC11496046
+bio_diab_ff41f3aac4e6,biomedical_diabetes_mellitus,insulin like growth factor,insulin-like growth factor,1,1,iv,match,CC BY,PMC11625412,PMC12682710
+bio_diab_ffc71bebc7fb,biomedical_diabetes_mellitus,fatty liver Index (FLI),non-alcoholic fatty liver disease (nafld),1,3,iii,non-match,CC BY,PMC12606594,PMC10787595;PMC11707007;PMC11747980

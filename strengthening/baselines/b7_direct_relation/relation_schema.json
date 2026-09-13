@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/b7_relation_v1.json",
+  "title": "B7 direct scholarly semantic-relation response",
+  "description": "Response schema for the B7 comparator baseline. Exactly one required field, 'relation', drawn from the four-value enum below, plus an optional free-text 'justification'. The enum and the property list are exhaustive: no further values or fields are permitted. See strengthening/baselines/b7_direct_relation/schema.py for the rationale.",
+  "type": "object",
+  "properties": {
+    "relation": {
+      "type": "string",
+      "enum": ["same_as", "broader", "narrower", "other"],
+      "description": "same_as: the two strings denote the same concept for harmonisation purposes, including ordinary spelling, formatting, singular/plural, and unambiguous acronym/expanded-form variants. broader: Keyword A denotes a concept broader in scope than Keyword B. narrower: Keyword A denotes a concept narrower in scope than Keyword B. other: they are distinct concepts and neither is a simple broader/narrower relation."
+    },
+    "justification": {
+      "type": "string",
+      "description": "Optional short free-text rationale. Never parsed as a numeric score."
+    }
+  },
+  "required": ["relation"],
+  "additionalProperties": false
+}

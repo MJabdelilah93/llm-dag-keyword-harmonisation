@@ -6,7 +6,8 @@ records, the keyword strings themselves are Scopus-derived metadata and
 are not publicly redistributable under Elsevier's Terms of Use.
 
 **Access:** Available in the restricted Zenodo dataset record:
-https://doi.org/10.5281/zenodo.19451886
+https://doi.org/10.5281/zenodo.20923992 (Zenodo-DATA; corrected 2026-08-24
+from a superseded DOI — see `docs/release/v1.0.1_release_plan.md`)
 
 **Corpus statistics** (no keyword strings):
 

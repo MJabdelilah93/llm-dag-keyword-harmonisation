@@ -7,7 +7,8 @@ These files contain Scopus-derived author keyword strings and are not
 publicly redistributable under Elsevier's Terms of Use.
 
 **Access:** Request access via the restricted Zenodo dataset record:
-https://doi.org/10.5281/zenodo.19451886
+https://doi.org/10.5281/zenodo.20923992 (Zenodo-DATA; corrected 2026-08-24
+from a superseded DOI — see `docs/release/v1.0.1_release_plan.md`)
 
 **Contents available on Zenodo:**
 - `gold_benchmark.csv` — 500 adjudicated pairs with labels and strata

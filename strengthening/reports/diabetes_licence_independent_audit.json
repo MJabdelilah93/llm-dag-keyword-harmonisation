@@ -1,0 +1,56 @@
+{
+  "generated_at_utc": "2026-09-07T10:32:55.164799+00:00",
+  "method": "recomputed directly from strengthening/data_pmc/pmc_diabetes_article_inventory.csv row-level licence_code column and cross-checked against the acquisition manifest; NOT copied from any prior summary field",
+  "sanity_checks": {
+    "inventory_rows_equals_manifest_unique_pmcids": true,
+    "duplicate_pmcid_count": 0,
+    "n_records_without_pmcid": 0
+  },
+  "pipeline_stage_counts": {
+    "raw_query_result_count_unfiltered": 141860,
+    "fetched": 15106,
+    "parsed": 15106,
+    "unique_pmcid": 15106,
+    "english_eligible": 15098,
+    "date_eligible": 15093,
+    "topic_eligible": 14913,
+    "abstract_present": 14851
+  },
+  "licence_classification_raw_codes": {
+    "by": 12977,
+    "by-nc-nd": 869,
+    "by-nc": 684,
+    "unknown": 215,
+    "by-nc-sa": 196,
+    "none": 81,
+    "cc0": 76,
+    "by-nd": 8
+  },
+  "licence_classification_buckets": {
+    "CC BY": 12977,
+    "missing/unclassified": 296,
+    "CC BY-NC": 684,
+    "CC0": 76,
+    "CC BY-NC-SA": 196,
+    "CC BY-SA": 0,
+    "other Creative Commons": 8,
+    "CC BY-NC-ND": 869,
+    "publisher/custom": 0,
+    "other": 0
+  },
+  "unmapped_licence_codes": [],
+  "independently_recomputed_cc_by": 12977,
+  "independently_recomputed_cc0": 76,
+  "prior_summary_field_cc_by": 12977,
+  "prior_summary_field_cc0": 76,
+  "prior_summary_field_matches_recomputation": true,
+  "previously_stated_in_chat_report": 12364,
+  "12364_figure_status": "CORRECTED",
+  "12364_figure_explanation": "12,364 does not appear in any committed data or report file (verified by direct search). It was a transcription error in the prior conversational summary text, not a computation or data error -- the underlying strengthening/reports/pmc_diabetes_feasibility.json already contained the correct value (cc_by_count=12977), matching this independent recomputation exactly.",
+  "cc_by_cc0_with_any_kwd_group": 12474,
+  "cc_by_cc0_with_confidently_author_kwd_group": 1073,
+  "fully_eligible_strict_articles": 1066,
+  "strict_keyword_occurrences": 6029,
+  "strict_unique_keyword_strings": 4092,
+  "strict_contributing_articles": 1066
+}

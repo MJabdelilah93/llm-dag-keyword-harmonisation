@@ -1,0 +1,107 @@
+{
+  "generated_at_utc": "2026-09-08T17:48:40.934714+00:00",
+  "total_audit_log_rows": 903,
+  "action_counts": {
+    "context_opened": 2,
+    "label": 901
+  },
+  "circular_economy_timing": {
+    "n_label_actions": 400,
+    "first_timestamp_utc": "2026-09-07T16:13:20.128040+00:00",
+    "last_timestamp_utc": "2026-09-08T10:39:47.303105+00:00",
+    "duration_span_seconds": 66387.2,
+    "duration_span_human": "18:26:27.175065",
+    "dates_touched": [
+      "2026-09-07",
+      "2026-09-08"
+    ],
+    "decisions_per_minute_avg_over_span": 0.362,
+    "median_inter_decision_interval_s": 5.83,
+    "min_inter_decision_interval_s": 1.37,
+    "max_inter_decision_interval_s": 47739.4,
+    "n_intervals_under_2s": 12,
+    "n_intervals_under_1s_sub_second": 0,
+    "n_intervals_under_100ms": 0,
+    "longest_identical_label_run": 13,
+    "longest_identical_label_run_value": "match",
+    "new_label_distribution": {
+      "non-match": 209,
+      "match": 170,
+      "uncertain": 21
+    }
+  },
+  "diabetes_timing": {
+    "n_label_actions": 501,
+    "first_timestamp_utc": "2026-09-08T10:39:51.126325+00:00",
+    "last_timestamp_utc": "2026-09-08T16:17:15.110931+00:00",
+    "duration_span_seconds": 20244.0,
+    "duration_span_human": "5:37:23.984606",
+    "dates_touched": [
+      "2026-09-08"
+    ],
+    "decisions_per_minute_avg_over_span": 1.485,
+    "median_inter_decision_interval_s": 3.622,
+    "min_inter_decision_interval_s": 1.291,
+    "max_inter_decision_interval_s": 11854.4,
+    "n_intervals_under_2s": 5,
+    "n_intervals_under_1s_sub_second": 0,
+    "n_intervals_under_100ms": 0,
+    "longest_identical_label_run": 501,
+    "longest_identical_label_run_value": "match",
+    "new_label_distribution": {
+      "match": 501
+    }
+  },
+  "context_openings_by_domain": {
+    "circular_economy": 2
+  },
+  "relabeled_pair_count_by_domain": {
+    "biomedical_diabetes_mellitus": 1
+  },
+  "relabel_total_count": 1,
+  "skip_action_count": 0,
+  "domain_switches_in_chronological_sequence": 1,
+  "gap_between_ce_last_and_diabetes_first_decision_seconds": 3.82,
+  "diabetes_was_one_continuous_block_after_ce": true,
+  "data_integrity": {
+    "diabetes_rows_in_completed_workbook": 500,
+    "unique_pair_ids": 500,
+    "unique_string_pairs": 500,
+    "pair_id_set_matches_canonical_exactly": true,
+    "string_mismatch_count_vs_canonical": 0
+  },
+  "code_level_checks": {
+    "decide_call_sites_in_app_py_button_and_key_bindings": 6,
+    "decide_defined_once_in_session_py": 1,
+    "total_decide_occurrences_in_app_py": 8,
+    "expected_decide_occurrences_if_no_undocumented_call_site": 8,
+    "no_undocumented_decide_call_site_found": true,
+    "focus_set_calls_found": 0,
+    "keyboard_bindings": {
+      "match": [
+        "1",
+        "m",
+        "M"
+      ],
+      "non-match": [
+        "2",
+        "n",
+        "N"
+      ],
+      "uncertain": [
+        "3",
+        "u",
+        "U"
+      ]
+    },
+    "keyboard_bindings_verified_in_source": true
+  },
+  "evidence_summary": {
+    "keyboard_or_mouse_origin_recorded": false,
+    "keyboard_or_mouse_origin_availability_note": "The audit log records timestamp/pair_id/old_label/new_label/context_used/action only -- it does NOT record whether a decision originated from a mouse click or a keyboard shortcut. This is UNAVAILABLE, not inferred.",
+    "evidence_of_stuck_key_or_autorepeat": false,
+    "evidence_of_duplicated_gui_callback": false,
+    "evidence_gui_wrote_labels_not_matching_explicit_decisions": false,
+    "evidence_gui_wrote_labels_not_matching_explicit_decisions_note": "Every one of the 500 diabetes pair_ids has exactly one (or, for one pair, two identical) explicit 'label' audit-log action; decide() is called ONLY from 3 button commands and 3 keyboard bindings in the shipped code (verified by source inspection), with no default/automatic/resume-time invocation anywhere."
+  }
+}

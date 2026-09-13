@@ -1,0 +1,347 @@
+{
+  "task9_bootstrap_audit": {
+    "reproduction_check": {
+      "n_discrepancies": 0,
+      "all_reproduced_exactly": true
+    },
+    "results": {
+      "ce400": {
+        "Primary_M7_vs_B3_JaroWinkler": {
+          "metric": "f1",
+          "point_estimate_a": 0.9611650485436893,
+          "point_estimate_b": 0.9045226130653266,
+          "observed_difference": 0.056642435478362785,
+          "lower": 0.018823197075440327,
+          "upper": 0.09914022012168691,
+          "width": 0.08031702304624658,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        },
+        "Primary_M7_vs_B5_Embedding": {
+          "metric": "f1",
+          "point_estimate_a": 0.9611650485436893,
+          "point_estimate_b": 0.9119170984455958,
+          "observed_difference": 0.049247950098093574,
+          "lower": 0.008637091461588428,
+          "upper": 0.09169778013426878,
+          "width": 0.08306068867268035,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        },
+        "Primary_M7_vs_B6": {
+          "metric": "f1",
+          "point_estimate_a": 0.9611650485436893,
+          "point_estimate_b": 0.8340425531914895,
+          "observed_difference": 0.12712249535219988,
+          "lower": 0.08156133836703305,
+          "upper": 0.178118407455449,
+          "width": 0.09655706908841594,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        },
+        "Primary_M7_vs_B7": {
+          "metric": "f1",
+          "point_estimate_a": 0.9611650485436893,
+          "point_estimate_b": 0.8959276018099547,
+          "observed_difference": 0.06523744673373466,
+          "lower": 0.03442364021185728,
+          "upper": 0.10019701660568525,
+          "width": 0.06577337639382796,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        },
+        "Primary_M7_f1_ci": {
+          "metric": "f1",
+          "point_estimate": 0.9611650485436893,
+          "lower": 0.9312169312169313,
+          "upper": 0.985781990521327,
+          "width": 0.0545650593043957,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 394
+        }
+      },
+      "diabetes500": {
+        "Primary_M7_vs_B3_JaroWinkler": {
+          "metric": "f1",
+          "point_estimate_a": 0.9710610932475884,
+          "point_estimate_b": 0.8532423208191128,
+          "observed_difference": 0.1178187724284756,
+          "lower": 0.07786222451250029,
+          "upper": 0.16145175718969496,
+          "width": 0.08358953267719467,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        },
+        "Primary_M7_vs_B5_Embedding": {
+          "metric": "f1",
+          "point_estimate_a": 0.9710610932475884,
+          "point_estimate_b": 0.8309859154929579,
+          "observed_difference": 0.14007517775463052,
+          "lower": 0.0980214336453597,
+          "upper": 0.1872243161938873,
+          "width": 0.0892028825485276,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        },
+        "Primary_M7_vs_B6": {
+          "metric": "f1",
+          "point_estimate_a": 0.9710610932475884,
+          "point_estimate_b": 0.9263803680981596,
+          "observed_difference": 0.04468072514942878,
+          "lower": 0.015962335231748,
+          "upper": 0.07568597007165542,
+          "width": 0.05972363483990742,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        },
+        "Primary_M7_vs_B7": {
+          "metric": "f1",
+          "point_estimate_a": 0.9710610932475884,
+          "point_estimate_b": 0.962962962962963,
+          "observed_difference": 0.00809813028462536,
+          "lower": -0.013774298391973801,
+          "upper": 0.030392237298107243,
+          "width": 0.04416653569008104,
+          "excludes_zero": false,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        },
+        "Primary_M7_f1_ci": {
+          "metric": "f1",
+          "point_estimate": 0.9710610932475884,
+          "lower": 0.9503546099290779,
+          "upper": 0.9877300613496933,
+          "width": 0.03737545142061538,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 499
+        }
+      },
+      "pooled900": {
+        "Primary_M7_vs_B3_JaroWinkler": {
+          "metric": "f1",
+          "point_estimate_a": 0.9671179883945841,
+          "point_estimate_b": 0.8739837398373983,
+          "observed_difference": 0.09313424855718577,
+          "lower": 0.06377508540764763,
+          "upper": 0.12379882449297655,
+          "width": 0.06002373908532892,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        },
+        "Primary_M7_vs_B5_Embedding": {
+          "metric": "f1",
+          "point_estimate_a": 0.9671179883945841,
+          "point_estimate_b": 0.8637316561844863,
+          "observed_difference": 0.10338633221009774,
+          "lower": 0.07317678756042426,
+          "upper": 0.13455791952128907,
+          "width": 0.06138113196086481,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        },
+        "Primary_M7_vs_B6": {
+          "metric": "f1",
+          "point_estimate_a": 0.9671179883945841,
+          "point_estimate_b": 0.8877005347593583,
+          "observed_difference": 0.07941745363522579,
+          "lower": 0.05388192600224371,
+          "upper": 0.10668585230414265,
+          "width": 0.052803926301898944,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        },
+        "Primary_M7_vs_B7": {
+          "metric": "f1",
+          "point_estimate_a": 0.9671179883945841,
+          "point_estimate_b": 0.9357798165137614,
+          "observed_difference": 0.03133817188082266,
+          "lower": 0.012798517672586924,
+          "upper": 0.05077967323651429,
+          "width": 0.037981155563927366,
+          "excludes_zero": true,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        },
+        "Primary_M7_f1_ci": {
+          "metric": "f1",
+          "point_estimate": 0.9671179883945841,
+          "lower": 0.9500998003992015,
+          "upper": 0.9815950920245398,
+          "width": 0.03149529162533826,
+          "confidence": 0.95,
+          "n_resamples": 10000,
+          "seed": 42,
+          "n_items": 893
+        }
+      }
+    },
+    "abstention_handling_confirmed_from_source": "Confirmed by reading metrics/binary.py: paired_bootstrap_difference resamples item INDICES with replacement, and both methods' per-item confusion codes are looked up at the SAME resampled indices every replicate (matched resampling). Gold-uncertain items are dropped from BOTH methods together before resampling (out of scope for both). A predicted 'uncertain' (abstention) contributes to neither method's TP/FP/FN/TN in a given replicate -- exactly the same abstention convention as the point estimate -- so abstention handling is identical across the point estimate and every one of the 10,000 replicates."
+  },
+  "task10_selective_prediction_audit": {
+    "reproduction_check": {
+      "n_discrepancies": 0,
+      "all_reproduced_exactly": true
+    },
+    "results": {
+      "Primary_M7": {
+        "ce400": {
+          "n_binary_subset": 394,
+          "coverage": 1.0,
+          "risk": 0.06598984771573604,
+          "aurc": 0.01279011582985978
+        },
+        "diabetes500": {
+          "n_binary_subset": 499,
+          "coverage": 1.0,
+          "risk": 0.03206412825651302,
+          "aurc": 0.004835213778933246
+        },
+        "pooled900": {
+          "n_binary_subset": 893,
+          "coverage": 1.0,
+          "risk": 0.04703247480403135,
+          "aurc": 0.00792558060099915
+        }
+      },
+      "OpenAI_Robustness": {
+        "ce400": {
+          "n_binary_subset": 394,
+          "coverage": 1.0,
+          "risk": 0.3197969543147208,
+          "aurc": 0.0650285425327479
+        },
+        "diabetes500": {
+          "n_binary_subset": 499,
+          "coverage": 1.0,
+          "risk": 0.21042084168336672,
+          "aurc": 0.03323183264904344
+        },
+        "pooled900": {
+          "n_binary_subset": 893,
+          "coverage": 1.0,
+          "risk": 0.25867861142217247,
+          "aurc": 0.045346795995122105
+        }
+      }
+    },
+    "confidence_provenance_check": {
+      "methods_included": [
+        "Primary_M7",
+        "OpenAI_Robustness"
+      ],
+      "b1_b5_proxy_excluded_by_construction": "B1_Exact/B2_Normalised/B3_JaroWinkler/B4_TFIDF/B5_Embedding are absent from CONFIDENCE_SPEC -- structurally impossible for the margin-based proxy to enter this computation.",
+      "aurc_implementation_identical_across_methods": "Both methods call the single shared selective_prediction_report() function with no per-method branching."
+    },
+    "narrowest_technically_correct_interpretation": "Primary M7's substantially lower AURC than OpenAI's (pooled900: 0.0079 vs 0.0453) reflects the combination of (a) a lower base error rate (Primary M7's overall binary error rate among answered items is lower than OpenAI's) and (b) how well confidence ranks correct vs incorrect predictions within each method's own answered set. AURC is bounded above by the base risk itself (a method that is simply more accurate has a lower AURC even under a completely uninformative confidence ranking), so a lower AURC must NOT be reported as evidence of 'better confidence ranking' alone -- it should be read as 'better selective-prediction behaviour', which conflates ranking quality with base accuracy, unless separately normalised (e.g. by comparing risk-coverage curves at matched coverage, or reporting a risk-normalised ranking measure), which was not requested and was not run here."
+  },
+  "task11_transitivity_audit": {
+    "reproduction_check": {
+      "n_discrepancies": 0,
+      "all_reproduced_exactly": true
+    },
+    "n_closed_triangles_independently_recomputed": 6,
+    "n_pooled_gold_non_match_independently_recomputed": 629,
+    "methods": {
+      "B1_Exact": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 0,
+        "n_direct_error": 0,
+        "n_transitive_only_contradiction": 0
+      },
+      "B2_Normalised": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 0,
+        "n_direct_error": 0,
+        "n_transitive_only_contradiction": 0
+      },
+      "B3_JaroWinkler": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 13,
+        "n_direct_error": 13,
+        "n_transitive_only_contradiction": 0
+      },
+      "B4_TFIDF": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 54,
+        "n_direct_error": 54,
+        "n_transitive_only_contradiction": 0
+      },
+      "B5_Embedding": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 7,
+        "n_direct_error": 7,
+        "n_transitive_only_contradiction": 0
+      },
+      "Primary_M7": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 6,
+        "n_direct_error": 6,
+        "n_transitive_only_contradiction": 0
+      },
+      "B6": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 48,
+        "n_direct_error": 48,
+        "n_transitive_only_contradiction": 0
+      },
+      "B7": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 26,
+        "n_direct_error": 26,
+        "n_transitive_only_contradiction": 0
+      },
+      "B8": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 6,
+        "n_direct_error": 6,
+        "n_transitive_only_contradiction": 0
+      },
+      "OpenAI_Robustness": {
+        "n_gold_non_match_evaluated": 629,
+        "n_connected_incorrectly": 22,
+        "n_direct_error": 22,
+        "n_transitive_only_contradiction": 0
+      }
+    },
+    "zero_transitive_only_contradictions_confirmed_for_every_method": true,
+    "b_cubed_or_manufactured_partition_used": false
+  }
+}

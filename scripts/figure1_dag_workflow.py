@@ -10,6 +10,7 @@ Outputs (to outputs/figures/):
 """
 
 import pathlib
+import os
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -19,7 +20,10 @@ from matplotlib.patches import FancyBboxPatch
 from matplotlib.lines import Line2D
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
-ROOT    = pathlib.Path(r"c:\Users\AbdelilahElMajjaoui\Downloads\PhD\Article 7\concept_harmonisation")
+ROOT    = pathlib.Path(
+    os.environ.get("V1_EVIDENCE_ROOT")
+    or pathlib.Path(__file__).resolve().parents[1]
+)  # portable: env var override, else auto-discovered from this file's location (Phase 0B Task 15)
 OUT_DIR = ROOT / "outputs" / "figures"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

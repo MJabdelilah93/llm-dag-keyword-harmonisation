@@ -1,0 +1,735 @@
+{
+  "scenarios_definition": {
+    "FULL": {
+      "seeds_per_decile": 5,
+      "top_k": 50
+    },
+    "REDUCED-1": {
+      "seeds_per_decile": 3,
+      "top_k": 30
+    },
+    "REDUCED-2": {
+      "seeds_per_decile": 2,
+      "top_k": 30
+    },
+    "REDUCED-3": {
+      "seeds_per_decile": 2,
+      "top_k": 20
+    },
+    "E_SEEDS30_DEPTH50": {
+      "seeds_per_decile": 3,
+      "top_k": 50
+    },
+    "F_SEEDS20_DEPTH50": {
+      "seeds_per_decile": 2,
+      "top_k": 50
+    },
+    "G_SEEDS30_DEPTH40": {
+      "seeds_per_decile": 3,
+      "top_k": 40
+    },
+    "H_SEEDS20_DEPTH40": {
+      "seeds_per_decile": 2,
+      "top_k": 40
+    }
+  },
+  "circular_economy": {
+    "FULL": {
+      "domain": "circular_economy",
+      "seed_count": 50,
+      "raw_retrieved_rows": 6479,
+      "deduplicated_annotation_rows_in_pool": 4877,
+      "outside_pool_rows": 250,
+      "total_rows_requiring_judgement": 5127,
+      "two_annotator_judgements": 10254,
+      "candidate_rows_per_seed": {
+        "median": 98.0,
+        "iqr": [
+          85.75,
+          105.5
+        ],
+        "min": 67.0,
+        "max": 140.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0,
+        "embedding": 0.3332,
+        "jaro_winkler": 0.1454,
+        "lexical_normalised_exact": 0.0,
+        "tfidf": 0.2969
+      },
+      "route_overlap_share_multi_route_rows": 0.2245,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 42.73,
+        "30s_per_judgement": 85.45,
+        "45s_per_judgement": 128.18
+      },
+      "candidate_retention_pct_of_full_design": 100.0,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 100.0,
+        "vi_near_synonym_0.75_0.85": 100.0,
+        "vii_broader_narrower_0.60_0.75": 100.0,
+        "x_weak_semantic_0.50_0.60": 100.0,
+        "below_0.50_or_no_embedding_score": 100.0
+      }
+    },
+    "REDUCED-1": {
+      "domain": "circular_economy",
+      "seed_count": 30,
+      "raw_retrieved_rows": 2538,
+      "deduplicated_annotation_rows_in_pool": 1848,
+      "outside_pool_rows": 150,
+      "total_rows_requiring_judgement": 1998,
+      "two_annotator_judgements": 3996,
+      "candidate_rows_per_seed": {
+        "median": 63.0,
+        "iqr": [
+          53.75,
+          69.75
+        ],
+        "min": 41.0,
+        "max": 85.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0,
+        "embedding": 0.3041,
+        "jaro_winkler": 0.1986,
+        "lexical_normalised_exact": 0.0,
+        "tfidf": 0.2662
+      },
+      "route_overlap_share_multi_route_rows": 0.2311,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 16.65,
+        "30s_per_judgement": 33.3,
+        "45s_per_judgement": 49.95
+      },
+      "candidate_retention_pct_of_full_design": 37.89,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 63.64,
+        "vi_near_synonym_0.75_0.85": 67.07,
+        "vii_broader_narrower_0.60_0.75": 49.26,
+        "x_weak_semantic_0.50_0.60": 47.76,
+        "below_0.50_or_no_embedding_score": 35.38
+      }
+    },
+    "REDUCED-2": {
+      "domain": "circular_economy",
+      "seed_count": 20,
+      "raw_retrieved_rows": 1704,
+      "deduplicated_annotation_rows_in_pool": 1251,
+      "outside_pool_rows": 100,
+      "total_rows_requiring_judgement": 1351,
+      "two_annotator_judgements": 2702,
+      "candidate_rows_per_seed": {
+        "median": 63.0,
+        "iqr": [
+          57.5,
+          69.25
+        ],
+        "min": 44.0,
+        "max": 85.0
+      },
+      "route_exclusive_share": {
+        "embedding": 0.3054,
+        "jaro_winkler": 0.211,
+        "lexical_normalised_exact": 0.0,
+        "tfidf": 0.2582
+      },
+      "route_overlap_share_multi_route_rows": 0.2254,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 11.26,
+        "30s_per_judgement": 22.52,
+        "45s_per_judgement": 33.77
+      },
+      "candidate_retention_pct_of_full_design": 25.65,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 45.45,
+        "vi_near_synonym_0.75_0.85": 54.88,
+        "vii_broader_narrower_0.60_0.75": 31.62,
+        "x_weak_semantic_0.50_0.60": 32.0,
+        "below_0.50_or_no_embedding_score": 23.9
+      }
+    },
+    "REDUCED-3": {
+      "domain": "circular_economy",
+      "seed_count": 20,
+      "raw_retrieved_rows": 1206,
+      "deduplicated_annotation_rows_in_pool": 852,
+      "outside_pool_rows": 100,
+      "total_rows_requiring_judgement": 952,
+      "two_annotator_judgements": 1904,
+      "candidate_rows_per_seed": {
+        "median": 43.0,
+        "iqr": [
+          38.0,
+          49.25
+        ],
+        "min": 27.0,
+        "max": 55.0
+      },
+      "route_exclusive_share": {
+        "embedding": 0.2829,
+        "jaro_winkler": 0.2406,
+        "lexical_normalised_exact": 0.0,
+        "tfidf": 0.2488
+      },
+      "route_overlap_share_multi_route_rows": 0.2277,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 7.93,
+        "30s_per_judgement": 15.87,
+        "45s_per_judgement": 23.8
+      },
+      "candidate_retention_pct_of_full_design": 17.47,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 45.45,
+        "vi_near_synonym_0.75_0.85": 48.78,
+        "vii_broader_narrower_0.60_0.75": 31.62,
+        "x_weak_semantic_0.50_0.60": 25.65,
+        "below_0.50_or_no_embedding_score": 14.89
+      }
+    },
+    "E_SEEDS30_DEPTH50": {
+      "domain": "circular_economy",
+      "seed_count": 30,
+      "raw_retrieved_rows": 3895,
+      "deduplicated_annotation_rows_in_pool": 2967,
+      "outside_pool_rows": 150,
+      "total_rows_requiring_judgement": 3117,
+      "two_annotator_judgements": 6234,
+      "candidate_rows_per_seed": {
+        "median": 98.5,
+        "iqr": [
+          88.75,
+          105.5
+        ],
+        "min": 67.0,
+        "max": 140.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0,
+        "embedding": 0.337,
+        "jaro_winkler": 0.149,
+        "lexical_normalised_exact": 0.0,
+        "tfidf": 0.299
+      },
+      "route_overlap_share_multi_route_rows": 0.215,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 25.98,
+        "30s_per_judgement": 51.95,
+        "45s_per_judgement": 77.92
+      },
+      "candidate_retention_pct_of_full_design": 60.84,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 63.64,
+        "vi_near_synonym_0.75_0.85": 68.29,
+        "vii_broader_narrower_0.60_0.75": 54.41,
+        "x_weak_semantic_0.50_0.60": 55.53,
+        "below_0.50_or_no_embedding_score": 61.65
+      }
+    },
+    "F_SEEDS20_DEPTH50": {
+      "domain": "circular_economy",
+      "seed_count": 20,
+      "raw_retrieved_rows": 2621,
+      "deduplicated_annotation_rows_in_pool": 2007,
+      "outside_pool_rows": 100,
+      "total_rows_requiring_judgement": 2107,
+      "two_annotator_judgements": 4214,
+      "candidate_rows_per_seed": {
+        "median": 98.5,
+        "iqr": [
+          90.25,
+          104.5
+        ],
+        "min": 74.0,
+        "max": 133.0
+      },
+      "route_exclusive_share": {
+        "embedding": 0.3348,
+        "jaro_winkler": 0.1634,
+        "lexical_normalised_exact": 0.0,
+        "tfidf": 0.2915
+      },
+      "route_overlap_share_multi_route_rows": 0.2103,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 17.56,
+        "30s_per_judgement": 35.12,
+        "45s_per_judgement": 52.67
+      },
+      "candidate_retention_pct_of_full_design": 41.15,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 45.45,
+        "vi_near_synonym_0.75_0.85": 56.1,
+        "vii_broader_narrower_0.60_0.75": 36.76,
+        "x_weak_semantic_0.50_0.60": 34.35,
+        "below_0.50_or_no_embedding_score": 41.83
+      }
+    },
+    "G_SEEDS30_DEPTH40": {
+      "domain": "circular_economy",
+      "seed_count": 30,
+      "raw_retrieved_rows": 3229,
+      "deduplicated_annotation_rows_in_pool": 2415,
+      "outside_pool_rows": 150,
+      "total_rows_requiring_judgement": 2565,
+      "two_annotator_judgements": 5130,
+      "candidate_rows_per_seed": {
+        "median": 80.0,
+        "iqr": [
+          71.75,
+          88.5
+        ],
+        "min": 54.0,
+        "max": 113.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0,
+        "embedding": 0.323,
+        "jaro_winkler": 0.1706,
+        "lexical_normalised_exact": 0.0,
+        "tfidf": 0.2857
+      },
+      "route_overlap_share_multi_route_rows": 0.2207,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 21.38,
+        "30s_per_judgement": 42.75,
+        "45s_per_judgement": 64.12
+      },
+      "candidate_retention_pct_of_full_design": 49.52,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 63.64,
+        "vi_near_synonym_0.75_0.85": 68.29,
+        "vii_broader_narrower_0.60_0.75": 51.1,
+        "x_weak_semantic_0.50_0.60": 52.47,
+        "below_0.50_or_no_embedding_score": 48.65
+      }
+    },
+    "H_SEEDS20_DEPTH40": {
+      "domain": "circular_economy",
+      "seed_count": 20,
+      "raw_retrieved_rows": 2175,
+      "deduplicated_annotation_rows_in_pool": 1639,
+      "outside_pool_rows": 100,
+      "total_rows_requiring_judgement": 1739,
+      "two_annotator_judgements": 3478,
+      "candidate_rows_per_seed": {
+        "median": 81.0,
+        "iqr": [
+          73.25,
+          89.5
+        ],
+        "min": 60.0,
+        "max": 109.0
+      },
+      "route_exclusive_share": {
+        "embedding": 0.3221,
+        "jaro_winkler": 0.1867,
+        "lexical_normalised_exact": 0.0,
+        "tfidf": 0.2764
+      },
+      "route_overlap_share_multi_route_rows": 0.2148,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 14.49,
+        "30s_per_judgement": 28.98,
+        "45s_per_judgement": 43.48
+      },
+      "candidate_retention_pct_of_full_design": 33.61,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 45.45,
+        "vi_near_synonym_0.75_0.85": 56.1,
+        "vii_broader_narrower_0.60_0.75": 33.46,
+        "x_weak_semantic_0.50_0.60": 33.18,
+        "below_0.50_or_no_embedding_score": 33.15
+      }
+    }
+  },
+  "biomedical": {
+    "FULL": {
+      "domain": "biomedical_diabetes_mellitus",
+      "seed_count": 50,
+      "raw_retrieved_rows": 6060,
+      "deduplicated_annotation_rows_in_pool": 4819,
+      "outside_pool_rows": 250,
+      "total_rows_requiring_judgement": 5069,
+      "two_annotator_judgements": 10138,
+      "candidate_rows_per_seed": {
+        "median": 97.5,
+        "iqr": [
+          85.25,
+          104.5
+        ],
+        "min": 71.0,
+        "max": 144.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0002,
+        "embedding": 0.3777,
+        "jaro_winkler": 0.0982,
+        "lexical_normalised_exact": 0.0,
+        "tfidf": 0.3503
+      },
+      "route_overlap_share_multi_route_rows": 0.1737,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 42.24,
+        "30s_per_judgement": 84.48,
+        "45s_per_judgement": 126.72
+      },
+      "candidate_retention_pct_of_full_design": 100.0,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 100.0,
+        "vi_near_synonym_0.75_0.85": 100.0,
+        "vii_broader_narrower_0.60_0.75": 100.0,
+        "x_weak_semantic_0.50_0.60": 100.0,
+        "below_0.50_or_no_embedding_score": 100.0
+      }
+    },
+    "REDUCED-1": {
+      "domain": "biomedical_diabetes_mellitus",
+      "seed_count": 30,
+      "raw_retrieved_rows": 2324,
+      "deduplicated_annotation_rows_in_pool": 1840,
+      "outside_pool_rows": 150,
+      "total_rows_requiring_judgement": 1990,
+      "two_annotator_judgements": 3980,
+      "candidate_rows_per_seed": {
+        "median": 62.5,
+        "iqr": [
+          54.0,
+          67.0
+        ],
+        "min": 40.0,
+        "max": 81.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0005,
+        "embedding": 0.3685,
+        "jaro_winkler": 0.1321,
+        "tfidf": 0.3418
+      },
+      "route_overlap_share_multi_route_rows": 0.1571,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 16.58,
+        "30s_per_judgement": 33.17,
+        "45s_per_judgement": 49.75
+      },
+      "candidate_retention_pct_of_full_design": 38.18,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 36.0,
+        "vi_near_synonym_0.75_0.85": 30.0,
+        "vii_broader_narrower_0.60_0.75": 50.0,
+        "x_weak_semantic_0.50_0.60": 50.0,
+        "below_0.50_or_no_embedding_score": 36.72
+      }
+    },
+    "REDUCED-2": {
+      "domain": "biomedical_diabetes_mellitus",
+      "seed_count": 20,
+      "raw_retrieved_rows": 1553,
+      "deduplicated_annotation_rows_in_pool": 1233,
+      "outside_pool_rows": 100,
+      "total_rows_requiring_judgement": 1333,
+      "two_annotator_judgements": 2666,
+      "candidate_rows_per_seed": {
+        "median": 62.5,
+        "iqr": [
+          57.0,
+          66.25
+        ],
+        "min": 40.0,
+        "max": 81.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0008,
+        "embedding": 0.3723,
+        "jaro_winkler": 0.1322,
+        "tfidf": 0.3423
+      },
+      "route_overlap_share_multi_route_rows": 0.1525,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 11.11,
+        "30s_per_judgement": 22.22,
+        "45s_per_judgement": 33.33
+      },
+      "candidate_retention_pct_of_full_design": 25.59,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 28.0,
+        "vi_near_synonym_0.75_0.85": 16.67,
+        "vii_broader_narrower_0.60_0.75": 35.26,
+        "x_weak_semantic_0.50_0.60": 28.83,
+        "below_0.50_or_no_embedding_score": 24.98
+      }
+    },
+    "REDUCED-3": {
+      "domain": "biomedical_diabetes_mellitus",
+      "seed_count": 20,
+      "raw_retrieved_rows": 1130,
+      "deduplicated_annotation_rows_in_pool": 855,
+      "outside_pool_rows": 100,
+      "total_rows_requiring_judgement": 955,
+      "two_annotator_judgements": 1910,
+      "candidate_rows_per_seed": {
+        "median": 43.0,
+        "iqr": [
+          38.75,
+          48.25
+        ],
+        "min": 22.0,
+        "max": 55.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0012,
+        "embedding": 0.3368,
+        "jaro_winkler": 0.1813,
+        "tfidf": 0.3076
+      },
+      "route_overlap_share_multi_route_rows": 0.1731,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 7.96,
+        "30s_per_judgement": 15.92,
+        "45s_per_judgement": 23.88
+      },
+      "candidate_retention_pct_of_full_design": 17.74,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 28.0,
+        "vi_near_synonym_0.75_0.85": 16.67,
+        "vii_broader_narrower_0.60_0.75": 35.26,
+        "x_weak_semantic_0.50_0.60": 24.74,
+        "below_0.50_or_no_embedding_score": 16.39
+      }
+    },
+    "E_SEEDS30_DEPTH50": {
+      "domain": "biomedical_diabetes_mellitus",
+      "seed_count": 30,
+      "raw_retrieved_rows": 3566,
+      "deduplicated_annotation_rows_in_pool": 2918,
+      "outside_pool_rows": 150,
+      "total_rows_requiring_judgement": 3068,
+      "two_annotator_judgements": 6136,
+      "candidate_rows_per_seed": {
+        "median": 99.0,
+        "iqr": [
+          86.75,
+          105.0
+        ],
+        "min": 75.0,
+        "max": 118.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0003,
+        "embedding": 0.3992,
+        "jaro_winkler": 0.0798,
+        "tfidf": 0.3722
+      },
+      "route_overlap_share_multi_route_rows": 0.1484,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 25.57,
+        "30s_per_judgement": 51.13,
+        "45s_per_judgement": 76.7
+      },
+      "candidate_retention_pct_of_full_design": 60.55,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 36.0,
+        "vi_near_synonym_0.75_0.85": 30.0,
+        "vii_broader_narrower_0.60_0.75": 50.0,
+        "x_weak_semantic_0.50_0.60": 57.4,
+        "below_0.50_or_no_embedding_score": 61.6
+      }
+    },
+    "F_SEEDS20_DEPTH50": {
+      "domain": "biomedical_diabetes_mellitus",
+      "seed_count": 20,
+      "raw_retrieved_rows": 2373,
+      "deduplicated_annotation_rows_in_pool": 1959,
+      "outside_pool_rows": 100,
+      "total_rows_requiring_judgement": 2059,
+      "two_annotator_judgements": 4118,
+      "candidate_rows_per_seed": {
+        "median": 100.0,
+        "iqr": [
+          93.5,
+          103.5
+        ],
+        "min": 75.0,
+        "max": 118.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0005,
+        "embedding": 0.4022,
+        "jaro_winkler": 0.0812,
+        "tfidf": 0.3772
+      },
+      "route_overlap_share_multi_route_rows": 0.1388,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 17.16,
+        "30s_per_judgement": 34.32,
+        "45s_per_judgement": 51.48
+      },
+      "candidate_retention_pct_of_full_design": 40.65,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 28.0,
+        "vi_near_synonym_0.75_0.85": 16.67,
+        "vii_broader_narrower_0.60_0.75": 35.26,
+        "x_weak_semantic_0.50_0.60": 33.67,
+        "below_0.50_or_no_embedding_score": 41.75
+      }
+    },
+    "G_SEEDS30_DEPTH40": {
+      "domain": "biomedical_diabetes_mellitus",
+      "seed_count": 30,
+      "raw_retrieved_rows": 2946,
+      "deduplicated_annotation_rows_in_pool": 2372,
+      "outside_pool_rows": 150,
+      "total_rows_requiring_judgement": 2522,
+      "two_annotator_judgements": 5044,
+      "candidate_rows_per_seed": {
+        "median": 80.5,
+        "iqr": [
+          69.0,
+          85.0
+        ],
+        "min": 56.0,
+        "max": 100.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0004,
+        "embedding": 0.387,
+        "jaro_winkler": 0.0991,
+        "tfidf": 0.3579
+      },
+      "route_overlap_share_multi_route_rows": 0.1556,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 21.02,
+        "30s_per_judgement": 42.03,
+        "45s_per_judgement": 63.05
+      },
+      "candidate_retention_pct_of_full_design": 49.22,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 36.0,
+        "vi_near_synonym_0.75_0.85": 30.0,
+        "vii_broader_narrower_0.60_0.75": 50.0,
+        "x_weak_semantic_0.50_0.60": 54.85,
+        "below_0.50_or_no_embedding_score": 48.89
+      }
+    },
+    "H_SEEDS20_DEPTH40": {
+      "domain": "biomedical_diabetes_mellitus",
+      "seed_count": 20,
+      "raw_retrieved_rows": 1963,
+      "deduplicated_annotation_rows_in_pool": 1592,
+      "outside_pool_rows": 100,
+      "total_rows_requiring_judgement": 1692,
+      "two_annotator_judgements": 3384,
+      "candidate_rows_per_seed": {
+        "median": 81.0,
+        "iqr": [
+          75.5,
+          84.25
+        ],
+        "min": 56.0,
+        "max": 100.0
+      },
+      "route_exclusive_share": {
+        "acronym_heuristic": 0.0006,
+        "embedding": 0.3907,
+        "jaro_winkler": 0.0992,
+        "tfidf": 0.3624
+      },
+      "route_overlap_share_multi_route_rows": 0.147,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 14.1,
+        "30s_per_judgement": 28.2,
+        "45s_per_judgement": 42.3
+      },
+      "candidate_retention_pct_of_full_design": 33.04,
+      "candidate_retention_pct_by_difficulty_band": {
+        "high_similarity_geq_0.85": 28.0,
+        "vi_near_synonym_0.75_0.85": 16.67,
+        "vii_broader_narrower_0.60_0.75": 35.26,
+        "x_weak_semantic_0.50_0.60": 31.38,
+        "below_0.50_or_no_embedding_score": 33.25
+      }
+    }
+  },
+  "combined": {
+    "FULL": {
+      "seed_count": 100,
+      "total_rows_requiring_judgement": 10196,
+      "two_annotator_judgements": 20392,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 84.97,
+        "30s_per_judgement": 169.93,
+        "45s_per_judgement": 254.9
+      }
+    },
+    "REDUCED-1": {
+      "seed_count": 60,
+      "total_rows_requiring_judgement": 3988,
+      "two_annotator_judgements": 7976,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 33.23,
+        "30s_per_judgement": 66.47,
+        "45s_per_judgement": 99.7
+      }
+    },
+    "REDUCED-2": {
+      "seed_count": 40,
+      "total_rows_requiring_judgement": 2684,
+      "two_annotator_judgements": 5368,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 22.37,
+        "30s_per_judgement": 44.73,
+        "45s_per_judgement": 67.1
+      }
+    },
+    "REDUCED-3": {
+      "seed_count": 40,
+      "total_rows_requiring_judgement": 1907,
+      "two_annotator_judgements": 3814,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 15.89,
+        "30s_per_judgement": 31.78,
+        "45s_per_judgement": 47.67
+      }
+    },
+    "E_SEEDS30_DEPTH50": {
+      "seed_count": 60,
+      "total_rows_requiring_judgement": 6185,
+      "two_annotator_judgements": 12370,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 51.54,
+        "30s_per_judgement": 103.08,
+        "45s_per_judgement": 154.62
+      }
+    },
+    "F_SEEDS20_DEPTH50": {
+      "seed_count": 40,
+      "total_rows_requiring_judgement": 4166,
+      "two_annotator_judgements": 8332,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 34.72,
+        "30s_per_judgement": 69.43,
+        "45s_per_judgement": 104.15
+      }
+    },
+    "G_SEEDS30_DEPTH40": {
+      "seed_count": 60,
+      "total_rows_requiring_judgement": 5087,
+      "two_annotator_judgements": 10174,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 42.39,
+        "30s_per_judgement": 84.78,
+        "45s_per_judgement": 127.17
+      }
+    },
+    "H_SEEDS20_DEPTH40": {
+      "seed_count": 40,
+      "total_rows_requiring_judgement": 3431,
+      "two_annotator_judgements": 6862,
+      "annotation_time_estimates_two_annotators": {
+        "15s_per_judgement": 28.59,
+        "30s_per_judgement": 57.18,
+        "45s_per_judgement": 85.78
+      }
+    }
+  }
+}

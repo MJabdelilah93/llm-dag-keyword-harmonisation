@@ -5,7 +5,8 @@
 This directory contains the benchmark infrastructure and derived keyword
 frequency files. Both categories contain Scopus-derived content and are
 **not publicly available** — they are archived under restricted access on
-Zenodo: https://doi.org/10.5281/zenodo.19451886
+Zenodo: https://doi.org/10.5281/zenodo.20923992 (Zenodo-DATA; corrected
+2026-08-24 from a superseded DOI — see `docs/release/v1.0.1_release_plan.md`)
 
 ---
 
