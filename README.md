@@ -149,11 +149,12 @@ original CC BY or CC0 licences, recorded through the package provenance.
 
 ## 12. Citation
 
-See `CITATION.cff`. Software archive DOI (this v2.0.0 release): `10.5281/zenodo.22736473`.
-Diabetes benchmark dataset DOI: `10.5281/zenodo.22736625` (see §11). No DOI is yet assigned for
-the manuscript/article itself; do not cite one for it until it is. A **different, earlier** DOI
-exists for the **pre-strengthening** submission's software archive (10.5281/zenodo.20931435) —
-that DOI describes different code and results and should not be used for this version.
+See `CITATION.cff`. The Zenodo concept DOI for the software version series is
+`10.5281/zenodo.20931435`; it resolves to the latest published version. The version-specific DOI
+for the earlier pre-strengthening v1.0.0 software archive is `10.5281/zenodo.20931436`. The
+version-specific DOI for this v2.0.0 release is `10.5281/zenodo.22736473`. Diabetes benchmark
+dataset DOI: `10.5281/zenodo.22736625` (see §11). No DOI is yet assigned for the manuscript/article
+itself; do not cite one for it until it is.
 
 ## 13. Licence
 

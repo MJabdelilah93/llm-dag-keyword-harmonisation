@@ -5,9 +5,12 @@ type: software
 version: 2.0.0
 doi: 10.5281/zenodo.22736473
 date-released: 2026-09-13
-# NOTE: a DIFFERENT, EARLIER software DOI exists for the original (pre-strengthening, rejected)
-# submission's v1.0.0: 10.5281/zenodo.20931435 (released 2026-06-26). That DOI describes different
-# code/results and must not be reused for this release -- it is historical only. Also note: git
+# NOTE on DOI versioning: 10.5281/zenodo.20931435 is the Zenodo CONCEPT DOI for this software's
+# entire version series -- it always resolves to the latest published version and is not specific
+# to any one release. The version-specific DOI for the original (pre-strengthening, rejected)
+# v1.0.0 submission's software archive is 10.5281/zenodo.20931436 (released 2026-06-26); that DOI
+# describes different code/results and must not be reused for this release. The `doi:` field above
+# (10.5281/zenodo.22736473) is the version-specific DOI for this v2.0.0 release. Also note: git
 # tags `v1.0.0` and `v_1.0.0` already exist on this repository (pointing at the OLD submission's
 # commit); this release's tag is `v2.0.0`, which does not collide with those existing tags.
 repository-code: https://github.com/MJabdelilah93/llm-dag-keyword-harmonisation
@@ -90,4 +93,4 @@ preferred-citation:
   title: "Auditable Concept Harmonisation for Bibliometric Thematic Analysis: Benchmarking Pairwise Equivalence and Downstream Effects"
   journal: "Scientometrics"
   # year and DOI intentionally omitted: not yet assigned. Do not invent.
-  notes: "Strengthened resubmission following an editorial invitation to revise; supersedes the earlier 'Auditable Concept Harmonisation in Bibliometric Analysis: Benchmarking an LLM-DAG Workflow' submission (DOI 10.5281/zenodo.20931435 for that version's software archive)."
+  notes: "Strengthened resubmission following an editorial invitation to revise; supersedes the earlier 'Auditable Concept Harmonisation in Bibliometric Analysis: Benchmarking an LLM-DAG Workflow' submission (DOI 10.5281/zenodo.20931436 for that version's software archive; 10.5281/zenodo.20931435 is the Zenodo concept DOI for the full version series, not specific to that version)."
